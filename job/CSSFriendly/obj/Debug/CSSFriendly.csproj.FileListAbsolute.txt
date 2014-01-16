@@ -1,0 +1,10 @@
+C:\Documents and Settings\moeen\Desktop\stable0.5\CSSFriendly\bin\Debug\CSSFriendly.dll
+C:\Documents and Settings\moeen\Desktop\stable0.5\CSSFriendly\bin\Debug\CSSFriendly.pdb
+C:\Documents and Settings\moeen\Desktop\stable0.5\CSSFriendly\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\moeen\Desktop\stable0.5\CSSFriendly\obj\Debug\CSSFriendly.dll
+C:\Documents and Settings\moeen\Desktop\stable0.5\CSSFriendly\obj\Debug\CSSFriendly.pdb
+C:\stable0.5\CSSFriendly\bin\Debug\CSSFriendly.dll
+C:\stable0.5\CSSFriendly\bin\Debug\CSSFriendly.pdb
+C:\stable0.5\CSSFriendly\obj\Debug\ResolveAssemblyReference.cache
+C:\stable0.5\CSSFriendly\obj\Debug\CSSFriendly.dll
+C:\stable0.5\CSSFriendly\obj\Debug\CSSFriendly.pdb

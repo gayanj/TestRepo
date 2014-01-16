@@ -1,0 +1,10 @@
+C:\stable0.5\WebApplication2\WebApplication2\bin\Paypal.dll
+C:\stable0.5\WebApplication2\WebApplication2\bin\Paypal.pdb
+C:\stable0.5\WebApplication2\WebApplication2\obj\Debug\ResolveAssemblyReference.cache
+C:\stable0.5\WebApplication2\WebApplication2\obj\Debug\Paypal.dll
+C:\stable0.5\WebApplication2\WebApplication2\obj\Debug\Paypal.pdb
+C:\stable0.5\Paypal\bin\Paypal.dll
+C:\stable0.5\Paypal\bin\Paypal.pdb
+C:\stable0.5\Paypal\obj\Debug\ResolveAssemblyReference.cache
+C:\stable0.5\Paypal\obj\Debug\Paypal.dll
+C:\stable0.5\Paypal\obj\Debug\Paypal.pdb

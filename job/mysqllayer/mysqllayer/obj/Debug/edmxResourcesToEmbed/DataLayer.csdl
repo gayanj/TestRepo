@@ -1,0 +1,1937 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="fashionquadrantModel" Alias="Self" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns="http://schemas.microsoft.com/ado/2008/09/edm">
+  <EntityContainer Name="fashionquadrantEntities1" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="applications" EntityType="fashionquadrantModel.application" />
+    <EntitySet Name="candidates" EntityType="fashionquadrantModel.candidate" />
+    <EntitySet Name="categories" EntityType="fashionquadrantModel.category" />
+    <EntitySet Name="categorytosubcats" EntityType="fashionquadrantModel.categorytosubcat" />
+    <EntitySet Name="documents" EntityType="fashionquadrantModel.document" />
+    <EntitySet Name="jobs" EntityType="fashionquadrantModel.job" />
+    <EntitySet Name="jobtables" EntityType="fashionquadrantModel.jobtable" />
+    <EntitySet Name="jobviews" EntityType="fashionquadrantModel.jobview" />
+    <EntitySet Name="privacies" EntityType="fashionquadrantModel.privacy" />
+    <EntitySet Name="privacycandidates" EntityType="fashionquadrantModel.privacycandidate" />
+    <EntitySet Name="recruiters" EntityType="fashionquadrantModel.recruiter" />
+    <EntitySet Name="salarycalcs" EntityType="fashionquadrantModel.salarycalc" />
+    <EntitySet Name="salaryoccupations" EntityType="fashionquadrantModel.salaryoccupation" />
+    <EntitySet Name="subcats" EntityType="fashionquadrantModel.subcat" />
+    <EntitySet Name="subcatslists" EntityType="fashionquadrantModel.subcatslist" />
+    <EntitySet Name="tb_advertdetail" EntityType="fashionquadrantModel.tb_advertdetail" />
+    <EntitySet Name="tb_adverts" EntityType="fashionquadrantModel.tb_adverts" />
+    <EntitySet Name="tb_advertstatus" EntityType="fashionquadrantModel.tb_advertstatus" />
+    <EntitySet Name="tb_analytictracker" EntityType="fashionquadrantModel.tb_analytictracker" />
+    <EntitySet Name="tb_answers" EntityType="fashionquadrantModel.tb_answers" />
+    <EntitySet Name="tb_answers_user" EntityType="fashionquadrantModel.tb_answers_user" />
+    <EntitySet Name="tb_appjobmapper" EntityType="fashionquadrantModel.tb_appjobmapper" />
+    <EntitySet Name="tb_applicationstatus" EntityType="fashionquadrantModel.tb_applicationstatus" />
+    <EntitySet Name="tb_articles" EntityType="fashionquadrantModel.tb_articles" />
+    <EntitySet Name="tb_artifacts" EntityType="fashionquadrantModel.tb_artifacts" />
+    <EntitySet Name="tb_blockedrecruiters" EntityType="fashionquadrantModel.tb_blockedrecruiters" />
+    <EntitySet Name="tb_branding" EntityType="fashionquadrantModel.tb_branding" />
+    <EntitySet Name="tb_cpanel" EntityType="fashionquadrantModel.tb_cpanel" />
+    <EntitySet Name="tb_creditjobposting" EntityType="fashionquadrantModel.tb_creditjobposting" />
+    <EntitySet Name="tb_creditpostingstatus" EntityType="fashionquadrantModel.tb_creditpostingstatus" />
+    <EntitySet Name="tb_creditpromotions" EntityType="fashionquadrantModel.tb_creditpromotions" />
+    <EntitySet Name="tb_creditservicecodes" EntityType="fashionquadrantModel.tb_creditservicecodes" />
+    <EntitySet Name="tb_creditsession" EntityType="fashionquadrantModel.tb_creditsession" />
+    <EntitySet Name="tb_currency" EntityType="fashionquadrantModel.tb_currency" />
+    <EntitySet Name="tb_cvsearchdata" EntityType="fashionquadrantModel.tb_cvsearchdata" />
+    <EntitySet Name="tb_debugger" EntityType="fashionquadrantModel.tb_debugger" />
+    <EntitySet Name="tb_email_user" EntityType="fashionquadrantModel.tb_email_user" />
+    <EntitySet Name="tb_emaillog" EntityType="fashionquadrantModel.tb_emaillog" />
+    <EntitySet Name="tb_emailtemplates" EntityType="fashionquadrantModel.tb_emailtemplates" />
+    <EntitySet Name="tb_emailtypes" EntityType="fashionquadrantModel.tb_emailtypes" />
+    <EntitySet Name="tb_emailunsubscribe" EntityType="fashionquadrantModel.tb_emailunsubscribe" />
+    <EntitySet Name="tb_featured_rec_status" EntityType="fashionquadrantModel.tb_featured_rec_status" />
+    <EntitySet Name="tb_footerlinks" EntityType="fashionquadrantModel.tb_footerlinks" />
+    <EntitySet Name="tb_geomiles" EntityType="fashionquadrantModel.tb_geomiles" />
+    <EntitySet Name="tb_geoukpostcodes" EntityType="fashionquadrantModel.tb_geoukpostcodes" />
+    <EntitySet Name="tb_headerlinks" EntityType="fashionquadrantModel.tb_headerlinks" />
+    <EntitySet Name="tb_helpcentercat" EntityType="fashionquadrantModel.tb_helpcentercat" />
+    <EntitySet Name="tb_helpcenterqs" EntityType="fashionquadrantModel.tb_helpcenterqs" />
+    <EntitySet Name="tb_jobfeaturedstatus" EntityType="fashionquadrantModel.tb_jobfeaturedstatus" />
+    <EntitySet Name="tb_languages" EntityType="fashionquadrantModel.tb_languages" />
+    <EntitySet Name="tb_languagetrans" EntityType="fashionquadrantModel.tb_languagetrans" />
+    <EntitySet Name="tb_loadbalancer" EntityType="fashionquadrantModel.tb_loadbalancer" />
+    <EntitySet Name="tb_locationipcountry" EntityType="fashionquadrantModel.tb_locationipcountry" />
+    <EntitySet Name="tb_microcat" EntityType="fashionquadrantModel.tb_microcat" />
+    <EntitySet Name="tb_middlelinks" EntityType="fashionquadrantModel.tb_middlelinks" />
+    <EntitySet Name="tb_myresumes" EntityType="fashionquadrantModel.tb_myresumes" />
+    <EntitySet Name="tb_notes" EntityType="fashionquadrantModel.tb_notes" />
+    <EntitySet Name="tb_passwordlog" EntityType="fashionquadrantModel.tb_passwordlog" />
+    <EntitySet Name="tb_paypal" EntityType="fashionquadrantModel.tb_paypal" />
+    <EntitySet Name="tb_pluginanalytics" EntityType="fashionquadrantModel.tb_pluginanalytics" />
+    <EntitySet Name="tb_pluginsharethis" EntityType="fashionquadrantModel.tb_pluginsharethis" />
+    <EntitySet Name="tb_privacystatus" EntityType="fashionquadrantModel.tb_privacystatus" />
+    <EntitySet Name="tb_question_holder" EntityType="fashionquadrantModel.tb_question_holder" />
+    <EntitySet Name="tb_question_link" EntityType="fashionquadrantModel.tb_question_link" />
+    <EntitySet Name="tb_questions" EntityType="fashionquadrantModel.tb_questions" />
+    <EntitySet Name="tb_rec_of_week_status" EntityType="fashionquadrantModel.tb_rec_of_week_status" />
+    <EntitySet Name="tb_rec_user_link" EntityType="fashionquadrantModel.tb_rec_user_link" />
+    <EntitySet Name="tb_recappviews" EntityType="fashionquadrantModel.tb_recappviews" />
+    <EntitySet Name="tb_recruiterstatus" EntityType="fashionquadrantModel.tb_recruiterstatus" />
+    <EntitySet Name="tb_res_education" EntityType="fashionquadrantModel.tb_res_education" />
+    <EntitySet Name="tb_res_experience" EntityType="fashionquadrantModel.tb_res_experience" />
+    <EntitySet Name="tb_res_main" EntityType="fashionquadrantModel.tb_res_main" />
+    <EntitySet Name="tb_res_profile" EntityType="fashionquadrantModel.tb_res_profile" />
+    <EntitySet Name="tb_res_references" EntityType="fashionquadrantModel.tb_res_references" />
+    <EntitySet Name="tb_res_skills" EntityType="fashionquadrantModel.tb_res_skills" />
+    <EntitySet Name="tb_savedjobs" EntityType="fashionquadrantModel.tb_savedjobs" />
+    <EntitySet Name="tb_savedsearches" EntityType="fashionquadrantModel.tb_savedsearches" />
+    <EntitySet Name="tb_searchhistory" EntityType="fashionquadrantModel.tb_searchhistory" />
+    <EntitySet Name="tb_sessions" EntityType="fashionquadrantModel.tb_sessions" />
+    <EntitySet Name="tb_siteheader" EntityType="fashionquadrantModel.tb_siteheader" />
+    <EntitySet Name="tb_sitemaps" EntityType="fashionquadrantModel.tb_sitemaps" />
+    <EntitySet Name="tb_sitesearch" EntityType="fashionquadrantModel.tb_sitesearch" />
+    <EntitySet Name="tb_sitesuggestions" EntityType="fashionquadrantModel.tb_sitesuggestions" />
+    <EntitySet Name="tb_spamreport" EntityType="fashionquadrantModel.tb_spamreport" />
+    <EntitySet Name="tb_subscriptionpref" EntityType="fashionquadrantModel.tb_subscriptionpref" />
+    <EntitySet Name="tb_subscriptions" EntityType="fashionquadrantModel.tb_subscriptions" />
+    <EntitySet Name="tb_subsite" EntityType="fashionquadrantModel.tb_subsite" />
+    <EntitySet Name="tb_subsite_adverts" EntityType="fashionquadrantModel.tb_subsite_adverts" />
+    <EntitySet Name="tb_subsite_category" EntityType="fashionquadrantModel.tb_subsite_category" />
+    <EntitySet Name="tb_subsite_font" EntityType="fashionquadrantModel.tb_subsite_font" />
+    <EntitySet Name="tb_subsite_images" EntityType="fashionquadrantModel.tb_subsite_images" />
+    <EntitySet Name="tb_subsite_job_acl" EntityType="fashionquadrantModel.tb_subsite_job_acl" />
+    <EntitySet Name="tb_subsite_link_cat" EntityType="fashionquadrantModel.tb_subsite_link_cat" />
+    <EntitySet Name="tb_subsite_recruiter_acl" EntityType="fashionquadrantModel.tb_subsite_recruiter_acl" />
+    <EntitySet Name="tb_subsite_subcats" EntityType="fashionquadrantModel.tb_subsite_subcats" />
+    <EntitySet Name="tb_subsite_templates" EntityType="fashionquadrantModel.tb_subsite_templates" />
+    <EntitySet Name="tb_subsite_themes" EntityType="fashionquadrantModel.tb_subsite_themes" />
+    <EntitySet Name="tb_themes" EntityType="fashionquadrantModel.tb_themes" />
+    <EntitySet Name="tb_translation" EntityType="fashionquadrantModel.tb_translation" />
+    <EntitySet Name="tb_userarchives" EntityType="fashionquadrantModel.tb_userarchives" />
+    <EntitySet Name="tb_usermoderation" EntityType="fashionquadrantModel.tb_usermoderation" />
+    <EntitySet Name="tb_usermoderationtypes" EntityType="fashionquadrantModel.tb_usermoderationtypes" />
+    <EntitySet Name="tb_usertype" EntityType="fashionquadrantModel.tb_usertype" />
+    <EntitySet Name="tb_version" EntityType="fashionquadrantModel.tb_version" />
+    <EntitySet Name="tb_videos" EntityType="fashionquadrantModel.tb_videos" />
+    <EntitySet Name="tb_videostatus" EntityType="fashionquadrantModel.tb_videostatus" />
+    <EntitySet Name="tb_webservicejobs" EntityType="fashionquadrantModel.tb_webservicejobs" />
+    <EntitySet Name="tb_webservicerec" EntityType="fashionquadrantModel.tb_webservicerec" />
+    <EntitySet Name="tb_webserviceusr" EntityType="fashionquadrantModel.tb_webserviceusr" />
+    <EntitySet Name="tb_widgetlog" EntityType="fashionquadrantModel.tb_widgetlog" />
+    <EntitySet Name="tb_widgettype" EntityType="fashionquadrantModel.tb_widgettype" />
+    <EntitySet Name="users" EntityType="fashionquadrantModel.user" />
+    <EntitySet Name="vw_aggregatedmpage" EntityType="fashionquadrantModel.vw_aggregatedmpage" />
+    <EntitySet Name="vw_aggregatedmulti" EntityType="fashionquadrantModel.vw_aggregatedmulti" />
+    <EntitySet Name="vw_applicationaggregate" EntityType="fashionquadrantModel.vw_applicationaggregate" />
+    <EntitySet Name="vw_applytitlefilter" EntityType="fashionquadrantModel.vw_applytitlefilter" />
+    <EntitySet Name="vw_brfilter" EntityType="fashionquadrantModel.vw_brfilter" />
+    <EntitySet Name="vw_brmainstart" EntityType="fashionquadrantModel.vw_brmainstart" />
+    <EntitySet Name="vw_brsubview" EntityType="fashionquadrantModel.vw_brsubview" />
+    <EntitySet Name="vw_cmslinks" EntityType="fashionquadrantModel.vw_cmslinks" />
+    <EntitySet Name="vw_cmsusermoderation" EntityType="fashionquadrantModel.vw_cmsusermoderation" />
+    <EntitySet Name="vw_defaulttextsub" EntityType="fashionquadrantModel.vw_defaulttextsub" />
+    <EntitySet Name="vw_emailtemplatesshow" EntityType="fashionquadrantModel.vw_emailtemplatesshow" />
+    <EntitySet Name="vw_emailtosend" EntityType="fashionquadrantModel.vw_emailtosend" />
+    <EntitySet Name="vw_get_userans" EntityType="fashionquadrantModel.vw_get_userans" />
+    <EntitySet Name="vw_getactivejobs" EntityType="fashionquadrantModel.vw_getactivejobs" />
+    <EntitySet Name="vw_getallrec" EntityType="fashionquadrantModel.vw_getallrec" />
+    <EntitySet Name="vw_getapp" EntityType="fashionquadrantModel.vw_getapp" />
+    <EntitySet Name="vw_getarchivedjobs" EntityType="fashionquadrantModel.vw_getarchivedjobs" />
+    <EntitySet Name="vw_getblockedrec" EntityType="fashionquadrantModel.vw_getblockedrec" />
+    <EntitySet Name="vw_getdetailspages" EntityType="fashionquadrantModel.vw_getdetailspages" />
+    <EntitySet Name="vw_getfrecs" EntityType="fashionquadrantModel.vw_getfrecs" />
+    <EntitySet Name="vw_getjobs" EntityType="fashionquadrantModel.vw_getjobs" />
+    <EntitySet Name="vw_getjobsarch" EntityType="fashionquadrantModel.vw_getjobsarch" />
+    <EntitySet Name="vw_getjobssingle" EntityType="fashionquadrantModel.vw_getjobssingle" />
+    <EntitySet Name="vw_getjobssinglearch" EntityType="fashionquadrantModel.vw_getjobssinglearch" />
+    <EntitySet Name="vw_getmyapps" EntityType="fashionquadrantModel.vw_getmyapps" />
+    <EntitySet Name="vw_getrecofweek" EntityType="fashionquadrantModel.vw_getrecofweek" />
+    <EntitySet Name="vw_getsalforcalc" EntityType="fashionquadrantModel.vw_getsalforcalc" />
+    <EntitySet Name="vw_getsavedjobs" EntityType="fashionquadrantModel.vw_getsavedjobs" />
+    <EntitySet Name="vw_getsubjectemailapps" EntityType="fashionquadrantModel.vw_getsubjectemailapps" />
+    <EntitySet Name="vw_getusercans" EntityType="fashionquadrantModel.vw_getusercans" />
+    <EntitySet Name="vw_helpansbycategory" EntityType="fashionquadrantModel.vw_helpansbycategory" />
+    <EntitySet Name="vw_helpansgrouping" EntityType="fashionquadrantModel.vw_helpansgrouping" />
+    <EntitySet Name="vw_jobapplicationview" EntityType="fashionquadrantModel.vw_jobapplicationview" />
+    <EntitySet Name="vw_jobbyrec" EntityType="fashionquadrantModel.vw_jobbyrec" />
+    <EntitySet Name="vw_jobpostedview" EntityType="fashionquadrantModel.vw_jobpostedview" />
+    <EntitySet Name="vw_jobsoutmail" EntityType="fashionquadrantModel.vw_jobsoutmail" />
+    <EntitySet Name="vw_jobtrendsectors" EntityType="fashionquadrantModel.vw_jobtrendsectors" />
+    <EntitySet Name="vw_logcandidate" EntityType="fashionquadrantModel.vw_logcandidate" />
+    <EntitySet Name="vw_logrecruiter" EntityType="fashionquadrantModel.vw_logrecruiter" />
+    <EntitySet Name="vw_recjobassignments" EntityType="fashionquadrantModel.vw_recjobassignments" />
+    <EntitySet Name="vw_recusers" EntityType="fashionquadrantModel.vw_recusers" />
+    <EntitySet Name="vw_rptspamjobs" EntityType="fashionquadrantModel.vw_rptspamjobs" />
+    <EntitySet Name="vw_textads" EntityType="fashionquadrantModel.vw_textads" />
+  </EntityContainer>
+  <EntityType Name="application">
+    <Key>
+      <PropertyRef Name="idApplications" />
+    </Key>
+    <Property Name="idApplications" Type="String" Nullable="false" MaxLength="16" Unicode="false" FixedLength="false" />
+    <Property Name="liCandidateID" Type="String" MaxLength="16" Unicode="false" FixedLength="false" />
+    <Property Name="aFirstName" Type="String" MaxLength="255" Unicode="false" FixedLength="false" />
+    <Property Name="aLastName" Type="String" MaxLength="255" Unicode="false" FixedLength="false" />
+    <Property Name="aProfileSummary" Type="String" MaxLength="Max" Unicode="false" FixedLength="false" />
+    <Property Name="documentID" Type="String" MaxLength="16" Unicode="false" FixedLength="false" />
+    <Property Name="aApplicationEmail" Type="String" MaxLength="255" Unicode="false" FixedLength="false" />
+    <Property Name="aApplicationStatus" Type="Int32" />
+    <Property Name="dtstatuschanged" Type="DateTime" Precision="3" />
+    <Property Name="adeleted" Type="Boolean" />
+    <Property Name="dtEntered" Type="DateTime" Precision="0" />
+  </EntityType>
+  <EntityType Name="candidate">
+    <Key>
+      <PropertyRef Name="idCandidates" />
+    </Key>
+    <Property Name="idCandidates" Type="String" Nullable="false" MaxLength="16" Unicode="false" FixedLength="false" />
+    <Property Name="cCandidateName" Type="String" MaxLength="255" Unicode="false" FixedLength="false" />
+    <Property Name="cFirstName" Type="String" MaxLength="255" Unicode="false" FixedLength="false" />
+    <Property Name="cLastName" Type="String" MaxLength="255" Unicode="false" FixedLength="false" />
+    <Property Name="cAddress1" Type="String" MaxLength="255" Unicode="false" FixedLength="false" />
+    <Property Name="cAddress2" Type="String" MaxLength="255" Unicode="false" FixedLength="false" />
+    <Property Name="cAddress3" Type="String" MaxLength="255" Unicode="false" FixedLength="false" />
+    <Property Name="cTown" Type="String" MaxLength="45" Unicode="false" FixedLength="false" />
+    <Property Name="cCounty" Type="String" MaxLength="45" Unicode="false" FixedLength="false" />
+    <Property Name="cPostcode" Type="String" MaxLength="10" Unicode="false" FixedLength="false" />
+    <Property Name="cHomephone" Type="String" MaxLength="45" Unicode="false" FixedLength="false" />
+    <Property Name="cWorkphone" Type="String" MaxLength="45" Unicode="false" FixedLength="false" />
+    <Property Name="cdtEntered" Type="DateTime" Precision="3" />
+    <Property Name="cCountry" Type="String" MaxLength="45" Unicode="false" FixedLength="false" />
+  </EntityType>
+  <EntityType Name="category">
+    <Key>
+      <PropertyRef Name="Catid" />
+    </Key>
+    <Property Name="Catid" Type="Int32" Nullable="false" />
+    <Property Name="cdefinition" Type="String" MaxLength="100" Unicode="false" FixedLength="false" />
+  </EntityType>
+  <EntityType Name="categorytosubcat">
+    <Key>
+      <PropertyRef Name="idCategorytosubcat" />
+    </Key>
+    <Property Name="idCategorytosubcat" Type="Int64" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Catid" Type="Int32" />
+    <Property Name="subcatid" Type="Int32" />
+  </EntityType>
+  <EntityType Name="document">
+    <Key>
+      <PropertyRef Name="DocumentID" />
+    </Key>
+    <Property Name="DocumentID" Type="String" Nullable="false" MaxLength="16" Unicode="false" FixedLength="false" />
+    <Property Name="documentname" Type="String" MaxLength="100" Unicode="false" FixedLength="false" />
+    <Property Name="Doc_data" Type="String" MaxLength="65535" Unicode="false" FixedLength="false" />
+    <Property Name="doc_url" Type="String" MaxLength="500" Unicode="false" FixedLength="false" />
+  </EntityType>
+  <EntityType Name="job">
+    <Key>
+      <PropertyRef Name="idJobs" />
+    </Key>
+    <Property Name="idJobs" Type="String" Nullable="false" MaxLength="16" Unicode="false" FixedLength="false" />
+    <Property Name="sTitle" Type="String" MaxLength="255" Unicode="false" FixedLength="false" />
+    <Property Name="sShortDescription" Type="String" MaxLength="500" Unicode="false" FixedLength="false" />
+    <Property Name="sDescription" Type="String" MaxLength="Max" Unicode="false" FixedLength="false" />
+    <Property Name="dtEnteredDate" Type="DateTime" Precision="3" />
+    <Property Name="sSalaryText" Type="String" MaxLength="100" Unicode="false" FixedLength="false" />
+    <Property Name="sMinSal" Type="Int32" />
+    <Property Name="sMaxSal" Type="Int32" />
+    <Property Name="sRef" Type="String" MaxLength="45" Unicode="false" FixedLength="false" />
+    <Property Name="sFreeText" Type="String" MaxLength="255" Unicode="false" FixedLength="false" />
+    <Property Name="sJobstartdate" Type="DateTime" Precision="0" />
+    <Property Name="sJobenddate" Type="DateTime" Precision="0" />
+    <Property Name="sLocation" Type="String" MaxLength="255" Unicode="false" FixedLength="false" />
+    <Property Name="sjobisfeatured" Type="Boolean" />
+    <Property Name="sisvideoenabled" Type="Boolean" />
+    <Property Name="spostcode" Type="String" MaxLength="4000" Unicode="false" FixedLength="false" />
+    <Property Name="sRecruiterName" Type="String" MaxLength="255" Unicode="false" FixedLength="false" />
+    <Property Name="sLongitude" Type="String" MaxLength="45" Unicode="false" FixedLength="false" />
+    <Property Name="sLatitude" Type="String" MaxLength="45" Unicode="false" FixedLength="false" />
+    <Property Name="sMiles" Type="Int32" />
+    <Property Name="sKilometers" Type="Int32" />
+    <Property Name="sIswebcrawled" Type="Boolean" />
+    <Property Name="sWeights" Type="Int32" />
+    <Property Name="sNegate" Type="Boolean" />
+    <Property Name="dtentered" Type="DateTime" Precision="0" />
+    <Property Name="dtdatetext" Type="String" MaxLength="45" Unicode="false" FixedLength="false" />
+    <Property Name="sdeleted" Type="Boolean" />
+    <Property Name="scurrency" Type="String" MaxLength="3" Unicode="false" FixedLength="false" />
+  </EntityType>
+  <EntityType Name="jobtable">
+    <Key>
+      <PropertyRef Name="JtabID" />
+    </Key>
+    <Property Name="idJobs" Type="String" MaxLength="16" Unicode="false" FixedLength="false" />
+    <Property Name="Catid" Type="Int32" />
+    <Property Name="subcatid" Type="Int32" />
+    <Property Name="EmpID" Type="String" MaxLength="16" Unicode="false" FixedLength="false" />
+    <Property Name="JtabID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+  </EntityType>
+  <EntityType Name="jobview">
+    <Key>
+      <PropertyRef Name="idjobviews" />
+    </Key>
+    <Property Name="idjobviews" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="empid" Type="String" MaxLength="16" Unicode="false" FixedLength="false" />
+    <Property Name="dtentered" Type="DateTime" Precision="0" />
+  </EntityType>
+  <EntityType Name="privacy">
+    <Key>
+      <PropertyRef Name="idprivacy" />
+    </Key>
+    <Property Name="idprivacy" Type="String" Nullable="false" MaxLength="16" Unicode="false" FixedLength="false" />
+    <Property Name="idCandidates" Type="String" MaxLength="16" Unicode="false" FixedLength="false" />
+    <Property Name="idpolicy" Type="Int32" />
+    <Property Name="status" Type="Boolean" />
+  </EntityType>
+  <EntityType Name="privacycandidate">
+    <Key>
+      <PropertyRef Name="idprivacycandidates" />
+    </Key>
+    <Property Name="idprivacycandidates" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="policyname" Type="String" MaxLength="100" Unicode="false" FixedLength="false" />
+  </EntityType>
+  <EntityType Name="recruiter">
+    <Key>
+      <PropertyRef Name="EmpID" />
+    </Key>
+    <Property Name="EmpID" Type="String" Nullable="false" MaxLength="16" Unicode="false" FixedLength="false" />
+    <Property Name="sRecruiterName" Type="String" MaxLength="100" Unicode="false" FixedLength="false" />
+    <Property Name="sAddress1" Type="String" MaxLength="255" Unicode="false" FixedLength="false" />
+    <Property Name="sAddress2" Type="String" MaxLength="255" Unicode="false" FixedLength="false" />
+    <Property Name="sAddress3" Type="String" MaxLength="255" Unicode="false" FixedLength="false" />
+    <Property Name="sTown" Type="String" MaxLength="45" Unicode="false" FixedLength="false" />
+    <Property Name="sCounty" Type="String" MaxLength="45" Unicode="false" FixedLength="false" />
+    <Property Name="sCountry" Type="String" MaxLength="45" Unicode="false" FixedLength="false" />
+    <Property Name="sPostcode" Type="String" MaxLength="10" Unicode="false" FixedLength="false" />
+    <Property Name="sEmailAddress" Type="String" MaxLength="255" Unicode="false" FixedLength="false" />
+    <Property Name="sWebsite" Type="String" MaxLength="500" Unicode="false" FixedLength="false" />
+    <Property Name="sDescription" Type="String" MaxLength="500" Unicode="false" FixedLength="false" />
+    <Property Name="sCompleteDesc" Type="String" MaxLength="65535" Unicode="false" FixedLength="false" />
+    <Property Name="sdtEntered" Type="DateTime" Precision="3" />
+    <Property Name="sEnteredbyID" Type="Int32" />
+    <Property Name="sIsFeatured" Type="Boolean" />
+    <Property Name="sArtifactId" Type="Int32" />
+    <Property Name="sIsActive" Type="Boolean" />
+    <Property Name="sRecruiterofweek" Type="Boolean" />
+    <Property Name="sIsAgent" Type="Boolean" />
+  </EntityType>
+  <EntityType Name="salarycalc">
+    <Key>
+      <PropertyRef Name="idSalaryCalc" />
+    </Key>
+    <Property Name="idSalaryCalc" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Question1" Type="String" MaxLength="200" Unicode="false" FixedLength="false" />
+    <Property Name="Question2" Type="String" MaxLength="200" Unicode="false" FixedLength="false" />
+    <Property Name="Question3" Type="Double" />
+    <Property Name="Question4" Type="String" MaxLength="200" Unicode="false" FixedLength="false" />
+    <Property Name="Question5" Type="String" MaxLength="200" Unicode="false" FixedLength="false" />
+    <Property Name="Question6" Type="String" MaxLength="200" Unicode="false" FixedLength="false" />
+    <Property Name="Question7" Type="String" MaxLength="200" Unicode="false" FixedLength="false" />
+    <Property Name="Question8" Type="String" MaxLength="200" Unicode="false" FixedLength="false" />
+    <Property Name="dtEntered" Type="DateTime" Precision="3" />
+    <Property Name="dtEnteredByip" Type="String" MaxLength="45" Unicode="false" FixedLength="false" />
+  </EntityType>
+  <EntityType Name="salaryoccupation">
+    <Key>
+      <PropertyRef Name="idsalaryoccupations" />
+    </Key>
+    <Property Name="idsalaryoccupations" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="occupationname" Type="String" MaxLength="200" Unicode="false" FixedLength="false" />
+    <Property Name="isdeleted" Type="Boolean" />
+    <Property Name="dtentered" Type="DateTime" Precision="3" />
+  </EntityType>
+  <EntityType Name="subcat">
+    <Key>
+      <PropertyRef Name="subcatid" />
+    </Key>
+    <Property Name="subcatid" Type="Int32" Nullable="false" />
+    <Property Name="sdefinition" Type="String" MaxLength="100" Unicode="false" FixedLength="false" />
+    <Property Name="minrange" Type="Int32" />
+    <Property Name="maxrange" Type="Int32" />
+    <Property Name="liparent" Type="Int32" />
+  </EntityType>
+  <EntityType Name="subcatslist">
+    <Key>
+      <PropertyRef Name="idsubcatslist" />
+    </Key>
+    <Property Name="idsubcatslist" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="subcatid" Type="Int32" />
+    <Property Name="subcatlevel" Type="Int32" />
+  </EntityType>
+  <EntityType Name="tb_advertdetail">
+    <Key>
+      <PropertyRef Name="idtb_advertdetail" />
+    </Key>
+    <Property Name="idtb_advertdetail" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="adkey" Type="Int32" />
+    <Property Name="adpath" Type="String" MaxLength="500" Unicode="false" FixedLength="false" />
+    <Property Name="astatus" Type="Boolean" />
+    <Property Name="adtitle" Type="String" MaxLength="100" Unicode="false" FixedLength="false" />
+    <Property Name="adtext" Type="String" MaxLength="255" Unicode="false" FixedLength="false" />
+    <Property Name="adurl" Type="String" MaxLength="255" Unicode="false" FixedLength="false" />
+  </EntityType>
+  <EntityType Name="tb_adverts">
+    <Key>
+      <PropertyRef Name="idtb_adverts" />
+    </Key>
+    <Property Name="idtb_adverts" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="adsection" Type="String" MaxLength="100" Unicode="false" FixedLength="false" />
+    <Property Name="adkey" Type="Int32" />
+    <Property Name="adtype" Type="String" MaxLength="45" Unicode="false" FixedLength="false" />
+  </EntityType>
+  <EntityType Name="tb_advertstatus">
+    <Key>
+      <PropertyRef Name="astatus" />
+    </Key>
+    <Property Name="astatus" Type="Boolean" Nullable="false" />
+    <Property Name="definition" Type="String" MaxLength="45" Unicode="false" FixedLength="false" />
+  </EntityType>
+  <EntityType Name="tb_analytictracker">
+    <Key>
+      <PropertyRef Name="TID" />
+    </Key>
+    <Property Name="TID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="VisitorID" Type="String" MaxLength="255" Unicode="false" FixedLength="false" />
+    <Property Name="NormalizedUrl" Type="String" MaxLength="255" Unicode="false" FixedLength="false" />
+    <Property Name="EntryUrl" Type="String" MaxLength="255" Unicode="false" FixedLength="false" />
+    <Property Name="ExitUrl" Type="String" MaxLength="255" Unicode="false" FixedLength="false" />
+    <Property Name="RefererUrl" Type="String" MaxLength="255" Unicode="false" FixedLength="false" />
+    <Property Name="VisistorName" Type="String" MaxLength="255" Unicode="false" FixedLength="false" />
+    <Property Name="VisitorString" Type="String" MaxLength="255" Unicode="false" FixedLength="false" />
+    <Property Name="SessionStart" Type="DateTime" Precision="3" />
+    <Property Name="SessionEnd" Type="DateTime" Precision="3" />
+    <Property Name="VisitorCity" Type="String" MaxLength="255" Unicode="false" FixedLength="false" />
+    <Property Name="VisitorCountry" Type="String" MaxLength="255" Unicode="false" FixedLength="false" />
+    <Property Name="IsNewvisitor" Type="Boolean" />
+    <Property Name="VisitorIP" Type="String" MaxLength="255" Unicode="false" FixedLength="false" />
+    <Property Name="VisitorArea" Type="String" MaxLength="255" Unicode="false" FixedLength="false" />
+    <Property Name="VisitorBrowser" Type="String" MaxLength="255" Unicode="false" FixedLength="false" />
+    <Property Name="VisitorDesktopresolution" Type="String" MaxLength="255" Unicode="false" FixedLength="false" />
+    <Property Name="VisitorOperatingsystem" Type="String" MaxLength="255" Unicode="false" FixedLength="false" />
+    <Property Name="Keywords" Type="String" MaxLength="1000" Unicode="false" FixedLength="false" />
+    <Property Name="IsFrombot" Type="Boolean" />
+    <Property Name="BotName" Type="String" MaxLength="255" Unicode="false" FixedLength="false" />
+    <Property Name="dtentered" Type="DateTime" Precision="3" />
+  </EntityType>
+  <EntityType Name="tb_answers">
+    <Key>
+      <PropertyRef Name="idans" />
+    </Key>
+    <Property Name="idans" Type="String" Nullable="false" MaxLength="16" Unicode="false" FixedLength="false" />
+    <Property Name="answer" Type="String" MaxLength="45" Unicode="false" FixedLength="false" />
+    <Property Name="sdeleted" Type="Boolean" />
+    <Property Name="dtEntered" Type="DateTime" Precision="3" />
+    <Property Name="dtUpdated" Type="DateTime" Precision="3" />
+  </EntityType>
+  <EntityType Name="tb_answers_user">
+    <Key>
+      <PropertyRef Name="id_answeruser" />
+    </Key>
+    <Property Name="id_answeruser" Type="String" Nullable="false" MaxLength="16" Unicode="false" FixedLength="false" />
+    <Property Name="idans" Type="String" MaxLength="16" Unicode="false" FixedLength="false" />
+    <Property Name="idquestion" Type="String" MaxLength="16" Unicode="false" FixedLength="false" />
+    <Property Name="idjobs" Type="String" MaxLength="16" Unicode="false" FixedLength="false" />
+    <Property Name="idapplication" Type="String" MaxLength="16" Unicode="false" FixedLength="false" />
+    <Property Name="dtEntered" Type="DateTime" Precision="3" />
+    <Property Name="dtUpdated" Type="DateTime" Precision="3" />
+  </EntityType>
+  <EntityType Name="tb_appjobmapper">
+    <Key>
+      <PropertyRef Name="idtb_appjobmapper" />
+    </Key>
+    <Property Name="idtb_appjobmapper" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="idApplications" Type="String" MaxLength="16" Unicode="false" FixedLength="false" />
+    <Property Name="idjobs" Type="String" MaxLength="16" Unicode="false" FixedLength="false" />
+    <Property Name="dtentered" Type="DateTime" Precision="0" />
+  </EntityType>
+  <EntityType Name="tb_applicationstatus">
+    <Key>
+      <PropertyRef Name="idtb_applicationstatus" />
+    </Key>
+    <Property Name="idtb_applicationstatus" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="aApplicationstatus" Type="Int32" />
+    <Property Name="sdefinition" Type="String" MaxLength="255" Unicode="false" FixedLength="false" />
+  </EntityType>
+  <EntityType Name="tb_articles">
+    <Key>
+      <PropertyRef Name="id_articles" />
+    </Key>
+    <Property Name="id_articles" Type="String" Nullable="false" MaxLength="16" Unicode="false" FixedLength="false" />
+    <Property Name="Articlename" Type="String" MaxLength="45" Unicode="false" FixedLength="false" />
+    <Property Name="Articleurl" Type="String" MaxLength="255" Unicode="false" FixedLength="false" />
+    <Property Name="Articledata" Type="String" MaxLength="Max" Unicode="false" FixedLength="false" />
+    <Property Name="dtEntered" Type="DateTime" Precision="3" />
+    <Property Name="idthemes" Type="Int32" />
+  </EntityType>
+  <EntityType Name="tb_artifacts">
+    <Key>
+      <PropertyRef Name="sArtifactID" />
+    </Key>
+    <Property Name="sArtifactID" Type="String" Nullable="false" MaxLength="16" Unicode="false" FixedLength="false" />
+    <Property Name="artifactName" Type="String" MaxLength="100" Unicode="false" FixedLength="false" />
+    <Property Name="artifact_data" Type="String" MaxLength="1000" Unicode="false" FixedLength="false" />
+    <Property Name="dtentered" Type="DateTime" Precision="3" />
+    <Property Name="dtupdated" Type="DateTime" Precision="3" />
+  </EntityType>
+  <EntityType Name="tb_blockedrecruiters">
+    <Key>
+      <PropertyRef Name="idblockedrecruiters" />
+    </Key>
+    <Property Name="idblockedrecruiters" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="EmpID" Type="String" MaxLength="16" Unicode="false" FixedLength="false" />
+    <Property Name="idCandidates" Type="String" MaxLength="16" Unicode="false" FixedLength="false" />
+  </EntityType>
+  <EntityType Name="tb_branding">
+    <Key>
+      <PropertyRef Name="idtb_branding" />
+    </Key>
+    <Property Name="idtb_branding" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="kpiname" Type="String" MaxLength="45" Unicode="false" FixedLength="false" />
+    <Property Name="kpivalue" Type="String" MaxLength="Max" Unicode="false" FixedLength="false" />
+    <Property Name="bdeleted" Type="Boolean" />
+  </EntityType>
+  <EntityType Name="tb_cpanel">
+    <Key>
+      <PropertyRef Name="idtb_cpanel" />
+    </Key>
+    <Property Name="idtb_cpanel" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="kpiname" Type="String" MaxLength="45" Unicode="false" FixedLength="false" />
+    <Property Name="kpivalue" Type="Int32" />
+  </EntityType>
+  <EntityType Name="tb_creditjobposting">
+    <Key>
+      <PropertyRef Name="idtb_creditjobposting" />
+    </Key>
+    <Property Name="idtb_creditjobposting" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="empid" Type="String" MaxLength="16" Unicode="false" FixedLength="false" />
+    <Property Name="creditamount" Type="Int32" />
+    <Property Name="cstartdate" Type="DateTime" Precision="3" />
+    <Property Name="cenddate" Type="DateTime" Precision="3" />
+    <Property Name="cactive" Type="Boolean" />
+  </EntityType>
+  <EntityType Name="tb_creditpostingstatus">
+    <Key>
+      <PropertyRef Name="cstatus" />
+    </Key>
+    <Property Name="cstatus" Type="Boolean" Nullable="false" />
+    <Property Name="definition" Type="String" MaxLength="45" Unicode="false" FixedLength="false" />
+  </EntityType>
+  <EntityType Name="tb_creditpromotions">
+    <Key>
+      <PropertyRef Name="id_creditpromotion" />
+    </Key>
+    <Property Name="id_creditpromotion" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="CreditCode" Type="String" MaxLength="45" Unicode="false" FixedLength="false" />
+    <Property Name="dtstart" Type="DateTime" Precision="3" />
+    <Property Name="dtend" Type="DateTime" Precision="3" />
+    <Property Name="dtentered" Type="DateTime" Precision="3" />
+    <Property Name="isValid" Type="Boolean" />
+  </EntityType>
+  <EntityType Name="tb_creditservicecodes">
+    <Key>
+      <PropertyRef Name="idservicecode" />
+    </Key>
+    <Property Name="idservicecode" Type="Int32" Nullable="false" />
+    <Property Name="sdescription" Type="String" MaxLength="100" Unicode="false" FixedLength="false" />
+  </EntityType>
+  <EntityType Name="tb_creditsession">
+    <Key>
+      <PropertyRef Name="idtb_creditsession" />
+    </Key>
+    <Property Name="idtb_creditsession" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="empid" Type="String" MaxLength="16" Unicode="false" FixedLength="false" />
+    <Property Name="appkey" Type="String" MaxLength="45" Unicode="false" FixedLength="false" />
+    <Property Name="sdtentered" Type="DateTime" Precision="3" />
+  </EntityType>
+  <EntityType Name="tb_currency">
+    <Key>
+      <PropertyRef Name="id_currency" />
+    </Key>
+    <Property Name="id_currency" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="cdefinition" Type="String" MaxLength="200" Unicode="false" FixedLength="false" />
+    <Property Name="csymbol" Type="String" MaxLength="3" Unicode="false" FixedLength="false" />
+    <Property Name="cconversionrate" Type="Single" />
+  </EntityType>
+  <EntityType Name="tb_cvsearchdata">
+    <Key>
+      <PropertyRef Name="idtb_cvsearchdata" />
+    </Key>
+    <Property Name="idtb_cvsearchdata" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="idapplications" Type="String" MaxLength="16" Unicode="false" FixedLength="false" />
+    <Property Name="rawdata" Type="String" MaxLength="Max" Unicode="false" FixedLength="false" />
+    <Property Name="dtentered" Type="DateTime" Precision="0" />
+    <Property Name="dtstamp" Type="DateTime" Precision="3" />
+    <Property Name="dtdocpath" Type="String" MaxLength="500" Unicode="false" FixedLength="false" />
+  </EntityType>
+  <EntityType Name="tb_debugger">
+    <Key>
+      <PropertyRef Name="idtb_debugger" />
+    </Key>
+    <Property Name="idtb_debugger" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="rawvalues" Type="String" MaxLength="4000" Unicode="false" FixedLength="false" />
+    <Property Name="pagename" Type="String" MaxLength="500" Unicode="false" FixedLength="false" />
+    <Property Name="dtlogged" Type="DateTime" Precision="3" />
+  </EntityType>
+  <EntityType Name="tb_email_user">
+    <Key>
+      <PropertyRef Name="idemailuser" />
+    </Key>
+    <Property Name="idemailuser" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="rStatus" Type="Int32" />
+    <Property Name="rdtsent" Type="DateTime" Precision="0" />
+    <Property Name="rEmailtype" Type="Int32" />
+    <Property Name="rEmailaddress" Type="String" MaxLength="255" Unicode="false" FixedLength="false" />
+  </EntityType>
+  <EntityType Name="tb_emaillog">
+    <Key>
+      <PropertyRef Name="idtb_emaillog" />
+    </Key>
+    <Property Name="idtb_emaillog" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="rStatus" Type="Int32" />
+    <Property Name="rdtsent" Type="DateTime" Precision="3" />
+    <Property Name="rEmailtype" Type="Int32" />
+    <Property Name="rEmailaddress" Type="String" MaxLength="500" Unicode="false" FixedLength="false" />
+  </EntityType>
+  <EntityType Name="tb_emailtemplates">
+    <Key>
+      <PropertyRef Name="idemailtemplates" />
+    </Key>
+    <Property Name="idemailtemplates" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="eheader" Type="String" MaxLength="Max" Unicode="false" FixedLength="false" />
+    <Property Name="edescription" Type="String" MaxLength="Max" Unicode="false" FixedLength="false" />
+    <Property Name="efooter" Type="String" MaxLength="Max" Unicode="false" FixedLength="false" />
+    <Property Name="etemplatechkid" Type="String" MaxLength="45" Unicode="false" FixedLength="false" />
+  </EntityType>
+  <EntityType Name="tb_emailtypes">
+    <Key>
+      <PropertyRef Name="rEmailtype" />
+    </Key>
+    <Property Name="rEmailtype" Type="Int32" Nullable="false" />
+    <Property Name="eText" Type="String" MaxLength="100" Unicode="false" FixedLength="false" />
+  </EntityType>
+  <EntityType Name="tb_emailunsubscribe">
+    <Key>
+      <PropertyRef Name="id_email" />
+    </Key>
+    <Property Name="id_email" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="eEmailAddress" Type="String" MaxLength="500" Unicode="false" FixedLength="false" />
+    <Property Name="dtEntered" Type="DateTime" Precision="3" />
+  </EntityType>
+  <EntityType Name="tb_featured_rec_status">
+    <Key>
+      <PropertyRef Name="sisfeatured" />
+    </Key>
+    <Property Name="sisfeatured" Type="Int32" Nullable="false" />
+    <Property Name="definition" Type="String" MaxLength="45" Unicode="false" FixedLength="false" />
+  </EntityType>
+  <EntityType Name="tb_footerlinks">
+    <Key>
+      <PropertyRef Name="id_footerlinks" />
+    </Key>
+    <Property Name="id_footerlinks" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="hlinkname" Type="String" MaxLength="100" Unicode="false" FixedLength="false" />
+    <Property Name="hlinktexturl" Type="String" MaxLength="255" Unicode="false" FixedLength="false" />
+    <Property Name="hlinkimgurl" Type="String" MaxLength="255" Unicode="false" FixedLength="false" />
+  </EntityType>
+  <EntityType Name="tb_geomiles">
+    <Key>
+      <PropertyRef Name="id_geomiles" />
+    </Key>
+    <Property Name="id_geomiles" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Miles" Type="String" MaxLength="45" Unicode="false" FixedLength="false" />
+  </EntityType>
+  <EntityType Name="tb_geoukpostcodes">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" />
+    <Property Name="Postcode" Type="String" MaxLength="255" Unicode="false" FixedLength="false" />
+    <Property Name="Town" Type="String" MaxLength="255" Unicode="false" FixedLength="false" />
+    <Property Name="County" Type="String" MaxLength="255" Unicode="false" FixedLength="false" />
+  </EntityType>
+  <EntityType Name="tb_headerlinks">
+    <Key>
+      <PropertyRef Name="id_headerlinks" />
+    </Key>
+    <Property Name="id_headerlinks" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="hlinkname" Type="String" MaxLength="100" Unicode="false" FixedLength="false" />
+    <Property Name="hlinktexturl" Type="String" MaxLength="255" Unicode="false" FixedLength="false" />
+    <Property Name="hlinkimgurl" Type="String" MaxLength="255" Unicode="false" FixedLength="false" />
+  </EntityType>
+  <EntityType Name="tb_helpcentercat">
+    <Key>
+      <PropertyRef Name="hcatid" />
+    </Key>
+    <Property Name="hcatid" Type="Int32" Nullable="false" />
+    <Property Name="cdefinition" Type="String" MaxLength="45" Unicode="false" FixedLength="false" />
+  </EntityType>
+  <EntityType Name="tb_helpcenterqs">
+    <Key>
+      <PropertyRef Name="idtb_helpcenterqs" />
+    </Key>
+    <Property Name="idtb_helpcenterqs" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Question" Type="String" MaxLength="1000" Unicode="false" FixedLength="false" />
+    <Property Name="Answer" Type="String" MaxLength="Max" Unicode="false" FixedLength="false" />
+    <Property Name="dtEntered" Type="DateTime" Precision="3" />
+    <Property Name="hcatid" Type="Int32" />
+  </EntityType>
+  <EntityType Name="tb_jobfeaturedstatus">
+    <Key>
+      <PropertyRef Name="sjobisfeatured" />
+    </Key>
+    <Property Name="sjobisfeatured" Type="Int32" Nullable="false" />
+    <Property Name="definition" Type="String" MaxLength="45" Unicode="false" FixedLength="false" />
+  </EntityType>
+  <EntityType Name="tb_languages">
+    <Key>
+      <PropertyRef Name="id_language" />
+    </Key>
+    <Property Name="id_language" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Language" Type="String" MaxLength="100" Unicode="false" FixedLength="false" />
+    <Property Name="Country" Type="String" MaxLength="100" Unicode="false" FixedLength="false" />
+    <Property Name="sActive" Type="Boolean" />
+  </EntityType>
+  <EntityType Name="tb_languagetrans">
+    <Key>
+      <PropertyRef Name="id_languagetrans" />
+    </Key>
+    <Property Name="id_languagetrans" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="id_language" Type="Int32" />
+    <Property Name="sResourceName" Type="String" MaxLength="1000" Unicode="false" FixedLength="false" />
+    <Property Name="sResourceTranlation" Type="String" MaxLength="1000" Unicode="false" FixedLength="false" />
+    <Property Name="dtentered" Type="DateTime" Precision="3" />
+    <Property Name="dtmodified" Type="DateTime" Precision="3" />
+  </EntityType>
+  <EntityType Name="tb_loadbalancer">
+    <Key>
+      <PropertyRef Name="idtb_loadbalancer" />
+    </Key>
+    <Property Name="idtb_loadbalancer" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="ipaddress" Type="String" MaxLength="45" Unicode="false" FixedLength="false" />
+    <Property Name="ramusage" Type="Single" />
+    <Property Name="cpuusage" Type="Single" />
+    <Property Name="networksent" Type="Single" />
+    <Property Name="networkrec" Type="Single" />
+    <Property Name="dtentered" Type="DateTime" Precision="3" />
+    <Property Name="useragent" Type="String" MaxLength="1000" Unicode="false" FixedLength="false" />
+  </EntityType>
+  <EntityType Name="tb_locationipcountry">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" />
+    <Property Name="Startip" Type="String" MaxLength="255" Unicode="false" FixedLength="false" />
+    <Property Name="Endip" Type="String" MaxLength="255" Unicode="false" FixedLength="false" />
+    <Property Name="StartIpNum" Type="String" MaxLength="255" Unicode="false" FixedLength="false" />
+    <Property Name="EndIpNum" Type="String" MaxLength="255" Unicode="false" FixedLength="false" />
+    <Property Name="PostalCode" Type="String" MaxLength="255" Unicode="false" FixedLength="false" />
+    <Property Name="Country" Type="String" MaxLength="255" Unicode="false" FixedLength="false" />
+  </EntityType>
+  <EntityType Name="tb_microcat">
+    <Key>
+      <PropertyRef Name="microcatid" />
+    </Key>
+    <Property Name="microcatid" Type="Int32" Nullable="false" />
+    <Property Name="subcatid" Type="Int32" />
+  </EntityType>
+  <EntityType Name="tb_middlelinks">
+    <Key>
+      <PropertyRef Name="id_middlelinks" />
+    </Key>
+    <Property Name="id_middlelinks" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="hlinkname" Type="String" MaxLength="100" Unicode="false" FixedLength="false" />
+    <Property Name="hlinktexturl" Type="String" MaxLength="255" Unicode="false" FixedLength="false" />
+    <Property Name="hlinkimgurl" Type="String" MaxLength="255" Unicode="false" FixedLength="false" />
+  </EntityType>
+  <EntityType Name="tb_myresumes">
+    <Key>
+      <PropertyRef Name="DocumentID" />
+    </Key>
+    <Property Name="DocumentID" Type="String" Nullable="false" MaxLength="16" Unicode="false" FixedLength="false" />
+    <Property Name="documentname" Type="String" MaxLength="100" Unicode="false" FixedLength="false" />
+    <Property Name="Doc_data" Type="String" MaxLength="65535" Unicode="false" FixedLength="false" />
+    <Property Name="doc_url" Type="String" MaxLength="500" Unicode="false" FixedLength="false" />
+    <Property Name="idCandidates" Type="String" MaxLength="16" Unicode="false" FixedLength="false" />
+  </EntityType>
+  <EntityType Name="tb_notes">
+    <Key>
+      <PropertyRef Name="idtb_notes" />
+    </Key>
+    <Property Name="idtb_notes" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="idCandidates" Type="String" MaxLength="16" Unicode="false" FixedLength="false" />
+    <Property Name="commentdescription" Type="String" MaxLength="Max" Unicode="false" FixedLength="false" />
+  </EntityType>
+  <EntityType Name="tb_passwordlog">
+    <Key>
+      <PropertyRef Name="iduser" />
+    </Key>
+    <Property Name="iduser" Type="String" Nullable="false" MaxLength="16" Unicode="false" FixedLength="false" />
+    <Property Name="lastpassword" Type="String" MaxLength="45" Unicode="false" FixedLength="false" />
+    <Property Name="hash" Type="String" MaxLength="500" Unicode="false" FixedLength="false" />
+    <Property Name="dtentered" Type="DateTime" Precision="3" />
+  </EntityType>
+  <EntityType Name="tb_paypal">
+    <Key>
+      <PropertyRef Name="id_paypal" />
+    </Key>
+    <Property Name="id_paypal" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="empid" Type="String" MaxLength="16" Unicode="false" FixedLength="false" />
+    <Property Name="ptransactionid" Type="String" MaxLength="45" Unicode="false" FixedLength="false" />
+    <Property Name="pFirstname" Type="String" MaxLength="500" Unicode="false" FixedLength="false" />
+    <Property Name="pLastname" Type="String" MaxLength="500" Unicode="false" FixedLength="false" />
+    <Property Name="pAddress1" Type="String" MaxLength="500" Unicode="false" FixedLength="false" />
+    <Property Name="pAddress2" Type="String" MaxLength="500" Unicode="false" FixedLength="false" />
+    <Property Name="pAddress3" Type="String" MaxLength="500" Unicode="false" FixedLength="false" />
+    <Property Name="pTown" Type="String" MaxLength="45" Unicode="false" FixedLength="false" />
+    <Property Name="pCounty" Type="String" MaxLength="45" Unicode="false" FixedLength="false" />
+    <Property Name="pPostcode" Type="String" MaxLength="45" Unicode="false" FixedLength="false" />
+    <Property Name="pCountry" Type="String" MaxLength="45" Unicode="false" FixedLength="false" />
+    <Property Name="pCardtype" Type="String" MaxLength="45" Unicode="false" FixedLength="false" />
+    <Property Name="pservicecode" Type="Int32" />
+    <Property Name="dtentered" Type="DateTime" Precision="3" />
+  </EntityType>
+  <EntityType Name="tb_pluginanalytics">
+    <Key>
+      <PropertyRef Name="idanalyticsplugin" />
+    </Key>
+    <Property Name="idanalyticsplugin" Type="Int32" Nullable="false" />
+    <Property Name="sdescription" Type="String" MaxLength="500" Unicode="false" FixedLength="false" />
+  </EntityType>
+  <EntityType Name="tb_pluginsharethis">
+    <Key>
+      <PropertyRef Name="idsharethis" />
+    </Key>
+    <Property Name="idsharethis" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="sdefinition" Type="String" MaxLength="500" Unicode="false" FixedLength="false" />
+  </EntityType>
+  <EntityType Name="tb_privacystatus">
+    <Key>
+      <PropertyRef Name="status" />
+    </Key>
+    <Property Name="status" Type="Int32" Nullable="false" />
+    <Property Name="definition" Type="String" MaxLength="45" Unicode="false" FixedLength="false" />
+  </EntityType>
+  <EntityType Name="tb_question_holder">
+    <Key>
+      <PropertyRef Name="id_question_holder" />
+    </Key>
+    <Property Name="id_question_holder" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="idjobs" Type="String" MaxLength="16" Unicode="false" FixedLength="false" />
+    <Property Name="idquestion" Type="String" MaxLength="16" Unicode="false" FixedLength="false" />
+    <Property Name="dtEntered" Type="DateTime" Precision="3" />
+    <Property Name="qDeleted" Type="Boolean" />
+    <Property Name="dtUpdated" Type="DateTime" Precision="3" />
+    <Property Name="qSessionId" Type="String" MaxLength="100" Unicode="false" FixedLength="false" />
+  </EntityType>
+  <EntityType Name="tb_question_link">
+    <Key>
+      <PropertyRef Name="id_questionlink" />
+    </Key>
+    <Property Name="id_questionlink" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="idquestion" Type="String" MaxLength="16" Unicode="false" FixedLength="false" />
+    <Property Name="idans" Type="String" MaxLength="16" Unicode="false" FixedLength="false" />
+    <Property Name="dtEntered" Type="DateTime" Precision="3" />
+    <Property Name="dtUpdated" Type="DateTime" Precision="3" />
+  </EntityType>
+  <EntityType Name="tb_questions">
+    <Key>
+      <PropertyRef Name="idquestion" />
+    </Key>
+    <Property Name="idquestion" Type="String" Nullable="false" MaxLength="16" Unicode="false" FixedLength="false" />
+    <Property Name="idjobs" Type="String" MaxLength="16" Unicode="false" FixedLength="false" />
+    <Property Name="qQuestion" Type="String" MaxLength="500" Unicode="false" FixedLength="false" />
+    <Property Name="qDeleted" Type="Boolean" />
+    <Property Name="idDefaultAns" Type="String" MaxLength="16" Unicode="false" FixedLength="false" />
+    <Property Name="dtEntered" Type="DateTime" Precision="3" />
+    <Property Name="dtUpdated" Type="DateTime" Precision="3" />
+  </EntityType>
+  <EntityType Name="tb_rec_of_week_status">
+    <Key>
+      <PropertyRef Name="srecruiterofweek" />
+    </Key>
+    <Property Name="srecruiterofweek" Type="Int32" Nullable="false" />
+    <Property Name="definition" Type="String" MaxLength="45" Unicode="false" FixedLength="false" />
+  </EntityType>
+  <EntityType Name="tb_rec_user_link">
+    <Key>
+      <PropertyRef Name="idRuLink" />
+    </Key>
+    <Property Name="idRuLink" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="EmpID" Type="String" MaxLength="16" Unicode="false" FixedLength="false" />
+    <Property Name="idUsers" Type="String" MaxLength="16" Unicode="false" FixedLength="false" />
+  </EntityType>
+  <EntityType Name="tb_recappviews">
+    <Key>
+      <PropertyRef Name="id_recviews" />
+    </Key>
+    <Property Name="id_recviews" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="empid" Type="String" MaxLength="16" Unicode="false" FixedLength="false" />
+    <Property Name="candidateid" Type="String" MaxLength="16" Unicode="false" FixedLength="false" />
+    <Property Name="applicationid" Type="String" MaxLength="16" Unicode="false" FixedLength="false" />
+    <Property Name="dtentered" Type="DateTime" Precision="0" />
+  </EntityType>
+  <EntityType Name="tb_recruiterstatus">
+    <Key>
+      <PropertyRef Name="sIsActive" />
+    </Key>
+    <Property Name="sIsActive" Type="Int32" Nullable="false" />
+    <Property Name="definition" Type="String" MaxLength="45" Unicode="false" FixedLength="false" />
+  </EntityType>
+  <EntityType Name="tb_res_education">
+    <Key>
+      <PropertyRef Name="id_res_education" />
+    </Key>
+    <Property Name="id_res_education" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="rschoolname" Type="String" MaxLength="100" Unicode="false" FixedLength="false" />
+    <Property Name="rdescription" Type="String" MaxLength="1000" Unicode="false" FixedLength="false" />
+    <Property Name="rqualification" Type="String" MaxLength="100" Unicode="false" FixedLength="false" />
+    <Property Name="rstartdate" Type="DateTime" Precision="0" />
+    <Property Name="renddate" Type="DateTime" Precision="0" />
+    <Property Name="liCandidateid" Type="String" MaxLength="16" Unicode="false" FixedLength="false" />
+    <Property Name="dtentered" Type="DateTime" Precision="3" />
+    <Property Name="dtupdated" Type="DateTime" Precision="3" />
+  </EntityType>
+  <EntityType Name="tb_res_experience">
+    <Key>
+      <PropertyRef Name="id_res_experience" />
+    </Key>
+    <Property Name="id_res_experience" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="rCompany" Type="String" MaxLength="100" Unicode="false" FixedLength="false" />
+    <Property Name="rJobTitle" Type="String" MaxLength="100" Unicode="false" FixedLength="false" />
+    <Property Name="rDescription" Type="String" MaxLength="255" Unicode="false" FixedLength="false" />
+    <Property Name="rstartdate" Type="DateTime" Precision="0" />
+    <Property Name="renddate" Type="DateTime" Precision="0" />
+    <Property Name="liCandidateid" Type="String" MaxLength="16" Unicode="false" FixedLength="false" />
+    <Property Name="dtentered" Type="DateTime" Precision="3" />
+    <Property Name="dtupdated" Type="DateTime" Precision="3" />
+  </EntityType>
+  <EntityType Name="tb_res_main">
+    <Key>
+      <PropertyRef Name="idresume" />
+    </Key>
+    <Property Name="idresume" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="rResumeName" Type="String" MaxLength="100" Unicode="false" FixedLength="false" />
+    <Property Name="dtentered" Type="DateTime" Precision="3" />
+    <Property Name="liCandidateid" Type="String" MaxLength="16" Unicode="false" FixedLength="false" />
+  </EntityType>
+  <EntityType Name="tb_res_profile">
+    <Key>
+      <PropertyRef Name="id_res_profile" />
+    </Key>
+    <Property Name="id_res_profile" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="rObjective" Type="String" MaxLength="250" Unicode="false" FixedLength="false" />
+    <Property Name="rAddress" Type="String" MaxLength="250" Unicode="false" FixedLength="false" />
+    <Property Name="rEmail" Type="String" MaxLength="250" Unicode="false" FixedLength="false" />
+    <Property Name="rLocalPhone" Type="String" MaxLength="12" Unicode="false" FixedLength="false" />
+    <Property Name="rMobilePhone" Type="String" MaxLength="12" Unicode="false" FixedLength="false" />
+    <Property Name="liCandidateid" Type="String" MaxLength="16" Unicode="false" FixedLength="false" />
+    <Property Name="dtEntered" Type="DateTime" Precision="3" />
+    <Property Name="dtUpdated" Type="DateTime" Precision="3" />
+    <Property Name="isFromProfile" Type="Boolean" />
+  </EntityType>
+  <EntityType Name="tb_res_references">
+    <Key>
+      <PropertyRef Name="id_res_reference" />
+    </Key>
+    <Property Name="id_res_reference" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="rFirstName" Type="String" MaxLength="100" Unicode="false" FixedLength="false" />
+    <Property Name="rLastName" Type="String" MaxLength="100" Unicode="false" FixedLength="false" />
+    <Property Name="rReferenceType" Type="Int32" />
+    <Property Name="liCandidateid" Type="String" MaxLength="16" Unicode="false" FixedLength="false" />
+    <Property Name="dtentered" Type="DateTime" Precision="3" />
+    <Property Name="dtupdated" Type="DateTime" Precision="3" />
+    <Property Name="rEmail" Type="String" MaxLength="255" Unicode="false" FixedLength="false" />
+    <Property Name="rLocalPhone" Type="String" MaxLength="12" Unicode="false" FixedLength="false" />
+    <Property Name="rMobilePhone" Type="String" MaxLength="12" Unicode="false" FixedLength="false" />
+    <Property Name="rAddress" Type="String" MaxLength="2000" Unicode="false" FixedLength="false" />
+  </EntityType>
+  <EntityType Name="tb_res_skills">
+    <Key>
+      <PropertyRef Name="id_res_skill" />
+    </Key>
+    <Property Name="id_res_skill" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="rSkillName" Type="String" MaxLength="45" Unicode="false" FixedLength="false" />
+    <Property Name="rLevel" Type="Int32" />
+    <Property Name="liCandidateid" Type="String" MaxLength="16" Unicode="false" FixedLength="false" />
+    <Property Name="dtentered" Type="DateTime" Precision="3" />
+  </EntityType>
+  <EntityType Name="tb_savedjobs">
+    <Key>
+      <PropertyRef Name="id_savedjobs" />
+    </Key>
+    <Property Name="id_savedjobs" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="idjobs" Type="String" MaxLength="16" Unicode="false" FixedLength="false" />
+    <Property Name="idusers" Type="String" MaxLength="16" Unicode="false" FixedLength="false" />
+    <Property Name="dtentered" Type="DateTime" Precision="3" />
+  </EntityType>
+  <EntityType Name="tb_savedsearches">
+    <Key>
+      <PropertyRef Name="id_savedsearches" />
+    </Key>
+    <Property Name="id_savedsearches" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="userid" Type="String" MaxLength="16" Unicode="false" FixedLength="false" />
+    <Property Name="sdefinition" Type="String" MaxLength="100" Unicode="false" FixedLength="false" />
+    <Property Name="searchtext" Type="String" MaxLength="Max" Unicode="false" FixedLength="false" />
+    <Property Name="userip" Type="String" MaxLength="45" Unicode="false" FixedLength="false" />
+    <Property Name="dtentered" Type="DateTime" Precision="3" />
+    <Property Name="searchtype" Type="Int32" />
+  </EntityType>
+  <EntityType Name="tb_searchhistory">
+    <Key>
+      <PropertyRef Name="idtb_searchhistory" />
+    </Key>
+    <Property Name="idtb_searchhistory" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="userip" Type="String" MaxLength="45" Unicode="false" FixedLength="false" />
+    <Property Name="searchtext" Type="String" MaxLength="255" Unicode="false" FixedLength="false" />
+  </EntityType>
+  <EntityType Name="tb_sessions">
+    <Key>
+      <PropertyRef Name="idtb_sessions" />
+    </Key>
+    <Property Name="idtb_sessions" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="sessionid" Type="Int32" />
+    <Property Name="stimestamp" Type="DateTime" Precision="3" />
+  </EntityType>
+  <EntityType Name="tb_siteheader">
+    <Key>
+      <PropertyRef Name="idtb_seo" />
+    </Key>
+    <Property Name="idtb_seo" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="seo_name" Type="String" MaxLength="45" Unicode="false" FixedLength="false" />
+    <Property Name="seo_description" Type="String" MaxLength="4000" Unicode="false" FixedLength="false" />
+    <Property Name="hdeleted" Type="Boolean" />
+  </EntityType>
+  <EntityType Name="tb_sitemaps">
+    <Key>
+      <PropertyRef Name="id_sitemaps" />
+    </Key>
+    <Property Name="id_sitemaps" Type="Int32" Nullable="false" />
+    <Property Name="url" Type="String" MaxLength="255" Unicode="false" FixedLength="false" />
+    <Property Name="title" Type="String" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="description" Type="String" MaxLength="1000" Unicode="false" FixedLength="false" />
+    <Property Name="level" Type="Int32" />
+  </EntityType>
+  <EntityType Name="tb_sitesearch">
+    <Key>
+      <PropertyRef Name="id_sitesearch" />
+    </Key>
+    <Property Name="id_sitesearch" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="titles" Type="String" MaxLength="255" Unicode="false" FixedLength="false" />
+    <Property Name="url" Type="String" MaxLength="255" Unicode="false" FixedLength="false" />
+    <Property Name="description" Type="String" MaxLength="2000" Unicode="false" FixedLength="false" />
+    <Property Name="dtentered" Type="DateTime" Precision="3" />
+    <Property Name="dtmodified" Type="DateTime" Precision="3" />
+  </EntityType>
+  <EntityType Name="tb_sitesuggestions">
+    <Key>
+      <PropertyRef Name="idsitesuggestions" />
+    </Key>
+    <Property Name="idsitesuggestions" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="sEmailaddress" Type="String" MaxLength="500" Unicode="false" FixedLength="false" />
+    <Property Name="sComment" Type="String" MaxLength="4000" Unicode="false" FixedLength="false" />
+    <Property Name="sIp" Type="String" MaxLength="45" Unicode="false" FixedLength="false" />
+  </EntityType>
+  <EntityType Name="tb_spamreport">
+    <Key>
+      <PropertyRef Name="idtb_spamreport" />
+    </Key>
+    <Property Name="idtb_spamreport" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="spamindex" Type="Int32" />
+    <Property Name="spamreason" Type="String" MaxLength="1000" Unicode="false" FixedLength="false" />
+    <Property Name="dtentered" Type="DateTime" Precision="3" />
+    <Property Name="ipuser" Type="String" MaxLength="45" Unicode="false" FixedLength="false" />
+    <Property Name="useragents" Type="String" MaxLength="1000" Unicode="false" FixedLength="false" />
+    <Property Name="jobid" Type="String" MaxLength="16" Unicode="false" FixedLength="false" />
+  </EntityType>
+  <EntityType Name="tb_subscriptionpref">
+    <Key>
+      <PropertyRef Name="idtb_emailpreference" />
+    </Key>
+    <Property Name="idtb_emailpreference" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="eemailaddress" Type="String" MaxLength="255" Unicode="false" FixedLength="false" />
+    <Property Name="eemailtype" Type="Int32" />
+    <Property Name="einterval" Type="Int32" />
+  </EntityType>
+  <EntityType Name="tb_subscriptions">
+    <Key>
+      <PropertyRef Name="idtb_subscriptions" />
+    </Key>
+    <Property Name="idtb_subscriptions" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="emailaddress" Type="String" MaxLength="500" Unicode="false" FixedLength="false" />
+    <Property Name="catid" Type="Int32" />
+    <Property Name="subcatid" Type="Int32" />
+  </EntityType>
+  <EntityType Name="tb_subsite">
+    <Key>
+      <PropertyRef Name="idsubsite" />
+    </Key>
+    <Property Name="idsubsite" Type="Int32" Nullable="false" />
+    <Property Name="SubsiteName" Type="String" MaxLength="500" Unicode="false" FixedLength="false" />
+    <Property Name="sMainPageTemplate" Type="Int32" />
+    <Property Name="sSearchPageTemplate" Type="Int32" />
+    <Property Name="sIsCname" Type="Boolean" />
+    <Property Name="sURL" Type="String" MaxLength="100" Unicode="false" FixedLength="false" />
+    <Property Name="dtEntered" Type="DateTime" Precision="3" />
+    <Property Name="dtUpdated" Type="DateTime" Precision="3" />
+    <Property Name="sStatus" Type="Int32" />
+  </EntityType>
+  <EntityType Name="tb_subsite_adverts">
+    <Key>
+      <PropertyRef Name="id_Subsite_Adverts" />
+    </Key>
+    <Property Name="id_Subsite_Adverts" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="sMainPageScript" Type="String" MaxLength="2000" Unicode="false" FixedLength="false" />
+    <Property Name="sSearchPageScript" Type="String" MaxLength="2000" Unicode="false" FixedLength="false" />
+    <Property Name="sApplicationPageScript" Type="String" MaxLength="2000" Unicode="false" FixedLength="false" />
+    <Property Name="sIsOnHeader" Type="Boolean" />
+    <Property Name="sIsOnRightPanel" Type="Boolean" />
+    <Property Name="sIsOnSearchCat" Type="Boolean" />
+    <Property Name="sIsOnSearchTop" Type="Boolean" />
+    <Property Name="sIsOnSearchBottom" Type="Boolean" />
+    <Property Name="dtEntered" Type="DateTime" Precision="3" />
+    <Property Name="dtUpdated" Type="DateTime" Precision="3" />
+    <Property Name="idsubsite" Type="Int32" />
+  </EntityType>
+  <EntityType Name="tb_subsite_category">
+    <Key>
+      <PropertyRef Name="sCatId" />
+    </Key>
+    <Property Name="sCatId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="sCategoryName" Type="String" MaxLength="100" Unicode="false" FixedLength="false" />
+    <Property Name="dtEntered" Type="DateTime" Precision="3" />
+    <Property Name="dtUpdated" Type="DateTime" Precision="3" />
+    <Property Name="idsubsite" Type="String" MaxLength="100" Unicode="false" FixedLength="false" />
+  </EntityType>
+  <EntityType Name="tb_subsite_font">
+    <Key>
+      <PropertyRef Name="id_font" />
+    </Key>
+    <Property Name="id_font" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="fFontName" Type="String" MaxLength="100" Unicode="false" FixedLength="false" />
+    <Property Name="dtEntered" Type="DateTime" Precision="3" />
+  </EntityType>
+  <EntityType Name="tb_subsite_images">
+    <Key>
+      <PropertyRef Name="id_subsite_images" />
+    </Key>
+    <Property Name="id_subsite_images" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="iURL" Type="String" MaxLength="1000" Unicode="false" FixedLength="false" />
+    <Property Name="iImageName" Type="String" MaxLength="100" Unicode="false" FixedLength="false" />
+    <Property Name="idsubsite" Type="Int32" />
+    <Property Name="dtEntered" Type="DateTime" Precision="3" />
+    <Property Name="dtUpdated" Type="DateTime" Precision="3" />
+  </EntityType>
+  <EntityType Name="tb_subsite_job_acl">
+    <Key>
+      <PropertyRef Name="idJobs" />
+    </Key>
+    <Property Name="idJobs" Type="Int32" Nullable="false" />
+    <Property Name="idsubsite" Type="Int32" />
+  </EntityType>
+  <EntityType Name="tb_subsite_link_cat">
+    <Key>
+      <PropertyRef Name="id_subsite_link_cat" />
+    </Key>
+    <Property Name="id_subsite_link_cat" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="sCatId" Type="Int32" />
+    <Property Name="sSubcatId" Type="Int32" />
+    <Property Name="dtEntered" Type="DateTime" Precision="3" />
+    <Property Name="dtUpdated" Type="DateTime" Precision="3" />
+  </EntityType>
+  <EntityType Name="tb_subsite_recruiter_acl">
+    <Key>
+      <PropertyRef Name="EmpID" />
+    </Key>
+    <Property Name="EmpID" Type="Int32" Nullable="false" />
+    <Property Name="idsubsite" Type="Int32" />
+  </EntityType>
+  <EntityType Name="tb_subsite_subcats">
+    <Key>
+      <PropertyRef Name="sSubcatId" />
+    </Key>
+    <Property Name="sSubcatId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="sCategoryName" Type="String" MaxLength="100" Unicode="false" FixedLength="false" />
+    <Property Name="dtEntered" Type="DateTime" Precision="3" />
+    <Property Name="dtUpdated" Type="DateTime" Precision="3" />
+  </EntityType>
+  <EntityType Name="tb_subsite_templates">
+    <Key>
+      <PropertyRef Name="id_template" />
+    </Key>
+    <Property Name="id_template" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="sTemplateName" Type="String" MaxLength="500" Unicode="false" FixedLength="false" />
+  </EntityType>
+  <EntityType Name="tb_subsite_themes">
+    <Key>
+      <PropertyRef Name="idTheme" />
+    </Key>
+    <Property Name="idTheme" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="tColor1" Type="String" MaxLength="6" Unicode="false" FixedLength="false" />
+    <Property Name="tColor2" Type="String" MaxLength="6" Unicode="false" FixedLength="false" />
+    <Property Name="tColor3" Type="String" MaxLength="6" Unicode="false" FixedLength="false" />
+    <Property Name="tColor4" Type="String" MaxLength="6" Unicode="false" FixedLength="false" />
+    <Property Name="tColor5" Type="String" MaxLength="6" Unicode="false" FixedLength="false" />
+    <Property Name="tColor6" Type="String" MaxLength="6" Unicode="false" FixedLength="false" />
+    <Property Name="tColor7" Type="String" MaxLength="6" Unicode="false" FixedLength="false" />
+    <Property Name="tColor8" Type="String" MaxLength="6" Unicode="false" FixedLength="false" />
+    <Property Name="idsubsite" Type="Int32" />
+    <Property Name="dtEntered" Type="DateTime" Precision="3" />
+    <Property Name="dtUpdated" Type="DateTime" Precision="3" />
+  </EntityType>
+  <EntityType Name="tb_themes">
+    <Key>
+      <PropertyRef Name="idthemes" />
+    </Key>
+    <Property Name="idthemes" Type="Int32" Nullable="false" />
+    <Property Name="Name" Type="String" MaxLength="10" Unicode="false" FixedLength="false" />
+    <Property Name="color1" Type="String" MaxLength="10" Unicode="false" FixedLength="false" />
+    <Property Name="color2" Type="String" MaxLength="10" Unicode="false" FixedLength="false" />
+    <Property Name="color3" Type="String" MaxLength="10" Unicode="false" FixedLength="false" />
+    <Property Name="color4" Type="String" MaxLength="10" Unicode="false" FixedLength="false" />
+    <Property Name="color5" Type="String" MaxLength="10" Unicode="false" FixedLength="false" />
+    <Property Name="color6" Type="String" MaxLength="10" Unicode="false" FixedLength="false" />
+    <Property Name="color7" Type="String" MaxLength="10" Unicode="false" FixedLength="false" />
+    <Property Name="dtEntered" Type="DateTime" Precision="3" />
+  </EntityType>
+  <EntityType Name="tb_translation">
+    <Key>
+      <PropertyRef Name="id_translation" />
+    </Key>
+    <Property Name="id_translation" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="tEnglish" Type="String" MaxLength="500" Unicode="false" FixedLength="false" />
+    <Property Name="tTranslated" Type="String" MaxLength="500" Unicode="false" FixedLength="false" />
+    <Property Name="tShortcode" Type="String" MaxLength="3" Unicode="false" FixedLength="false" />
+  </EntityType>
+  <EntityType Name="tb_userarchives">
+    <Key>
+      <PropertyRef Name="idtb_userarchives" />
+    </Key>
+    <Property Name="idtb_userarchives" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="logintime" Type="Time" Precision="0" />
+    <Property Name="logindate" Type="DateTime" Precision="0" />
+    <Property Name="uusername" Type="String" MaxLength="255" Unicode="false" FixedLength="false" />
+    <Property Name="uusertype" Type="Int32" />
+    <Property Name="userip" Type="String" MaxLength="45" Unicode="false" FixedLength="false" />
+    <Property Name="userdevice" Type="String" MaxLength="255" Unicode="false" FixedLength="false" />
+  </EntityType>
+  <EntityType Name="tb_usermoderation">
+    <Key>
+      <PropertyRef Name="idtb_usermoderation" />
+    </Key>
+    <Property Name="idtb_usermoderation" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="idusers" Type="String" MaxLength="16" Unicode="false" FixedLength="false" />
+    <Property Name="dtrequested" Type="DateTime" Precision="3" />
+    <Property Name="requesttype" Type="Int32" />
+  </EntityType>
+  <EntityType Name="tb_usermoderationtypes">
+    <Key>
+      <PropertyRef Name="idrequesttype" />
+    </Key>
+    <Property Name="idrequesttype" Type="Int32" Nullable="false" />
+    <Property Name="sdefinition" Type="String" MaxLength="500" Unicode="false" FixedLength="false" />
+  </EntityType>
+  <EntityType Name="tb_usertype">
+    <Key>
+      <PropertyRef Name="uUserType" />
+    </Key>
+    <Property Name="uUserType" Type="Int32" Nullable="false" />
+    <Property Name="sText" Type="String" MaxLength="200" Unicode="false" FixedLength="false" />
+  </EntityType>
+  <EntityType Name="tb_version">
+    <Key>
+      <PropertyRef Name="idversion" />
+    </Key>
+    <Property Name="idversion" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="versionnumber" Type="String" MaxLength="45" Unicode="false" FixedLength="false" />
+    <Property Name="checkout" Type="Boolean" />
+  </EntityType>
+  <EntityType Name="tb_videos">
+    <Key>
+      <PropertyRef Name="idtb_videos" />
+    </Key>
+    <Property Name="idtb_videos" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="idjobs" Type="String" MaxLength="16" Unicode="false" FixedLength="false" />
+    <Property Name="video_title" Type="String" MaxLength="255" Unicode="false" FixedLength="false" />
+    <Property Name="video_url" Type="String" MaxLength="500" Unicode="false" FixedLength="false" />
+    <Property Name="dtentered" Type="DateTime" Precision="3" />
+    <Property Name="sdeleted" Type="Boolean" />
+  </EntityType>
+  <EntityType Name="tb_videostatus">
+    <Key>
+      <PropertyRef Name="sisvideoenabled" />
+    </Key>
+    <Property Name="sisvideoenabled" Type="Int32" Nullable="false" />
+    <Property Name="definition" Type="String" MaxLength="45" Unicode="false" FixedLength="false" />
+  </EntityType>
+  <EntityType Name="tb_webservicejobs">
+    <Key>
+      <PropertyRef Name="idJobs" />
+    </Key>
+    <Property Name="idJobs" Type="String" Nullable="false" MaxLength="16" Unicode="false" FixedLength="false" />
+    <Property Name="Title" Type="String" MaxLength="255" Unicode="false" FixedLength="false" />
+    <Property Name="ShortDescription" Type="String" MaxLength="255" Unicode="false" FixedLength="false" />
+    <Property Name="Description" Type="String" MaxLength="Max" Unicode="false" FixedLength="false" />
+    <Property Name="SalaryText" Type="String" MaxLength="100" Unicode="false" FixedLength="false" />
+    <Property Name="MinSal" Type="Int32" />
+    <Property Name="MaxSal" Type="Int32" />
+    <Property Name="Ref" Type="String" MaxLength="45" Unicode="false" FixedLength="false" />
+    <Property Name="FreeText" Type="String" MaxLength="255" Unicode="false" FixedLength="false" />
+    <Property Name="Jobstartdate" Type="DateTime" Precision="0" />
+    <Property Name="Jobenddate" Type="DateTime" Precision="0" />
+    <Property Name="Location" Type="String" MaxLength="255" Unicode="false" FixedLength="false" />
+    <Property Name="RecruiterName" Type="String" MaxLength="100" Unicode="false" FixedLength="false" />
+  </EntityType>
+  <EntityType Name="tb_webservicerec">
+    <Key>
+      <PropertyRef Name="EmpID" />
+    </Key>
+    <Property Name="EmpID" Type="String" Nullable="false" MaxLength="16" Unicode="false" FixedLength="false" />
+    <Property Name="RecruiterName" Type="String" MaxLength="100" Unicode="false" FixedLength="false" />
+    <Property Name="Address1" Type="String" MaxLength="255" Unicode="false" FixedLength="false" />
+    <Property Name="Address2" Type="String" MaxLength="255" Unicode="false" FixedLength="false" />
+    <Property Name="Address3" Type="String" MaxLength="255" Unicode="false" FixedLength="false" />
+    <Property Name="Town" Type="String" MaxLength="45" Unicode="false" FixedLength="false" />
+    <Property Name="County" Type="String" MaxLength="45" Unicode="false" FixedLength="false" />
+    <Property Name="Country" Type="String" MaxLength="45" Unicode="false" FixedLength="false" />
+    <Property Name="Postcode" Type="String" MaxLength="10" Unicode="false" FixedLength="false" />
+    <Property Name="EmailAddress" Type="String" MaxLength="255" Unicode="false" FixedLength="false" />
+    <Property Name="Website" Type="String" MaxLength="500" Unicode="false" FixedLength="false" />
+    <Property Name="Description" Type="String" MaxLength="500" Unicode="false" FixedLength="false" />
+    <Property Name="CompleteDesc" Type="String" MaxLength="65535" Unicode="false" FixedLength="false" />
+    <Property Name="pwds" Type="String" MaxLength="45" Unicode="false" FixedLength="false" />
+  </EntityType>
+  <EntityType Name="tb_webserviceusr">
+    <Key>
+      <PropertyRef Name="id_webserviceusr" />
+    </Key>
+    <Property Name="id_webserviceusr" Type="String" Nullable="false" MaxLength="16" Unicode="false" FixedLength="false" />
+    <Property Name="username" Type="String" MaxLength="255" Unicode="false" FixedLength="false" />
+    <Property Name="pwd" Type="String" MaxLength="45" Unicode="false" FixedLength="false" />
+    <Property Name="firstname" Type="String" MaxLength="255" Unicode="false" FixedLength="false" />
+    <Property Name="lastname" Type="String" MaxLength="255" Unicode="false" FixedLength="false" />
+    <Property Name="telephone" Type="String" MaxLength="45" Unicode="false" FixedLength="false" />
+    <Property Name="website" Type="String" MaxLength="100" Unicode="false" FixedLength="false" />
+    <Property Name="gender" Type="String" MaxLength="20" Unicode="false" FixedLength="false" />
+    <Property Name="address1" Type="String" MaxLength="255" Unicode="false" FixedLength="false" />
+    <Property Name="address2" Type="String" MaxLength="255" Unicode="false" FixedLength="false" />
+    <Property Name="address3" Type="String" MaxLength="255" Unicode="false" FixedLength="false" />
+    <Property Name="town" Type="String" MaxLength="10" Unicode="false" FixedLength="false" />
+    <Property Name="county" Type="String" MaxLength="10" Unicode="false" FixedLength="false" />
+    <Property Name="postcode" Type="String" MaxLength="10" Unicode="false" FixedLength="false" />
+    <Property Name="country" Type="String" MaxLength="20" Unicode="false" FixedLength="false" />
+    <Property Name="city" Type="String" MaxLength="10" Unicode="false" FixedLength="false" />
+    <Property Name="employername" Type="String" MaxLength="255" Unicode="false" FixedLength="false" />
+    <Property Name="employerlocation" Type="String" MaxLength="255" Unicode="false" FixedLength="false" />
+    <Property Name="employerposition" Type="String" MaxLength="100" Unicode="false" FixedLength="false" />
+    <Property Name="employerjobdescription" Type="String" MaxLength="1000" Unicode="false" FixedLength="false" />
+    <Property Name="educationschoolname" Type="String" MaxLength="255" Unicode="false" FixedLength="false" />
+    <Property Name="educationtype" Type="String" MaxLength="100" Unicode="false" FixedLength="false" />
+    <Property Name="educationdegree" Type="String" MaxLength="255" Unicode="false" FixedLength="false" />
+    <Property Name="educationyear" Type="String" MaxLength="4" Unicode="false" FixedLength="false" />
+    <Property Name="educationconcentration" Type="String" MaxLength="100" Unicode="false" FixedLength="false" />
+    <Property Name="spokenlang1" Type="String" MaxLength="10" Unicode="false" FixedLength="false" />
+    <Property Name="spokenlang2" Type="String" MaxLength="10" Unicode="false" FixedLength="false" />
+    <Property Name="spokenlang3" Type="String" MaxLength="10" Unicode="false" FixedLength="false" />
+    <Property Name="dtentered" Type="DateTime" Precision="3" />
+    <Property Name="hobbies" Type="String" MaxLength="45" Unicode="false" FixedLength="false" />
+  </EntityType>
+  <EntityType Name="tb_widgetlog">
+    <Key>
+      <PropertyRef Name="idtb_widgetlog" />
+    </Key>
+    <Property Name="idtb_widgetlog" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Companyname" Type="String" MaxLength="255" Unicode="false" FixedLength="false" />
+    <Property Name="Companydescription" Type="String" MaxLength="500" Unicode="false" FixedLength="false" />
+    <Property Name="FirstName" Type="String" MaxLength="255" Unicode="false" FixedLength="false" />
+    <Property Name="LastName" Type="String" MaxLength="255" Unicode="false" FixedLength="false" />
+    <Property Name="Telephone" Type="String" MaxLength="255" Unicode="false" FixedLength="false" />
+    <Property Name="Website" Type="String" MaxLength="255" Unicode="false" FixedLength="false" />
+    <Property Name="Widgettype" Type="Int32" />
+  </EntityType>
+  <EntityType Name="tb_widgettype">
+    <Key>
+      <PropertyRef Name="Widgettype" />
+    </Key>
+    <Property Name="Widgettype" Type="Int32" Nullable="false" />
+    <Property Name="sDefinition" Type="String" MaxLength="45" Unicode="false" FixedLength="false" />
+  </EntityType>
+  <EntityType Name="user">
+    <Key>
+      <PropertyRef Name="idUsers" />
+    </Key>
+    <Property Name="idUsers" Type="String" Nullable="false" MaxLength="16" Unicode="false" FixedLength="false" />
+    <Property Name="uUserType" Type="Int32" />
+    <Property Name="uUsername" Type="String" MaxLength="255" Unicode="false" FixedLength="false" />
+    <Property Name="uPassword" Type="String" MaxLength="45" Unicode="false" FixedLength="false" />
+    <Property Name="uPasswordHint" Type="String" MaxLength="255" Unicode="false" FixedLength="false" />
+    <Property Name="uFirstName" Type="String" MaxLength="255" Unicode="false" FixedLength="false" />
+    <Property Name="uLastName" Type="String" MaxLength="255" Unicode="false" FixedLength="false" />
+    <Property Name="uIsPrimary" Type="Boolean" />
+    <Property Name="uCandidateID" Type="String" MaxLength="16" Unicode="false" FixedLength="false" />
+    <Property Name="uActivation" Type="String" MaxLength="45" Unicode="false" FixedLength="false" />
+    <Property Name="uPasswordresetcode" Type="String" MaxLength="45" Unicode="false" FixedLength="false" />
+    <Property Name="serverid" Type="String" MaxLength="45" Unicode="false" FixedLength="false" />
+    <Property Name="udeleted" Type="Boolean" />
+  </EntityType>
+  <EntityType Name="vw_aggregatedmpage">
+    <Key>
+      <PropertyRef Name="idJobs" />
+      <PropertyRef Name="EmployeeID" />
+    </Key>
+    <Property Name="applicationvolume" Type="Int64" />
+    <Property Name="video" Type="Boolean" />
+    <Property Name="idJobs" Type="String" Nullable="false" MaxLength="16" Unicode="false" FixedLength="false" />
+    <Property Name="sTitle" Type="String" MaxLength="255" Unicode="false" FixedLength="false" />
+    <Property Name="Company" Type="String" MaxLength="255" Unicode="false" FixedLength="false" />
+    <Property Name="sShortDescription" Type="String" MaxLength="500" Unicode="false" FixedLength="false" />
+    <Property Name="sFreeText" Type="String" MaxLength="255" Unicode="false" FixedLength="false" />
+    <Property Name="dtEnteredDate" Type="DateTime" Precision="0" />
+    <Property Name="liparent" Type="Int32" />
+    <Property Name="slocation" Type="String" MaxLength="255" Unicode="false" FixedLength="false" />
+    <Property Name="sSalaryText" Type="String" MaxLength="100" Unicode="false" FixedLength="false" />
+    <Property Name="sMinSal" Type="Int32" />
+    <Property Name="EmployeeID" Type="String" Nullable="false" MaxLength="16" Unicode="false" FixedLength="false" />
+    <Property Name="sMaxSal" Type="Int32" />
+  </EntityType>
+  <EntityType Name="vw_aggregatedmulti">
+    <Key>
+      <PropertyRef Name="idJobs" />
+      <PropertyRef Name="catid" />
+      <PropertyRef Name="EmployeeID" />
+    </Key>
+    <Property Name="applicationvolume" Type="Int64" />
+    <Property Name="sdefinition" Type="String" MaxLength="100" Unicode="false" FixedLength="false" />
+    <Property Name="spostcode" Type="String" MaxLength="4000" Unicode="false" FixedLength="false" />
+    <Property Name="idJobs" Type="String" Nullable="false" MaxLength="16" Unicode="false" FixedLength="false" />
+    <Property Name="sisvideoenabled" Type="Boolean" />
+    <Property Name="sTitle" Type="String" MaxLength="255" Unicode="false" FixedLength="false" />
+    <Property Name="video" Type="Boolean" />
+    <Property Name="company" Type="String" MaxLength="255" Unicode="false" FixedLength="false" />
+    <Property Name="slocation" Type="String" MaxLength="255" Unicode="false" FixedLength="false" />
+    <Property Name="cdefinition" Type="String" MaxLength="100" Unicode="false" FixedLength="false" />
+    <Property Name="catid" Type="Int32" Nullable="false" />
+    <Property Name="liparent" Type="Int32" />
+    <Property Name="currency" Type="String" MaxLength="3" Unicode="false" FixedLength="false" />
+    <Property Name="srecruitername" Type="String" MaxLength="255" Unicode="false" FixedLength="false" />
+    <Property Name="sShortDescription" Type="String" MaxLength="500" Unicode="false" FixedLength="false" />
+    <Property Name="sFreeText" Type="String" MaxLength="255" Unicode="false" FixedLength="false" />
+    <Property Name="dtEnteredDate" Type="DateTime" Precision="0" />
+    <Property Name="sSalaryText" Type="String" MaxLength="100" Unicode="false" FixedLength="false" />
+    <Property Name="sMinSal" Type="Int32" />
+    <Property Name="EmployeeID" Type="String" Nullable="false" MaxLength="16" Unicode="false" FixedLength="false" />
+    <Property Name="subcatid" Type="Int32" />
+    <Property Name="sMaxSal" Type="Int32" />
+  </EntityType>
+  <EntityType Name="vw_applicationaggregate">
+    <Key>
+      <PropertyRef Name="applicationvolume" />
+    </Key>
+    <Property Name="idjobs" Type="String" MaxLength="16" Unicode="false" FixedLength="false" />
+    <Property Name="applicationvolume" Type="Int64" Nullable="false" />
+  </EntityType>
+  <EntityType Name="vw_applytitlefilter">
+    <Key>
+      <PropertyRef Name="idjobs" />
+    </Key>
+    <Property Name="idjobs" Type="String" Nullable="false" MaxLength="16" Unicode="false" FixedLength="false" />
+    <Property Name="stitle" Type="String" MaxLength="255" Unicode="false" FixedLength="false" />
+    <Property Name="srecruitername" Type="String" MaxLength="255" Unicode="false" FixedLength="false" />
+    <Property Name="company" Type="String" MaxLength="255" Unicode="false" FixedLength="false" />
+    <Property Name="sshortdescription" Type="String" MaxLength="500" Unicode="false" FixedLength="false" />
+    <Property Name="sjobenddate" Type="DateTime" Precision="0" />
+    <Property Name="dtentereddate" Type="DateTime" Precision="3" />
+    <Property Name="currency" Type="String" MaxLength="3" Unicode="false" FixedLength="false" />
+    <Property Name="video" Type="Boolean" />
+    <Property Name="ssalarytext" Type="String" MaxLength="100" Unicode="false" FixedLength="false" />
+    <Property Name="slocation" Type="String" MaxLength="255" Unicode="false" FixedLength="false" />
+    <Property Name="spostcode" Type="String" MaxLength="4000" Unicode="false" FixedLength="false" />
+    <Property Name="sfreetext" Type="String" MaxLength="255" Unicode="false" FixedLength="false" />
+    <Property Name="sisvideoenabled" Type="Boolean" />
+    <Property Name="applicationvolume" Type="Int64" />
+  </EntityType>
+  <EntityType Name="vw_brfilter">
+    <Key>
+      <PropertyRef Name="subcatid" />
+      <PropertyRef Name="ctotals" />
+      <PropertyRef Name="catid" />
+    </Key>
+    <Property Name="subcatid" Type="Int32" Nullable="false" />
+    <Property Name="sdefinition" Type="String" MaxLength="100" Unicode="false" FixedLength="false" />
+    <Property Name="liparent" Type="Int32" />
+    <Property Name="ctotals" Type="Int64" Nullable="false" />
+    <Property Name="catid" Type="Int32" Nullable="false" />
+    <Property Name="cdefinition" Type="String" MaxLength="100" Unicode="false" FixedLength="false" />
+  </EntityType>
+  <EntityType Name="vw_brmainstart">
+    <Key>
+      <PropertyRef Name="subcatid" />
+      <PropertyRef Name="ctotals" />
+    </Key>
+    <Property Name="subcatid" Type="Int32" Nullable="false" />
+    <Property Name="sdefinition" Type="String" MaxLength="100" Unicode="false" FixedLength="false" />
+    <Property Name="ctotals" Type="Int64" Nullable="false" />
+  </EntityType>
+  <EntityType Name="vw_brsubview">
+    <Key>
+      <PropertyRef Name="subcatid" />
+      <PropertyRef Name="ctotals" />
+    </Key>
+    <Property Name="subcatid" Type="Int32" Nullable="false" />
+    <Property Name="sdefinition" Type="String" MaxLength="100" Unicode="false" FixedLength="false" />
+    <Property Name="ctotals" Type="Int64" Nullable="false" />
+    <Property Name="liparent" Type="Int32" />
+  </EntityType>
+  <EntityType Name="vw_cmslinks">
+    <Key>
+      <PropertyRef Name="id_headerlinks" />
+    </Key>
+    <Property Name="id_headerlinks" Type="Int32" Nullable="false" />
+    <Property Name="hlinkname" Type="String" MaxLength="100" Unicode="false" FixedLength="false" />
+    <Property Name="hlinktexturl" Type="String" MaxLength="255" Unicode="false" FixedLength="false" />
+    <Property Name="hlinkimgurl" Type="String" MaxLength="255" Unicode="false" FixedLength="false" />
+  </EntityType>
+  <EntityType Name="vw_cmsusermoderation">
+    <Key>
+      <PropertyRef Name="idtb_usermoderation" />
+    </Key>
+    <Property Name="idtb_usermoderation" Type="Int32" Nullable="false" />
+    <Property Name="idusers" Type="String" MaxLength="16" Unicode="false" FixedLength="false" />
+    <Property Name="dtrequested" Type="DateTime" Precision="3" />
+    <Property Name="requesttype" Type="Int32" />
+    <Property Name="sdefinition" Type="String" MaxLength="500" Unicode="false" FixedLength="false" />
+  </EntityType>
+  <EntityType Name="vw_defaulttextsub">
+    <Key>
+      <PropertyRef Name="idjobs" />
+      <PropertyRef Name="counts" />
+    </Key>
+    <Property Name="idjobs" Type="String" Nullable="false" MaxLength="16" Unicode="false" FixedLength="false" />
+    <Property Name="counts" Type="Int64" Nullable="false" />
+    <Property Name="sdefinition" Type="String" MaxLength="100" Unicode="false" FixedLength="false" />
+    <Property Name="subcatid" Type="Int32" />
+  </EntityType>
+  <EntityType Name="vw_emailtemplatesshow">
+    <Key>
+      <PropertyRef Name="idemailtemplates" />
+    </Key>
+    <Property Name="idemailtemplates" Type="Int32" Nullable="false" />
+    <Property Name="eheader" Type="String" MaxLength="100" Unicode="false" FixedLength="false" />
+    <Property Name="edescription" Type="String" MaxLength="100" Unicode="false" FixedLength="false" />
+    <Property Name="efooter" Type="String" MaxLength="100" Unicode="false" FixedLength="false" />
+    <Property Name="etemplatechkid" Type="String" MaxLength="45" Unicode="false" FixedLength="false" />
+  </EntityType>
+  <EntityType Name="vw_emailtosend">
+    <Key>
+      <PropertyRef Name="idjobs" />
+    </Key>
+    <Property Name="idjobs" Type="String" Nullable="false" MaxLength="16" Unicode="false" FixedLength="false" />
+    <Property Name="sTitle" Type="String" MaxLength="255" Unicode="false" FixedLength="false" />
+    <Property Name="sShortDescription" Type="String" MaxLength="500" Unicode="false" FixedLength="false" />
+    <Property Name="dtentered" Type="DateTime" Precision="0" />
+    <Property Name="sJobstartdate" Type="DateTime" Precision="0" />
+    <Property Name="sjobenddate" Type="DateTime" Precision="0" />
+    <Property Name="slocation" Type="String" MaxLength="255" Unicode="false" FixedLength="false" />
+    <Property Name="sSalaryText" Type="String" MaxLength="100" Unicode="false" FixedLength="false" />
+    <Property Name="sPostcode" Type="String" MaxLength="4000" Unicode="false" FixedLength="false" />
+    <Property Name="emailaddress" Type="String" MaxLength="500" Unicode="false" FixedLength="false" />
+  </EntityType>
+  <EntityType Name="vw_get_userans">
+    <Key>
+      <PropertyRef Name="idans" />
+      <PropertyRef Name="idquestion" />
+    </Key>
+    <Property Name="idans" Type="String" Nullable="false" MaxLength="16" Unicode="false" FixedLength="false" />
+    <Property Name="answer" Type="String" MaxLength="45" Unicode="false" FixedLength="false" />
+    <Property Name="idquestion" Type="String" Nullable="false" MaxLength="16" Unicode="false" FixedLength="false" />
+    <Property Name="qquestion" Type="String" MaxLength="500" Unicode="false" FixedLength="false" />
+    <Property Name="idapplication" Type="String" MaxLength="16" Unicode="false" FixedLength="false" />
+  </EntityType>
+  <EntityType Name="vw_getactivejobs">
+    <Key>
+      <PropertyRef Name="total" />
+    </Key>
+    <Property Name="total" Type="Int64" Nullable="false" />
+    <Property Name="username" Type="String" MaxLength="255" Unicode="false" FixedLength="false" />
+  </EntityType>
+  <EntityType Name="vw_getallrec">
+    <Key>
+      <PropertyRef Name="empid" />
+      <PropertyRef Name="totaljobs" />
+    </Key>
+    <Property Name="empid" Type="String" Nullable="false" MaxLength="16" Unicode="false" FixedLength="false" />
+    <Property Name="sCompleteDesc" Type="String" MaxLength="65535" Unicode="false" FixedLength="false" />
+    <Property Name="sDescription" Type="String" MaxLength="500" Unicode="false" FixedLength="false" />
+    <Property Name="Artifact_data" Type="String" MaxLength="1000" Unicode="false" FixedLength="false" />
+    <Property Name="sRecruiterName" Type="String" MaxLength="100" Unicode="false" FixedLength="false" />
+    <Property Name="swebsite" Type="String" MaxLength="500" Unicode="false" FixedLength="false" />
+    <Property Name="sisagent" Type="Boolean" />
+    <Property Name="semailaddress" Type="String" MaxLength="255" Unicode="false" FixedLength="false" />
+    <Property Name="totaljobs" Type="Int64" Nullable="false" />
+  </EntityType>
+  <EntityType Name="vw_getapp">
+    <Key>
+      <PropertyRef Name="idJobs" />
+      <PropertyRef Name="idApplications" />
+      <PropertyRef Name="empid" />
+    </Key>
+    <Property Name="idJobs" Type="String" Nullable="false" MaxLength="16" Unicode="false" FixedLength="false" />
+    <Property Name="appstatus" Type="String" MaxLength="255" Unicode="false" FixedLength="false" />
+    <Property Name="idstatus" Type="Int32" />
+    <Property Name="sTitle" Type="String" MaxLength="255" Unicode="false" FixedLength="false" />
+    <Property Name="sShortDescription" Type="String" MaxLength="500" Unicode="false" FixedLength="false" />
+    <Property Name="sDescription" Type="String" MaxLength="Max" Unicode="false" FixedLength="false" />
+    <Property Name="completeurl" Type="String" MaxLength="500" Unicode="false" FixedLength="false" />
+    <Property Name="dtEnteredDate" Type="DateTime" Precision="3" />
+    <Property Name="sSalaryText" Type="String" MaxLength="100" Unicode="false" FixedLength="false" />
+    <Property Name="sMinSal" Type="Int32" />
+    <Property Name="sMaxSal" Type="Int32" />
+    <Property Name="sRef" Type="String" MaxLength="45" Unicode="false" FixedLength="false" />
+    <Property Name="sFreeText" Type="String" MaxLength="255" Unicode="false" FixedLength="false" />
+    <Property Name="sJobstartdate" Type="DateTime" Precision="0" />
+    <Property Name="sJobenddate" Type="DateTime" Precision="0" />
+    <Property Name="idApplications" Type="String" Nullable="false" MaxLength="16" Unicode="false" FixedLength="false" />
+    <Property Name="liCandidateID" Type="String" MaxLength="16" Unicode="false" FixedLength="false" />
+    <Property Name="dtEntered" Type="DateTime" Precision="0" />
+    <Property Name="aFirstName" Type="String" MaxLength="255" Unicode="false" FixedLength="false" />
+    <Property Name="aLastName" Type="String" MaxLength="255" Unicode="false" FixedLength="false" />
+    <Property Name="aProfileSummary" Type="String" MaxLength="Max" Unicode="false" FixedLength="false" />
+    <Property Name="documentID" Type="String" MaxLength="16" Unicode="false" FixedLength="false" />
+    <Property Name="aApplicationEmail" Type="String" MaxLength="255" Unicode="false" FixedLength="false" />
+    <Property Name="empid" Type="String" Nullable="false" MaxLength="16" Unicode="false" FixedLength="false" />
+    <Property Name="srecruitername" Type="String" MaxLength="100" Unicode="false" FixedLength="false" />
+  </EntityType>
+  <EntityType Name="vw_getarchivedjobs">
+    <Key>
+      <PropertyRef Name="total" />
+    </Key>
+    <Property Name="total" Type="Int64" Nullable="false" />
+    <Property Name="username" Type="String" MaxLength="255" Unicode="false" FixedLength="false" />
+  </EntityType>
+  <EntityType Name="vw_getblockedrec">
+    <Key>
+      <PropertyRef Name="empid" />
+    </Key>
+    <Property Name="empid" Type="String" Nullable="false" MaxLength="16" Unicode="false" FixedLength="false" />
+    <Property Name="srecruitername" Type="String" MaxLength="100" Unicode="false" FixedLength="false" />
+    <Property Name="idcandidates" Type="String" MaxLength="16" Unicode="false" FixedLength="false" />
+  </EntityType>
+  <EntityType Name="vw_getdetailspages">
+    <Key>
+      <PropertyRef Name="idJobs" />
+      <PropertyRef Name="subcatid" />
+    </Key>
+    <Property Name="idJobs" Type="String" Nullable="false" MaxLength="16" Unicode="false" FixedLength="false" />
+    <Property Name="minrange" Type="Int32" />
+    <Property Name="maxrange" Type="Int32" />
+    <Property Name="subcatid" Type="Int32" Nullable="false" />
+    <Property Name="catid" Type="Int32" />
+    <Property Name="sdefinition" Type="String" MaxLength="100" Unicode="false" FixedLength="false" />
+  </EntityType>
+  <EntityType Name="vw_getfrecs">
+    <Key>
+      <PropertyRef Name="idjobs" />
+    </Key>
+    <Property Name="Sponsored" Type="String" MaxLength="100" Unicode="false" FixedLength="false" />
+    <Property Name="artifact_data" Type="String" MaxLength="1000" Unicode="false" FixedLength="false" />
+    <Property Name="sTitle" Type="String" MaxLength="255" Unicode="false" FixedLength="false" />
+    <Property Name="idjobs" Type="String" Nullable="false" MaxLength="16" Unicode="false" FixedLength="false" />
+  </EntityType>
+  <EntityType Name="vw_getjobs">
+    <Key>
+      <PropertyRef Name="idJobs" />
+      <PropertyRef Name="catid" />
+      <PropertyRef Name="EmployeeID" />
+    </Key>
+    <Property Name="idJobs" Type="String" Nullable="false" MaxLength="16" Unicode="false" FixedLength="false" />
+    <Property Name="spostcode" Type="String" MaxLength="4000" Unicode="false" FixedLength="false" />
+    <Property Name="video" Type="Boolean" />
+    <Property Name="cdefinition" Type="String" MaxLength="100" Unicode="false" FixedLength="false" />
+    <Property Name="catid" Type="Int32" Nullable="false" />
+    <Property Name="sTitle" Type="String" MaxLength="255" Unicode="false" FixedLength="false" />
+    <Property Name="liparent" Type="Int32" />
+    <Property Name="sShortDescription" Type="String" MaxLength="500" Unicode="false" FixedLength="false" />
+    <Property Name="sFreeText" Type="String" MaxLength="255" Unicode="false" FixedLength="false" />
+    <Property Name="slocation" Type="String" MaxLength="255" Unicode="false" FixedLength="false" />
+    <Property Name="company" Type="String" MaxLength="255" Unicode="false" FixedLength="false" />
+    <Property Name="sisvideoenabled" Type="Boolean" />
+    <Property Name="sDescription" Type="String" MaxLength="Max" Unicode="false" FixedLength="false" />
+    <Property Name="sdefinition" Type="String" MaxLength="100" Unicode="false" FixedLength="false" />
+    <Property Name="currency" Type="String" MaxLength="3" Unicode="false" FixedLength="false" />
+    <Property Name="dtEnteredDate" Type="DateTime" Precision="0" />
+    <Property Name="srecruitername" Type="String" MaxLength="255" Unicode="false" FixedLength="false" />
+    <Property Name="sSalaryText" Type="String" MaxLength="100" Unicode="false" FixedLength="false" />
+    <Property Name="sMinSal" Type="Int32" />
+    <Property Name="EmployeeID" Type="String" Nullable="false" MaxLength="16" Unicode="false" FixedLength="false" />
+    <Property Name="subcatid" Type="Int32" />
+    <Property Name="sMaxSal" Type="Int32" />
+  </EntityType>
+  <EntityType Name="vw_getjobsarch">
+    <Key>
+      <PropertyRef Name="idJobs" />
+      <PropertyRef Name="EmployeeID" />
+    </Key>
+    <Property Name="idJobs" Type="String" Nullable="false" MaxLength="16" Unicode="false" FixedLength="false" />
+    <Property Name="sTitle" Type="String" MaxLength="255" Unicode="false" FixedLength="false" />
+    <Property Name="sShortDescription" Type="String" MaxLength="500" Unicode="false" FixedLength="false" />
+    <Property Name="sFreeText" Type="String" MaxLength="255" Unicode="false" FixedLength="false" />
+    <Property Name="sDescription" Type="String" MaxLength="Max" Unicode="false" FixedLength="false" />
+    <Property Name="sjobenddate" Type="DateTime" Precision="0" />
+    <Property Name="dtEnteredDate" Type="DateTime" Precision="0" />
+    <Property Name="sSalaryText" Type="String" MaxLength="100" Unicode="false" FixedLength="false" />
+    <Property Name="sMinSal" Type="Int32" />
+    <Property Name="EmployeeID" Type="String" Nullable="false" MaxLength="16" Unicode="false" FixedLength="false" />
+    <Property Name="sMaxSal" Type="Int32" />
+  </EntityType>
+  <EntityType Name="vw_getjobssingle">
+    <Key>
+      <PropertyRef Name="idJobs" />
+      <PropertyRef Name="EmployeeID" />
+    </Key>
+    <Property Name="idJobs" Type="String" Nullable="false" MaxLength="16" Unicode="false" FixedLength="false" />
+    <Property Name="Company" Type="String" MaxLength="255" Unicode="false" FixedLength="false" />
+    <Property Name="sTitle" Type="String" MaxLength="255" Unicode="false" FixedLength="false" />
+    <Property Name="sShortDescription" Type="String" MaxLength="500" Unicode="false" FixedLength="false" />
+    <Property Name="sFreeText" Type="String" MaxLength="255" Unicode="false" FixedLength="false" />
+    <Property Name="sjobenddate" Type="DateTime" Precision="0" />
+    <Property Name="dtEnteredDate" Type="DateTime" Precision="0" />
+    <Property Name="video" Type="Boolean" />
+    <Property Name="sSalaryText" Type="String" MaxLength="100" Unicode="false" FixedLength="false" />
+    <Property Name="liparent" Type="Int32" />
+    <Property Name="sMinSal" Type="Int32" />
+    <Property Name="EmployeeID" Type="String" Nullable="false" MaxLength="16" Unicode="false" FixedLength="false" />
+    <Property Name="slocation" Type="String" MaxLength="255" Unicode="false" FixedLength="false" />
+    <Property Name="sMaxSal" Type="Int32" />
+  </EntityType>
+  <EntityType Name="vw_getjobssinglearch">
+    <Key>
+      <PropertyRef Name="idJobs" />
+      <PropertyRef Name="EmployeeID" />
+    </Key>
+    <Property Name="idJobs" Type="String" Nullable="false" MaxLength="16" Unicode="false" FixedLength="false" />
+    <Property Name="sTitle" Type="String" MaxLength="255" Unicode="false" FixedLength="false" />
+    <Property Name="sShortDescription" Type="String" MaxLength="500" Unicode="false" FixedLength="false" />
+    <Property Name="sFreeText" Type="String" MaxLength="255" Unicode="false" FixedLength="false" />
+    <Property Name="sDescription" Type="String" MaxLength="Max" Unicode="false" FixedLength="false" />
+    <Property Name="dtEnteredDate" Type="DateTime" Precision="0" />
+    <Property Name="sSalaryText" Type="String" MaxLength="100" Unicode="false" FixedLength="false" />
+    <Property Name="sMinSal" Type="Int32" />
+    <Property Name="EmployeeID" Type="String" Nullable="false" MaxLength="16" Unicode="false" FixedLength="false" />
+    <Property Name="subcatid" Type="Int32" />
+    <Property Name="sMaxSal" Type="Int32" />
+  </EntityType>
+  <EntityType Name="vw_getmyapps">
+    <Key>
+      <PropertyRef Name="idApplications" />
+      <PropertyRef Name="idCandidates" />
+      <PropertyRef Name="idusers" />
+    </Key>
+    <Property Name="idApplications" Type="String" Nullable="false" MaxLength="16" Unicode="false" FixedLength="false" />
+    <Property Name="sRecruiterName" Type="String" MaxLength="100" Unicode="false" FixedLength="false" />
+    <Property Name="Applicationstatus" Type="String" MaxLength="255" Unicode="false" FixedLength="false" />
+    <Property Name="stitle" Type="String" MaxLength="255" Unicode="false" FixedLength="false" />
+    <Property Name="liCandidateID" Type="String" MaxLength="16" Unicode="false" FixedLength="false" />
+    <Property Name="dtEntered" Type="DateTime" Precision="0" />
+    <Property Name="aFirstName" Type="String" MaxLength="255" Unicode="false" FixedLength="false" />
+    <Property Name="aLastName" Type="String" MaxLength="255" Unicode="false" FixedLength="false" />
+    <Property Name="aProfileSummary" Type="String" MaxLength="Max" Unicode="false" FixedLength="false" />
+    <Property Name="uusername" Type="String" MaxLength="255" Unicode="false" FixedLength="false" />
+    <Property Name="idCandidates" Type="String" Nullable="false" MaxLength="16" Unicode="false" FixedLength="false" />
+    <Property Name="cCandidateName" Type="String" MaxLength="255" Unicode="false" FixedLength="false" />
+    <Property Name="cFirstName" Type="String" MaxLength="255" Unicode="false" FixedLength="false" />
+    <Property Name="cLastName" Type="String" MaxLength="255" Unicode="false" FixedLength="false" />
+    <Property Name="idusers" Type="String" Nullable="false" MaxLength="16" Unicode="false" FixedLength="false" />
+  </EntityType>
+  <EntityType Name="vw_getrecofweek">
+    <Key>
+      <PropertyRef Name="empid" />
+    </Key>
+    <Property Name="Sponsored" Type="String" MaxLength="100" Unicode="false" FixedLength="false" />
+    <Property Name="empid" Type="String" Nullable="false" MaxLength="16" Unicode="false" FixedLength="false" />
+    <Property Name="Artifact_data" Type="String" MaxLength="1000" Unicode="false" FixedLength="false" />
+    <Property Name="sDescription" Type="String" MaxLength="500" Unicode="false" FixedLength="false" />
+  </EntityType>
+  <EntityType Name="vw_getsalforcalc">
+    <Key>
+      <PropertyRef Name="divisor" />
+    </Key>
+    <Property Name="divisor" Type="Int64" Nullable="false" />
+    <Property Name="Question1" Type="String" MaxLength="200" Unicode="false" FixedLength="false" />
+    <Property Name="Question2" Type="String" MaxLength="200" Unicode="false" FixedLength="false" />
+    <Property Name="median_sal" Type="Double" />
+    <Property Name="Question4" Type="String" MaxLength="200" Unicode="false" FixedLength="false" />
+    <Property Name="Question5" Type="String" MaxLength="200" Unicode="false" FixedLength="false" />
+    <Property Name="Question6" Type="String" MaxLength="200" Unicode="false" FixedLength="false" />
+    <Property Name="Question7" Type="String" MaxLength="200" Unicode="false" FixedLength="false" />
+    <Property Name="Question8" Type="String" MaxLength="200" Unicode="false" FixedLength="false" />
+  </EntityType>
+  <EntityType Name="vw_getsavedjobs">
+    <Key>
+      <PropertyRef Name="idjobs" />
+    </Key>
+    <Property Name="idjobs" Type="String" Nullable="false" MaxLength="16" Unicode="false" FixedLength="false" />
+    <Property Name="jobtitle" Type="String" MaxLength="255" Unicode="false" FixedLength="false" />
+    <Property Name="company" Type="String" MaxLength="255" Unicode="false" FixedLength="false" />
+    <Property Name="username" Type="String" MaxLength="255" Unicode="false" FixedLength="false" />
+    <Property Name="posteddate" Type="DateTime" Precision="3" />
+    <Property Name="uid" Type="String" MaxLength="16" Unicode="false" FixedLength="false" />
+    <Property Name="createddate" Type="DateTime" Precision="3" />
+  </EntityType>
+  <EntityType Name="vw_getsubjectemailapps">
+    <Key>
+      <PropertyRef Name="idjobs" />
+    </Key>
+    <Property Name="sRef" Type="String" MaxLength="45" Unicode="false" FixedLength="false" />
+    <Property Name="stitle" Type="String" MaxLength="255" Unicode="false" FixedLength="false" />
+    <Property Name="idjobs" Type="String" Nullable="false" MaxLength="16" Unicode="false" FixedLength="false" />
+  </EntityType>
+  <EntityType Name="vw_getusercans">
+    <Key>
+      <PropertyRef Name="idUsers" />
+      <PropertyRef Name="idCandidates" />
+    </Key>
+    <Property Name="idUsers" Type="String" Nullable="false" MaxLength="16" Unicode="false" FixedLength="false" />
+    <Property Name="uUserType" Type="Int32" />
+    <Property Name="uUsername" Type="String" MaxLength="255" Unicode="false" FixedLength="false" />
+    <Property Name="uPassword" Type="String" MaxLength="45" Unicode="false" FixedLength="false" />
+    <Property Name="uPasswordHint" Type="String" MaxLength="255" Unicode="false" FixedLength="false" />
+    <Property Name="uFirstName" Type="String" MaxLength="255" Unicode="false" FixedLength="false" />
+    <Property Name="uLastName" Type="String" MaxLength="255" Unicode="false" FixedLength="false" />
+    <Property Name="uIsPrimary" Type="Boolean" />
+    <Property Name="uCandidateID" Type="String" MaxLength="16" Unicode="false" FixedLength="false" />
+    <Property Name="idCandidates" Type="String" Nullable="false" MaxLength="16" Unicode="false" FixedLength="false" />
+    <Property Name="cCandidateName" Type="String" MaxLength="255" Unicode="false" FixedLength="false" />
+    <Property Name="cFirstName" Type="String" MaxLength="255" Unicode="false" FixedLength="false" />
+    <Property Name="cLastName" Type="String" MaxLength="255" Unicode="false" FixedLength="false" />
+    <Property Name="cAddress1" Type="String" MaxLength="255" Unicode="false" FixedLength="false" />
+    <Property Name="cAddress2" Type="String" MaxLength="255" Unicode="false" FixedLength="false" />
+    <Property Name="cAddress3" Type="String" MaxLength="255" Unicode="false" FixedLength="false" />
+    <Property Name="cTown" Type="String" MaxLength="45" Unicode="false" FixedLength="false" />
+    <Property Name="cCounty" Type="String" MaxLength="45" Unicode="false" FixedLength="false" />
+    <Property Name="cPostcode" Type="String" MaxLength="10" Unicode="false" FixedLength="false" />
+    <Property Name="cHomephone" Type="String" MaxLength="45" Unicode="false" FixedLength="false" />
+    <Property Name="cWorkphone" Type="String" MaxLength="45" Unicode="false" FixedLength="false" />
+    <Property Name="cdtEntered" Type="DateTime" Precision="3" />
+    <Property Name="cCountry" Type="String" MaxLength="45" Unicode="false" FixedLength="false" />
+  </EntityType>
+  <EntityType Name="vw_helpansbycategory">
+    <Key>
+      <PropertyRef Name="idtb_helpcenterqs" />
+    </Key>
+    <Property Name="idtb_helpcenterqs" Type="Int32" Nullable="false" />
+    <Property Name="Question" Type="String" MaxLength="1000" Unicode="false" FixedLength="false" />
+    <Property Name="Answer" Type="String" MaxLength="Max" Unicode="false" FixedLength="false" />
+    <Property Name="dtEntered" Type="DateTime" Precision="3" />
+    <Property Name="hcatid" Type="Int32" />
+  </EntityType>
+  <EntityType Name="vw_helpansgrouping">
+    <Key>
+      <PropertyRef Name="hcatid" />
+    </Key>
+    <Property Name="hcatid" Type="Int32" Nullable="false" />
+    <Property Name="category" Type="String" MaxLength="45" Unicode="false" FixedLength="false" />
+  </EntityType>
+  <EntityType Name="vw_jobapplicationview">
+    <Key>
+      <PropertyRef Name="idjobs" />
+      <PropertyRef Name="empid" />
+    </Key>
+    <Property Name="dtEntered" Type="DateTime" Precision="0" />
+    <Property Name="idjobs" Type="String" Nullable="false" MaxLength="16" Unicode="false" FixedLength="false" />
+    <Property Name="empid" Type="String" Nullable="false" MaxLength="16" Unicode="false" FixedLength="false" />
+  </EntityType>
+  <EntityType Name="vw_jobbyrec">
+    <Key>
+      <PropertyRef Name="idjobs" />
+      <PropertyRef Name="empid" />
+    </Key>
+    <Property Name="idjobs" Type="String" Nullable="false" MaxLength="16" Unicode="false" FixedLength="false" />
+    <Property Name="empid" Type="String" Nullable="false" MaxLength="16" Unicode="false" FixedLength="false" />
+    <Property Name="ssalarytext" Type="String" MaxLength="100" Unicode="false" FixedLength="false" />
+    <Property Name="stitle" Type="String" MaxLength="255" Unicode="false" FixedLength="false" />
+    <Property Name="sshortdescription" Type="String" MaxLength="500" Unicode="false" FixedLength="false" />
+    <Property Name="dtentereddate" Type="DateTime" Precision="3" />
+    <Property Name="slocation" Type="String" MaxLength="255" Unicode="false" FixedLength="false" />
+    <Property Name="srecruitername" Type="String" MaxLength="100" Unicode="false" FixedLength="false" />
+  </EntityType>
+  <EntityType Name="vw_jobpostedview">
+    <Key>
+      <PropertyRef Name="idjobs" />
+      <PropertyRef Name="empid" />
+    </Key>
+    <Property Name="idjobs" Type="Int64" Nullable="false" />
+    <Property Name="empid" Type="String" Nullable="false" MaxLength="16" Unicode="false" FixedLength="false" />
+    <Property Name="dtentered" Type="DateTime" Precision="3" />
+  </EntityType>
+  <EntityType Name="vw_jobsoutmail">
+    <Key>
+      <PropertyRef Name="idjobs" />
+    </Key>
+    <Property Name="emailaddress" Type="String" MaxLength="500" Unicode="false" FixedLength="false" />
+    <Property Name="idjobs" Type="String" Nullable="false" MaxLength="16" Unicode="false" FixedLength="false" />
+    <Property Name="stitle" Type="String" MaxLength="255" Unicode="false" FixedLength="false" />
+  </EntityType>
+  <EntityType Name="vw_jobtrendsectors">
+    <Key>
+      <PropertyRef Name="jbtotal" />
+    </Key>
+    <Property Name="jbtotal" Type="Int64" Nullable="false" />
+    <Property Name="sdefinition" Type="String" MaxLength="100" Unicode="false" FixedLength="false" />
+  </EntityType>
+  <EntityType Name="vw_logcandidate">
+    <Key>
+      <PropertyRef Name="idtb_userarchives" />
+    </Key>
+    <Property Name="idtb_userarchives" Type="Int32" Nullable="false" />
+    <Property Name="logintime" Type="Time" Precision="0" />
+    <Property Name="logindate" Type="DateTime" Precision="0" />
+    <Property Name="uusername" Type="String" MaxLength="255" Unicode="false" FixedLength="false" />
+    <Property Name="uusertype" Type="Int32" />
+    <Property Name="userip" Type="String" MaxLength="45" Unicode="false" FixedLength="false" />
+    <Property Name="userdevice" Type="String" MaxLength="255" Unicode="false" FixedLength="false" />
+  </EntityType>
+  <EntityType Name="vw_logrecruiter">
+    <Key>
+      <PropertyRef Name="idtb_userarchives" />
+    </Key>
+    <Property Name="idtb_userarchives" Type="Int32" Nullable="false" />
+    <Property Name="logintime" Type="Time" Precision="0" />
+    <Property Name="logindate" Type="DateTime" Precision="0" />
+    <Property Name="uusername" Type="String" MaxLength="255" Unicode="false" FixedLength="false" />
+    <Property Name="uusertype" Type="Int32" />
+    <Property Name="userip" Type="String" MaxLength="45" Unicode="false" FixedLength="false" />
+    <Property Name="userdevice" Type="String" MaxLength="255" Unicode="false" FixedLength="false" />
+  </EntityType>
+  <EntityType Name="vw_recjobassignments">
+    <Key>
+      <PropertyRef Name="idjobs" />
+      <PropertyRef Name="empid" />
+    </Key>
+    <Property Name="idjobs" Type="String" Nullable="false" MaxLength="16" Unicode="false" FixedLength="false" />
+    <Property Name="empid" Type="String" Nullable="false" MaxLength="16" Unicode="false" FixedLength="false" />
+    <Property Name="uusername" Type="String" MaxLength="255" Unicode="false" FixedLength="false" />
+  </EntityType>
+  <EntityType Name="vw_recusers">
+    <Key>
+      <PropertyRef Name="idjobs" />
+      <PropertyRef Name="empid" />
+    </Key>
+    <Property Name="idjobs" Type="String" Nullable="false" MaxLength="16" Unicode="false" FixedLength="false" />
+    <Property Name="empid" Type="String" Nullable="false" MaxLength="16" Unicode="false" FixedLength="false" />
+    <Property Name="uFirstName" Type="String" MaxLength="255" Unicode="false" FixedLength="false" />
+    <Property Name="ulastname" Type="String" MaxLength="255" Unicode="false" FixedLength="false" />
+  </EntityType>
+  <EntityType Name="vw_rptspamjobs">
+    <Key>
+      <PropertyRef Name="idtb_spamreport" />
+    </Key>
+    <Property Name="stitle" Type="String" MaxLength="255" Unicode="false" FixedLength="false" />
+    <Property Name="idtb_spamreport" Type="Int32" Nullable="false" />
+    <Property Name="spamindex" Type="Int32" />
+    <Property Name="spamreason" Type="String" MaxLength="1000" Unicode="false" FixedLength="false" />
+    <Property Name="dtentered" Type="DateTime" Precision="3" />
+    <Property Name="ipuser" Type="String" MaxLength="45" Unicode="false" FixedLength="false" />
+    <Property Name="useragents" Type="String" MaxLength="1000" Unicode="false" FixedLength="false" />
+    <Property Name="jobid" Type="String" MaxLength="16" Unicode="false" FixedLength="false" />
+  </EntityType>
+  <EntityType Name="vw_textads">
+    <Key>
+      <PropertyRef Name="idjobs" />
+    </Key>
+    <Property Name="idjobs" Type="String" Nullable="false" MaxLength="16" Unicode="false" FixedLength="false" />
+    <Property Name="stitle" Type="String" MaxLength="255" Unicode="false" FixedLength="false" />
+    <Property Name="sshortdescription" Type="String" MaxLength="500" Unicode="false" FixedLength="false" />
+  </EntityType>
+</Schema>

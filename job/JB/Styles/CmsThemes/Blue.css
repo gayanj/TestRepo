@@ -1,0 +1,37 @@
+﻿.ft_cmsheading1 {
+    color: #181259;
+}
+
+.ln_dotccc {
+    border-bottom: 4px solid #181259;
+}
+
+#cms_homebottom {
+    border-bottom: 4px solid #181259;
+}
+
+.ft_bluelink, .ux_notify {
+    color: #181259;
+}
+
+input[type=submit] {
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 1em;
+    padding: 0.5em;
+    border: 1.5px solid #181259;
+}
+
+    input[type=submit]:hover {
+        background-color: #181259;
+        border-color: #888;
+        color: white;
+    }
+
+.PagerStyle span {
+    color: #fff;
+    text-decoration: none;
+    padding: 0.5em;
+    border: 1px solid gray;
+    background-color: #181259;
+}

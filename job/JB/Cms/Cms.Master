@@ -1,0 +1,247 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Cms.Master.cs" Inherits="JB.Cms.Cms" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder ID="sitepref" runat="server">
+    </asp:ContentPlaceHolder>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <link href="/styles/pheonixcm1.css" rel="stylesheet" type="text/css" />
+    <link href="/styles/pheonixgrid.css" rel="stylesheet" type="text/css" />
+    <asp:ContentPlaceHolder ID="ThemeHolder" runat="server"></asp:ContentPlaceHolder>
+    <script type="text/javascript">
+        function securejs() {
+            var xfrval = document.getElementsByTagName('iframe').length;
+            if (xfrval > 0) {
+                window.location = "/FraudFilters/FraudAction.aspx";
+            }
+        }
+    </script>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <asp:ScriptManager ID="ScriptManager1" runat="server" ScriptMode="Release">
+        </asp:ScriptManager>
+        <asp:UpdatePanel ID="UpdatePanelA1" runat="server">
+            <ContentTemplate>
+                <div id="cms_wrapmid">
+                    <div id="cms_homeleft">
+                        <img alt="CMS Logo" src="/Brandimages/brand_cmslogo.png" />
+                        <br />
+                        <br />
+                        <!-- menu -->
+                        <label for="MenuLabel" class="ft_blackbold">Menu</label>
+                        <br />
+                        <asp:TreeView ID="CmsMenuTree" runat="server" ExpandDepth="0"
+                            ImageSet="Arrows" NodeIndent="20">
+                            <HoverNodeStyle CssClass="cms_homehover" />
+                            <Nodes>
+                                <asp:TreeNode NavigateUrl="~/Cms/Cmshome.aspx" Text="Home" Value="Home"></asp:TreeNode>
+                                <asp:TreeNode Text="Analytics" Value="Reports">
+                                    <asp:TreeNode Text="Logging" Value="Logging">
+                                        <asp:TreeNode NavigateUrl="~/Cms/Cmsreports.aspx?filter=Sitelog&amp;content=Logging&amp;m=Site Log" Text="Site Log" Value="Site Log"></asp:TreeNode>
+                                    </asp:TreeNode>
+                                    <asp:TreeNode Text="Security" Value="Security">
+                                        <asp:TreeNode NavigateUrl="~/Cms/Cmsreports.aspx?filter=Jobseekerlog&amp;content=Security" Text="Jobseekers Log" Value="Jobseekers Log"></asp:TreeNode>
+                                        <asp:TreeNode NavigateUrl="~/Cms/Cmsreports.aspx?filter=Recruiterlog&amp;content=Security" Text="Recruiters Log" Value="Recruiters Log"></asp:TreeNode>
+                                        <asp:TreeNode NavigateUrl="~/Cms/Cmsreports.aspx?filter=All&amp;content=Security" Text="Everyone" Value="Everyone"></asp:TreeNode>
+                                    </asp:TreeNode>
+                                    <asp:TreeNode Text="Applications" Value="Applications">
+                                        <asp:TreeNode NavigateUrl="~/Cms/Cmsreports.aspx?filter=Today&amp;content=Applications" Text="Today" Value="Today"></asp:TreeNode>
+                                        <asp:TreeNode NavigateUrl="~/Cms/Cmsreports.aspx?filter=Yesterday&amp;content=Applications" Text="Yesterday" Value="Yesterday"></asp:TreeNode>
+                                        <asp:TreeNode NavigateUrl="~/Cms/Cmsreports.aspx?filter=Currentmonth&amp;content=Applications" Text="This Month" Value="This Month"></asp:TreeNode>
+                                        <asp:TreeNode NavigateUrl="~/Cms/Cmsreports.aspx?filter=Lastmonth&amp;content=Applications" Text="Last Month" Value="Last Month"></asp:TreeNode>
+                                        <asp:TreeNode NavigateUrl="~/Cms/Cmsreports.aspx?filter=Lastthreemonths&amp;content=Applications" Text="Last 3 Months" Value="Last 3 Months"></asp:TreeNode>
+                                        <asp:TreeNode NavigateUrl="~/Cms/Cmsreports.aspx?filter=Lastsixmonths&amp;content=Applications" Text="Last 6 Months" Value="Last 6 Months"></asp:TreeNode>
+                                        <asp:TreeNode NavigateUrl="~/Cms/Cmsreports.aspx?filter=Currentyear&amp;content=Applications" Text="This Year" Value="This Year"></asp:TreeNode>
+                                        <asp:TreeNode NavigateUrl="~/Cms/Cmsreports.aspx?filter=Lastyear&amp;content=Applications" Text="Last year" Value="Last year"></asp:TreeNode>
+                                        <asp:TreeNode NavigateUrl="~/Cms/Cmsreports.aspx?filter=All&amp;content=Applications" Text="All" Value="All"></asp:TreeNode>
+                                    </asp:TreeNode>
+                                    <asp:TreeNode Text="Forecast" Value="Forecast">
+                                        <asp:TreeNode NavigateUrl="~/Cms/Cmsreports.aspx?filter=Applications&amp;content=Forecast" Text="Applications" Value="Applications"></asp:TreeNode>
+                                    </asp:TreeNode>
+                                    <asp:TreeNode NavigateUrl="~/Cms/Cmsreports.aspx?filter=NA&amp;content=Spamreport" Text="Spam Report" Value="Spam Report"></asp:TreeNode>
+                                </asp:TreeNode>
+                                <asp:TreeNode Text="Advertisements" Value="Advertisements">
+                                    <asp:TreeNode Text="Add Ads" Value="Add Ads" NavigateUrl="~/Cms/CmsAddAds.aspx?m=Add Ads"></asp:TreeNode>
+                                    <asp:TreeNode Text="Login Ads" Value="Login Ads"
+                                        NavigateUrl="~/Cms/CmsAdverts.aspx?m=Login Ads&amp;type=1"></asp:TreeNode>
+                                    <asp:TreeNode NavigateUrl="~/Cms/CmsAdverts.aspx?m=Desktop Widget Ads&amp;type=2"
+                                        Text="Desktop Widget Ads" Value="Desktop Widget Ads"></asp:TreeNode>
+                                    <asp:TreeNode NavigateUrl="~/Cms/CmsAdverts.aspx?m=Login Micro Ads&amp;type=3"
+                                        Text="Login Micro Ads" Value="Login Micro Ads"></asp:TreeNode>
+                                    <asp:TreeNode NavigateUrl="~/Cms/CmsAdverts.aspx?m=Site Header Ads&amp;type=5"
+                                        Text="Site Header Ads" Value="Site Header Ads"></asp:TreeNode>
+                                    <asp:TreeNode NavigateUrl="~/Cms/CmsAdverts.aspx?m=Stock Bar Ads&amp;type=4"
+                                        Text="Stock Bar Ads" Value="Stock Bar Ads"></asp:TreeNode>
+                                </asp:TreeNode>
+                                <asp:TreeNode Text="Applications" Value="Applications">
+                                    <asp:TreeNode Text="Rejected Applications" Value="Rejected Applications" NavigateUrl="~/Cms/CmsApps.aspx?m=Rejected Applications"></asp:TreeNode>
+                                    <asp:TreeNode Text="Selected Applications" Value="Selected Applications" NavigateUrl="~/Cms/CmsApps.aspx?m=Selected Applications"></asp:TreeNode>
+                                    <asp:TreeNode Text="Awaiting Interview" Value="Awaiting Interview" NavigateUrl="~/Cms/CmsApps.aspx?m=Awaiting Interview"></asp:TreeNode>
+                                    <asp:TreeNode Text="All Applications" Value="All Applications" NavigateUrl="~/Cms/CmsApps.aspx?m=All Applications"></asp:TreeNode>
+                                </asp:TreeNode>
+                                <asp:TreeNode Text="Articles" Value="Articles">
+                                    <asp:TreeNode NavigateUrl="~/Cms/CmsAddArticles.aspx?m=Add Article" Text="Add Article"
+                                        Value="Add Article"></asp:TreeNode>
+                                    <asp:TreeNode NavigateUrl="~/Cms/CmsArticles.aspx?m=All Articles" Text="All Articles"
+                                        Value="All Articles"></asp:TreeNode>
+                                </asp:TreeNode>
+                                <asp:TreeNode Text="Branding" Value="Branding">
+                                    <asp:TreeNode Text="CMS Home Logo" Value="CMS Home Logo" NavigateUrl="~/Cms/CmsLogos.aspx?type=1&m=CMS Home Logo"></asp:TreeNode>
+                                    <asp:TreeNode Text="CMS Login Logo" Value="CMS Login Logo" NavigateUrl="~/Cms/CmsLogos.aspx?type=2&m=CMS Login Logo"></asp:TreeNode>
+                                    <asp:TreeNode Text="WAP Logo" Value="WAP Logo" NavigateUrl="~/Cms/CmsLogos.aspx?type=3&m=WAP Logo"></asp:TreeNode>
+                                    <asp:TreeNode Text="General Login Logo"
+                                        Value="General Login Logo" NavigateUrl="~/Cms/CmsLogos.aspx?type=4&m=General Login Logo"></asp:TreeNode>
+                                    <asp:TreeNode Text="Email Logo" Value="Email Logo" NavigateUrl="~/Cms/CmsLogos.aspx?type=5&m=Email Logo"></asp:TreeNode>
+                                    <asp:TreeNode Text="CPanel Header Logo"
+                                        Value="CPanel Logo" NavigateUrl="~/Cms/CmsLogos.aspx?type=6&m=CPanel Logo"></asp:TreeNode>
+                                    <asp:TreeNode NavigateUrl="~/Cms/CmsSiteTitles.aspx?m=Site Titles" Text="Site Titles" Value="Site Titles"></asp:TreeNode>
+                                </asp:TreeNode>
+                                <asp:TreeNode Text="Bulk Data Import" Value="Bulk Data Import" NavigateUrl="~/Cms/Cmsbulkimport.aspx?m=Bulk Data Import">
+                                    <asp:TreeNode NavigateUrl="~/Cms/Cmsbulkimport.aspx?m=Import Recruiters" Text="Import Recruiters" Value="Import Recruiters"></asp:TreeNode>
+                                    <asp:TreeNode NavigateUrl="~/Cms/Cmsbulkimport.aspx?m=Import Jobs" Text="Import Jobs" Value="Import Jobs"></asp:TreeNode>
+                                </asp:TreeNode>
+                                <asp:TreeNode Text="Email Setup" Value="Email Setup">
+                                    <asp:TreeNode NavigateUrl="~/Cms/CmsAddETemplate.aspx?m=Add Templates" Text="Add Templates"
+                                        Value="Add Templates"></asp:TreeNode>
+                                    <asp:TreeNode NavigateUrl="~/Cms/CmsEmailTempl.aspx?m=All Email Templates" Text="All Email Templates"
+                                        Value="All Email Templates"></asp:TreeNode>
+                                </asp:TreeNode>
+                                <asp:TreeNode Text="Global Setting" Value="Global Setting">
+                                    <asp:TreeNode Text="Site Headers" Value="Site Headers" NavigateUrl="~/Cms/CmsHeaders.aspx?m=Site Headers">
+                                        <asp:TreeNode NavigateUrl="~/Cms/CmsAddSiteHeader.aspx" Text="Add Headers" Value="Add Headers"></asp:TreeNode>
+                                        <asp:TreeNode NavigateUrl="~/Cms/CmsHeaders.aspx?m=Site Headers" Text="All Headers" Value="All Headers"></asp:TreeNode>
+                                    </asp:TreeNode>
+                                    <asp:TreeNode Text="Sitemaps" Value="Sitemaps" NavigateUrl="~/Cms/CmsSitemaps.aspx?m=Sitemaps">
+                                        <asp:TreeNode NavigateUrl="~/Cms/CmsAddSitemapItem.aspx" Text="Add Item" Value="Add Item"></asp:TreeNode>
+                                        <asp:TreeNode NavigateUrl="~/Cms/CmsSitemaps.aspx?m=Sitemaps" Text="All Items" Value="All Items"></asp:TreeNode>
+                                    </asp:TreeNode>
+                                    <asp:TreeNode NavigateUrl="~/Cms/cmsglobaloptions.aspx?m=Global Options" Text="Global Options"
+                                        Value="Global Options"></asp:TreeNode>
+                                    <asp:TreeNode Text="Site Search" Value="Site Search" NavigateUrl="~/Cms/CmsSiteSearch.aspx">
+                                        <asp:TreeNode Text="Add Item" Value="Add Item" NavigateUrl="~/Cms/CmsAddSiteSearchItem.aspx"></asp:TreeNode>
+                                        <asp:TreeNode NavigateUrl="~/Cms/CmsSiteSearchReIndex.aspx" Text="Re Index" Value="Re Index"></asp:TreeNode>
+                                        <asp:TreeNode NavigateUrl="~/Cms/CmsSiteSearch.aspx" Text="All Items" Value="All Items"></asp:TreeNode>
+                                    </asp:TreeNode>
+                                </asp:TreeNode>
+                                <asp:TreeNode Text="Help Center" Value="Help Center">
+                                    <asp:TreeNode Text="Help Answers" Value="Help Answers" NavigateUrl="~/Cms/CmsHelpAnswer.aspx">
+                                        <asp:TreeNode Text="Add Answer" Value="Add Answer" NavigateUrl="~/Cms/CmsAddHelpAnswer.aspx"></asp:TreeNode>
+                                        <asp:TreeNode NavigateUrl="~/Cms/CmsHelpAnswer.aspx?m=All Answers" Text="All Answers" Value="All Answers"></asp:TreeNode>
+                                    </asp:TreeNode>
+                                    <asp:TreeNode Text="Help Categories" Value="Help Categories" NavigateUrl="~/Cms/CmsHelpCat.aspx">
+                                        <asp:TreeNode NavigateUrl="~/Cms/CmsAddHelpCategory.aspx" Text="Add Category" Value="Add Category"></asp:TreeNode>
+                                        <asp:TreeNode NavigateUrl="~/Cms/CmsHelpCat.aspx" Text="All Categories" Value="All Categories"></asp:TreeNode>
+                                    </asp:TreeNode>
+                                    <asp:TreeNode Text="Help Questions" Value="Help Questions" NavigateUrl="~/Cms/CmsHelpQuestions.aspx">
+                                        <asp:TreeNode Text="Add Question" Value="Add Question" NavigateUrl="~/Cms/CmsAddHelpQuestion.aspx"></asp:TreeNode>
+                                        <asp:TreeNode NavigateUrl="~/Cms/CmsHelpQuestions.aspx" Text="All Questions" Value="All Questions"></asp:TreeNode>
+                                    </asp:TreeNode>
+                                </asp:TreeNode>
+                                <asp:TreeNode Text="Site Links" Value="Site Links">
+                                    <asp:TreeNode NavigateUrl="~/Cms/CmsAddSiteLink.aspx?m=Add SiteLink" Text="Add Link" Value="Add SiteLink"></asp:TreeNode>
+                                    <asp:TreeNode Text="All Links" Value="All Links" NavigateUrl="~/Cms/CmsHomePageLinks.aspx?m=All Links&amp;type=ALL"></asp:TreeNode>
+                                    <asp:TreeNode NavigateUrl="~/Cms/CmsHomePageLinks.aspx?m=Header Links&amp;type=header" Text="Header Links" Value="Header Links"></asp:TreeNode>
+                                    <asp:TreeNode NavigateUrl="~/Cms/CmsHomePageLinks.aspx?m=Middle Links&amp;type=middle" Text="Middle Links" Value="Middle Links"></asp:TreeNode>
+                                    <asp:TreeNode NavigateUrl="~/Cms/CmsHomePageLinks.aspx?m=Footer Links&amp;type=footer" Text="Footer Links" Value="Footer Links"></asp:TreeNode>
+                                </asp:TreeNode>
+                                <asp:TreeNode Text="Jobs" Value="Jobs">
+                                    <asp:TreeNode NavigateUrl="~/Cms/CmsAddJobs.aspx?m=Add Job" Text="Add Job" Value="Add Job"></asp:TreeNode>
+                                    <asp:TreeNode Text="Active Jobs" Value="Active Jobs" NavigateUrl="~/Cms/CmsJobs.aspx?m=Active Jobs"></asp:TreeNode>
+                                    <asp:TreeNode Text="Archived Jobs" Value="Archived Jobs" NavigateUrl="~/Cms/CmsJobs.aspx?m=Archived Jobs"></asp:TreeNode>
+                                    <asp:TreeNode NavigateUrl="~/Cms/CmsJobs.aspx?m=All Jobs" Text="All Jobs" Value="All Jobs"></asp:TreeNode>
+                                </asp:TreeNode>
+                                <asp:TreeNode Text="Recruiters" Value="Recruiters">
+                                    <asp:TreeNode Text="Active Recruiters" Value="Active Recruiters" NavigateUrl="~/Cms/CmsRecruiters.aspx?m=Active Recruiters"></asp:TreeNode>
+                                    <asp:TreeNode Text="Archived Recruiters" Value="Archived Recruiters" NavigateUrl="~/Cms/CmsRecruiters.aspx?m=Archived Recruiters"></asp:TreeNode>
+                                    <asp:TreeNode Text="All Recruiters" Value="All Recruiters" NavigateUrl="~/Cms/CmsRecruiters.aspx?m=All Recruiters"></asp:TreeNode>
+                                </asp:TreeNode>
+                                <asp:TreeNode Text="Salary Calculator" Value="Salary Calculator">
+                                    <asp:TreeNode NavigateUrl="~/Cms/CmsAddSalary.aspx?m=Add Salary Category" Text="Add Salary Category"
+                                        Value="Add Salary Category"></asp:TreeNode>
+                                    <asp:TreeNode Text="All Categories" Value="Salary Categories" NavigateUrl="~/Cms/CmsSalaryCategories.aspx?m=Salary Categories"></asp:TreeNode>
+                                </asp:TreeNode>
+                                <asp:TreeNode Text="Scripts/Plugins" Value="Scripts/Plugins">
+                                    <asp:TreeNode Text="Google Analytics" Value="Google Analytics" NavigateUrl="~/Cms/CmsTracking.aspx?m=Google Analytics&amp;tr=google"></asp:TreeNode>
+                                    <asp:TreeNode Text="Share This" Value="Share This" NavigateUrl="~/Cms/CmsTracking.aspx?m=Share This&amp;tr=ShareThis"></asp:TreeNode>
+                                </asp:TreeNode>
+                                <asp:TreeNode Text="Search" Value="Search">
+                                    <asp:TreeNode Text="Simple Search" Value="Simple Search" NavigateUrl="~/Cms/CmsSearchSimple.aspx?m=Simple Search"></asp:TreeNode>
+                                    <asp:TreeNode Text="Advanced Search" Value="Advanced Search" NavigateUrl="~/Cms/CmsSearchAdvanced.aspx?m=Advanced Search"></asp:TreeNode>
+                                </asp:TreeNode>
+                                <asp:TreeNode Text="Subsites" Value="Subsites">
+                                    <asp:TreeNode NavigateUrl="~/Cms/Subsites/AddSubsiteStep1.aspx?m=Add Subsite" Text="Add Subsite"
+                                        Value="Add Subsite"></asp:TreeNode>
+                                    <asp:TreeNode Text="All Subsites" Value="All Subsites"
+                                        NavigateUrl="~/Cms/CmsSubsiteAll.aspx?m=All Subsites"></asp:TreeNode>
+                                </asp:TreeNode>
+                                <asp:TreeNode Text="User Credit Moderations" Value="User Credit Moderations" NavigateUrl="~/Cms/Cmsusermoderation.aspx?m=User Moderations">
+                                    <asp:TreeNode NavigateUrl="~/Cms/Cmsusermoderation.aspx?m=All Requests" Text="All Requests" Value="All Requests"></asp:TreeNode>
+                                </asp:TreeNode>
+                                <asp:TreeNode Text="Users" Value="Users">
+                                    <asp:TreeNode NavigateUrl="~/Cms/CmsAddUser.aspx?m=Add User" Text="Add User" Value="Add User"></asp:TreeNode>
+                                    <asp:TreeNode Text="Admin Users" Value="Admin Users" NavigateUrl="~/Cms/CmsUsers.aspx?m=Admin Users"></asp:TreeNode>
+                                    <asp:TreeNode Text="Recruiter Users" Value="Recruiter Users" NavigateUrl="~/Cms/CmsUsers.aspx?m=Recruiter Users"></asp:TreeNode>
+                                    <asp:TreeNode Text="Jobseeker Users" Value="Jobseeker Users" NavigateUrl="~/Cms/CmsUsers.aspx?m=Jobseeker Users"></asp:TreeNode>
+                                    <asp:TreeNode NavigateUrl="~/Cms/CmsUsers.aspx?m=All Users" Text="All Users" Value="All Users"></asp:TreeNode>
+                                </asp:TreeNode>
+                                <asp:TreeNode Text="Videos" Value="Videos" NavigateUrl="~/Cms/CmsVideos.aspx?m=All Videos">
+                                    <asp:TreeNode NavigateUrl="~/Cms/CmsVideos.aspx?m=All Videos" Text="All Videos" Value="All Videos"></asp:TreeNode>
+                                </asp:TreeNode>
+                                <asp:TreeNode Text="Wiki" Value="Wiki" NavigateUrl="~/Cms/CmsWiki.aspx?m=Wiki">
+                                    <asp:TreeNode Text="Add Wiki" Value="Add Wiki" NavigateUrl="~/Cms/CmsAddWiki.aspx?m=Add Wiki"></asp:TreeNode>
+                                    <asp:TreeNode NavigateUrl="~/Cms/CmsWiki.aspx?m=All Wikis" Text="All Wikis" Value="All Wikis"></asp:TreeNode>
+                                </asp:TreeNode>
+                                <asp:TreeNode Text="Logoff" Value="Logoff" NavigateUrl="~/Logoff.aspx"></asp:TreeNode>
+                            </Nodes>
+                            <NodeStyle Font-Names="Verdana" Font-Size="8pt" ForeColor="Black" HorizontalPadding="5px"
+                                NodeSpacing="1px" VerticalPadding="2px" />
+                            <ParentNodeStyle Font-Bold="False" />
+                            <SelectedNodeStyle BackColor="White" BorderColor="#888888" BorderStyle="Solid" BorderWidth="1px"
+                                Font-Underline="False" HorizontalPadding="3px" VerticalPadding="1px" />
+                        </asp:TreeView>
+                        <br />
+                        <!-- themes -->
+                        <label for="Themed" class="ft_blackbold">Select Theme</label>
+                        <br />
+                        <asp:ImageButton ID="ImageRed" runat="server" OnClick="ThemeRed_Click" ImageUrl="~/Images/themered.gif" CssClass="ux_tmargin" />
+                        <asp:ImageButton ID="ImageBlue" runat="server" OnClick="ThemeBlue_Click" ImageUrl="~/Images/themeblue.gif" CssClass="ux_tmargin" />
+                        <asp:ImageButton ID="ImageGreen" runat="server" OnClick="ThemeGreen_Click" ImageUrl="~/Images/themegreen.gif" CssClass="ux_tmargin" />
+                        <asp:ImageButton ID="ImageOrange" runat="server" OnClick="ThemeOrange_Click" ImageUrl="~/Images/themeorange.gif" CssClass="ux_tmargin" />
+                        <asp:ImageButton ID="ImageSilver" runat="server" OnClick="ThemeSilver_Click" ImageUrl="~/Images/themesilver.gif" CssClass="ux_tmargin" />
+                        <asp:ImageButton ID="ImageAzure" runat="server" OnClick="ThemeAzure_Click" ImageUrl="~/Images/themeazure.gif" CssClass="ux_tmargin" />
+                        <br />
+                        <br />
+                    </div>
+                    <div id="cms_homeright">
+                        <div class="ux_coverprogress">
+                            <!-- update progress-->
+                            <asp:UpdateProgress ID="UpdateProgress4" runat="server" AssociatedUpdatePanelID="UpdatePanelA1"
+                                DisplayAfter="0">
+                                <ProgressTemplate>
+                                    <div class="ux_notify">Loading...</div>
+                                </ProgressTemplate>
+                            </asp:UpdateProgress>
+                            <!--end progress bar-->
+                        </div>
+                        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                        </asp:ContentPlaceHolder>
+                        </>
+                    </div>
+                    <div class="dv_fix">
+                    </div>
+                    <div id="cms_homebottom">
+                        <asp:Label ID="Label1" runat="server" CssClass="ft_white"></asp:Label>
+                    </div>
+            </ContentTemplate>
+        </asp:UpdatePanel>
+        <asp:HiddenField ID="HiddenField1" runat="server" Value="6e97555a3158609611292" />
+    </form>
+    <script type="text/javascript">
+        // securejs();
+    </script>
+</body>
+</html>

@@ -1,0 +1,3 @@
+﻿------ Build started: Project: mysqllayer, Configuration: Debug Any CPU ------
+  mysqllayer -> C:\JBlightversion\mysqllayer\mysqllayer\bin\Debug\mysqllayer.dll
+========== Build: 1 succeeded or up-to-date, 0 failed, 0 skipped ==========

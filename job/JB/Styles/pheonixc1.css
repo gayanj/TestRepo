@@ -1,0 +1,259 @@
+﻿.iframes {
+    border: none;
+    width: 480px;
+    height: 400px;
+}
+
+img {
+    border: none;
+}
+
+#resume_home {
+    width: 600px;
+}
+
+.res_button {
+    text-decoration: none;
+    font-size: 1em;
+    padding: 1em;
+    float: left;
+    margin: 1em;
+    background-color: #765299;
+    color: #cccccc;
+    width: 20%;
+    height: 5em;
+    border-radius: 8px;
+}
+
+    .res_button:hover {
+        background-color: #000000;
+        color: #ffffff;
+    }
+
+.resume_left {
+    padding: 4px;
+    width: 260px;
+    float: left;
+    border: 2px dotted #ccc;
+    margin-bottom: 10px;
+    margin-right: 20px;
+    margin-left: 20px;
+    background-color: #FFFFE1;
+}
+
+.resume_right {
+    float: left;
+    width: 300px;
+}
+
+.resume_center {
+    width: 300px;
+    text-align: center;
+}
+
+.jseekerhometop {
+    text-align: right;
+    padding-right: 10px;
+}
+
+.jprofilestrength {
+    padding: 10px;
+    float: left;
+    width: 134px;
+}
+
+#applicationsbreak {
+    margin: 0 auto;
+    width: 400px;
+    padding-top: 100px;
+}
+
+#applicationsleft {
+    float: left;
+    width: 190px;
+    margin-top: 6px;
+    border-top: 1px solid #ccc;
+}
+
+#applicationsmiddle {
+    float: left;
+    font-size: .688em;
+    color: #ccc;
+    padding-left: 2px;
+}
+
+#applicationsright {
+    float: right;
+    width: 190px;
+    margin-top: 6px;
+    border-top: 1px solid #ccc;
+}
+
+.jseekermidback {
+    min-height: 100px;
+    min-width: 480px;
+    padding-left: 10px;
+}
+
+.topnavmajor {
+    background-color: gray;
+    height: 16px;
+    padding-left: 4px;
+}
+
+.canhomepagelinksover {
+    color: #000;
+    font-size: .688em;
+    vertical-align: middle;
+    text-decoration: none;
+    border-bottom-width: 1px;
+    border-bottom-color: #000;
+    border-bottom-style: dotted;
+}
+
+.canhomepagelinks {
+    color: gray;
+    font-size: .688em;
+    vertical-align: middle;
+    text-decoration: none;
+    border-bottom-width: 1px;
+    border-bottom-color: gray;
+    border-bottom-style: dotted;
+}
+
+.canmasterwhite {
+    color: #fff;
+    font-size: .688em;
+    text-decoration: none;
+}
+
+.canmasterwhiteover {
+    color: orange;
+    font-size: .688em;
+    text-decoration: none;
+}
+
+.setcpaneldotted {
+    border-top-width: 1px;
+    border-top-style: dotted;
+}
+
+.canleftfontx1 {
+    font-size: .688em;
+    color: #000;
+    text-decoration: none;
+}
+
+#cleftpanel {
+    padding-top: 4px;
+    float: left;
+    width: 150px;
+    background-color: #fff;
+}
+
+#crightpanel {
+    border-right: 1px solid gray;
+    border-bottom: 1px solid gray;
+    float: left;
+    padding-left: 0;
+    width: 873px;
+    min-height: 500px;
+    background-color: #fff;
+    background-image: url('/images/img_cpanelback.gif');
+    background-repeat: repeat-y;
+}
+
+#cbottompanel {
+    margin: 0 auto;
+    text-align: right;
+}
+
+.upperwrop {
+    height: 100%;
+    width: 1024px;
+    margin: 0 auto;
+    margin-top: -10px;
+}
+
+#isbar {
+    width: 100%;
+    height: 3px;
+    background-color: gray;
+}
+
+#cn_canappmid {
+    margin: 0 auto;
+    width: 320px;
+    padding-top: 20px;
+}
+
+.cn_txtbox {
+    font-size: .688em;
+    padding: 2px;
+    border: 1px solid gray;
+    border-collapse: collapse;
+    height: 14px;
+    width: 250px;
+}
+
+#cn_canpwdmid {
+    margin: 0 auto;
+    width: 326px;
+    padding-left: 10px;
+}
+
+#cn_canbasmid {
+    margin: 0 auto;
+    width: 326px;
+    padding-left: 10px;
+}
+
+#cn_canmyresmid {
+    margin: 0 auto;
+    width: 400px;
+    padding-left: 10px;
+}
+
+#cn_dirappmid {
+    margin: 0 auto;
+    width: 320px;
+}
+
+#cn_auditmid {
+    margin: 0 auto;
+    width: 500px;
+    text-align: center;
+    padding-left: 10px;
+    min-height: 100px;
+}
+
+.cn_privstyle {
+    float: left;
+    padding-right: 100px;
+    padding-top: 10px;
+    width: 100px;
+    font-size: .688em;
+    color: #000;
+}
+
+.cn_blockreclabel {
+    float: left;
+    padding: 4px 10px 0 0;
+    font-size: .688em;
+    color: #000;
+}
+
+#cn_topheadpriv {
+    margin-top: 10px;
+    padding-left: 12px;
+}
+
+.cn_privmid {
+    padding-left: 10px;
+    margin: 0 auto;
+    width: 400px;
+}
+
+#applicationsmiddle, .canleftfontx1, .cn_txtbox, .cn_blockreclabel, .cn_privstyle, .canmasterwhiteover, .canmasterwhite, .canhomepagelinks, .canhomepagelinksover, .res_button {
+    font-family: "Lucida Grande",Helvetica,Arial,Verdana,sans-serif;
+}

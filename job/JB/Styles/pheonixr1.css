@@ -1,0 +1,409 @@
+﻿/*login css*/
+.locator1 {
+    padding: 2px 2px 2px 2px;
+    position: absolute;
+    right: 398px;
+    top: 100px;
+    z-index: 1000;
+    opacity: .8;
+    filter: alpha(opacity=60);
+    background-color: #000;
+    color: #fff;
+    width: 30px;
+    height: 30px;
+    border: 1px solid #ccc;
+    cursor: pointer;
+}
+
+.locatortip1 {
+    padding: 2px 2px 2px 2px;
+    position: absolute;
+    right: 434px;
+    top: 100px;
+    z-index: 1000;
+    opacity: .8;
+    filter: alpha(opacity=60);
+    background-color: #000;
+    color: #fff;
+    border: 1px solid #ccc;
+    height: 100px;
+    width: 200px;
+}
+
+.locator2 {
+    padding: 2px 2px 2px 2px;
+    position: absolute;
+    right: 48px;
+    top: 200px;
+    z-index: 1000;
+    opacity: .8;
+    filter: alpha(opacity=60);
+    background-color: #000;
+    color: #fff;
+    width: 30px;
+    height: 30px;
+    border: 1px solid #ccc;
+    cursor: pointer;
+}
+
+.locatortip2 {
+    padding: 2px 2px 2px 2px;
+    position: absolute;
+    right: 84px;
+    top: 200px;
+    z-index: 1000;
+    opacity: .8;
+    filter: alpha(opacity=60);
+    background-color: #000;
+    color: #fff;
+    border: 1px solid #ccc;
+    cursor: pointer;
+    height: 100px;
+    width: 200px;
+}
+
+.locator3 {
+    padding: 2px 2px 2px 2px;
+    position: absolute;
+    right: 198px;
+    top: 50px;
+    z-index: 1000;
+    opacity: .8;
+    filter: alpha(opacity=60);
+    background-color: #000;
+    color: #fff;
+    width: 30px;
+    height: 30px;
+    border: 1px solid #ccc;
+    cursor: pointer;
+}
+
+.locatortip3 {
+    padding: 2px 2px 2px 2px;
+    position: absolute;
+    right: 234px;
+    top: 50px;
+    z-index: 1000;
+    opacity: .8;
+    filter: alpha(opacity=60);
+    background-color: #000;
+    color: #fff;
+    border: 1px solid #ccc;
+    cursor: pointer;
+    height: 100px;
+    width: 200px;
+}
+
+.locator4 {
+    padding: 2px 2px 2px 2px;
+    position: absolute;
+    right: 298px;
+    top: 250px;
+    z-index: 1000;
+    opacity: .8;
+    filter: alpha(opacity=60);
+    background-color: #000;
+    color: #fff;
+    width: 30px;
+    height: 30px;
+    border: 1px solid #ccc;
+    cursor: pointer;
+}
+
+.locatortip4 {
+    padding: 2px 2px 2px 2px;
+    position: absolute;
+    right: 334px;
+    top: 250px;
+    z-index: 1000;
+    opacity: .8;
+    filter: alpha(opacity=60);
+    background-color: #000;
+    color: #fff;
+    border: 1px solid #ccc;
+    cursor: pointer;
+    height: 100px;
+    width: 200px;
+}
+
+.rc_creditleft {
+    float: left;
+    width: 80%;
+    line-height: 1.3em;
+}
+
+.rc_creditrigth {
+    float: right;
+    line-height: 1.3em;
+}
+
+#changerecpdscover {
+    margin: 0 auto;
+    width: 326px;
+    padding-left: 10px;
+    min-height: 100px;
+}
+
+.changerecpwdrts {
+    width: 300px;
+}
+
+.setcpaneldotted {
+    border-top-width: 1px;
+    border-top-style: dotted;
+}
+
+.TextboxSt {
+    border-width: 1px;
+    border-collapse: collapse;
+    border-style: solid;
+    border-color: #000;
+    height: 16px;
+    padding: 2px;
+}
+
+.Stylepwd {
+    border-collapse: collapse;
+    margin-right: 5px;
+    color: gray;
+    background-color: transparent;
+}
+
+.ln_444 {
+    border-top-style: solid;
+    border-top-width: 1px;
+    color: gray;
+    border-collapse: collapse;
+}
+
+.recmasterwhite {
+    color: #fff;
+    text-decoration: none;
+}
+
+.recmasterwhiteover {
+    color: #293955;
+    text-decoration: none;
+}
+
+.TextboxStylerecs {
+    padding: 2px;
+    border: 1px solid gray;
+    width: 314px;
+    border-collapse: collapse;
+    height: 14px;
+    width: 320px;
+}
+
+.TextboxStout {
+    border-width: 1px;
+    border-collapse: collapse;
+    border-style: solid;
+    border-color: #000;
+}
+
+.BoxBorder {
+    border-width: 1px;
+    border-style: dotted;
+    border-color: #000;
+}
+
+#strright {
+    text-align: right;
+}
+
+#editjobsmiddle {
+    margin: 0 auto;
+    width: 600px;
+    padding-left: 10px;
+    min-height: 100px;
+}
+
+.editjobslefts {
+    width: 550px;
+}
+
+.editjobsrights {
+    width: 40px;
+    text-align: right;
+    vertical-align: top;
+}
+
+#jobformcent {
+    margin: 0 auto;
+    width: 500px;
+    padding-left: 10px;
+}
+
+.jobformleftdiv {
+    width: 260px;
+}
+
+.jobformmultiboxes {
+    border: 1px solid gray;
+    width: 200px;
+    height: 108px;
+    overflow: auto;
+    background-color: #fff;
+}
+
+.logintxtbxlft {
+    text-align: left;
+    padding-left: 4px;
+}
+
+.loginbkmid {
+    text-align: center;
+}
+
+#recapptableft {
+    margin: 0 auto;
+    width: 600px;
+    padding-left: 10px;
+    min-height: 100px;
+}
+
+.recapphead {
+    text-align: left;
+    color: #000;
+    text-decoration: none;
+}
+
+.divchartone {
+    padding-top: 10px;
+    padding-left: 10px;
+    text-align: left;
+}
+
+.chartsbg {
+    background-color: #fff;
+    width: 100%;
+    min-height: 440px;
+}
+
+#zoomslevel {
+    text-align: right;
+}
+
+.stylemintabl {
+    width: 100px;
+}
+
+.recruiterformlmarg {
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-right: 20px;
+}
+
+.rc_recformmid {
+    
+    width: 100%;
+    min-width: 500px;
+    padding: 1em;
+}
+
+#cleftpanel {
+    background-color: #fff;
+    padding-top: 4px;
+    width: 150px;
+}
+
+#crightpanel {
+    border-right: 1px solid gray;
+    border-bottom: 1px solid gray;
+    padding-left: 0;
+    width: 873px;
+    min-height: 500px;
+    background-image: url('/images/img_cpanelback.gif');
+    background-repeat: repeat-y;
+}
+
+#cbottompanel {
+    margin: 0 auto;
+    text-align: right;
+}
+
+.upperwrop {
+    height: 100%;
+    width: 1024px;
+    margin: 0 auto;
+    margin-top: -10px;
+}
+
+#isbar {
+    width: 100%;
+    background-color: gray;
+    height: 3px;
+}
+
+.stylemintabl {
+    width: 100px;
+}
+
+.recruiterformlmarg {
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-right: 20px;
+}
+
+#rc_auditmid {
+    margin: 0 auto;
+    width: 500px;
+    text-align: left;
+    padding-left: 10px;
+    min-height: 100px;
+}
+
+#rc_vidmid {
+    margin: 0 auto;
+    width: 400px;
+    padding-top: 8px;
+}
+
+#rc_qsmid {
+    margin: 0 auto;
+    width: 400px;
+}
+
+.rc_creditmid {
+    margin: 0 auto;
+    width: 600px;
+    padding-left: 10px;
+}
+
+#rc_searchresmid {
+    margin: 0 auto;
+    width: 400px;
+    padding-left: 10px;
+    min-height: 100px;
+}
+
+#rc_bulkuploadmid {
+    margin: 0 auto;
+    width: 400px;
+    padding-left: 10px;
+    min-height: 100px;
+}
+
+.TextboxSt, .Stylepwd, .TextboxStylerecs, .recmasterwhite, .recmasterwhiteover, .TextboxStout, .recapphead, .dropdownrec {
+    font-family: "Lucida Grande",Helvetica,Arial,Verdana,sans-serif;
+}
+
+.recapphead, .TextboxStout, .TextboxSt, .Stylepwd, .TextboxStylerecs, .recmasterwhiteover, .recmasterwhite, .dropdownrec {
+    font-size: 0.688em;
+    line-height: 1em;
+}
+
+.chartsbg, #cleftpanel, #crightpanel, .divchartone, .jobformleftdiv, .editjobslefts, .changerecpwdrts {
+    float: left;
+}
+
+.editjobsrights, #zoomslevel {
+    float: right;
+}
+
+.dropdownrec {
+    width: 50px;
+    padding: 2px;
+    margin-right: 4px;
+}

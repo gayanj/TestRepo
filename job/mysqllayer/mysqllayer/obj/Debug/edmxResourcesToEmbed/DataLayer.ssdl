@@ -1,0 +1,2646 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="fashionquadrantModel.Store" Alias="Self" Provider="MySql.Data.MySqlClient" ProviderManifestToken="5.5" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2009/02/edm/ssdl">
+  <EntityContainer Name="fashionquadrantModelStoreContainer">
+    <EntitySet Name="applications" EntityType="fashionquadrantModel.Store.applications" store:Type="Tables" Schema="fashionquadrant" />
+    <EntitySet Name="candidates" EntityType="fashionquadrantModel.Store.candidates" store:Type="Tables" Schema="fashionquadrant" />
+    <EntitySet Name="categories" EntityType="fashionquadrantModel.Store.categories" store:Type="Tables" Schema="fashionquadrant" />
+    <EntitySet Name="categorytosubcat" EntityType="fashionquadrantModel.Store.categorytosubcat" store:Type="Tables" Schema="fashionquadrant" />
+    <EntitySet Name="documents" EntityType="fashionquadrantModel.Store.documents" store:Type="Tables" Schema="fashionquadrant" />
+    <EntitySet Name="jobs" EntityType="fashionquadrantModel.Store.jobs" store:Type="Tables" Schema="fashionquadrant" />
+    <EntitySet Name="jobtable" EntityType="fashionquadrantModel.Store.jobtable" store:Type="Tables" Schema="fashionquadrant" />
+    <EntitySet Name="jobviews" EntityType="fashionquadrantModel.Store.jobviews" store:Type="Tables" Schema="fashionquadrant" />
+    <EntitySet Name="privacy" EntityType="fashionquadrantModel.Store.privacy" store:Type="Tables" Schema="fashionquadrant" />
+    <EntitySet Name="privacycandidates" EntityType="fashionquadrantModel.Store.privacycandidates" store:Type="Tables" Schema="fashionquadrant" />
+    <EntitySet Name="recruiters" EntityType="fashionquadrantModel.Store.recruiters" store:Type="Tables" Schema="fashionquadrant" />
+    <EntitySet Name="salarycalc" EntityType="fashionquadrantModel.Store.salarycalc" store:Type="Tables" Schema="fashionquadrant" />
+    <EntitySet Name="salaryoccupations" EntityType="fashionquadrantModel.Store.salaryoccupations" store:Type="Tables" Schema="fashionquadrant" />
+    <EntitySet Name="subcats" EntityType="fashionquadrantModel.Store.subcats" store:Type="Tables" Schema="fashionquadrant" />
+    <EntitySet Name="subcatslist" EntityType="fashionquadrantModel.Store.subcatslist" store:Type="Tables" Schema="fashionquadrant" />
+    <EntitySet Name="tb_advertdetail" EntityType="fashionquadrantModel.Store.tb_advertdetail" store:Type="Tables" Schema="fashionquadrant" />
+    <EntitySet Name="tb_adverts" EntityType="fashionquadrantModel.Store.tb_adverts" store:Type="Tables" Schema="fashionquadrant" />
+    <EntitySet Name="tb_advertstatus" EntityType="fashionquadrantModel.Store.tb_advertstatus" store:Type="Tables" Schema="fashionquadrant" />
+    <EntitySet Name="tb_analytictracker" EntityType="fashionquadrantModel.Store.tb_analytictracker" store:Type="Tables" Schema="fashionquadrant" />
+    <EntitySet Name="tb_answers" EntityType="fashionquadrantModel.Store.tb_answers" store:Type="Tables" Schema="fashionquadrant" />
+    <EntitySet Name="tb_answers_user" EntityType="fashionquadrantModel.Store.tb_answers_user" store:Type="Tables" Schema="fashionquadrant" />
+    <EntitySet Name="tb_appjobmapper" EntityType="fashionquadrantModel.Store.tb_appjobmapper" store:Type="Tables" Schema="fashionquadrant" />
+    <EntitySet Name="tb_applicationstatus" EntityType="fashionquadrantModel.Store.tb_applicationstatus" store:Type="Tables" Schema="fashionquadrant" />
+    <EntitySet Name="tb_articles" EntityType="fashionquadrantModel.Store.tb_articles" store:Type="Tables" Schema="fashionquadrant" />
+    <EntitySet Name="tb_artifacts" EntityType="fashionquadrantModel.Store.tb_artifacts" store:Type="Tables" Schema="fashionquadrant" />
+    <EntitySet Name="tb_blockedrecruiters" EntityType="fashionquadrantModel.Store.tb_blockedrecruiters" store:Type="Tables" Schema="fashionquadrant" />
+    <EntitySet Name="tb_branding" EntityType="fashionquadrantModel.Store.tb_branding" store:Type="Tables" Schema="fashionquadrant" />
+    <EntitySet Name="tb_cpanel" EntityType="fashionquadrantModel.Store.tb_cpanel" store:Type="Tables" Schema="fashionquadrant" />
+    <EntitySet Name="tb_creditjobposting" EntityType="fashionquadrantModel.Store.tb_creditjobposting" store:Type="Tables" Schema="fashionquadrant" />
+    <EntitySet Name="tb_creditpostingstatus" EntityType="fashionquadrantModel.Store.tb_creditpostingstatus" store:Type="Tables" Schema="fashionquadrant" />
+    <EntitySet Name="tb_creditpromotions" EntityType="fashionquadrantModel.Store.tb_creditpromotions" store:Type="Tables" Schema="fashionquadrant" />
+    <EntitySet Name="tb_creditservicecodes" EntityType="fashionquadrantModel.Store.tb_creditservicecodes" store:Type="Tables" Schema="fashionquadrant" />
+    <EntitySet Name="tb_creditsession" EntityType="fashionquadrantModel.Store.tb_creditsession" store:Type="Tables" Schema="fashionquadrant" />
+    <EntitySet Name="tb_currency" EntityType="fashionquadrantModel.Store.tb_currency" store:Type="Tables" Schema="fashionquadrant" />
+    <EntitySet Name="tb_cvsearchdata" EntityType="fashionquadrantModel.Store.tb_cvsearchdata" store:Type="Tables" Schema="fashionquadrant" />
+    <EntitySet Name="tb_debugger" EntityType="fashionquadrantModel.Store.tb_debugger" store:Type="Tables" Schema="fashionquadrant" />
+    <EntitySet Name="tb_email_user" EntityType="fashionquadrantModel.Store.tb_email_user" store:Type="Tables" Schema="fashionquadrant" />
+    <EntitySet Name="tb_emaillog" EntityType="fashionquadrantModel.Store.tb_emaillog" store:Type="Tables" Schema="fashionquadrant" />
+    <EntitySet Name="tb_emailtemplates" EntityType="fashionquadrantModel.Store.tb_emailtemplates" store:Type="Tables" Schema="fashionquadrant" />
+    <EntitySet Name="tb_emailtypes" EntityType="fashionquadrantModel.Store.tb_emailtypes" store:Type="Tables" Schema="fashionquadrant" />
+    <EntitySet Name="tb_emailunsubscribe" EntityType="fashionquadrantModel.Store.tb_emailunsubscribe" store:Type="Tables" Schema="fashionquadrant" />
+    <EntitySet Name="tb_featured_rec_status" EntityType="fashionquadrantModel.Store.tb_featured_rec_status" store:Type="Tables" Schema="fashionquadrant" />
+    <EntitySet Name="tb_footerlinks" EntityType="fashionquadrantModel.Store.tb_footerlinks" store:Type="Tables" Schema="fashionquadrant" />
+    <EntitySet Name="tb_geomiles" EntityType="fashionquadrantModel.Store.tb_geomiles" store:Type="Tables" Schema="fashionquadrant" />
+    <EntitySet Name="tb_geoukpostcodes" EntityType="fashionquadrantModel.Store.tb_geoukpostcodes" store:Type="Tables" Schema="fashionquadrant" />
+    <EntitySet Name="tb_headerlinks" EntityType="fashionquadrantModel.Store.tb_headerlinks" store:Type="Tables" Schema="fashionquadrant" />
+    <EntitySet Name="tb_helpcentercat" EntityType="fashionquadrantModel.Store.tb_helpcentercat" store:Type="Tables" Schema="fashionquadrant" />
+    <EntitySet Name="tb_helpcenterqs" EntityType="fashionquadrantModel.Store.tb_helpcenterqs" store:Type="Tables" Schema="fashionquadrant" />
+    <EntitySet Name="tb_jobfeaturedstatus" EntityType="fashionquadrantModel.Store.tb_jobfeaturedstatus" store:Type="Tables" Schema="fashionquadrant" />
+    <EntitySet Name="tb_languages" EntityType="fashionquadrantModel.Store.tb_languages" store:Type="Tables" Schema="fashionquadrant" />
+    <EntitySet Name="tb_languagetrans" EntityType="fashionquadrantModel.Store.tb_languagetrans" store:Type="Tables" Schema="fashionquadrant" />
+    <EntitySet Name="tb_loadbalancer" EntityType="fashionquadrantModel.Store.tb_loadbalancer" store:Type="Tables" Schema="fashionquadrant" />
+    <EntitySet Name="tb_locationipcountry" EntityType="fashionquadrantModel.Store.tb_locationipcountry" store:Type="Tables" Schema="fashionquadrant" />
+    <EntitySet Name="tb_microcat" EntityType="fashionquadrantModel.Store.tb_microcat" store:Type="Tables" Schema="fashionquadrant" />
+    <EntitySet Name="tb_middlelinks" EntityType="fashionquadrantModel.Store.tb_middlelinks" store:Type="Tables" Schema="fashionquadrant" />
+    <EntitySet Name="tb_myresumes" EntityType="fashionquadrantModel.Store.tb_myresumes" store:Type="Tables" Schema="fashionquadrant" />
+    <EntitySet Name="tb_notes" EntityType="fashionquadrantModel.Store.tb_notes" store:Type="Tables" Schema="fashionquadrant" />
+    <EntitySet Name="tb_passwordlog" EntityType="fashionquadrantModel.Store.tb_passwordlog" store:Type="Tables" Schema="fashionquadrant" />
+    <EntitySet Name="tb_paypal" EntityType="fashionquadrantModel.Store.tb_paypal" store:Type="Tables" Schema="fashionquadrant" />
+    <EntitySet Name="tb_pluginanalytics" EntityType="fashionquadrantModel.Store.tb_pluginanalytics" store:Type="Tables" Schema="fashionquadrant" />
+    <EntitySet Name="tb_pluginsharethis" EntityType="fashionquadrantModel.Store.tb_pluginsharethis" store:Type="Tables" Schema="fashionquadrant" />
+    <EntitySet Name="tb_privacystatus" EntityType="fashionquadrantModel.Store.tb_privacystatus" store:Type="Tables" Schema="fashionquadrant" />
+    <EntitySet Name="tb_question_holder" EntityType="fashionquadrantModel.Store.tb_question_holder" store:Type="Tables" Schema="fashionquadrant" />
+    <EntitySet Name="tb_question_link" EntityType="fashionquadrantModel.Store.tb_question_link" store:Type="Tables" Schema="fashionquadrant" />
+    <EntitySet Name="tb_questions" EntityType="fashionquadrantModel.Store.tb_questions" store:Type="Tables" Schema="fashionquadrant" />
+    <EntitySet Name="tb_rec_of_week_status" EntityType="fashionquadrantModel.Store.tb_rec_of_week_status" store:Type="Tables" Schema="fashionquadrant" />
+    <EntitySet Name="tb_rec_user_link" EntityType="fashionquadrantModel.Store.tb_rec_user_link" store:Type="Tables" Schema="fashionquadrant" />
+    <EntitySet Name="tb_recappviews" EntityType="fashionquadrantModel.Store.tb_recappviews" store:Type="Tables" Schema="fashionquadrant" />
+    <EntitySet Name="tb_recruiterstatus" EntityType="fashionquadrantModel.Store.tb_recruiterstatus" store:Type="Tables" Schema="fashionquadrant" />
+    <EntitySet Name="tb_res_education" EntityType="fashionquadrantModel.Store.tb_res_education" store:Type="Tables" Schema="fashionquadrant" />
+    <EntitySet Name="tb_res_experience" EntityType="fashionquadrantModel.Store.tb_res_experience" store:Type="Tables" Schema="fashionquadrant" />
+    <EntitySet Name="tb_res_main" EntityType="fashionquadrantModel.Store.tb_res_main" store:Type="Tables" Schema="fashionquadrant" />
+    <EntitySet Name="tb_res_profile" EntityType="fashionquadrantModel.Store.tb_res_profile" store:Type="Tables" Schema="fashionquadrant" />
+    <EntitySet Name="tb_res_references" EntityType="fashionquadrantModel.Store.tb_res_references" store:Type="Tables" Schema="fashionquadrant" />
+    <EntitySet Name="tb_res_skills" EntityType="fashionquadrantModel.Store.tb_res_skills" store:Type="Tables" Schema="fashionquadrant" />
+    <EntitySet Name="tb_savedjobs" EntityType="fashionquadrantModel.Store.tb_savedjobs" store:Type="Tables" Schema="fashionquadrant" />
+    <EntitySet Name="tb_savedsearches" EntityType="fashionquadrantModel.Store.tb_savedsearches" store:Type="Tables" Schema="fashionquadrant" />
+    <EntitySet Name="tb_searchhistory" EntityType="fashionquadrantModel.Store.tb_searchhistory" store:Type="Tables" Schema="fashionquadrant" />
+    <EntitySet Name="tb_sessions" EntityType="fashionquadrantModel.Store.tb_sessions" store:Type="Tables" Schema="fashionquadrant" />
+    <EntitySet Name="tb_siteheader" EntityType="fashionquadrantModel.Store.tb_siteheader" store:Type="Tables" Schema="fashionquadrant" />
+    <EntitySet Name="tb_sitemaps" EntityType="fashionquadrantModel.Store.tb_sitemaps" store:Type="Tables" Schema="fashionquadrant" />
+    <EntitySet Name="tb_sitesearch" EntityType="fashionquadrantModel.Store.tb_sitesearch" store:Type="Tables" Schema="fashionquadrant" />
+    <EntitySet Name="tb_sitesuggestions" EntityType="fashionquadrantModel.Store.tb_sitesuggestions" store:Type="Tables" Schema="fashionquadrant" />
+    <EntitySet Name="tb_spamreport" EntityType="fashionquadrantModel.Store.tb_spamreport" store:Type="Tables" Schema="fashionquadrant" />
+    <EntitySet Name="tb_subscriptionpref" EntityType="fashionquadrantModel.Store.tb_subscriptionpref" store:Type="Tables" Schema="fashionquadrant" />
+    <EntitySet Name="tb_subscriptions" EntityType="fashionquadrantModel.Store.tb_subscriptions" store:Type="Tables" Schema="fashionquadrant" />
+    <EntitySet Name="tb_subsite" EntityType="fashionquadrantModel.Store.tb_subsite" store:Type="Tables" Schema="fashionquadrant" />
+    <EntitySet Name="tb_subsite_adverts" EntityType="fashionquadrantModel.Store.tb_subsite_adverts" store:Type="Tables" Schema="fashionquadrant" />
+    <EntitySet Name="tb_subsite_category" EntityType="fashionquadrantModel.Store.tb_subsite_category" store:Type="Tables" Schema="fashionquadrant" />
+    <EntitySet Name="tb_subsite_font" EntityType="fashionquadrantModel.Store.tb_subsite_font" store:Type="Tables" Schema="fashionquadrant" />
+    <EntitySet Name="tb_subsite_images" EntityType="fashionquadrantModel.Store.tb_subsite_images" store:Type="Tables" Schema="fashionquadrant" />
+    <EntitySet Name="tb_subsite_job_acl" EntityType="fashionquadrantModel.Store.tb_subsite_job_acl" store:Type="Tables" Schema="fashionquadrant" />
+    <EntitySet Name="tb_subsite_link_cat" EntityType="fashionquadrantModel.Store.tb_subsite_link_cat" store:Type="Tables" Schema="fashionquadrant" />
+    <EntitySet Name="tb_subsite_recruiter_acl" EntityType="fashionquadrantModel.Store.tb_subsite_recruiter_acl" store:Type="Tables" Schema="fashionquadrant" />
+    <EntitySet Name="tb_subsite_subcats" EntityType="fashionquadrantModel.Store.tb_subsite_subcats" store:Type="Tables" Schema="fashionquadrant" />
+    <EntitySet Name="tb_subsite_templates" EntityType="fashionquadrantModel.Store.tb_subsite_templates" store:Type="Tables" Schema="fashionquadrant" />
+    <EntitySet Name="tb_subsite_themes" EntityType="fashionquadrantModel.Store.tb_subsite_themes" store:Type="Tables" Schema="fashionquadrant" />
+    <EntitySet Name="tb_themes" EntityType="fashionquadrantModel.Store.tb_themes" store:Type="Tables" Schema="fashionquadrant" />
+    <EntitySet Name="tb_translation" EntityType="fashionquadrantModel.Store.tb_translation" store:Type="Tables" Schema="fashionquadrant" />
+    <EntitySet Name="tb_userarchives" EntityType="fashionquadrantModel.Store.tb_userarchives" store:Type="Tables" Schema="fashionquadrant" />
+    <EntitySet Name="tb_usermoderation" EntityType="fashionquadrantModel.Store.tb_usermoderation" store:Type="Tables" Schema="fashionquadrant" />
+    <EntitySet Name="tb_usermoderationtypes" EntityType="fashionquadrantModel.Store.tb_usermoderationtypes" store:Type="Tables" Schema="fashionquadrant" />
+    <EntitySet Name="tb_usertype" EntityType="fashionquadrantModel.Store.tb_usertype" store:Type="Tables" Schema="fashionquadrant" />
+    <EntitySet Name="tb_version" EntityType="fashionquadrantModel.Store.tb_version" store:Type="Tables" Schema="fashionquadrant" />
+    <EntitySet Name="tb_videos" EntityType="fashionquadrantModel.Store.tb_videos" store:Type="Tables" Schema="fashionquadrant" />
+    <EntitySet Name="tb_videostatus" EntityType="fashionquadrantModel.Store.tb_videostatus" store:Type="Tables" Schema="fashionquadrant" />
+    <EntitySet Name="tb_webservicejobs" EntityType="fashionquadrantModel.Store.tb_webservicejobs" store:Type="Tables" Schema="fashionquadrant" />
+    <EntitySet Name="tb_webservicerec" EntityType="fashionquadrantModel.Store.tb_webservicerec" store:Type="Tables" Schema="fashionquadrant" />
+    <EntitySet Name="tb_webserviceusr" EntityType="fashionquadrantModel.Store.tb_webserviceusr" store:Type="Tables" Schema="fashionquadrant" />
+    <EntitySet Name="tb_widgetlog" EntityType="fashionquadrantModel.Store.tb_widgetlog" store:Type="Tables" Schema="fashionquadrant" />
+    <EntitySet Name="tb_widgettype" EntityType="fashionquadrantModel.Store.tb_widgettype" store:Type="Tables" Schema="fashionquadrant" />
+    <EntitySet Name="users" EntityType="fashionquadrantModel.Store.users" store:Type="Tables" Schema="fashionquadrant" />
+    <EntitySet Name="vw_aggregatedmpage" EntityType="fashionquadrantModel.Store.vw_aggregatedmpage" store:Type="Views" store:Schema="fashionquadrant" store:Name="vw_aggregatedmpage">
+      <DefiningQuery>SELECT
+      `vw_aggregatedmpage`.`applicationvolume`, 
+      `vw_aggregatedmpage`.`video`, 
+      `vw_aggregatedmpage`.`idJobs`, 
+      `vw_aggregatedmpage`.`sTitle`, 
+      `vw_aggregatedmpage`.`Company`, 
+      `vw_aggregatedmpage`.`sShortDescription`, 
+      `vw_aggregatedmpage`.`sFreeText`, 
+      `vw_aggregatedmpage`.`dtEnteredDate`, 
+      `vw_aggregatedmpage`.`liparent`, 
+      `vw_aggregatedmpage`.`slocation`, 
+      `vw_aggregatedmpage`.`sSalaryText`, 
+      `vw_aggregatedmpage`.`sMinSal`, 
+      `vw_aggregatedmpage`.`EmployeeID`, 
+      `vw_aggregatedmpage`.`sMaxSal`
+      FROM `vw_aggregatedmpage` AS `vw_aggregatedmpage`</DefiningQuery>
+    </EntitySet>
+    <EntitySet Name="vw_aggregatedmulti" EntityType="fashionquadrantModel.Store.vw_aggregatedmulti" store:Type="Views" store:Schema="fashionquadrant" store:Name="vw_aggregatedmulti">
+      <DefiningQuery>SELECT
+      `vw_aggregatedmulti`.`applicationvolume`, 
+      `vw_aggregatedmulti`.`sdefinition`, 
+      `vw_aggregatedmulti`.`spostcode`, 
+      `vw_aggregatedmulti`.`idJobs`, 
+      `vw_aggregatedmulti`.`sisvideoenabled`, 
+      `vw_aggregatedmulti`.`sTitle`, 
+      `vw_aggregatedmulti`.`video`, 
+      `vw_aggregatedmulti`.`company`, 
+      `vw_aggregatedmulti`.`slocation`, 
+      `vw_aggregatedmulti`.`cdefinition`, 
+      `vw_aggregatedmulti`.`catid`, 
+      `vw_aggregatedmulti`.`liparent`, 
+      `vw_aggregatedmulti`.`currency`, 
+      `vw_aggregatedmulti`.`srecruitername`, 
+      `vw_aggregatedmulti`.`sShortDescription`, 
+      `vw_aggregatedmulti`.`sFreeText`, 
+      `vw_aggregatedmulti`.`dtEnteredDate`, 
+      `vw_aggregatedmulti`.`sSalaryText`, 
+      `vw_aggregatedmulti`.`sMinSal`, 
+      `vw_aggregatedmulti`.`EmployeeID`, 
+      `vw_aggregatedmulti`.`subcatid`, 
+      `vw_aggregatedmulti`.`sMaxSal`
+      FROM `vw_aggregatedmulti` AS `vw_aggregatedmulti`</DefiningQuery>
+    </EntitySet>
+    <EntitySet Name="vw_applicationaggregate" EntityType="fashionquadrantModel.Store.vw_applicationaggregate" store:Type="Views" store:Schema="fashionquadrant" store:Name="vw_applicationaggregate">
+      <DefiningQuery>SELECT
+      `vw_applicationaggregate`.`idjobs`, 
+      `vw_applicationaggregate`.`applicationvolume`
+      FROM `vw_applicationaggregate` AS `vw_applicationaggregate`</DefiningQuery>
+    </EntitySet>
+    <EntitySet Name="vw_applytitlefilter" EntityType="fashionquadrantModel.Store.vw_applytitlefilter" store:Type="Views" store:Schema="fashionquadrant" store:Name="vw_applytitlefilter">
+      <DefiningQuery>SELECT
+      `vw_applytitlefilter`.`idjobs`, 
+      `vw_applytitlefilter`.`stitle`, 
+      `vw_applytitlefilter`.`srecruitername`, 
+      `vw_applytitlefilter`.`company`, 
+      `vw_applytitlefilter`.`sshortdescription`, 
+      `vw_applytitlefilter`.`sjobenddate`, 
+      `vw_applytitlefilter`.`dtentereddate`, 
+      `vw_applytitlefilter`.`currency`, 
+      `vw_applytitlefilter`.`video`, 
+      `vw_applytitlefilter`.`ssalarytext`, 
+      `vw_applytitlefilter`.`slocation`, 
+      `vw_applytitlefilter`.`spostcode`, 
+      `vw_applytitlefilter`.`sfreetext`, 
+      `vw_applytitlefilter`.`sisvideoenabled`, 
+      `vw_applytitlefilter`.`applicationvolume`
+      FROM `vw_applytitlefilter` AS `vw_applytitlefilter`</DefiningQuery>
+    </EntitySet>
+    <EntitySet Name="vw_brfilter" EntityType="fashionquadrantModel.Store.vw_brfilter" store:Type="Views" store:Schema="fashionquadrant" store:Name="vw_brfilter">
+      <DefiningQuery>SELECT
+      `vw_brfilter`.`subcatid`, 
+      `vw_brfilter`.`sdefinition`, 
+      `vw_brfilter`.`liparent`, 
+      `vw_brfilter`.`ctotals`, 
+      `vw_brfilter`.`catid`, 
+      `vw_brfilter`.`cdefinition`
+      FROM `vw_brfilter` AS `vw_brfilter`</DefiningQuery>
+    </EntitySet>
+    <EntitySet Name="vw_brmainstart" EntityType="fashionquadrantModel.Store.vw_brmainstart" store:Type="Views" store:Schema="fashionquadrant" store:Name="vw_brmainstart">
+      <DefiningQuery>SELECT
+      `vw_brmainstart`.`subcatid`, 
+      `vw_brmainstart`.`sdefinition`, 
+      `vw_brmainstart`.`ctotals`
+      FROM `vw_brmainstart` AS `vw_brmainstart`</DefiningQuery>
+    </EntitySet>
+    <EntitySet Name="vw_brsubview" EntityType="fashionquadrantModel.Store.vw_brsubview" store:Type="Views" store:Schema="fashionquadrant" store:Name="vw_brsubview">
+      <DefiningQuery>SELECT
+      `vw_brsubview`.`subcatid`, 
+      `vw_brsubview`.`sdefinition`, 
+      `vw_brsubview`.`ctotals`, 
+      `vw_brsubview`.`liparent`
+      FROM `vw_brsubview` AS `vw_brsubview`</DefiningQuery>
+    </EntitySet>
+    <EntitySet Name="vw_cmslinks" EntityType="fashionquadrantModel.Store.vw_cmslinks" store:Type="Views" store:Schema="fashionquadrant" store:Name="vw_cmslinks">
+      <DefiningQuery>SELECT
+      `vw_cmslinks`.`id_headerlinks`, 
+      `vw_cmslinks`.`hlinkname`, 
+      `vw_cmslinks`.`hlinktexturl`, 
+      `vw_cmslinks`.`hlinkimgurl`
+      FROM `vw_cmslinks` AS `vw_cmslinks`</DefiningQuery>
+    </EntitySet>
+    <EntitySet Name="vw_cmsusermoderation" EntityType="fashionquadrantModel.Store.vw_cmsusermoderation" store:Type="Views" store:Schema="fashionquadrant" store:Name="vw_cmsusermoderation">
+      <DefiningQuery>SELECT
+      `vw_cmsusermoderation`.`idtb_usermoderation`, 
+      `vw_cmsusermoderation`.`idusers`, 
+      `vw_cmsusermoderation`.`dtrequested`, 
+      `vw_cmsusermoderation`.`requesttype`, 
+      `vw_cmsusermoderation`.`sdefinition`
+      FROM `vw_cmsusermoderation` AS `vw_cmsusermoderation`</DefiningQuery>
+    </EntitySet>
+    <EntitySet Name="vw_defaulttextsub" EntityType="fashionquadrantModel.Store.vw_defaulttextsub" store:Type="Views" store:Schema="fashionquadrant" store:Name="vw_defaulttextsub">
+      <DefiningQuery>SELECT
+      `vw_defaulttextsub`.`idjobs`, 
+      `vw_defaulttextsub`.`counts`, 
+      `vw_defaulttextsub`.`sdefinition`, 
+      `vw_defaulttextsub`.`subcatid`
+      FROM `vw_defaulttextsub` AS `vw_defaulttextsub`</DefiningQuery>
+    </EntitySet>
+    <EntitySet Name="vw_emailtemplatesshow" EntityType="fashionquadrantModel.Store.vw_emailtemplatesshow" store:Type="Views" store:Schema="fashionquadrant" store:Name="vw_emailtemplatesshow">
+      <DefiningQuery>SELECT
+      `vw_emailtemplatesshow`.`idemailtemplates`, 
+      `vw_emailtemplatesshow`.`eheader`, 
+      `vw_emailtemplatesshow`.`edescription`, 
+      `vw_emailtemplatesshow`.`efooter`, 
+      `vw_emailtemplatesshow`.`etemplatechkid`
+      FROM `vw_emailtemplatesshow` AS `vw_emailtemplatesshow`</DefiningQuery>
+    </EntitySet>
+    <EntitySet Name="vw_emailtosend" EntityType="fashionquadrantModel.Store.vw_emailtosend" store:Type="Views" store:Schema="fashionquadrant" store:Name="vw_emailtosend">
+      <DefiningQuery>SELECT
+      `vw_emailtosend`.`idjobs`, 
+      `vw_emailtosend`.`sTitle`, 
+      `vw_emailtosend`.`sShortDescription`, 
+      `vw_emailtosend`.`dtentered`, 
+      `vw_emailtosend`.`sJobstartdate`, 
+      `vw_emailtosend`.`sjobenddate`, 
+      `vw_emailtosend`.`slocation`, 
+      `vw_emailtosend`.`sSalaryText`, 
+      `vw_emailtosend`.`sPostcode`, 
+      `vw_emailtosend`.`emailaddress`
+      FROM `vw_emailtosend` AS `vw_emailtosend`</DefiningQuery>
+    </EntitySet>
+    <EntitySet Name="vw_get_userans" EntityType="fashionquadrantModel.Store.vw_get_userans" store:Type="Views" store:Schema="fashionquadrant" store:Name="vw_get_userans">
+      <DefiningQuery>SELECT
+      `vw_get_userans`.`idans`, 
+      `vw_get_userans`.`answer`, 
+      `vw_get_userans`.`idquestion`, 
+      `vw_get_userans`.`qquestion`, 
+      `vw_get_userans`.`idapplication`
+      FROM `vw_get_userans` AS `vw_get_userans`</DefiningQuery>
+    </EntitySet>
+    <EntitySet Name="vw_getactivejobs" EntityType="fashionquadrantModel.Store.vw_getactivejobs" store:Type="Views" store:Schema="fashionquadrant" store:Name="vw_getactivejobs">
+      <DefiningQuery>SELECT
+      `vw_getactivejobs`.`total`, 
+      `vw_getactivejobs`.`username`
+      FROM `vw_getactivejobs` AS `vw_getactivejobs`</DefiningQuery>
+    </EntitySet>
+    <EntitySet Name="vw_getallrec" EntityType="fashionquadrantModel.Store.vw_getallrec" store:Type="Views" store:Schema="fashionquadrant" store:Name="vw_getallrec">
+      <DefiningQuery>SELECT
+      `vw_getallrec`.`empid`, 
+      `vw_getallrec`.`sCompleteDesc`, 
+      `vw_getallrec`.`sDescription`, 
+      `vw_getallrec`.`Artifact_data`, 
+      `vw_getallrec`.`sRecruiterName`, 
+      `vw_getallrec`.`swebsite`, 
+      `vw_getallrec`.`sisagent`, 
+      `vw_getallrec`.`semailaddress`, 
+      `vw_getallrec`.`totaljobs`
+      FROM `vw_getallrec` AS `vw_getallrec`</DefiningQuery>
+    </EntitySet>
+    <EntitySet Name="vw_getapp" EntityType="fashionquadrantModel.Store.vw_getapp" store:Type="Views" store:Schema="fashionquadrant" store:Name="vw_getapp">
+      <DefiningQuery>SELECT
+      `vw_getapp`.`idJobs`, 
+      `vw_getapp`.`appstatus`, 
+      `vw_getapp`.`idstatus`, 
+      `vw_getapp`.`sTitle`, 
+      `vw_getapp`.`sShortDescription`, 
+      `vw_getapp`.`sDescription`, 
+      `vw_getapp`.`completeurl`, 
+      `vw_getapp`.`dtEnteredDate`, 
+      `vw_getapp`.`sSalaryText`, 
+      `vw_getapp`.`sMinSal`, 
+      `vw_getapp`.`sMaxSal`, 
+      `vw_getapp`.`sRef`, 
+      `vw_getapp`.`sFreeText`, 
+      `vw_getapp`.`sJobstartdate`, 
+      `vw_getapp`.`sJobenddate`, 
+      `vw_getapp`.`idApplications`, 
+      `vw_getapp`.`liCandidateID`, 
+      `vw_getapp`.`dtEntered`, 
+      `vw_getapp`.`aFirstName`, 
+      `vw_getapp`.`aLastName`, 
+      `vw_getapp`.`aProfileSummary`, 
+      `vw_getapp`.`documentID`, 
+      `vw_getapp`.`aApplicationEmail`, 
+      `vw_getapp`.`empid`, 
+      `vw_getapp`.`srecruitername`
+      FROM `vw_getapp` AS `vw_getapp`</DefiningQuery>
+    </EntitySet>
+    <EntitySet Name="vw_getarchivedjobs" EntityType="fashionquadrantModel.Store.vw_getarchivedjobs" store:Type="Views" store:Schema="fashionquadrant" store:Name="vw_getarchivedjobs">
+      <DefiningQuery>SELECT
+      `vw_getarchivedjobs`.`total`, 
+      `vw_getarchivedjobs`.`username`
+      FROM `vw_getarchivedjobs` AS `vw_getarchivedjobs`</DefiningQuery>
+    </EntitySet>
+    <EntitySet Name="vw_getblockedrec" EntityType="fashionquadrantModel.Store.vw_getblockedrec" store:Type="Views" store:Schema="fashionquadrant" store:Name="vw_getblockedrec">
+      <DefiningQuery>SELECT
+      `vw_getblockedrec`.`empid`, 
+      `vw_getblockedrec`.`srecruitername`, 
+      `vw_getblockedrec`.`idcandidates`
+      FROM `vw_getblockedrec` AS `vw_getblockedrec`</DefiningQuery>
+    </EntitySet>
+    <EntitySet Name="vw_getdetailspages" EntityType="fashionquadrantModel.Store.vw_getdetailspages" store:Type="Views" store:Schema="fashionquadrant" store:Name="vw_getdetailspages">
+      <DefiningQuery>SELECT
+      `vw_getdetailspages`.`idJobs`, 
+      `vw_getdetailspages`.`minrange`, 
+      `vw_getdetailspages`.`maxrange`, 
+      `vw_getdetailspages`.`subcatid`, 
+      `vw_getdetailspages`.`catid`, 
+      `vw_getdetailspages`.`sdefinition`
+      FROM `vw_getdetailspages` AS `vw_getdetailspages`</DefiningQuery>
+    </EntitySet>
+    <EntitySet Name="vw_getfrecs" EntityType="fashionquadrantModel.Store.vw_getfrecs" store:Type="Views" store:Schema="fashionquadrant" store:Name="vw_getfrecs">
+      <DefiningQuery>SELECT
+      `vw_getfrecs`.`Sponsored`, 
+      `vw_getfrecs`.`artifact_data`, 
+      `vw_getfrecs`.`sTitle`, 
+      `vw_getfrecs`.`idjobs`
+      FROM `vw_getfrecs` AS `vw_getfrecs`</DefiningQuery>
+    </EntitySet>
+    <EntitySet Name="vw_getjobs" EntityType="fashionquadrantModel.Store.vw_getjobs" store:Type="Views" store:Schema="fashionquadrant" store:Name="vw_getjobs">
+      <DefiningQuery>SELECT
+      `vw_getjobs`.`idJobs`, 
+      `vw_getjobs`.`spostcode`, 
+      `vw_getjobs`.`video`, 
+      `vw_getjobs`.`cdefinition`, 
+      `vw_getjobs`.`catid`, 
+      `vw_getjobs`.`sTitle`, 
+      `vw_getjobs`.`liparent`, 
+      `vw_getjobs`.`sShortDescription`, 
+      `vw_getjobs`.`sFreeText`, 
+      `vw_getjobs`.`slocation`, 
+      `vw_getjobs`.`company`, 
+      `vw_getjobs`.`sisvideoenabled`, 
+      `vw_getjobs`.`sDescription`, 
+      `vw_getjobs`.`sdefinition`, 
+      `vw_getjobs`.`currency`, 
+      `vw_getjobs`.`dtEnteredDate`, 
+      `vw_getjobs`.`srecruitername`, 
+      `vw_getjobs`.`sSalaryText`, 
+      `vw_getjobs`.`sMinSal`, 
+      `vw_getjobs`.`EmployeeID`, 
+      `vw_getjobs`.`subcatid`, 
+      `vw_getjobs`.`sMaxSal`
+      FROM `vw_getjobs` AS `vw_getjobs`</DefiningQuery>
+    </EntitySet>
+    <EntitySet Name="vw_getjobsarch" EntityType="fashionquadrantModel.Store.vw_getjobsarch" store:Type="Views" store:Schema="fashionquadrant" store:Name="vw_getjobsarch">
+      <DefiningQuery>SELECT
+      `vw_getjobsarch`.`idJobs`, 
+      `vw_getjobsarch`.`sTitle`, 
+      `vw_getjobsarch`.`sShortDescription`, 
+      `vw_getjobsarch`.`sFreeText`, 
+      `vw_getjobsarch`.`sDescription`, 
+      `vw_getjobsarch`.`sjobenddate`, 
+      `vw_getjobsarch`.`dtEnteredDate`, 
+      `vw_getjobsarch`.`sSalaryText`, 
+      `vw_getjobsarch`.`sMinSal`, 
+      `vw_getjobsarch`.`EmployeeID`, 
+      `vw_getjobsarch`.`sMaxSal`
+      FROM `vw_getjobsarch` AS `vw_getjobsarch`</DefiningQuery>
+    </EntitySet>
+    <EntitySet Name="vw_getjobssingle" EntityType="fashionquadrantModel.Store.vw_getjobssingle" store:Type="Views" store:Schema="fashionquadrant" store:Name="vw_getjobssingle">
+      <DefiningQuery>SELECT
+      `vw_getjobssingle`.`idJobs`, 
+      `vw_getjobssingle`.`Company`, 
+      `vw_getjobssingle`.`sTitle`, 
+      `vw_getjobssingle`.`sShortDescription`, 
+      `vw_getjobssingle`.`sFreeText`, 
+      `vw_getjobssingle`.`sjobenddate`, 
+      `vw_getjobssingle`.`dtEnteredDate`, 
+      `vw_getjobssingle`.`video`, 
+      `vw_getjobssingle`.`sSalaryText`, 
+      `vw_getjobssingle`.`liparent`, 
+      `vw_getjobssingle`.`sMinSal`, 
+      `vw_getjobssingle`.`EmployeeID`, 
+      `vw_getjobssingle`.`slocation`, 
+      `vw_getjobssingle`.`sMaxSal`
+      FROM `vw_getjobssingle` AS `vw_getjobssingle`</DefiningQuery>
+    </EntitySet>
+    <EntitySet Name="vw_getjobssinglearch" EntityType="fashionquadrantModel.Store.vw_getjobssinglearch" store:Type="Views" store:Schema="fashionquadrant" store:Name="vw_getjobssinglearch">
+      <DefiningQuery>SELECT
+      `vw_getjobssinglearch`.`idJobs`, 
+      `vw_getjobssinglearch`.`sTitle`, 
+      `vw_getjobssinglearch`.`sShortDescription`, 
+      `vw_getjobssinglearch`.`sFreeText`, 
+      `vw_getjobssinglearch`.`sDescription`, 
+      `vw_getjobssinglearch`.`dtEnteredDate`, 
+      `vw_getjobssinglearch`.`sSalaryText`, 
+      `vw_getjobssinglearch`.`sMinSal`, 
+      `vw_getjobssinglearch`.`EmployeeID`, 
+      `vw_getjobssinglearch`.`subcatid`, 
+      `vw_getjobssinglearch`.`sMaxSal`
+      FROM `vw_getjobssinglearch` AS `vw_getjobssinglearch`</DefiningQuery>
+    </EntitySet>
+    <EntitySet Name="vw_getmyapps" EntityType="fashionquadrantModel.Store.vw_getmyapps" store:Type="Views" store:Schema="fashionquadrant" store:Name="vw_getmyapps">
+      <DefiningQuery>SELECT
+      `vw_getmyapps`.`idApplications`, 
+      `vw_getmyapps`.`sRecruiterName`, 
+      `vw_getmyapps`.`Applicationstatus`, 
+      `vw_getmyapps`.`stitle`, 
+      `vw_getmyapps`.`liCandidateID`, 
+      `vw_getmyapps`.`dtEntered`, 
+      `vw_getmyapps`.`aFirstName`, 
+      `vw_getmyapps`.`aLastName`, 
+      `vw_getmyapps`.`aProfileSummary`, 
+      `vw_getmyapps`.`uusername`, 
+      `vw_getmyapps`.`idCandidates`, 
+      `vw_getmyapps`.`cCandidateName`, 
+      `vw_getmyapps`.`cFirstName`, 
+      `vw_getmyapps`.`cLastName`, 
+      `vw_getmyapps`.`idusers`
+      FROM `vw_getmyapps` AS `vw_getmyapps`</DefiningQuery>
+    </EntitySet>
+    <EntitySet Name="vw_getrecofweek" EntityType="fashionquadrantModel.Store.vw_getrecofweek" store:Type="Views" store:Schema="fashionquadrant" store:Name="vw_getrecofweek">
+      <DefiningQuery>SELECT
+      `vw_getrecofweek`.`Sponsored`, 
+      `vw_getrecofweek`.`empid`, 
+      `vw_getrecofweek`.`Artifact_data`, 
+      `vw_getrecofweek`.`sDescription`
+      FROM `vw_getrecofweek` AS `vw_getrecofweek`</DefiningQuery>
+    </EntitySet>
+    <EntitySet Name="vw_getsalforcalc" EntityType="fashionquadrantModel.Store.vw_getsalforcalc" store:Type="Views" store:Schema="fashionquadrant" store:Name="vw_getsalforcalc">
+      <DefiningQuery>SELECT
+      `vw_getsalforcalc`.`divisor`, 
+      `vw_getsalforcalc`.`Question1`, 
+      `vw_getsalforcalc`.`Question2`, 
+      `vw_getsalforcalc`.`median_sal`, 
+      `vw_getsalforcalc`.`Question4`, 
+      `vw_getsalforcalc`.`Question5`, 
+      `vw_getsalforcalc`.`Question6`, 
+      `vw_getsalforcalc`.`Question7`, 
+      `vw_getsalforcalc`.`Question8`
+      FROM `vw_getsalforcalc` AS `vw_getsalforcalc`</DefiningQuery>
+    </EntitySet>
+    <EntitySet Name="vw_getsavedjobs" EntityType="fashionquadrantModel.Store.vw_getsavedjobs" store:Type="Views" store:Schema="fashionquadrant" store:Name="vw_getsavedjobs">
+      <DefiningQuery>SELECT
+      `vw_getsavedjobs`.`idjobs`, 
+      `vw_getsavedjobs`.`jobtitle`, 
+      `vw_getsavedjobs`.`company`, 
+      `vw_getsavedjobs`.`username`, 
+      `vw_getsavedjobs`.`posteddate`, 
+      `vw_getsavedjobs`.`uid`, 
+      `vw_getsavedjobs`.`createddate`
+      FROM `vw_getsavedjobs` AS `vw_getsavedjobs`</DefiningQuery>
+    </EntitySet>
+    <EntitySet Name="vw_getsubjectemailapps" EntityType="fashionquadrantModel.Store.vw_getsubjectemailapps" store:Type="Views" store:Schema="fashionquadrant" store:Name="vw_getsubjectemailapps">
+      <DefiningQuery>SELECT
+      `vw_getsubjectemailapps`.`sRef`, 
+      `vw_getsubjectemailapps`.`stitle`, 
+      `vw_getsubjectemailapps`.`idjobs`
+      FROM `vw_getsubjectemailapps` AS `vw_getsubjectemailapps`</DefiningQuery>
+    </EntitySet>
+    <EntitySet Name="vw_getusercans" EntityType="fashionquadrantModel.Store.vw_getusercans" store:Type="Views" store:Schema="fashionquadrant" store:Name="vw_getusercans">
+      <DefiningQuery>SELECT
+      `vw_getusercans`.`idUsers`, 
+      `vw_getusercans`.`uUserType`, 
+      `vw_getusercans`.`uUsername`, 
+      `vw_getusercans`.`uPassword`, 
+      `vw_getusercans`.`uPasswordHint`, 
+      `vw_getusercans`.`uFirstName`, 
+      `vw_getusercans`.`uLastName`, 
+      `vw_getusercans`.`uIsPrimary`, 
+      `vw_getusercans`.`uCandidateID`, 
+      `vw_getusercans`.`idCandidates`, 
+      `vw_getusercans`.`cCandidateName`, 
+      `vw_getusercans`.`cFirstName`, 
+      `vw_getusercans`.`cLastName`, 
+      `vw_getusercans`.`cAddress1`, 
+      `vw_getusercans`.`cAddress2`, 
+      `vw_getusercans`.`cAddress3`, 
+      `vw_getusercans`.`cTown`, 
+      `vw_getusercans`.`cCounty`, 
+      `vw_getusercans`.`cPostcode`, 
+      `vw_getusercans`.`cHomephone`, 
+      `vw_getusercans`.`cWorkphone`, 
+      `vw_getusercans`.`cdtEntered`, 
+      `vw_getusercans`.`cCountry`
+      FROM `vw_getusercans` AS `vw_getusercans`</DefiningQuery>
+    </EntitySet>
+    <EntitySet Name="vw_helpansbycategory" EntityType="fashionquadrantModel.Store.vw_helpansbycategory" store:Type="Views" store:Schema="fashionquadrant" store:Name="vw_helpansbycategory">
+      <DefiningQuery>SELECT
+      `vw_helpansbycategory`.`idtb_helpcenterqs`, 
+      `vw_helpansbycategory`.`Question`, 
+      `vw_helpansbycategory`.`Answer`, 
+      `vw_helpansbycategory`.`dtEntered`, 
+      `vw_helpansbycategory`.`hcatid`
+      FROM `vw_helpansbycategory` AS `vw_helpansbycategory`</DefiningQuery>
+    </EntitySet>
+    <EntitySet Name="vw_helpansgrouping" EntityType="fashionquadrantModel.Store.vw_helpansgrouping" store:Type="Views" store:Schema="fashionquadrant" store:Name="vw_helpansgrouping">
+      <DefiningQuery>SELECT
+      `vw_helpansgrouping`.`hcatid`, 
+      `vw_helpansgrouping`.`category`
+      FROM `vw_helpansgrouping` AS `vw_helpansgrouping`</DefiningQuery>
+    </EntitySet>
+    <EntitySet Name="vw_jobapplicationview" EntityType="fashionquadrantModel.Store.vw_jobapplicationview" store:Type="Views" store:Schema="fashionquadrant" store:Name="vw_jobapplicationview">
+      <DefiningQuery>SELECT
+      `vw_jobapplicationview`.`dtEntered`, 
+      `vw_jobapplicationview`.`idjobs`, 
+      `vw_jobapplicationview`.`empid`
+      FROM `vw_jobapplicationview` AS `vw_jobapplicationview`</DefiningQuery>
+    </EntitySet>
+    <EntitySet Name="vw_jobbyrec" EntityType="fashionquadrantModel.Store.vw_jobbyrec" store:Type="Views" store:Schema="fashionquadrant" store:Name="vw_jobbyrec">
+      <DefiningQuery>SELECT
+      `vw_jobbyrec`.`idjobs`, 
+      `vw_jobbyrec`.`empid`, 
+      `vw_jobbyrec`.`ssalarytext`, 
+      `vw_jobbyrec`.`stitle`, 
+      `vw_jobbyrec`.`sshortdescription`, 
+      `vw_jobbyrec`.`dtentereddate`, 
+      `vw_jobbyrec`.`slocation`, 
+      `vw_jobbyrec`.`srecruitername`
+      FROM `vw_jobbyrec` AS `vw_jobbyrec`</DefiningQuery>
+    </EntitySet>
+    <EntitySet Name="vw_jobpostedview" EntityType="fashionquadrantModel.Store.vw_jobpostedview" store:Type="Views" store:Schema="fashionquadrant" store:Name="vw_jobpostedview">
+      <DefiningQuery>SELECT
+      `vw_jobpostedview`.`idjobs`, 
+      `vw_jobpostedview`.`empid`, 
+      `vw_jobpostedview`.`dtentered`
+      FROM `vw_jobpostedview` AS `vw_jobpostedview`</DefiningQuery>
+    </EntitySet>
+    <EntitySet Name="vw_jobsoutmail" EntityType="fashionquadrantModel.Store.vw_jobsoutmail" store:Type="Views" store:Schema="fashionquadrant" store:Name="vw_jobsoutmail">
+      <DefiningQuery>SELECT
+      `vw_jobsoutmail`.`emailaddress`, 
+      `vw_jobsoutmail`.`idjobs`, 
+      `vw_jobsoutmail`.`stitle`
+      FROM `vw_jobsoutmail` AS `vw_jobsoutmail`</DefiningQuery>
+    </EntitySet>
+    <EntitySet Name="vw_jobtrendsectors" EntityType="fashionquadrantModel.Store.vw_jobtrendsectors" store:Type="Views" store:Schema="fashionquadrant" store:Name="vw_jobtrendsectors">
+      <DefiningQuery>SELECT
+      `vw_jobtrendsectors`.`jbtotal`, 
+      `vw_jobtrendsectors`.`sdefinition`
+      FROM `vw_jobtrendsectors` AS `vw_jobtrendsectors`</DefiningQuery>
+    </EntitySet>
+    <EntitySet Name="vw_logcandidate" EntityType="fashionquadrantModel.Store.vw_logcandidate" store:Type="Views" store:Schema="fashionquadrant" store:Name="vw_logcandidate">
+      <DefiningQuery>SELECT
+      `vw_logcandidate`.`idtb_userarchives`, 
+      `vw_logcandidate`.`logintime`, 
+      `vw_logcandidate`.`logindate`, 
+      `vw_logcandidate`.`uusername`, 
+      `vw_logcandidate`.`uusertype`, 
+      `vw_logcandidate`.`userip`, 
+      `vw_logcandidate`.`userdevice`
+      FROM `vw_logcandidate` AS `vw_logcandidate`</DefiningQuery>
+    </EntitySet>
+    <EntitySet Name="vw_logrecruiter" EntityType="fashionquadrantModel.Store.vw_logrecruiter" store:Type="Views" store:Schema="fashionquadrant" store:Name="vw_logrecruiter">
+      <DefiningQuery>SELECT
+      `vw_logrecruiter`.`idtb_userarchives`, 
+      `vw_logrecruiter`.`logintime`, 
+      `vw_logrecruiter`.`logindate`, 
+      `vw_logrecruiter`.`uusername`, 
+      `vw_logrecruiter`.`uusertype`, 
+      `vw_logrecruiter`.`userip`, 
+      `vw_logrecruiter`.`userdevice`
+      FROM `vw_logrecruiter` AS `vw_logrecruiter`</DefiningQuery>
+    </EntitySet>
+    <EntitySet Name="vw_recjobassignments" EntityType="fashionquadrantModel.Store.vw_recjobassignments" store:Type="Views" store:Schema="fashionquadrant" store:Name="vw_recjobassignments">
+      <DefiningQuery>SELECT
+      `vw_recjobassignments`.`idjobs`, 
+      `vw_recjobassignments`.`empid`, 
+      `vw_recjobassignments`.`uusername`
+      FROM `vw_recjobassignments` AS `vw_recjobassignments`</DefiningQuery>
+    </EntitySet>
+    <EntitySet Name="vw_recusers" EntityType="fashionquadrantModel.Store.vw_recusers" store:Type="Views" store:Schema="fashionquadrant" store:Name="vw_recusers">
+      <DefiningQuery>SELECT
+      `vw_recusers`.`idjobs`, 
+      `vw_recusers`.`empid`, 
+      `vw_recusers`.`uFirstName`, 
+      `vw_recusers`.`ulastname`
+      FROM `vw_recusers` AS `vw_recusers`</DefiningQuery>
+    </EntitySet>
+    <EntitySet Name="vw_rptspamjobs" EntityType="fashionquadrantModel.Store.vw_rptspamjobs" store:Type="Views" store:Schema="fashionquadrant" store:Name="vw_rptspamjobs">
+      <DefiningQuery>SELECT
+      `vw_rptspamjobs`.`stitle`, 
+      `vw_rptspamjobs`.`idtb_spamreport`, 
+      `vw_rptspamjobs`.`spamindex`, 
+      `vw_rptspamjobs`.`spamreason`, 
+      `vw_rptspamjobs`.`dtentered`, 
+      `vw_rptspamjobs`.`ipuser`, 
+      `vw_rptspamjobs`.`useragents`, 
+      `vw_rptspamjobs`.`jobid`
+      FROM `vw_rptspamjobs` AS `vw_rptspamjobs`</DefiningQuery>
+    </EntitySet>
+    <EntitySet Name="vw_textads" EntityType="fashionquadrantModel.Store.vw_textads" store:Type="Views" store:Schema="fashionquadrant" store:Name="vw_textads">
+      <DefiningQuery>SELECT
+      `vw_textads`.`idjobs`, 
+      `vw_textads`.`stitle`, 
+      `vw_textads`.`sshortdescription`
+      FROM `vw_textads` AS `vw_textads`</DefiningQuery>
+    </EntitySet>
+  </EntityContainer>
+  <EntityType Name="applications">
+    <Key>
+      <PropertyRef Name="idApplications" />
+    </Key>
+    <Property Name="idApplications" Type="varchar" Nullable="false" MaxLength="16" />
+    <Property Name="liCandidateID" Type="varchar" MaxLength="16" />
+    <Property Name="aFirstName" Type="varchar" MaxLength="255" />
+    <Property Name="aLastName" Type="varchar" MaxLength="255" />
+    <Property Name="aProfileSummary" Type="longtext" />
+    <Property Name="documentID" Type="varchar" MaxLength="16" />
+    <Property Name="aApplicationEmail" Type="varchar" MaxLength="255" />
+    <Property Name="aApplicationStatus" Type="int" />
+    <Property Name="dtstatuschanged" Type="datetime" />
+    <Property Name="adeleted" Type="bit" />
+    <Property Name="dtEntered" Type="date" />
+  </EntityType>
+  <EntityType Name="candidates">
+    <Key>
+      <PropertyRef Name="idCandidates" />
+    </Key>
+    <Property Name="idCandidates" Type="varchar" Nullable="false" MaxLength="16" />
+    <Property Name="cCandidateName" Type="varchar" MaxLength="255" />
+    <Property Name="cFirstName" Type="varchar" MaxLength="255" />
+    <Property Name="cLastName" Type="varchar" MaxLength="255" />
+    <Property Name="cAddress1" Type="varchar" MaxLength="255" />
+    <Property Name="cAddress2" Type="varchar" MaxLength="255" />
+    <Property Name="cAddress3" Type="varchar" MaxLength="255" />
+    <Property Name="cTown" Type="varchar" MaxLength="45" />
+    <Property Name="cCounty" Type="varchar" MaxLength="45" />
+    <Property Name="cPostcode" Type="varchar" MaxLength="10" />
+    <Property Name="cHomephone" Type="varchar" MaxLength="45" />
+    <Property Name="cWorkphone" Type="varchar" MaxLength="45" />
+    <Property Name="cdtEntered" Type="datetime" />
+    <Property Name="cCountry" Type="varchar" MaxLength="45" />
+  </EntityType>
+  <EntityType Name="categories">
+    <Key>
+      <PropertyRef Name="Catid" />
+    </Key>
+    <Property Name="Catid" Type="int" Nullable="false" />
+    <Property Name="cdefinition" Type="varchar" MaxLength="100" />
+  </EntityType>
+  <EntityType Name="categorytosubcat">
+    <Key>
+      <PropertyRef Name="idCategorytosubcat" />
+    </Key>
+    <Property Name="idCategorytosubcat" Type="uint" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="Catid" Type="int" />
+    <Property Name="subcatid" Type="int" />
+  </EntityType>
+  <EntityType Name="documents">
+    <Key>
+      <PropertyRef Name="DocumentID" />
+    </Key>
+    <Property Name="DocumentID" Type="varchar" Nullable="false" MaxLength="16" />
+    <Property Name="documentname" Type="varchar" MaxLength="100" />
+    <Property Name="Doc_data" Type="text" />
+    <Property Name="doc_url" Type="varchar" MaxLength="500" />
+  </EntityType>
+  <EntityType Name="jobs">
+    <Key>
+      <PropertyRef Name="idJobs" />
+    </Key>
+    <Property Name="idJobs" Type="varchar" Nullable="false" MaxLength="16" />
+    <Property Name="sTitle" Type="varchar" MaxLength="255" />
+    <Property Name="sShortDescription" Type="varchar" MaxLength="500" />
+    <Property Name="sDescription" Type="longtext" />
+    <Property Name="dtEnteredDate" Type="datetime" />
+    <Property Name="sSalaryText" Type="varchar" MaxLength="100" />
+    <Property Name="sMinSal" Type="int" />
+    <Property Name="sMaxSal" Type="int" />
+    <Property Name="sRef" Type="varchar" MaxLength="45" />
+    <Property Name="sFreeText" Type="varchar" MaxLength="255" />
+    <Property Name="sJobstartdate" Type="date" />
+    <Property Name="sJobenddate" Type="date" />
+    <Property Name="sLocation" Type="varchar" MaxLength="255" />
+    <Property Name="sjobisfeatured" Type="bit" />
+    <Property Name="sisvideoenabled" Type="bit" />
+    <Property Name="spostcode" Type="varchar" MaxLength="4000" />
+    <Property Name="sRecruiterName" Type="varchar" MaxLength="255" />
+    <Property Name="sLongitude" Type="varchar" MaxLength="45" />
+    <Property Name="sLatitude" Type="varchar" MaxLength="45" />
+    <Property Name="sMiles" Type="int" />
+    <Property Name="sKilometers" Type="int" />
+    <Property Name="sIswebcrawled" Type="bit" />
+    <Property Name="sWeights" Type="int" />
+    <Property Name="sNegate" Type="bit" />
+    <Property Name="dtentered" Type="date" />
+    <Property Name="dtdatetext" Type="varchar" MaxLength="45" />
+    <Property Name="sdeleted" Type="bit" />
+    <Property Name="scurrency" Type="varchar" MaxLength="3" />
+  </EntityType>
+  <EntityType Name="jobtable">
+    <Key>
+      <PropertyRef Name="JtabID" />
+    </Key>
+    <Property Name="idJobs" Type="varchar" MaxLength="16" />
+    <Property Name="Catid" Type="int" />
+    <Property Name="subcatid" Type="int" />
+    <Property Name="EmpID" Type="varchar" MaxLength="16" />
+    <Property Name="JtabID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+  </EntityType>
+  <EntityType Name="jobviews">
+    <Key>
+      <PropertyRef Name="idjobviews" />
+    </Key>
+    <Property Name="idjobviews" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="empid" Type="varchar" MaxLength="16" />
+    <Property Name="dtentered" Type="date" />
+  </EntityType>
+  <EntityType Name="privacy">
+    <Key>
+      <PropertyRef Name="idprivacy" />
+    </Key>
+    <Property Name="idprivacy" Type="varchar" Nullable="false" MaxLength="16" />
+    <Property Name="idCandidates" Type="varchar" MaxLength="16" />
+    <Property Name="idpolicy" Type="int" />
+    <Property Name="status" Type="bit" />
+  </EntityType>
+  <EntityType Name="privacycandidates">
+    <Key>
+      <PropertyRef Name="idprivacycandidates" />
+    </Key>
+    <Property Name="idprivacycandidates" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="policyname" Type="varchar" MaxLength="100" />
+  </EntityType>
+  <EntityType Name="recruiters">
+    <Key>
+      <PropertyRef Name="EmpID" />
+    </Key>
+    <Property Name="EmpID" Type="varchar" Nullable="false" MaxLength="16" />
+    <Property Name="sRecruiterName" Type="varchar" MaxLength="100" />
+    <Property Name="sAddress1" Type="varchar" MaxLength="255" />
+    <Property Name="sAddress2" Type="varchar" MaxLength="255" />
+    <Property Name="sAddress3" Type="varchar" MaxLength="255" />
+    <Property Name="sTown" Type="varchar" MaxLength="45" />
+    <Property Name="sCounty" Type="varchar" MaxLength="45" />
+    <Property Name="sCountry" Type="varchar" MaxLength="45" />
+    <Property Name="sPostcode" Type="varchar" MaxLength="10" />
+    <Property Name="sEmailAddress" Type="varchar" MaxLength="255" />
+    <Property Name="sWebsite" Type="varchar" MaxLength="500" />
+    <Property Name="sDescription" Type="varchar" MaxLength="500" />
+    <Property Name="sCompleteDesc" Type="text" />
+    <Property Name="sdtEntered" Type="datetime" />
+    <Property Name="sEnteredbyID" Type="int" />
+    <Property Name="sIsFeatured" Type="bit" />
+    <Property Name="sArtifactId" Type="int" />
+    <Property Name="sIsActive" Type="bit" />
+    <Property Name="sRecruiterofweek" Type="bit" />
+    <Property Name="sIsAgent" Type="bit" />
+  </EntityType>
+  <EntityType Name="salarycalc">
+    <Key>
+      <PropertyRef Name="idSalaryCalc" />
+    </Key>
+    <Property Name="idSalaryCalc" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="Question1" Type="varchar" MaxLength="200" />
+    <Property Name="Question2" Type="varchar" MaxLength="200" />
+    <Property Name="Question3" Type="double" />
+    <Property Name="Question4" Type="varchar" MaxLength="200" />
+    <Property Name="Question5" Type="varchar" MaxLength="200" />
+    <Property Name="Question6" Type="varchar" MaxLength="200" />
+    <Property Name="Question7" Type="varchar" MaxLength="200" />
+    <Property Name="Question8" Type="varchar" MaxLength="200" />
+    <Property Name="dtEntered" Type="datetime" />
+    <Property Name="dtEnteredByip" Type="varchar" MaxLength="45" />
+  </EntityType>
+  <EntityType Name="salaryoccupations">
+    <Key>
+      <PropertyRef Name="idsalaryoccupations" />
+    </Key>
+    <Property Name="idsalaryoccupations" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="occupationname" Type="varchar" MaxLength="200" />
+    <Property Name="isdeleted" Type="bit" />
+    <Property Name="dtentered" Type="datetime" />
+  </EntityType>
+  <EntityType Name="subcats">
+    <Key>
+      <PropertyRef Name="subcatid" />
+    </Key>
+    <Property Name="subcatid" Type="int" Nullable="false" />
+    <Property Name="sdefinition" Type="varchar" MaxLength="100" />
+    <Property Name="minrange" Type="int" />
+    <Property Name="maxrange" Type="int" />
+    <Property Name="liparent" Type="int" />
+  </EntityType>
+  <EntityType Name="subcatslist">
+    <Key>
+      <PropertyRef Name="idsubcatslist" />
+    </Key>
+    <Property Name="idsubcatslist" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="subcatid" Type="int" />
+    <Property Name="subcatlevel" Type="int" />
+  </EntityType>
+  <EntityType Name="tb_advertdetail">
+    <Key>
+      <PropertyRef Name="idtb_advertdetail" />
+    </Key>
+    <Property Name="idtb_advertdetail" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="adkey" Type="int" />
+    <Property Name="adpath" Type="varchar" MaxLength="500" />
+    <Property Name="astatus" Type="bit" />
+    <Property Name="adtitle" Type="varchar" MaxLength="100" />
+    <Property Name="adtext" Type="varchar" MaxLength="255" />
+    <Property Name="adurl" Type="varchar" MaxLength="255" />
+  </EntityType>
+  <EntityType Name="tb_adverts">
+    <Key>
+      <PropertyRef Name="idtb_adverts" />
+    </Key>
+    <Property Name="idtb_adverts" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="adsection" Type="varchar" MaxLength="100" />
+    <Property Name="adkey" Type="int" />
+    <Property Name="adtype" Type="varchar" MaxLength="45" />
+  </EntityType>
+  <EntityType Name="tb_advertstatus">
+    <Key>
+      <PropertyRef Name="astatus" />
+    </Key>
+    <Property Name="astatus" Type="bit" Nullable="false" />
+    <Property Name="definition" Type="varchar" MaxLength="45" />
+  </EntityType>
+  <EntityType Name="tb_analytictracker">
+    <Key>
+      <PropertyRef Name="TID" />
+    </Key>
+    <Property Name="TID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="VisitorID" Type="varchar" MaxLength="255" />
+    <Property Name="NormalizedUrl" Type="varchar" MaxLength="255" />
+    <Property Name="EntryUrl" Type="varchar" MaxLength="255" />
+    <Property Name="ExitUrl" Type="varchar" MaxLength="255" />
+    <Property Name="RefererUrl" Type="varchar" MaxLength="255" />
+    <Property Name="VisistorName" Type="varchar" MaxLength="255" />
+    <Property Name="VisitorString" Type="varchar" MaxLength="255" />
+    <Property Name="SessionStart" Type="datetime" />
+    <Property Name="SessionEnd" Type="datetime" />
+    <Property Name="VisitorCity" Type="varchar" MaxLength="255" />
+    <Property Name="VisitorCountry" Type="varchar" MaxLength="255" />
+    <Property Name="IsNewvisitor" Type="bit" />
+    <Property Name="VisitorIP" Type="varchar" MaxLength="255" />
+    <Property Name="VisitorArea" Type="varchar" MaxLength="255" />
+    <Property Name="VisitorBrowser" Type="varchar" MaxLength="255" />
+    <Property Name="VisitorDesktopresolution" Type="varchar" MaxLength="255" />
+    <Property Name="VisitorOperatingsystem" Type="varchar" MaxLength="255" />
+    <Property Name="Keywords" Type="varchar" />
+    <Property Name="IsFrombot" Type="bit" />
+    <Property Name="BotName" Type="varchar" MaxLength="255" />
+    <Property Name="dtentered" Type="datetime" />
+  </EntityType>
+  <EntityType Name="tb_answers">
+    <Key>
+      <PropertyRef Name="idans" />
+    </Key>
+    <Property Name="idans" Type="varchar" Nullable="false" MaxLength="16" />
+    <Property Name="answer" Type="varchar" MaxLength="45" />
+    <Property Name="sdeleted" Type="bit" />
+    <Property Name="dtEntered" Type="datetime" />
+    <Property Name="dtUpdated" Type="datetime" />
+  </EntityType>
+  <EntityType Name="tb_answers_user">
+    <Key>
+      <PropertyRef Name="id_answeruser" />
+    </Key>
+    <Property Name="id_answeruser" Type="varchar" Nullable="false" MaxLength="16" />
+    <Property Name="idans" Type="varchar" MaxLength="16" />
+    <Property Name="idquestion" Type="varchar" MaxLength="16" />
+    <Property Name="idjobs" Type="varchar" MaxLength="16" />
+    <Property Name="idapplication" Type="varchar" MaxLength="16" />
+    <Property Name="dtEntered" Type="datetime" />
+    <Property Name="dtUpdated" Type="datetime" />
+  </EntityType>
+  <EntityType Name="tb_appjobmapper">
+    <Key>
+      <PropertyRef Name="idtb_appjobmapper" />
+    </Key>
+    <Property Name="idtb_appjobmapper" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="idApplications" Type="varchar" MaxLength="16" />
+    <Property Name="idjobs" Type="varchar" MaxLength="16" />
+    <Property Name="dtentered" Type="timestamp" Precision="0" />
+  </EntityType>
+  <EntityType Name="tb_applicationstatus">
+    <Key>
+      <PropertyRef Name="idtb_applicationstatus" />
+    </Key>
+    <Property Name="idtb_applicationstatus" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="aApplicationstatus" Type="int" />
+    <Property Name="sdefinition" Type="varchar" MaxLength="255" />
+  </EntityType>
+  <EntityType Name="tb_articles">
+    <Key>
+      <PropertyRef Name="id_articles" />
+    </Key>
+    <Property Name="id_articles" Type="varchar" Nullable="false" MaxLength="16" />
+    <Property Name="Articlename" Type="varchar" MaxLength="45" />
+    <Property Name="Articleurl" Type="varchar" MaxLength="255" />
+    <Property Name="Articledata" Type="longtext" />
+    <Property Name="dtEntered" Type="datetime" />
+    <Property Name="idthemes" Type="int" />
+  </EntityType>
+  <EntityType Name="tb_artifacts">
+    <Key>
+      <PropertyRef Name="sArtifactID" />
+    </Key>
+    <Property Name="sArtifactID" Type="varchar" Nullable="false" MaxLength="16" />
+    <Property Name="artifactName" Type="varchar" MaxLength="100" />
+    <Property Name="artifact_data" Type="varchar" />
+    <Property Name="dtentered" Type="datetime" />
+    <Property Name="dtupdated" Type="datetime" />
+  </EntityType>
+  <EntityType Name="tb_blockedrecruiters">
+    <Key>
+      <PropertyRef Name="idblockedrecruiters" />
+    </Key>
+    <Property Name="idblockedrecruiters" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="EmpID" Type="varchar" MaxLength="16" />
+    <Property Name="idCandidates" Type="varchar" MaxLength="16" />
+  </EntityType>
+  <EntityType Name="tb_branding">
+    <Key>
+      <PropertyRef Name="idtb_branding" />
+    </Key>
+    <Property Name="idtb_branding" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="kpiname" Type="varchar" MaxLength="45" />
+    <Property Name="kpivalue" Type="longtext" />
+    <Property Name="bdeleted" Type="bit" />
+  </EntityType>
+  <EntityType Name="tb_cpanel">
+    <Key>
+      <PropertyRef Name="idtb_cpanel" />
+    </Key>
+    <Property Name="idtb_cpanel" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="kpiname" Type="varchar" MaxLength="45" />
+    <Property Name="kpivalue" Type="int" />
+  </EntityType>
+  <EntityType Name="tb_creditjobposting">
+    <Key>
+      <PropertyRef Name="idtb_creditjobposting" />
+    </Key>
+    <Property Name="idtb_creditjobposting" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="empid" Type="varchar" MaxLength="16" />
+    <Property Name="creditamount" Type="int" />
+    <Property Name="cstartdate" Type="datetime" />
+    <Property Name="cenddate" Type="datetime" />
+    <Property Name="cactive" Type="bit" />
+  </EntityType>
+  <EntityType Name="tb_creditpostingstatus">
+    <Key>
+      <PropertyRef Name="cstatus" />
+    </Key>
+    <Property Name="cstatus" Type="bit" Nullable="false" />
+    <Property Name="definition" Type="varchar" MaxLength="45" />
+  </EntityType>
+  <EntityType Name="tb_creditpromotions">
+    <Key>
+      <PropertyRef Name="id_creditpromotion" />
+    </Key>
+    <Property Name="id_creditpromotion" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="CreditCode" Type="varchar" MaxLength="45" />
+    <Property Name="dtstart" Type="datetime" />
+    <Property Name="dtend" Type="datetime" />
+    <Property Name="dtentered" Type="datetime" />
+    <Property Name="isValid" Type="bit" />
+  </EntityType>
+  <EntityType Name="tb_creditservicecodes">
+    <Key>
+      <PropertyRef Name="idservicecode" />
+    </Key>
+    <Property Name="idservicecode" Type="int" Nullable="false" />
+    <Property Name="sdescription" Type="varchar" MaxLength="100" />
+  </EntityType>
+  <EntityType Name="tb_creditsession">
+    <Key>
+      <PropertyRef Name="idtb_creditsession" />
+    </Key>
+    <Property Name="idtb_creditsession" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="empid" Type="varchar" MaxLength="16" />
+    <Property Name="appkey" Type="varchar" MaxLength="45" />
+    <Property Name="sdtentered" Type="datetime" />
+  </EntityType>
+  <EntityType Name="tb_currency">
+    <Key>
+      <PropertyRef Name="id_currency" />
+    </Key>
+    <Property Name="id_currency" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="cdefinition" Type="varchar" MaxLength="200" />
+    <Property Name="csymbol" Type="varchar" MaxLength="3" />
+    <Property Name="cconversionrate" Type="float" />
+  </EntityType>
+  <EntityType Name="tb_cvsearchdata">
+    <Key>
+      <PropertyRef Name="idtb_cvsearchdata" />
+    </Key>
+    <Property Name="idtb_cvsearchdata" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="idapplications" Type="varchar" MaxLength="16" />
+    <Property Name="rawdata" Type="longtext" />
+    <Property Name="dtentered" Type="date" />
+    <Property Name="dtstamp" Type="datetime" />
+    <Property Name="dtdocpath" Type="varchar" MaxLength="500" />
+  </EntityType>
+  <EntityType Name="tb_debugger">
+    <Key>
+      <PropertyRef Name="idtb_debugger" />
+    </Key>
+    <Property Name="idtb_debugger" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="rawvalues" Type="varchar" MaxLength="4000" />
+    <Property Name="pagename" Type="varchar" MaxLength="500" />
+    <Property Name="dtlogged" Type="datetime" />
+  </EntityType>
+  <EntityType Name="tb_email_user">
+    <Key>
+      <PropertyRef Name="idemailuser" />
+    </Key>
+    <Property Name="idemailuser" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="rStatus" Type="int" />
+    <Property Name="rdtsent" Type="date" />
+    <Property Name="rEmailtype" Type="int" />
+    <Property Name="rEmailaddress" Type="varchar" MaxLength="255" />
+  </EntityType>
+  <EntityType Name="tb_emaillog">
+    <Key>
+      <PropertyRef Name="idtb_emaillog" />
+    </Key>
+    <Property Name="idtb_emaillog" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="rStatus" Type="int" />
+    <Property Name="rdtsent" Type="datetime" />
+    <Property Name="rEmailtype" Type="int" />
+    <Property Name="rEmailaddress" Type="varchar" MaxLength="500" />
+  </EntityType>
+  <EntityType Name="tb_emailtemplates">
+    <Key>
+      <PropertyRef Name="idemailtemplates" />
+    </Key>
+    <Property Name="idemailtemplates" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="eheader" Type="longtext" />
+    <Property Name="edescription" Type="longtext" />
+    <Property Name="efooter" Type="longtext" />
+    <Property Name="etemplatechkid" Type="varchar" MaxLength="45" />
+  </EntityType>
+  <EntityType Name="tb_emailtypes">
+    <Key>
+      <PropertyRef Name="rEmailtype" />
+    </Key>
+    <Property Name="rEmailtype" Type="int" Nullable="false" />
+    <Property Name="eText" Type="varchar" MaxLength="100" />
+  </EntityType>
+  <EntityType Name="tb_emailunsubscribe">
+    <Key>
+      <PropertyRef Name="id_email" />
+    </Key>
+    <Property Name="id_email" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="eEmailAddress" Type="varchar" MaxLength="500" />
+    <Property Name="dtEntered" Type="datetime" />
+  </EntityType>
+  <EntityType Name="tb_featured_rec_status">
+    <Key>
+      <PropertyRef Name="sisfeatured" />
+    </Key>
+    <Property Name="sisfeatured" Type="int" Nullable="false" />
+    <Property Name="definition" Type="varchar" MaxLength="45" />
+  </EntityType>
+  <EntityType Name="tb_footerlinks">
+    <Key>
+      <PropertyRef Name="id_footerlinks" />
+    </Key>
+    <Property Name="id_footerlinks" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="hlinkname" Type="varchar" MaxLength="100" />
+    <Property Name="hlinktexturl" Type="varchar" MaxLength="255" />
+    <Property Name="hlinkimgurl" Type="varchar" MaxLength="255" />
+  </EntityType>
+  <EntityType Name="tb_geomiles">
+    <Key>
+      <PropertyRef Name="id_geomiles" />
+    </Key>
+    <Property Name="id_geomiles" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="Miles" Type="varchar" MaxLength="45" />
+  </EntityType>
+  <EntityType Name="tb_geoukpostcodes">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" Nullable="false" />
+    <Property Name="Postcode" Type="varchar" MaxLength="255" />
+    <Property Name="Town" Type="varchar" MaxLength="255" />
+    <Property Name="County" Type="varchar" MaxLength="255" />
+  </EntityType>
+  <EntityType Name="tb_headerlinks">
+    <Key>
+      <PropertyRef Name="id_headerlinks" />
+    </Key>
+    <Property Name="id_headerlinks" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="hlinkname" Type="varchar" MaxLength="100" />
+    <Property Name="hlinktexturl" Type="varchar" MaxLength="255" />
+    <Property Name="hlinkimgurl" Type="varchar" MaxLength="255" />
+  </EntityType>
+  <EntityType Name="tb_helpcentercat">
+    <Key>
+      <PropertyRef Name="hcatid" />
+    </Key>
+    <Property Name="hcatid" Type="int" Nullable="false" />
+    <Property Name="cdefinition" Type="varchar" MaxLength="45" />
+  </EntityType>
+  <EntityType Name="tb_helpcenterqs">
+    <Key>
+      <PropertyRef Name="idtb_helpcenterqs" />
+    </Key>
+    <Property Name="idtb_helpcenterqs" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="Question" Type="varchar" />
+    <Property Name="Answer" Type="longtext" />
+    <Property Name="dtEntered" Type="datetime" />
+    <Property Name="hcatid" Type="int" />
+  </EntityType>
+  <EntityType Name="tb_jobfeaturedstatus">
+    <Key>
+      <PropertyRef Name="sjobisfeatured" />
+    </Key>
+    <Property Name="sjobisfeatured" Type="int" Nullable="false" />
+    <Property Name="definition" Type="varchar" MaxLength="45" />
+  </EntityType>
+  <EntityType Name="tb_languages">
+    <Key>
+      <PropertyRef Name="id_language" />
+    </Key>
+    <Property Name="id_language" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="Language" Type="varchar" MaxLength="100" />
+    <Property Name="Country" Type="varchar" MaxLength="100" />
+    <Property Name="sActive" Type="bit" />
+  </EntityType>
+  <EntityType Name="tb_languagetrans">
+    <Key>
+      <PropertyRef Name="id_languagetrans" />
+    </Key>
+    <Property Name="id_languagetrans" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="id_language" Type="int" />
+    <Property Name="sResourceName" Type="varchar" />
+    <Property Name="sResourceTranlation" Type="varchar" />
+    <Property Name="dtentered" Type="datetime" />
+    <Property Name="dtmodified" Type="datetime" />
+  </EntityType>
+  <EntityType Name="tb_loadbalancer">
+    <Key>
+      <PropertyRef Name="idtb_loadbalancer" />
+    </Key>
+    <Property Name="idtb_loadbalancer" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="ipaddress" Type="varchar" MaxLength="45" />
+    <Property Name="ramusage" Type="float" />
+    <Property Name="cpuusage" Type="float" />
+    <Property Name="networksent" Type="float" />
+    <Property Name="networkrec" Type="float" />
+    <Property Name="dtentered" Type="datetime" />
+    <Property Name="useragent" Type="varchar" />
+  </EntityType>
+  <EntityType Name="tb_locationipcountry">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" Nullable="false" />
+    <Property Name="Startip" Type="varchar" MaxLength="255" />
+    <Property Name="Endip" Type="varchar" MaxLength="255" />
+    <Property Name="StartIpNum" Type="varchar" MaxLength="255" />
+    <Property Name="EndIpNum" Type="varchar" MaxLength="255" />
+    <Property Name="PostalCode" Type="varchar" MaxLength="255" />
+    <Property Name="Country" Type="varchar" MaxLength="255" />
+  </EntityType>
+  <EntityType Name="tb_microcat">
+    <Key>
+      <PropertyRef Name="microcatid" />
+    </Key>
+    <Property Name="microcatid" Type="int" Nullable="false" />
+    <Property Name="subcatid" Type="int" />
+  </EntityType>
+  <EntityType Name="tb_middlelinks">
+    <Key>
+      <PropertyRef Name="id_middlelinks" />
+    </Key>
+    <Property Name="id_middlelinks" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="hlinkname" Type="varchar" MaxLength="100" />
+    <Property Name="hlinktexturl" Type="varchar" MaxLength="255" />
+    <Property Name="hlinkimgurl" Type="varchar" MaxLength="255" />
+  </EntityType>
+  <EntityType Name="tb_myresumes">
+    <Key>
+      <PropertyRef Name="DocumentID" />
+    </Key>
+    <Property Name="DocumentID" Type="varchar" Nullable="false" MaxLength="16" />
+    <Property Name="documentname" Type="varchar" MaxLength="100" />
+    <Property Name="Doc_data" Type="text" />
+    <Property Name="doc_url" Type="varchar" MaxLength="500" />
+    <Property Name="idCandidates" Type="varchar" MaxLength="16" />
+  </EntityType>
+  <EntityType Name="tb_notes">
+    <Key>
+      <PropertyRef Name="idtb_notes" />
+    </Key>
+    <Property Name="idtb_notes" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="idCandidates" Type="varchar" MaxLength="16" />
+    <Property Name="commentdescription" Type="longtext" />
+  </EntityType>
+  <EntityType Name="tb_passwordlog">
+    <Key>
+      <PropertyRef Name="iduser" />
+    </Key>
+    <Property Name="iduser" Type="varchar" Nullable="false" MaxLength="16" />
+    <Property Name="lastpassword" Type="varchar" MaxLength="45" />
+    <Property Name="hash" Type="varchar" MaxLength="500" />
+    <Property Name="dtentered" Type="datetime" />
+  </EntityType>
+  <EntityType Name="tb_paypal">
+    <Key>
+      <PropertyRef Name="id_paypal" />
+    </Key>
+    <Property Name="id_paypal" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="empid" Type="varchar" MaxLength="16" />
+    <Property Name="ptransactionid" Type="varchar" MaxLength="45" />
+    <Property Name="pFirstname" Type="varchar" MaxLength="500" />
+    <Property Name="pLastname" Type="varchar" MaxLength="500" />
+    <Property Name="pAddress1" Type="varchar" MaxLength="500" />
+    <Property Name="pAddress2" Type="varchar" MaxLength="500" />
+    <Property Name="pAddress3" Type="varchar" MaxLength="500" />
+    <Property Name="pTown" Type="varchar" MaxLength="45" />
+    <Property Name="pCounty" Type="varchar" MaxLength="45" />
+    <Property Name="pPostcode" Type="varchar" MaxLength="45" />
+    <Property Name="pCountry" Type="varchar" MaxLength="45" />
+    <Property Name="pCardtype" Type="varchar" MaxLength="45" />
+    <Property Name="pservicecode" Type="int" />
+    <Property Name="dtentered" Type="datetime" />
+  </EntityType>
+  <EntityType Name="tb_pluginanalytics">
+    <Key>
+      <PropertyRef Name="idanalyticsplugin" />
+    </Key>
+    <Property Name="idanalyticsplugin" Type="int" Nullable="false" />
+    <Property Name="sdescription" Type="varchar" MaxLength="500" />
+  </EntityType>
+  <EntityType Name="tb_pluginsharethis">
+    <Key>
+      <PropertyRef Name="idsharethis" />
+    </Key>
+    <Property Name="idsharethis" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="sdefinition" Type="varchar" MaxLength="500" />
+  </EntityType>
+  <EntityType Name="tb_privacystatus">
+    <Key>
+      <PropertyRef Name="status" />
+    </Key>
+    <Property Name="status" Type="int" Nullable="false" />
+    <Property Name="definition" Type="varchar" MaxLength="45" />
+  </EntityType>
+  <EntityType Name="tb_question_holder">
+    <Key>
+      <PropertyRef Name="id_question_holder" />
+    </Key>
+    <Property Name="id_question_holder" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="idjobs" Type="varchar" MaxLength="16" />
+    <Property Name="idquestion" Type="varchar" MaxLength="16" />
+    <Property Name="dtEntered" Type="datetime" />
+    <Property Name="qDeleted" Type="bit" />
+    <Property Name="dtUpdated" Type="datetime" />
+    <Property Name="qSessionId" Type="varchar" MaxLength="100" />
+  </EntityType>
+  <EntityType Name="tb_question_link">
+    <Key>
+      <PropertyRef Name="id_questionlink" />
+    </Key>
+    <Property Name="id_questionlink" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="idquestion" Type="varchar" MaxLength="16" />
+    <Property Name="idans" Type="varchar" MaxLength="16" />
+    <Property Name="dtEntered" Type="datetime" />
+    <Property Name="dtUpdated" Type="datetime" />
+  </EntityType>
+  <EntityType Name="tb_questions">
+    <Key>
+      <PropertyRef Name="idquestion" />
+    </Key>
+    <Property Name="idquestion" Type="varchar" Nullable="false" MaxLength="16" />
+    <Property Name="idjobs" Type="varchar" MaxLength="16" />
+    <Property Name="qQuestion" Type="varchar" MaxLength="500" />
+    <Property Name="qDeleted" Type="bit" />
+    <Property Name="idDefaultAns" Type="varchar" MaxLength="16" />
+    <Property Name="dtEntered" Type="datetime" />
+    <Property Name="dtUpdated" Type="datetime" />
+  </EntityType>
+  <EntityType Name="tb_rec_of_week_status">
+    <Key>
+      <PropertyRef Name="srecruiterofweek" />
+    </Key>
+    <Property Name="srecruiterofweek" Type="int" Nullable="false" />
+    <Property Name="definition" Type="varchar" MaxLength="45" />
+  </EntityType>
+  <EntityType Name="tb_rec_user_link">
+    <Key>
+      <PropertyRef Name="idRuLink" />
+    </Key>
+    <Property Name="idRuLink" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="EmpID" Type="varchar" MaxLength="16" />
+    <Property Name="idUsers" Type="varchar" MaxLength="16" />
+  </EntityType>
+  <EntityType Name="tb_recappviews">
+    <Key>
+      <PropertyRef Name="id_recviews" />
+    </Key>
+    <Property Name="id_recviews" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="empid" Type="varchar" MaxLength="16" />
+    <Property Name="candidateid" Type="varchar" MaxLength="16" />
+    <Property Name="applicationid" Type="varchar" MaxLength="16" />
+    <Property Name="dtentered" Type="date" />
+  </EntityType>
+  <EntityType Name="tb_recruiterstatus">
+    <Key>
+      <PropertyRef Name="sIsActive" />
+    </Key>
+    <Property Name="sIsActive" Type="int" Nullable="false" />
+    <Property Name="definition" Type="varchar" MaxLength="45" />
+  </EntityType>
+  <EntityType Name="tb_res_education">
+    <Key>
+      <PropertyRef Name="id_res_education" />
+    </Key>
+    <Property Name="id_res_education" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="rschoolname" Type="varchar" MaxLength="100" />
+    <Property Name="rdescription" Type="varchar" />
+    <Property Name="rqualification" Type="varchar" MaxLength="100" />
+    <Property Name="rstartdate" Type="date" />
+    <Property Name="renddate" Type="date" />
+    <Property Name="liCandidateid" Type="varchar" MaxLength="16" />
+    <Property Name="dtentered" Type="datetime" />
+    <Property Name="dtupdated" Type="datetime" />
+  </EntityType>
+  <EntityType Name="tb_res_experience">
+    <Key>
+      <PropertyRef Name="id_res_experience" />
+    </Key>
+    <Property Name="id_res_experience" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="rCompany" Type="varchar" MaxLength="100" />
+    <Property Name="rJobTitle" Type="varchar" MaxLength="100" />
+    <Property Name="rDescription" Type="varchar" MaxLength="255" />
+    <Property Name="rstartdate" Type="date" />
+    <Property Name="renddate" Type="date" />
+    <Property Name="liCandidateid" Type="varchar" MaxLength="16" />
+    <Property Name="dtentered" Type="datetime" />
+    <Property Name="dtupdated" Type="datetime" />
+  </EntityType>
+  <EntityType Name="tb_res_main">
+    <Key>
+      <PropertyRef Name="idresume" />
+    </Key>
+    <Property Name="idresume" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="rResumeName" Type="varchar" MaxLength="100" />
+    <Property Name="dtentered" Type="datetime" />
+    <Property Name="liCandidateid" Type="varchar" MaxLength="16" />
+  </EntityType>
+  <EntityType Name="tb_res_profile">
+    <Key>
+      <PropertyRef Name="id_res_profile" />
+    </Key>
+    <Property Name="id_res_profile" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="rObjective" Type="varchar" MaxLength="250" />
+    <Property Name="rAddress" Type="varchar" MaxLength="250" />
+    <Property Name="rEmail" Type="varchar" MaxLength="250" />
+    <Property Name="rLocalPhone" Type="varchar" MaxLength="12" />
+    <Property Name="rMobilePhone" Type="varchar" MaxLength="12" />
+    <Property Name="liCandidateid" Type="varchar" MaxLength="16" />
+    <Property Name="dtEntered" Type="datetime" />
+    <Property Name="dtUpdated" Type="datetime" />
+    <Property Name="isFromProfile" Type="bit" />
+  </EntityType>
+  <EntityType Name="tb_res_references">
+    <Key>
+      <PropertyRef Name="id_res_reference" />
+    </Key>
+    <Property Name="id_res_reference" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="rFirstName" Type="varchar" MaxLength="100" />
+    <Property Name="rLastName" Type="varchar" MaxLength="100" />
+    <Property Name="rReferenceType" Type="int" />
+    <Property Name="liCandidateid" Type="varchar" MaxLength="16" />
+    <Property Name="dtentered" Type="datetime" />
+    <Property Name="dtupdated" Type="datetime" />
+    <Property Name="rEmail" Type="varchar" MaxLength="255" />
+    <Property Name="rLocalPhone" Type="varchar" MaxLength="12" />
+    <Property Name="rMobilePhone" Type="varchar" MaxLength="12" />
+    <Property Name="rAddress" Type="varchar" MaxLength="2000" />
+  </EntityType>
+  <EntityType Name="tb_res_skills">
+    <Key>
+      <PropertyRef Name="id_res_skill" />
+    </Key>
+    <Property Name="id_res_skill" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="rSkillName" Type="varchar" MaxLength="45" />
+    <Property Name="rLevel" Type="int" />
+    <Property Name="liCandidateid" Type="varchar" MaxLength="16" />
+    <Property Name="dtentered" Type="datetime" />
+  </EntityType>
+  <EntityType Name="tb_savedjobs">
+    <Key>
+      <PropertyRef Name="id_savedjobs" />
+    </Key>
+    <Property Name="id_savedjobs" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="idjobs" Type="varchar" MaxLength="16" />
+    <Property Name="idusers" Type="varchar" MaxLength="16" />
+    <Property Name="dtentered" Type="datetime" />
+  </EntityType>
+  <EntityType Name="tb_savedsearches">
+    <Key>
+      <PropertyRef Name="id_savedsearches" />
+    </Key>
+    <Property Name="id_savedsearches" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="userid" Type="varchar" MaxLength="16" />
+    <Property Name="sdefinition" Type="varchar" MaxLength="100" />
+    <Property Name="searchtext" Type="longtext" />
+    <Property Name="userip" Type="varchar" MaxLength="45" />
+    <Property Name="dtentered" Type="datetime" />
+    <Property Name="searchtype" Type="int" />
+  </EntityType>
+  <EntityType Name="tb_searchhistory">
+    <Key>
+      <PropertyRef Name="idtb_searchhistory" />
+    </Key>
+    <Property Name="idtb_searchhistory" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="userip" Type="varchar" MaxLength="45" />
+    <Property Name="searchtext" Type="varchar" MaxLength="255" />
+  </EntityType>
+  <EntityType Name="tb_sessions">
+    <Key>
+      <PropertyRef Name="idtb_sessions" />
+    </Key>
+    <Property Name="idtb_sessions" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="sessionid" Type="int" />
+    <Property Name="stimestamp" Type="datetime" />
+  </EntityType>
+  <EntityType Name="tb_siteheader">
+    <Key>
+      <PropertyRef Name="idtb_seo" />
+    </Key>
+    <Property Name="idtb_seo" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="seo_name" Type="varchar" MaxLength="45" />
+    <Property Name="seo_description" Type="varchar" MaxLength="4000" />
+    <Property Name="hdeleted" Type="bit" />
+  </EntityType>
+  <EntityType Name="tb_sitemaps">
+    <Key>
+      <PropertyRef Name="id_sitemaps" />
+    </Key>
+    <Property Name="id_sitemaps" Type="int" Nullable="false" />
+    <Property Name="url" Type="varchar" MaxLength="255" />
+    <Property Name="title" Type="varchar" MaxLength="50" />
+    <Property Name="description" Type="varchar" />
+    <Property Name="level" Type="int" />
+  </EntityType>
+  <EntityType Name="tb_sitesearch">
+    <Key>
+      <PropertyRef Name="id_sitesearch" />
+    </Key>
+    <Property Name="id_sitesearch" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="titles" Type="varchar" MaxLength="255" />
+    <Property Name="url" Type="varchar" MaxLength="255" />
+    <Property Name="description" Type="varchar" MaxLength="2000" />
+    <Property Name="dtentered" Type="datetime" />
+    <Property Name="dtmodified" Type="datetime" />
+  </EntityType>
+  <EntityType Name="tb_sitesuggestions">
+    <Key>
+      <PropertyRef Name="idsitesuggestions" />
+    </Key>
+    <Property Name="idsitesuggestions" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="sEmailaddress" Type="varchar" MaxLength="500" />
+    <Property Name="sComment" Type="varchar" MaxLength="4000" />
+    <Property Name="sIp" Type="varchar" MaxLength="45" />
+  </EntityType>
+  <EntityType Name="tb_spamreport">
+    <Key>
+      <PropertyRef Name="idtb_spamreport" />
+    </Key>
+    <Property Name="idtb_spamreport" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="spamindex" Type="int" />
+    <Property Name="spamreason" Type="varchar" />
+    <Property Name="dtentered" Type="datetime" />
+    <Property Name="ipuser" Type="varchar" MaxLength="45" />
+    <Property Name="useragents" Type="varchar" />
+    <Property Name="jobid" Type="varchar" MaxLength="16" />
+  </EntityType>
+  <EntityType Name="tb_subscriptionpref">
+    <Key>
+      <PropertyRef Name="idtb_emailpreference" />
+    </Key>
+    <Property Name="idtb_emailpreference" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="eemailaddress" Type="varchar" MaxLength="255" />
+    <Property Name="eemailtype" Type="int" />
+    <Property Name="einterval" Type="int" />
+  </EntityType>
+  <EntityType Name="tb_subscriptions">
+    <Key>
+      <PropertyRef Name="idtb_subscriptions" />
+    </Key>
+    <Property Name="idtb_subscriptions" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="emailaddress" Type="varchar" MaxLength="500" />
+    <Property Name="catid" Type="int" />
+    <Property Name="subcatid" Type="int" />
+  </EntityType>
+  <EntityType Name="tb_subsite">
+    <Key>
+      <PropertyRef Name="idsubsite" />
+    </Key>
+    <Property Name="idsubsite" Type="int" Nullable="false" />
+    <Property Name="SubsiteName" Type="varchar" MaxLength="500" />
+    <Property Name="sMainPageTemplate" Type="int" />
+    <Property Name="sSearchPageTemplate" Type="int" />
+    <Property Name="sIsCname" Type="bit" />
+    <Property Name="sURL" Type="varchar" MaxLength="100" />
+    <Property Name="dtEntered" Type="datetime" />
+    <Property Name="dtUpdated" Type="datetime" />
+    <Property Name="sStatus" Type="int" />
+  </EntityType>
+  <EntityType Name="tb_subsite_adverts">
+    <Key>
+      <PropertyRef Name="id_Subsite_Adverts" />
+    </Key>
+    <Property Name="id_Subsite_Adverts" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="sMainPageScript" Type="varchar" MaxLength="2000" />
+    <Property Name="sSearchPageScript" Type="varchar" MaxLength="2000" />
+    <Property Name="sApplicationPageScript" Type="varchar" MaxLength="2000" />
+    <Property Name="sIsOnHeader" Type="bit" />
+    <Property Name="sIsOnRightPanel" Type="bit" />
+    <Property Name="sIsOnSearchCat" Type="bit" />
+    <Property Name="sIsOnSearchTop" Type="bit" />
+    <Property Name="sIsOnSearchBottom" Type="bit" />
+    <Property Name="dtEntered" Type="datetime" />
+    <Property Name="dtUpdated" Type="datetime" />
+    <Property Name="idsubsite" Type="int" />
+  </EntityType>
+  <EntityType Name="tb_subsite_category">
+    <Key>
+      <PropertyRef Name="sCatId" />
+    </Key>
+    <Property Name="sCatId" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="sCategoryName" Type="varchar" MaxLength="100" />
+    <Property Name="dtEntered" Type="datetime" />
+    <Property Name="dtUpdated" Type="datetime" />
+    <Property Name="idsubsite" Type="varchar" MaxLength="100" />
+  </EntityType>
+  <EntityType Name="tb_subsite_font">
+    <Key>
+      <PropertyRef Name="id_font" />
+    </Key>
+    <Property Name="id_font" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="fFontName" Type="varchar" MaxLength="100" />
+    <Property Name="dtEntered" Type="datetime" />
+  </EntityType>
+  <EntityType Name="tb_subsite_images">
+    <Key>
+      <PropertyRef Name="id_subsite_images" />
+    </Key>
+    <Property Name="id_subsite_images" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="iURL" Type="varchar" />
+    <Property Name="iImageName" Type="varchar" MaxLength="100" />
+    <Property Name="idsubsite" Type="int" />
+    <Property Name="dtEntered" Type="datetime" />
+    <Property Name="dtUpdated" Type="datetime" />
+  </EntityType>
+  <EntityType Name="tb_subsite_job_acl">
+    <Key>
+      <PropertyRef Name="idJobs" />
+    </Key>
+    <Property Name="idJobs" Type="int" Nullable="false" />
+    <Property Name="idsubsite" Type="int" />
+  </EntityType>
+  <EntityType Name="tb_subsite_link_cat">
+    <Key>
+      <PropertyRef Name="id_subsite_link_cat" />
+    </Key>
+    <Property Name="id_subsite_link_cat" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="sCatId" Type="int" />
+    <Property Name="sSubcatId" Type="int" />
+    <Property Name="dtEntered" Type="datetime" />
+    <Property Name="dtUpdated" Type="datetime" />
+  </EntityType>
+  <EntityType Name="tb_subsite_recruiter_acl">
+    <Key>
+      <PropertyRef Name="EmpID" />
+    </Key>
+    <Property Name="EmpID" Type="int" Nullable="false" />
+    <Property Name="idsubsite" Type="int" />
+  </EntityType>
+  <EntityType Name="tb_subsite_subcats">
+    <Key>
+      <PropertyRef Name="sSubcatId" />
+    </Key>
+    <Property Name="sSubcatId" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="sCategoryName" Type="varchar" MaxLength="100" />
+    <Property Name="dtEntered" Type="datetime" />
+    <Property Name="dtUpdated" Type="datetime" />
+  </EntityType>
+  <EntityType Name="tb_subsite_templates">
+    <Key>
+      <PropertyRef Name="id_template" />
+    </Key>
+    <Property Name="id_template" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="sTemplateName" Type="varchar" MaxLength="500" />
+  </EntityType>
+  <EntityType Name="tb_subsite_themes">
+    <Key>
+      <PropertyRef Name="idTheme" />
+    </Key>
+    <Property Name="idTheme" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="tColor1" Type="varchar" MaxLength="6" />
+    <Property Name="tColor2" Type="varchar" MaxLength="6" />
+    <Property Name="tColor3" Type="varchar" MaxLength="6" />
+    <Property Name="tColor4" Type="varchar" MaxLength="6" />
+    <Property Name="tColor5" Type="varchar" MaxLength="6" />
+    <Property Name="tColor6" Type="varchar" MaxLength="6" />
+    <Property Name="tColor7" Type="varchar" MaxLength="6" />
+    <Property Name="tColor8" Type="varchar" MaxLength="6" />
+    <Property Name="idsubsite" Type="int" />
+    <Property Name="dtEntered" Type="datetime" />
+    <Property Name="dtUpdated" Type="datetime" />
+  </EntityType>
+  <EntityType Name="tb_themes">
+    <Key>
+      <PropertyRef Name="idthemes" />
+    </Key>
+    <Property Name="idthemes" Type="int" Nullable="false" />
+    <Property Name="Name" Type="varchar" MaxLength="10" />
+    <Property Name="color1" Type="varchar" MaxLength="10" />
+    <Property Name="color2" Type="varchar" MaxLength="10" />
+    <Property Name="color3" Type="varchar" MaxLength="10" />
+    <Property Name="color4" Type="varchar" MaxLength="10" />
+    <Property Name="color5" Type="varchar" MaxLength="10" />
+    <Property Name="color6" Type="varchar" MaxLength="10" />
+    <Property Name="color7" Type="varchar" MaxLength="10" />
+    <Property Name="dtEntered" Type="datetime" />
+  </EntityType>
+  <EntityType Name="tb_translation">
+    <Key>
+      <PropertyRef Name="id_translation" />
+    </Key>
+    <Property Name="id_translation" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="tEnglish" Type="varchar" MaxLength="500" />
+    <Property Name="tTranslated" Type="varchar" MaxLength="500" />
+    <Property Name="tShortcode" Type="varchar" MaxLength="3" />
+  </EntityType>
+  <EntityType Name="tb_userarchives">
+    <Key>
+      <PropertyRef Name="idtb_userarchives" />
+    </Key>
+    <Property Name="idtb_userarchives" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="logintime" Type="time" />
+    <Property Name="logindate" Type="date" />
+    <Property Name="uusername" Type="varchar" MaxLength="255" />
+    <Property Name="uusertype" Type="int" />
+    <Property Name="userip" Type="varchar" MaxLength="45" />
+    <Property Name="userdevice" Type="varchar" MaxLength="255" />
+  </EntityType>
+  <EntityType Name="tb_usermoderation">
+    <Key>
+      <PropertyRef Name="idtb_usermoderation" />
+    </Key>
+    <Property Name="idtb_usermoderation" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="idusers" Type="varchar" MaxLength="16" />
+    <Property Name="dtrequested" Type="datetime" />
+    <Property Name="requesttype" Type="int" />
+  </EntityType>
+  <EntityType Name="tb_usermoderationtypes">
+    <Key>
+      <PropertyRef Name="idrequesttype" />
+    </Key>
+    <Property Name="idrequesttype" Type="int" Nullable="false" />
+    <Property Name="sdefinition" Type="varchar" MaxLength="500" />
+  </EntityType>
+  <EntityType Name="tb_usertype">
+    <Key>
+      <PropertyRef Name="uUserType" />
+    </Key>
+    <Property Name="uUserType" Type="int" Nullable="false" />
+    <Property Name="sText" Type="varchar" MaxLength="200" />
+  </EntityType>
+  <EntityType Name="tb_version">
+    <Key>
+      <PropertyRef Name="idversion" />
+    </Key>
+    <Property Name="idversion" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="versionnumber" Type="varchar" MaxLength="45" />
+    <Property Name="checkout" Type="bit" />
+  </EntityType>
+  <EntityType Name="tb_videos">
+    <Key>
+      <PropertyRef Name="idtb_videos" />
+    </Key>
+    <Property Name="idtb_videos" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="idjobs" Type="varchar" MaxLength="16" />
+    <Property Name="video_title" Type="varchar" MaxLength="255" />
+    <Property Name="video_url" Type="varchar" MaxLength="500" />
+    <Property Name="dtentered" Type="datetime" />
+    <Property Name="sdeleted" Type="bit" />
+  </EntityType>
+  <EntityType Name="tb_videostatus">
+    <Key>
+      <PropertyRef Name="sisvideoenabled" />
+    </Key>
+    <Property Name="sisvideoenabled" Type="int" Nullable="false" />
+    <Property Name="definition" Type="varchar" MaxLength="45" />
+  </EntityType>
+  <EntityType Name="tb_webservicejobs">
+    <Key>
+      <PropertyRef Name="idJobs" />
+    </Key>
+    <Property Name="idJobs" Type="varchar" Nullable="false" MaxLength="16" />
+    <Property Name="Title" Type="varchar" MaxLength="255" />
+    <Property Name="ShortDescription" Type="varchar" MaxLength="255" />
+    <Property Name="Description" Type="longtext" />
+    <Property Name="SalaryText" Type="varchar" MaxLength="100" />
+    <Property Name="MinSal" Type="int" />
+    <Property Name="MaxSal" Type="int" />
+    <Property Name="Ref" Type="varchar" MaxLength="45" />
+    <Property Name="FreeText" Type="varchar" MaxLength="255" />
+    <Property Name="Jobstartdate" Type="date" />
+    <Property Name="Jobenddate" Type="date" />
+    <Property Name="Location" Type="varchar" MaxLength="255" />
+    <Property Name="RecruiterName" Type="varchar" MaxLength="100" />
+  </EntityType>
+  <EntityType Name="tb_webservicerec">
+    <Key>
+      <PropertyRef Name="EmpID" />
+    </Key>
+    <Property Name="EmpID" Type="varchar" Nullable="false" MaxLength="16" />
+    <Property Name="RecruiterName" Type="varchar" MaxLength="100" />
+    <Property Name="Address1" Type="varchar" MaxLength="255" />
+    <Property Name="Address2" Type="varchar" MaxLength="255" />
+    <Property Name="Address3" Type="varchar" MaxLength="255" />
+    <Property Name="Town" Type="varchar" MaxLength="45" />
+    <Property Name="County" Type="varchar" MaxLength="45" />
+    <Property Name="Country" Type="varchar" MaxLength="45" />
+    <Property Name="Postcode" Type="varchar" MaxLength="10" />
+    <Property Name="EmailAddress" Type="varchar" MaxLength="255" />
+    <Property Name="Website" Type="varchar" MaxLength="500" />
+    <Property Name="Description" Type="varchar" MaxLength="500" />
+    <Property Name="CompleteDesc" Type="text" />
+    <Property Name="pwds" Type="varchar" MaxLength="45" />
+  </EntityType>
+  <EntityType Name="tb_webserviceusr">
+    <Key>
+      <PropertyRef Name="id_webserviceusr" />
+    </Key>
+    <Property Name="id_webserviceusr" Type="varchar" Nullable="false" MaxLength="16" />
+    <Property Name="username" Type="varchar" MaxLength="255" />
+    <Property Name="pwd" Type="varchar" MaxLength="45" />
+    <Property Name="firstname" Type="varchar" MaxLength="255" />
+    <Property Name="lastname" Type="varchar" MaxLength="255" />
+    <Property Name="telephone" Type="varchar" MaxLength="45" />
+    <Property Name="website" Type="varchar" MaxLength="100" />
+    <Property Name="gender" Type="varchar" MaxLength="20" />
+    <Property Name="address1" Type="varchar" MaxLength="255" />
+    <Property Name="address2" Type="varchar" MaxLength="255" />
+    <Property Name="address3" Type="varchar" MaxLength="255" />
+    <Property Name="town" Type="varchar" MaxLength="10" />
+    <Property Name="county" Type="varchar" MaxLength="10" />
+    <Property Name="postcode" Type="varchar" MaxLength="10" />
+    <Property Name="country" Type="varchar" MaxLength="20" />
+    <Property Name="city" Type="varchar" MaxLength="10" />
+    <Property Name="employername" Type="varchar" MaxLength="255" />
+    <Property Name="employerlocation" Type="varchar" MaxLength="255" />
+    <Property Name="employerposition" Type="varchar" MaxLength="100" />
+    <Property Name="employerjobdescription" Type="varchar" />
+    <Property Name="educationschoolname" Type="varchar" MaxLength="255" />
+    <Property Name="educationtype" Type="varchar" MaxLength="100" />
+    <Property Name="educationdegree" Type="varchar" MaxLength="255" />
+    <Property Name="educationyear" Type="varchar" MaxLength="4" />
+    <Property Name="educationconcentration" Type="varchar" MaxLength="100" />
+    <Property Name="spokenlang1" Type="varchar" MaxLength="10" />
+    <Property Name="spokenlang2" Type="varchar" MaxLength="10" />
+    <Property Name="spokenlang3" Type="varchar" MaxLength="10" />
+    <Property Name="dtentered" Type="datetime" />
+    <Property Name="hobbies" Type="varchar" MaxLength="45" />
+  </EntityType>
+  <EntityType Name="tb_widgetlog">
+    <Key>
+      <PropertyRef Name="idtb_widgetlog" />
+    </Key>
+    <Property Name="idtb_widgetlog" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="Companyname" Type="varchar" MaxLength="255" />
+    <Property Name="Companydescription" Type="varchar" MaxLength="500" />
+    <Property Name="FirstName" Type="varchar" MaxLength="255" />
+    <Property Name="LastName" Type="varchar" MaxLength="255" />
+    <Property Name="Telephone" Type="varchar" MaxLength="255" />
+    <Property Name="Website" Type="varchar" MaxLength="255" />
+    <Property Name="Widgettype" Type="int" />
+  </EntityType>
+  <EntityType Name="tb_widgettype">
+    <Key>
+      <PropertyRef Name="Widgettype" />
+    </Key>
+    <Property Name="Widgettype" Type="int" Nullable="false" />
+    <Property Name="sDefinition" Type="varchar" MaxLength="45" />
+  </EntityType>
+  <EntityType Name="users">
+    <Key>
+      <PropertyRef Name="idUsers" />
+    </Key>
+    <Property Name="idUsers" Type="varchar" Nullable="false" MaxLength="16" />
+    <Property Name="uUserType" Type="int" />
+    <Property Name="uUsername" Type="varchar" MaxLength="255" />
+    <Property Name="uPassword" Type="varchar" MaxLength="45" />
+    <Property Name="uPasswordHint" Type="varchar" MaxLength="255" />
+    <Property Name="uFirstName" Type="varchar" MaxLength="255" />
+    <Property Name="uLastName" Type="varchar" MaxLength="255" />
+    <Property Name="uIsPrimary" Type="bit" />
+    <Property Name="uCandidateID" Type="varchar" MaxLength="16" />
+    <Property Name="uActivation" Type="varchar" MaxLength="45" />
+    <Property Name="uPasswordresetcode" Type="varchar" MaxLength="45" />
+    <Property Name="serverid" Type="varchar" MaxLength="45" />
+    <Property Name="udeleted" Type="bit" />
+  </EntityType>
+  <!--Errors Found During Generation:
+      warning 6002: The table/view 'def.fashionquadrant.vw_aggregatedmpage' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.
+      -->
+  <EntityType Name="vw_aggregatedmpage">
+    <Key>
+      <PropertyRef Name="idJobs" />
+      <PropertyRef Name="EmployeeID" />
+    </Key>
+    <Property Name="applicationvolume" Type="bigint" />
+    <Property Name="video" Type="bit" />
+    <Property Name="idJobs" Type="varchar" Nullable="false" MaxLength="16" />
+    <Property Name="sTitle" Type="varchar" MaxLength="255" />
+    <Property Name="Company" Type="varchar" MaxLength="255" />
+    <Property Name="sShortDescription" Type="varchar" MaxLength="500" />
+    <Property Name="sFreeText" Type="varchar" MaxLength="255" />
+    <Property Name="dtEnteredDate" Type="date" />
+    <Property Name="liparent" Type="int" />
+    <Property Name="slocation" Type="varchar" MaxLength="255" />
+    <Property Name="sSalaryText" Type="varchar" MaxLength="100" />
+    <Property Name="sMinSal" Type="int" />
+    <Property Name="EmployeeID" Type="varchar" Nullable="false" MaxLength="16" />
+    <Property Name="sMaxSal" Type="int" />
+  </EntityType>
+  <!--Errors Found During Generation:
+      warning 6002: The table/view 'def.fashionquadrant.vw_aggregatedmulti' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.
+      -->
+  <EntityType Name="vw_aggregatedmulti">
+    <Key>
+      <PropertyRef Name="idJobs" />
+      <PropertyRef Name="catid" />
+      <PropertyRef Name="EmployeeID" />
+    </Key>
+    <Property Name="applicationvolume" Type="bigint" />
+    <Property Name="sdefinition" Type="varchar" MaxLength="100" />
+    <Property Name="spostcode" Type="varchar" MaxLength="4000" />
+    <Property Name="idJobs" Type="varchar" Nullable="false" MaxLength="16" />
+    <Property Name="sisvideoenabled" Type="bit" />
+    <Property Name="sTitle" Type="varchar" MaxLength="255" />
+    <Property Name="video" Type="bit" />
+    <Property Name="company" Type="varchar" MaxLength="255" />
+    <Property Name="slocation" Type="varchar" MaxLength="255" />
+    <Property Name="cdefinition" Type="varchar" MaxLength="100" />
+    <Property Name="catid" Type="int" Nullable="false" />
+    <Property Name="liparent" Type="int" />
+    <Property Name="currency" Type="varchar" MaxLength="3" />
+    <Property Name="srecruitername" Type="varchar" MaxLength="255" />
+    <Property Name="sShortDescription" Type="varchar" MaxLength="500" />
+    <Property Name="sFreeText" Type="varchar" MaxLength="255" />
+    <Property Name="dtEnteredDate" Type="date" />
+    <Property Name="sSalaryText" Type="varchar" MaxLength="100" />
+    <Property Name="sMinSal" Type="int" />
+    <Property Name="EmployeeID" Type="varchar" Nullable="false" MaxLength="16" />
+    <Property Name="subcatid" Type="int" />
+    <Property Name="sMaxSal" Type="int" />
+  </EntityType>
+  <!--Errors Found During Generation:
+      warning 6002: The table/view 'def.fashionquadrant.vw_applicationaggregate' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.
+      -->
+  <EntityType Name="vw_applicationaggregate">
+    <Key>
+      <PropertyRef Name="applicationvolume" />
+    </Key>
+    <Property Name="idjobs" Type="varchar" MaxLength="16" />
+    <Property Name="applicationvolume" Type="bigint" Nullable="false" />
+  </EntityType>
+  <!--Errors Found During Generation:
+      warning 6002: The table/view 'def.fashionquadrant.vw_applytitlefilter' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.
+      -->
+  <EntityType Name="vw_applytitlefilter">
+    <Key>
+      <PropertyRef Name="idjobs" />
+    </Key>
+    <Property Name="idjobs" Type="varchar" Nullable="false" MaxLength="16" />
+    <Property Name="stitle" Type="varchar" MaxLength="255" />
+    <Property Name="srecruitername" Type="varchar" MaxLength="255" />
+    <Property Name="company" Type="varchar" MaxLength="255" />
+    <Property Name="sshortdescription" Type="varchar" MaxLength="500" />
+    <Property Name="sjobenddate" Type="date" />
+    <Property Name="dtentereddate" Type="datetime" />
+    <Property Name="currency" Type="varchar" MaxLength="3" />
+    <Property Name="video" Type="bit" />
+    <Property Name="ssalarytext" Type="varchar" MaxLength="100" />
+    <Property Name="slocation" Type="varchar" MaxLength="255" />
+    <Property Name="spostcode" Type="varchar" MaxLength="4000" />
+    <Property Name="sfreetext" Type="varchar" MaxLength="255" />
+    <Property Name="sisvideoenabled" Type="bit" />
+    <Property Name="applicationvolume" Type="bigint" />
+  </EntityType>
+  <!--Errors Found During Generation:
+      warning 6002: The table/view 'def.fashionquadrant.vw_brfilter' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.
+      -->
+  <EntityType Name="vw_brfilter">
+    <Key>
+      <PropertyRef Name="subcatid" />
+      <PropertyRef Name="ctotals" />
+      <PropertyRef Name="catid" />
+    </Key>
+    <Property Name="subcatid" Type="int" Nullable="false" />
+    <Property Name="sdefinition" Type="varchar" MaxLength="100" />
+    <Property Name="liparent" Type="int" />
+    <Property Name="ctotals" Type="bigint" Nullable="false" />
+    <Property Name="catid" Type="int" Nullable="false" />
+    <Property Name="cdefinition" Type="varchar" MaxLength="100" />
+  </EntityType>
+  <!--Errors Found During Generation:
+      warning 6002: The table/view 'def.fashionquadrant.vw_brmainstart' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.
+      -->
+  <EntityType Name="vw_brmainstart">
+    <Key>
+      <PropertyRef Name="subcatid" />
+      <PropertyRef Name="ctotals" />
+    </Key>
+    <Property Name="subcatid" Type="int" Nullable="false" />
+    <Property Name="sdefinition" Type="varchar" MaxLength="100" />
+    <Property Name="ctotals" Type="bigint" Nullable="false" />
+  </EntityType>
+  <!--Errors Found During Generation:
+      warning 6002: The table/view 'def.fashionquadrant.vw_brsubview' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.
+      -->
+  <EntityType Name="vw_brsubview">
+    <Key>
+      <PropertyRef Name="subcatid" />
+      <PropertyRef Name="ctotals" />
+    </Key>
+    <Property Name="subcatid" Type="int" Nullable="false" />
+    <Property Name="sdefinition" Type="varchar" MaxLength="100" />
+    <Property Name="ctotals" Type="bigint" Nullable="false" />
+    <Property Name="liparent" Type="int" />
+  </EntityType>
+  <!--Errors Found During Generation:
+      warning 6002: The table/view 'def.fashionquadrant.vw_cmslinks' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.
+      -->
+  <EntityType Name="vw_cmslinks">
+    <Key>
+      <PropertyRef Name="id_headerlinks" />
+    </Key>
+    <Property Name="id_headerlinks" Type="int" Nullable="false" />
+    <Property Name="hlinkname" Type="varchar" MaxLength="100" />
+    <Property Name="hlinktexturl" Type="varchar" MaxLength="255" />
+    <Property Name="hlinkimgurl" Type="varchar" MaxLength="255" />
+  </EntityType>
+  <!--Errors Found During Generation:
+      warning 6002: The table/view 'def.fashionquadrant.vw_cmsusermoderation' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.
+      -->
+  <EntityType Name="vw_cmsusermoderation">
+    <Key>
+      <PropertyRef Name="idtb_usermoderation" />
+    </Key>
+    <Property Name="idtb_usermoderation" Type="int" Nullable="false" />
+    <Property Name="idusers" Type="varchar" MaxLength="16" />
+    <Property Name="dtrequested" Type="datetime" />
+    <Property Name="requesttype" Type="int" />
+    <Property Name="sdefinition" Type="varchar" MaxLength="500" />
+  </EntityType>
+  <!--Errors Found During Generation:
+      warning 6002: The table/view 'def.fashionquadrant.vw_defaulttextsub' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.
+      -->
+  <EntityType Name="vw_defaulttextsub">
+    <Key>
+      <PropertyRef Name="idjobs" />
+      <PropertyRef Name="counts" />
+    </Key>
+    <Property Name="idjobs" Type="varchar" Nullable="false" MaxLength="16" />
+    <Property Name="counts" Type="bigint" Nullable="false" />
+    <Property Name="sdefinition" Type="varchar" MaxLength="100" />
+    <Property Name="subcatid" Type="int" />
+  </EntityType>
+  <!--Errors Found During Generation:
+      warning 6002: The table/view 'def.fashionquadrant.vw_emailtemplatesshow' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.
+      -->
+  <EntityType Name="vw_emailtemplatesshow">
+    <Key>
+      <PropertyRef Name="idemailtemplates" />
+    </Key>
+    <Property Name="idemailtemplates" Type="int" Nullable="false" />
+    <Property Name="eheader" Type="varchar" MaxLength="100" />
+    <Property Name="edescription" Type="varchar" MaxLength="100" />
+    <Property Name="efooter" Type="varchar" MaxLength="100" />
+    <Property Name="etemplatechkid" Type="varchar" MaxLength="45" />
+  </EntityType>
+  <!--Errors Found During Generation:
+      warning 6002: The table/view 'def.fashionquadrant.vw_emailtosend' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.
+      -->
+  <EntityType Name="vw_emailtosend">
+    <Key>
+      <PropertyRef Name="idjobs" />
+    </Key>
+    <Property Name="idjobs" Type="varchar" Nullable="false" MaxLength="16" />
+    <Property Name="sTitle" Type="varchar" MaxLength="255" />
+    <Property Name="sShortDescription" Type="varchar" MaxLength="500" />
+    <Property Name="dtentered" Type="date" />
+    <Property Name="sJobstartdate" Type="date" />
+    <Property Name="sjobenddate" Type="date" />
+    <Property Name="slocation" Type="varchar" MaxLength="255" />
+    <Property Name="sSalaryText" Type="varchar" MaxLength="100" />
+    <Property Name="sPostcode" Type="varchar" MaxLength="4000" />
+    <Property Name="emailaddress" Type="varchar" MaxLength="500" />
+  </EntityType>
+  <!--Errors Found During Generation:
+      warning 6002: The table/view 'def.fashionquadrant.vw_get_userans' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.
+      -->
+  <EntityType Name="vw_get_userans">
+    <Key>
+      <PropertyRef Name="idans" />
+      <PropertyRef Name="idquestion" />
+    </Key>
+    <Property Name="idans" Type="varchar" Nullable="false" MaxLength="16" />
+    <Property Name="answer" Type="varchar" MaxLength="45" />
+    <Property Name="idquestion" Type="varchar" Nullable="false" MaxLength="16" />
+    <Property Name="qquestion" Type="varchar" MaxLength="500" />
+    <Property Name="idapplication" Type="varchar" MaxLength="16" />
+  </EntityType>
+  <!--Errors Found During Generation:
+      warning 6002: The table/view 'def.fashionquadrant.vw_getactivejobs' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.
+      -->
+  <EntityType Name="vw_getactivejobs">
+    <Key>
+      <PropertyRef Name="total" />
+    </Key>
+    <Property Name="total" Type="bigint" Nullable="false" />
+    <Property Name="username" Type="varchar" MaxLength="255" />
+  </EntityType>
+  <!--Errors Found During Generation:
+      warning 6002: The table/view 'def.fashionquadrant.vw_getallrec' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.
+      -->
+  <EntityType Name="vw_getallrec">
+    <Key>
+      <PropertyRef Name="empid" />
+      <PropertyRef Name="totaljobs" />
+    </Key>
+    <Property Name="empid" Type="varchar" Nullable="false" MaxLength="16" />
+    <Property Name="sCompleteDesc" Type="text" />
+    <Property Name="sDescription" Type="varchar" MaxLength="500" />
+    <Property Name="Artifact_data" Type="varchar" />
+    <Property Name="sRecruiterName" Type="varchar" MaxLength="100" />
+    <Property Name="swebsite" Type="varchar" MaxLength="500" />
+    <Property Name="sisagent" Type="bit" />
+    <Property Name="semailaddress" Type="varchar" MaxLength="255" />
+    <Property Name="totaljobs" Type="bigint" Nullable="false" />
+  </EntityType>
+  <!--Errors Found During Generation:
+      warning 6002: The table/view 'def.fashionquadrant.vw_getapp' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.
+      -->
+  <EntityType Name="vw_getapp">
+    <Key>
+      <PropertyRef Name="idJobs" />
+      <PropertyRef Name="idApplications" />
+      <PropertyRef Name="empid" />
+    </Key>
+    <Property Name="idJobs" Type="varchar" Nullable="false" MaxLength="16" />
+    <Property Name="appstatus" Type="varchar" MaxLength="255" />
+    <Property Name="idstatus" Type="int" />
+    <Property Name="sTitle" Type="varchar" MaxLength="255" />
+    <Property Name="sShortDescription" Type="varchar" MaxLength="500" />
+    <Property Name="sDescription" Type="longtext" />
+    <Property Name="completeurl" Type="varchar" MaxLength="500" />
+    <Property Name="dtEnteredDate" Type="datetime" />
+    <Property Name="sSalaryText" Type="varchar" MaxLength="100" />
+    <Property Name="sMinSal" Type="int" />
+    <Property Name="sMaxSal" Type="int" />
+    <Property Name="sRef" Type="varchar" MaxLength="45" />
+    <Property Name="sFreeText" Type="varchar" MaxLength="255" />
+    <Property Name="sJobstartdate" Type="date" />
+    <Property Name="sJobenddate" Type="date" />
+    <Property Name="idApplications" Type="varchar" Nullable="false" MaxLength="16" />
+    <Property Name="liCandidateID" Type="varchar" MaxLength="16" />
+    <Property Name="dtEntered" Type="date" />
+    <Property Name="aFirstName" Type="varchar" MaxLength="255" />
+    <Property Name="aLastName" Type="varchar" MaxLength="255" />
+    <Property Name="aProfileSummary" Type="longtext" />
+    <Property Name="documentID" Type="varchar" MaxLength="16" />
+    <Property Name="aApplicationEmail" Type="varchar" MaxLength="255" />
+    <Property Name="empid" Type="varchar" Nullable="false" MaxLength="16" />
+    <Property Name="srecruitername" Type="varchar" MaxLength="100" />
+  </EntityType>
+  <!--Errors Found During Generation:
+      warning 6002: The table/view 'def.fashionquadrant.vw_getarchivedjobs' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.
+      -->
+  <EntityType Name="vw_getarchivedjobs">
+    <Key>
+      <PropertyRef Name="total" />
+    </Key>
+    <Property Name="total" Type="bigint" Nullable="false" />
+    <Property Name="username" Type="varchar" MaxLength="255" />
+  </EntityType>
+  <!--Errors Found During Generation:
+      warning 6002: The table/view 'def.fashionquadrant.vw_getblockedrec' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.
+      -->
+  <EntityType Name="vw_getblockedrec">
+    <Key>
+      <PropertyRef Name="empid" />
+    </Key>
+    <Property Name="empid" Type="varchar" Nullable="false" MaxLength="16" />
+    <Property Name="srecruitername" Type="varchar" MaxLength="100" />
+    <Property Name="idcandidates" Type="varchar" MaxLength="16" />
+  </EntityType>
+  <!--Errors Found During Generation:
+      warning 6002: The table/view 'def.fashionquadrant.vw_getdetailspages' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.
+      -->
+  <EntityType Name="vw_getdetailspages">
+    <Key>
+      <PropertyRef Name="idJobs" />
+      <PropertyRef Name="subcatid" />
+    </Key>
+    <Property Name="idJobs" Type="varchar" Nullable="false" MaxLength="16" />
+    <Property Name="minrange" Type="int" />
+    <Property Name="maxrange" Type="int" />
+    <Property Name="subcatid" Type="int" Nullable="false" />
+    <Property Name="catid" Type="int" />
+    <Property Name="sdefinition" Type="varchar" MaxLength="100" />
+  </EntityType>
+  <!--Errors Found During Generation:
+      warning 6002: The table/view 'def.fashionquadrant.vw_getfrecs' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.
+      -->
+  <EntityType Name="vw_getfrecs">
+    <Key>
+      <PropertyRef Name="idjobs" />
+    </Key>
+    <Property Name="Sponsored" Type="varchar" MaxLength="100" />
+    <Property Name="artifact_data" Type="varchar" />
+    <Property Name="sTitle" Type="varchar" MaxLength="255" />
+    <Property Name="idjobs" Type="varchar" Nullable="false" MaxLength="16" />
+  </EntityType>
+  <!--Errors Found During Generation:
+      warning 6002: The table/view 'def.fashionquadrant.vw_getjobs' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.
+      -->
+  <EntityType Name="vw_getjobs">
+    <Key>
+      <PropertyRef Name="idJobs" />
+      <PropertyRef Name="catid" />
+      <PropertyRef Name="EmployeeID" />
+    </Key>
+    <Property Name="idJobs" Type="varchar" Nullable="false" MaxLength="16" />
+    <Property Name="spostcode" Type="varchar" MaxLength="4000" />
+    <Property Name="video" Type="bit" />
+    <Property Name="cdefinition" Type="varchar" MaxLength="100" />
+    <Property Name="catid" Type="int" Nullable="false" />
+    <Property Name="sTitle" Type="varchar" MaxLength="255" />
+    <Property Name="liparent" Type="int" />
+    <Property Name="sShortDescription" Type="varchar" MaxLength="500" />
+    <Property Name="sFreeText" Type="varchar" MaxLength="255" />
+    <Property Name="slocation" Type="varchar" MaxLength="255" />
+    <Property Name="company" Type="varchar" MaxLength="255" />
+    <Property Name="sisvideoenabled" Type="bit" />
+    <Property Name="sDescription" Type="longtext" />
+    <Property Name="sdefinition" Type="varchar" MaxLength="100" />
+    <Property Name="currency" Type="varchar" MaxLength="3" />
+    <Property Name="dtEnteredDate" Type="date" />
+    <Property Name="srecruitername" Type="varchar" MaxLength="255" />
+    <Property Name="sSalaryText" Type="varchar" MaxLength="100" />
+    <Property Name="sMinSal" Type="int" />
+    <Property Name="EmployeeID" Type="varchar" Nullable="false" MaxLength="16" />
+    <Property Name="subcatid" Type="int" />
+    <Property Name="sMaxSal" Type="int" />
+  </EntityType>
+  <!--Errors Found During Generation:
+      warning 6002: The table/view 'def.fashionquadrant.vw_getjobsarch' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.
+      -->
+  <EntityType Name="vw_getjobsarch">
+    <Key>
+      <PropertyRef Name="idJobs" />
+      <PropertyRef Name="EmployeeID" />
+    </Key>
+    <Property Name="idJobs" Type="varchar" Nullable="false" MaxLength="16" />
+    <Property Name="sTitle" Type="varchar" MaxLength="255" />
+    <Property Name="sShortDescription" Type="varchar" MaxLength="500" />
+    <Property Name="sFreeText" Type="varchar" MaxLength="255" />
+    <Property Name="sDescription" Type="longtext" />
+    <Property Name="sjobenddate" Type="date" />
+    <Property Name="dtEnteredDate" Type="date" />
+    <Property Name="sSalaryText" Type="varchar" MaxLength="100" />
+    <Property Name="sMinSal" Type="int" />
+    <Property Name="EmployeeID" Type="varchar" Nullable="false" MaxLength="16" />
+    <Property Name="sMaxSal" Type="int" />
+  </EntityType>
+  <!--Errors Found During Generation:
+      warning 6002: The table/view 'def.fashionquadrant.vw_getjobssingle' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.
+      -->
+  <EntityType Name="vw_getjobssingle">
+    <Key>
+      <PropertyRef Name="idJobs" />
+      <PropertyRef Name="EmployeeID" />
+    </Key>
+    <Property Name="idJobs" Type="varchar" Nullable="false" MaxLength="16" />
+    <Property Name="Company" Type="varchar" MaxLength="255" />
+    <Property Name="sTitle" Type="varchar" MaxLength="255" />
+    <Property Name="sShortDescription" Type="varchar" MaxLength="500" />
+    <Property Name="sFreeText" Type="varchar" MaxLength="255" />
+    <Property Name="sjobenddate" Type="date" />
+    <Property Name="dtEnteredDate" Type="date" />
+    <Property Name="video" Type="bit" />
+    <Property Name="sSalaryText" Type="varchar" MaxLength="100" />
+    <Property Name="liparent" Type="int" />
+    <Property Name="sMinSal" Type="int" />
+    <Property Name="EmployeeID" Type="varchar" Nullable="false" MaxLength="16" />
+    <Property Name="slocation" Type="varchar" MaxLength="255" />
+    <Property Name="sMaxSal" Type="int" />
+  </EntityType>
+  <!--Errors Found During Generation:
+      warning 6002: The table/view 'def.fashionquadrant.vw_getjobssinglearch' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.
+      -->
+  <EntityType Name="vw_getjobssinglearch">
+    <Key>
+      <PropertyRef Name="idJobs" />
+      <PropertyRef Name="EmployeeID" />
+    </Key>
+    <Property Name="idJobs" Type="varchar" Nullable="false" MaxLength="16" />
+    <Property Name="sTitle" Type="varchar" MaxLength="255" />
+    <Property Name="sShortDescription" Type="varchar" MaxLength="500" />
+    <Property Name="sFreeText" Type="varchar" MaxLength="255" />
+    <Property Name="sDescription" Type="longtext" />
+    <Property Name="dtEnteredDate" Type="date" />
+    <Property Name="sSalaryText" Type="varchar" MaxLength="100" />
+    <Property Name="sMinSal" Type="int" />
+    <Property Name="EmployeeID" Type="varchar" Nullable="false" MaxLength="16" />
+    <Property Name="subcatid" Type="int" />
+    <Property Name="sMaxSal" Type="int" />
+  </EntityType>
+  <!--Errors Found During Generation:
+      warning 6002: The table/view 'def.fashionquadrant.vw_getmyapps' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.
+      -->
+  <EntityType Name="vw_getmyapps">
+    <Key>
+      <PropertyRef Name="idApplications" />
+      <PropertyRef Name="idCandidates" />
+      <PropertyRef Name="idusers" />
+    </Key>
+    <Property Name="idApplications" Type="varchar" Nullable="false" MaxLength="16" />
+    <Property Name="sRecruiterName" Type="varchar" MaxLength="100" />
+    <Property Name="Applicationstatus" Type="varchar" MaxLength="255" />
+    <Property Name="stitle" Type="varchar" MaxLength="255" />
+    <Property Name="liCandidateID" Type="varchar" MaxLength="16" />
+    <Property Name="dtEntered" Type="date" />
+    <Property Name="aFirstName" Type="varchar" MaxLength="255" />
+    <Property Name="aLastName" Type="varchar" MaxLength="255" />
+    <Property Name="aProfileSummary" Type="longtext" />
+    <Property Name="uusername" Type="varchar" MaxLength="255" />
+    <Property Name="idCandidates" Type="varchar" Nullable="false" MaxLength="16" />
+    <Property Name="cCandidateName" Type="varchar" MaxLength="255" />
+    <Property Name="cFirstName" Type="varchar" MaxLength="255" />
+    <Property Name="cLastName" Type="varchar" MaxLength="255" />
+    <Property Name="idusers" Type="varchar" Nullable="false" MaxLength="16" />
+  </EntityType>
+  <!--Errors Found During Generation:
+      warning 6002: The table/view 'def.fashionquadrant.vw_getrecofweek' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.
+      -->
+  <EntityType Name="vw_getrecofweek">
+    <Key>
+      <PropertyRef Name="empid" />
+    </Key>
+    <Property Name="Sponsored" Type="varchar" MaxLength="100" />
+    <Property Name="empid" Type="varchar" Nullable="false" MaxLength="16" />
+    <Property Name="Artifact_data" Type="varchar" />
+    <Property Name="sDescription" Type="varchar" MaxLength="500" />
+  </EntityType>
+  <!--Errors Found During Generation:
+      warning 6002: The table/view 'def.fashionquadrant.vw_getsalforcalc' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.
+      -->
+  <EntityType Name="vw_getsalforcalc">
+    <Key>
+      <PropertyRef Name="divisor" />
+    </Key>
+    <Property Name="divisor" Type="bigint" Nullable="false" />
+    <Property Name="Question1" Type="varchar" MaxLength="200" />
+    <Property Name="Question2" Type="varchar" MaxLength="200" />
+    <Property Name="median_sal" Type="double" />
+    <Property Name="Question4" Type="varchar" MaxLength="200" />
+    <Property Name="Question5" Type="varchar" MaxLength="200" />
+    <Property Name="Question6" Type="varchar" MaxLength="200" />
+    <Property Name="Question7" Type="varchar" MaxLength="200" />
+    <Property Name="Question8" Type="varchar" MaxLength="200" />
+  </EntityType>
+  <!--Errors Found During Generation:
+      warning 6002: The table/view 'def.fashionquadrant.vw_getsavedjobs' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.
+      -->
+  <EntityType Name="vw_getsavedjobs">
+    <Key>
+      <PropertyRef Name="idjobs" />
+    </Key>
+    <Property Name="idjobs" Type="varchar" Nullable="false" MaxLength="16" />
+    <Property Name="jobtitle" Type="varchar" MaxLength="255" />
+    <Property Name="company" Type="varchar" MaxLength="255" />
+    <Property Name="username" Type="varchar" MaxLength="255" />
+    <Property Name="posteddate" Type="datetime" />
+    <Property Name="uid" Type="varchar" MaxLength="16" />
+    <Property Name="createddate" Type="datetime" />
+  </EntityType>
+  <!--Errors Found During Generation:
+      warning 6002: The table/view 'def.fashionquadrant.vw_getsubjectemailapps' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.
+      -->
+  <EntityType Name="vw_getsubjectemailapps">
+    <Key>
+      <PropertyRef Name="idjobs" />
+    </Key>
+    <Property Name="sRef" Type="varchar" MaxLength="45" />
+    <Property Name="stitle" Type="varchar" MaxLength="255" />
+    <Property Name="idjobs" Type="varchar" Nullable="false" MaxLength="16" />
+  </EntityType>
+  <!--Errors Found During Generation:
+      warning 6002: The table/view 'def.fashionquadrant.vw_getusercans' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.
+      -->
+  <EntityType Name="vw_getusercans">
+    <Key>
+      <PropertyRef Name="idUsers" />
+      <PropertyRef Name="idCandidates" />
+    </Key>
+    <Property Name="idUsers" Type="varchar" Nullable="false" MaxLength="16" />
+    <Property Name="uUserType" Type="int" />
+    <Property Name="uUsername" Type="varchar" MaxLength="255" />
+    <Property Name="uPassword" Type="varchar" MaxLength="45" />
+    <Property Name="uPasswordHint" Type="varchar" MaxLength="255" />
+    <Property Name="uFirstName" Type="varchar" MaxLength="255" />
+    <Property Name="uLastName" Type="varchar" MaxLength="255" />
+    <Property Name="uIsPrimary" Type="bit" />
+    <Property Name="uCandidateID" Type="varchar" MaxLength="16" />
+    <Property Name="idCandidates" Type="varchar" Nullable="false" MaxLength="16" />
+    <Property Name="cCandidateName" Type="varchar" MaxLength="255" />
+    <Property Name="cFirstName" Type="varchar" MaxLength="255" />
+    <Property Name="cLastName" Type="varchar" MaxLength="255" />
+    <Property Name="cAddress1" Type="varchar" MaxLength="255" />
+    <Property Name="cAddress2" Type="varchar" MaxLength="255" />
+    <Property Name="cAddress3" Type="varchar" MaxLength="255" />
+    <Property Name="cTown" Type="varchar" MaxLength="45" />
+    <Property Name="cCounty" Type="varchar" MaxLength="45" />
+    <Property Name="cPostcode" Type="varchar" MaxLength="10" />
+    <Property Name="cHomephone" Type="varchar" MaxLength="45" />
+    <Property Name="cWorkphone" Type="varchar" MaxLength="45" />
+    <Property Name="cdtEntered" Type="datetime" />
+    <Property Name="cCountry" Type="varchar" MaxLength="45" />
+  </EntityType>
+  <!--Errors Found During Generation:
+      warning 6002: The table/view 'def.fashionquadrant.vw_helpansbycategory' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.
+      -->
+  <EntityType Name="vw_helpansbycategory">
+    <Key>
+      <PropertyRef Name="idtb_helpcenterqs" />
+    </Key>
+    <Property Name="idtb_helpcenterqs" Type="int" Nullable="false" />
+    <Property Name="Question" Type="varchar" />
+    <Property Name="Answer" Type="longtext" />
+    <Property Name="dtEntered" Type="datetime" />
+    <Property Name="hcatid" Type="int" />
+  </EntityType>
+  <!--Errors Found During Generation:
+      warning 6002: The table/view 'def.fashionquadrant.vw_helpansgrouping' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.
+      -->
+  <EntityType Name="vw_helpansgrouping">
+    <Key>
+      <PropertyRef Name="hcatid" />
+    </Key>
+    <Property Name="hcatid" Type="int" Nullable="false" />
+    <Property Name="category" Type="varchar" MaxLength="45" />
+  </EntityType>
+  <!--Errors Found During Generation:
+      warning 6002: The table/view 'def.fashionquadrant.vw_jobapplicationview' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.
+      -->
+  <EntityType Name="vw_jobapplicationview">
+    <Key>
+      <PropertyRef Name="idjobs" />
+      <PropertyRef Name="empid" />
+    </Key>
+    <Property Name="dtEntered" Type="date" />
+    <Property Name="idjobs" Type="varchar" Nullable="false" MaxLength="16" />
+    <Property Name="empid" Type="varchar" Nullable="false" MaxLength="16" />
+  </EntityType>
+  <!--Errors Found During Generation:
+      warning 6002: The table/view 'def.fashionquadrant.vw_jobbyrec' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.
+      -->
+  <EntityType Name="vw_jobbyrec">
+    <Key>
+      <PropertyRef Name="idjobs" />
+      <PropertyRef Name="empid" />
+    </Key>
+    <Property Name="idjobs" Type="varchar" Nullable="false" MaxLength="16" />
+    <Property Name="empid" Type="varchar" Nullable="false" MaxLength="16" />
+    <Property Name="ssalarytext" Type="varchar" MaxLength="100" />
+    <Property Name="stitle" Type="varchar" MaxLength="255" />
+    <Property Name="sshortdescription" Type="varchar" MaxLength="500" />
+    <Property Name="dtentereddate" Type="datetime" />
+    <Property Name="slocation" Type="varchar" MaxLength="255" />
+    <Property Name="srecruitername" Type="varchar" MaxLength="100" />
+  </EntityType>
+  <!--Errors Found During Generation:
+      warning 6002: The table/view 'def.fashionquadrant.vw_jobpostedview' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.
+      -->
+  <EntityType Name="vw_jobpostedview">
+    <Key>
+      <PropertyRef Name="idjobs" />
+      <PropertyRef Name="empid" />
+    </Key>
+    <Property Name="idjobs" Type="bigint" Nullable="false" />
+    <Property Name="empid" Type="varchar" Nullable="false" MaxLength="16" />
+    <Property Name="dtentered" Type="datetime" />
+  </EntityType>
+  <!--Errors Found During Generation:
+      warning 6002: The table/view 'def.fashionquadrant.vw_jobsoutmail' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.
+      -->
+  <EntityType Name="vw_jobsoutmail">
+    <Key>
+      <PropertyRef Name="idjobs" />
+    </Key>
+    <Property Name="emailaddress" Type="varchar" MaxLength="500" />
+    <Property Name="idjobs" Type="varchar" Nullable="false" MaxLength="16" />
+    <Property Name="stitle" Type="varchar" MaxLength="255" />
+  </EntityType>
+  <!--Errors Found During Generation:
+      warning 6002: The table/view 'def.fashionquadrant.vw_jobtrendsectors' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.
+      -->
+  <EntityType Name="vw_jobtrendsectors">
+    <Key>
+      <PropertyRef Name="jbtotal" />
+    </Key>
+    <Property Name="jbtotal" Type="bigint" Nullable="false" />
+    <Property Name="sdefinition" Type="varchar" MaxLength="100" />
+  </EntityType>
+  <!--Errors Found During Generation:
+      warning 6002: The table/view 'def.fashionquadrant.vw_logcandidate' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.
+      -->
+  <EntityType Name="vw_logcandidate">
+    <Key>
+      <PropertyRef Name="idtb_userarchives" />
+    </Key>
+    <Property Name="idtb_userarchives" Type="int" Nullable="false" />
+    <Property Name="logintime" Type="time" />
+    <Property Name="logindate" Type="date" />
+    <Property Name="uusername" Type="varchar" MaxLength="255" />
+    <Property Name="uusertype" Type="int" />
+    <Property Name="userip" Type="varchar" MaxLength="45" />
+    <Property Name="userdevice" Type="varchar" MaxLength="255" />
+  </EntityType>
+  <!--Errors Found During Generation:
+      warning 6002: The table/view 'def.fashionquadrant.vw_logrecruiter' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.
+      -->
+  <EntityType Name="vw_logrecruiter">
+    <Key>
+      <PropertyRef Name="idtb_userarchives" />
+    </Key>
+    <Property Name="idtb_userarchives" Type="int" Nullable="false" />
+    <Property Name="logintime" Type="time" />
+    <Property Name="logindate" Type="date" />
+    <Property Name="uusername" Type="varchar" MaxLength="255" />
+    <Property Name="uusertype" Type="int" />
+    <Property Name="userip" Type="varchar" MaxLength="45" />
+    <Property Name="userdevice" Type="varchar" MaxLength="255" />
+  </EntityType>
+  <!--Errors Found During Generation:
+      warning 6002: The table/view 'def.fashionquadrant.vw_recjobassignments' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.
+      -->
+  <EntityType Name="vw_recjobassignments">
+    <Key>
+      <PropertyRef Name="idjobs" />
+      <PropertyRef Name="empid" />
+    </Key>
+    <Property Name="idjobs" Type="varchar" Nullable="false" MaxLength="16" />
+    <Property Name="empid" Type="varchar" Nullable="false" MaxLength="16" />
+    <Property Name="uusername" Type="varchar" MaxLength="255" />
+  </EntityType>
+  <!--Errors Found During Generation:
+      warning 6002: The table/view 'def.fashionquadrant.vw_recusers' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.
+      -->
+  <EntityType Name="vw_recusers">
+    <Key>
+      <PropertyRef Name="idjobs" />
+      <PropertyRef Name="empid" />
+    </Key>
+    <Property Name="idjobs" Type="varchar" Nullable="false" MaxLength="16" />
+    <Property Name="empid" Type="varchar" Nullable="false" MaxLength="16" />
+    <Property Name="uFirstName" Type="varchar" MaxLength="255" />
+    <Property Name="ulastname" Type="varchar" MaxLength="255" />
+  </EntityType>
+  <!--Errors Found During Generation:
+      warning 6002: The table/view 'def.fashionquadrant.vw_rptspamjobs' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.
+      -->
+  <EntityType Name="vw_rptspamjobs">
+    <Key>
+      <PropertyRef Name="idtb_spamreport" />
+    </Key>
+    <Property Name="stitle" Type="varchar" MaxLength="255" />
+    <Property Name="idtb_spamreport" Type="int" Nullable="false" />
+    <Property Name="spamindex" Type="int" />
+    <Property Name="spamreason" Type="varchar" />
+    <Property Name="dtentered" Type="datetime" />
+    <Property Name="ipuser" Type="varchar" MaxLength="45" />
+    <Property Name="useragents" Type="varchar" />
+    <Property Name="jobid" Type="varchar" MaxLength="16" />
+  </EntityType>
+  <!--Errors Found During Generation:
+      warning 6002: The table/view 'def.fashionquadrant.vw_textads' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.
+      -->
+  <EntityType Name="vw_textads">
+    <Key>
+      <PropertyRef Name="idjobs" />
+    </Key>
+    <Property Name="idjobs" Type="varchar" Nullable="false" MaxLength="16" />
+    <Property Name="stitle" Type="varchar" MaxLength="255" />
+    <Property Name="sshortdescription" Type="varchar" MaxLength="500" />
+  </EntityType>
+  <!--Errors Found During Generation:
+      warning 6013: The table/view 'def.fashionquadrant.vw_adgen' does not have a primary key defined and no valid primary key could be inferred. This table/view has been excluded. To use the entity, you will need to review your schema, add the correct keys, and uncomment it.
+      
+      <EntityType Name="vw_adgen">
+        <Property Name="adpath" Type="varchar" MaxLength="500" />
+        <Property Name="adsection" Type="varchar" MaxLength="100" />
+        <Property Name="adkey" Type="int" />
+      </EntityType>
+      Errors Found During Generation:
+      warning 6013: The table/view 'def.fashionquadrant.vw_jobsuggest' does not have a primary key defined and no valid primary key could be inferred. This table/view has been excluded. To use the entity, you will need to review your schema, add the correct keys, and uncomment it.
+      
+      <EntityType Name="vw_jobsuggest">
+        <Property Name="max(idjobs)" Type="varchar" MaxLength="16" />
+        <Property Name="stitle" Type="varchar" MaxLength="255" />
+        <Property Name="sfreetext" Type="varchar" MaxLength="255" />
+      </EntityType>
+      Errors Found During Generation:
+      warning 6013: The table/view 'def.fashionquadrant.vw_mcjobtable' does not have a primary key defined and no valid primary key could be inferred. This table/view has been excluded. To use the entity, you will need to review your schema, add the correct keys, and uncomment it.
+      
+      <EntityType Name="vw_mcjobtable">
+        <Property Name="idjobs" Type="varchar" MaxLength="16" />
+        <Property Name="subcatid" Type="int" />
+        <Property Name="empid" Type="varchar" MaxLength="16" />
+      </EntityType>
+      Errors Found During Generation:
+      warning 6013: The table/view 'def.fashionquadrant.vw_rpt_appsall' does not have a primary key defined and no valid primary key could be inferred. This table/view has been excluded. To use the entity, you will need to review your schema, add the correct keys, and uncomment it.
+      
+      <EntityType Name="vw_rpt_appsall">
+        <Property Name="dtentered" Type="date" />
+        <Property Name="afirstname" Type="varchar" MaxLength="255" />
+        <Property Name="alastname" Type="varchar" MaxLength="255" />
+        <Property Name="aapplicationemail" Type="varchar" MaxLength="255" />
+        <Property Name="aapplicationstatus" Type="int" />
+      </EntityType>
+      Errors Found During Generation:
+      warning 6013: The table/view 'def.fashionquadrant.vw_rpt_appscurrmonth' does not have a primary key defined and no valid primary key could be inferred. This table/view has been excluded. To use the entity, you will need to review your schema, add the correct keys, and uncomment it.
+      
+      <EntityType Name="vw_rpt_appscurrmonth">
+        <Property Name="dtentered" Type="date" />
+        <Property Name="afirstname" Type="varchar" MaxLength="255" />
+        <Property Name="alastname" Type="varchar" MaxLength="255" />
+        <Property Name="aapplicationemail" Type="varchar" MaxLength="255" />
+        <Property Name="aapplicationstatus" Type="int" />
+      </EntityType>
+      Errors Found During Generation:
+      warning 6013: The table/view 'def.fashionquadrant.vw_rpt_appslast3months' does not have a primary key defined and no valid primary key could be inferred. This table/view has been excluded. To use the entity, you will need to review your schema, add the correct keys, and uncomment it.
+      
+      <EntityType Name="vw_rpt_appslast3months">
+        <Property Name="dtentered" Type="date" />
+        <Property Name="afirstname" Type="varchar" MaxLength="255" />
+        <Property Name="alastname" Type="varchar" MaxLength="255" />
+        <Property Name="aapplicationemail" Type="varchar" MaxLength="255" />
+        <Property Name="aapplicationstatus" Type="int" />
+      </EntityType>
+      Errors Found During Generation:
+      warning 6013: The table/view 'def.fashionquadrant.vw_rpt_appslast6month' does not have a primary key defined and no valid primary key could be inferred. This table/view has been excluded. To use the entity, you will need to review your schema, add the correct keys, and uncomment it.
+      
+      <EntityType Name="vw_rpt_appslast6month">
+        <Property Name="dtentered" Type="date" />
+        <Property Name="afirstname" Type="varchar" MaxLength="255" />
+        <Property Name="alastname" Type="varchar" MaxLength="255" />
+        <Property Name="aapplicationemail" Type="varchar" MaxLength="255" />
+        <Property Name="aapplicationstatus" Type="int" />
+      </EntityType>
+      Errors Found During Generation:
+      warning 6013: The table/view 'def.fashionquadrant.vw_rpt_appslastmonth' does not have a primary key defined and no valid primary key could be inferred. This table/view has been excluded. To use the entity, you will need to review your schema, add the correct keys, and uncomment it.
+      
+      <EntityType Name="vw_rpt_appslastmonth">
+        <Property Name="dtentered" Type="date" />
+        <Property Name="afirstname" Type="varchar" MaxLength="255" />
+        <Property Name="alastname" Type="varchar" MaxLength="255" />
+        <Property Name="aapplicationemail" Type="varchar" MaxLength="255" />
+        <Property Name="aapplicationstatus" Type="int" />
+      </EntityType>
+      Errors Found During Generation:
+      warning 6013: The table/view 'def.fashionquadrant.vw_rpt_appslastyear' does not have a primary key defined and no valid primary key could be inferred. This table/view has been excluded. To use the entity, you will need to review your schema, add the correct keys, and uncomment it.
+      
+      <EntityType Name="vw_rpt_appslastyear">
+        <Property Name="dtentered" Type="date" />
+        <Property Name="afirstname" Type="varchar" MaxLength="255" />
+        <Property Name="alastname" Type="varchar" MaxLength="255" />
+        <Property Name="aapplicationemail" Type="varchar" MaxLength="255" />
+        <Property Name="aapplicationstatus" Type="int" />
+      </EntityType>
+      Errors Found During Generation:
+      warning 6013: The table/view 'def.fashionquadrant.vw_rpt_appsthisyear' does not have a primary key defined and no valid primary key could be inferred. This table/view has been excluded. To use the entity, you will need to review your schema, add the correct keys, and uncomment it.
+      
+      <EntityType Name="vw_rpt_appsthisyear">
+        <Property Name="dtentered" Type="date" />
+        <Property Name="afirstname" Type="varchar" MaxLength="255" />
+        <Property Name="alastname" Type="varchar" MaxLength="255" />
+        <Property Name="aapplicationemail" Type="varchar" MaxLength="255" />
+        <Property Name="aapplicationstatus" Type="int" />
+      </EntityType>
+      Errors Found During Generation:
+      warning 6013: The table/view 'def.fashionquadrant.vw_rpt_appstoday' does not have a primary key defined and no valid primary key could be inferred. This table/view has been excluded. To use the entity, you will need to review your schema, add the correct keys, and uncomment it.
+      
+      <EntityType Name="vw_rpt_appstoday">
+        <Property Name="dtentered" Type="date" />
+        <Property Name="afirstname" Type="varchar" MaxLength="255" />
+        <Property Name="alastname" Type="varchar" MaxLength="255" />
+        <Property Name="aapplicationemail" Type="varchar" MaxLength="255" />
+        <Property Name="aapplicationstatus" Type="int" />
+      </EntityType>
+      Errors Found During Generation:
+      warning 6013: The table/view 'def.fashionquadrant.vw_rpt_appsyesterday' does not have a primary key defined and no valid primary key could be inferred. This table/view has been excluded. To use the entity, you will need to review your schema, add the correct keys, and uncomment it.
+      
+      <EntityType Name="vw_rpt_appsyesterday">
+        <Property Name="dtentered" Type="date" />
+        <Property Name="afirstname" Type="varchar" MaxLength="255" />
+        <Property Name="alastname" Type="varchar" MaxLength="255" />
+        <Property Name="aapplicationemail" Type="varchar" MaxLength="255" />
+        <Property Name="aapplicationstatus" Type="int" />
+      </EntityType>
+      Errors Found During Generation:
+      warning 6013: The table/view 'def.fashionquadrant.vw_subsite_cats' does not have a primary key defined and no valid primary key could be inferred. This table/view has been excluded. To use the entity, you will need to review your schema, add the correct keys, and uncomment it.
+      
+      <EntityType Name="vw_subsite_cats">
+        <Property Name="idsubsite" Type="varchar" MaxLength="100" />
+        <Property Name="CatName" Type="varchar" MaxLength="100" />
+        <Property Name="catid" Type="int" />
+        <Property Name="subcatid" Type="int" />
+        <Property Name="SubcatName" Type="varchar" MaxLength="100" />
+      </EntityType>-->
+</Schema>

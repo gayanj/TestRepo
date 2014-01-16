@@ -1,0 +1,1 @@
+function pageLoad() { hidedivs("dv_jformvid") } function showdivs(a) { document.getElementById(a).style.display = "" } function hidedivs(a) { document.getElementById(a).style.display = "none" }

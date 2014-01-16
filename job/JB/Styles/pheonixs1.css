@@ -1,0 +1,88 @@
+﻿.hdrback {
+    height: 16px;
+    padding-left: 4px;
+    vertical-align: middle;
+}
+
+.pdrleft {
+    margin: 0 auto;
+    padding-left: 4px;
+    width: 400px;
+}
+
+.pdrleft2 {
+    vertical-align: middle;
+    padding-left: 4px;
+}
+
+.divrft {
+    float: right;
+}
+
+.divleft {
+    width: 300px;
+}
+
+.comboSts {
+    border-width: 1px;
+    border-color: gray;
+    border-style: solid;
+}
+
+.TextboxSts {
+    border-left-width: 0;
+    border-right-width: 0;
+    border-top-width: 0;
+    border-bottom-width: 1px;
+    border-collapse: collapse;
+    border-bottom-style: dotted;
+    width: 40%;
+    border-bottom-color: gray;
+}
+
+.TextButton {
+    border-width: 1px;
+    border-collapse: collapse;
+    border-style: solid;
+    border-color: gray;
+}
+
+.mainheading {
+    font-size: 20px;
+    vertical-align: middle;
+    text-decoration: none;
+}
+
+.mainfnt {
+    color: gray;
+    vertical-align: middle;
+    text-decoration: none;
+}
+
+.box2 {
+    border-width: 1px;
+    border-color: gray;
+    border-style: solid;
+    height: 500px;
+}
+
+.mainheadingcc1 {
+    color: gray;
+    font-size: 20px;
+    vertical-align: middle;
+    text-decoration: none;
+    text-align: center;
+}
+
+.divalignccent {
+    text-align: center;
+    height: 400px;
+}
+
+.mainfnt, .TextboxSts, .comboSts, .mainheading, .TextButton, .mainheadingcc1 {
+    font-family: "Lucida Grande",Helvetica,Arial,Verdana,sans-serif;
+}
+
+.comboSts, .TextboxSts, .TextButton, .mainfnt {
+    font-size: .688em;
+}

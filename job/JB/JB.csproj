@@ -1,0 +1,1917 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{698C7712-FB16-4695-B8C2-4BD940EF509A}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>JB</RootNamespace>
+    <AssemblyName>JB</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>4.0</OldToolsVersion>
+    <TargetFrameworkProfile />
+    <UseIISExpress>false</UseIISExpress>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <FilesToIncludeForPublish>OnlyFilesToRunTheApp</FilesToIncludeForPublish>
+    <PackageAsSingleFile>false</PackageAsSingleFile>
+    <PublishDatabases>false</PublishDatabases>
+    <ExcludeGeneratedDebugSymbol>true</ExcludeGeneratedDebugSymbol>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignAssembly>true</SignAssembly>
+  </PropertyGroup>
+  <PropertyGroup>
+    <AssemblyOriginatorKeyFile>
+    </AssemblyOriginatorKeyFile>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>
+    </ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="AjaxControlToolkit, Version=4.1.7.1213, Culture=neutral, PublicKeyToken=28f01b0e84b6d53e, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\AjaxControlToolkit.7.1213\lib\40\AjaxControlToolkit.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="Microsoft.ReportViewer.Common, Version=11.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\Windows\assembly\GAC_MSIL\Microsoft.ReportViewer.Common\11.0.0.0__89845dcd8080cc91\Microsoft.ReportViewer.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.WebForms, Version=11.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL" />
+    <Reference Include="minGuid, Version=1.0.0.0, Culture=neutral, PublicKeyToken=a82f74b5c0533685, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Toolkit\minGuid.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.DataVisualization" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="ActivateAccount.aspx" />
+    <Content Include="Adverts.aspx" />
+    <Content Include="AllRecruiters.aspx" />
+    <Content Include="Autosearchjob.asmx" />
+    <Content Include="Autosearchrec.asmx" />
+    <Content Include="Captcha.aspx" />
+    <Content Include="Cms\CmsAddAds.aspx" />
+    <Content Include="Cms\CmsAddHelpAnswer.aspx" />
+    <Content Include="Cms\CmsAddHelpCategory.aspx" />
+    <Content Include="Cms\CmsAddJobs.aspx" />
+    <Content Include="Cms\CmsAddSiteLink.aspx" />
+    <Content Include="Cms\CmsAddSiteSearchItem.aspx" />
+    <Content Include="Cms\CmsAddUser.aspx" />
+    <Content Include="Cms\CmsAddWiki.aspx" />
+    <Content Include="Cms\CmsAdverts.aspx" />
+    <Content Include="Cms\CmsDelHeaderItem.aspx" />
+    <Content Include="Cms\CmsRecruiters.aspx" />
+    <Content Include="Cms\CmsAddSalary.aspx" />
+    <Content Include="Cms\CmsApps.aspx" />
+    <Content Include="Cms\CmsSearchAdvanced.aspx" />
+    <Content Include="Cms\CmsSearchSimple.aspx" />
+    <Content Include="Cms\CmsUsers.aspx" />
+    <Content Include="Cms\CmsAddArticles.aspx" />
+    <Content Include="Cms\CmsBranding.aspx" />
+    <Content Include="Cms\CmsDelHelpAnswer.aspx" />
+    <Content Include="Cms\CmsDelHelpCategory.aspx" />
+    <Content Include="Cms\CmsDelJobs.aspx" />
+    <Content Include="Cms\CmsDelModeration.aspx" />
+    <Content Include="Cms\CmsDelSalary.aspx" />
+    <Content Include="Cms\CmsDelSiteLink.aspx" />
+    <Content Include="Cms\CmsDelUser.aspx" />
+    <Content Include="Cms\CmsDelVideo.aspx" />
+    <Content Include="Cms\CmsDelWiki.aspx" />
+    <Content Include="Cms\CmsEditHelpAnswer.aspx" />
+    <Content Include="Cms\CmsEditHelpCategory.aspx" />
+    <Content Include="Cms\CmsEditJobs.aspx" />
+    <Content Include="Cms\CmsEditModeration.aspx" />
+    <Content Include="Cms\CmsEditRecuiter.aspx" />
+    <Content Include="Cms\CmsEditSalary.aspx" />
+    <Content Include="Cms\CmsEditSiteLink.aspx" />
+    <Content Include="Cms\CmsEditUser.aspx" />
+    <Content Include="Cms\CmsEditVideo.aspx" />
+    <Content Include="Cms\CmsEditWiki.aspx" />
+    <Content Include="Cms\CmsJobs.aspx" />
+    <Content Include="Cms\CmsSiteTitles.aspx" />
+    <Content Include="Cms\CmsBulkImport.aspx" />
+    <Content Include="Cms\CmsConfirm.aspx" />
+    <Content Include="Cms\CmsDelAds.aspx" />
+    <Content Include="Cms\CmsDelApplication.aspx" />
+    <Content Include="Cms\CmsDelArticle.aspx" />
+    <Content Include="Cms\CmsDelETemplate.aspx" />
+    <Content Include="Cms\CmsDelSiteSearch.aspx" />
+    <Content Include="Cms\CmsEditAds.aspx" />
+    <Content Include="Cms\CmsEditApplication.aspx" />
+    <Content Include="Cms\CmsEditArticle.aspx" />
+    <Content Include="Cms\CmsEditETemplate.aspx" />
+    <Content Include="Cms\CmsEditGlobalOption.aspx" />
+    <Content Include="Cms\CmsEditHeaderItem.aspx" />
+    <Content Include="Cms\CmsEditSiteSearch.aspx" />
+    <Content Include="Cms\CmsEditSiteTitles.aspx" />
+    <Content Include="Cms\CmsGlobalOptions.aspx" />
+    <Content Include="Cms\CmsHelpAnswer.aspx" />
+    <Content Include="Cms\CmsHelpCat.aspx" />
+    <Content Include="Cms\CmsHelpQuestions.aspx" />
+    <Content Include="Cms\CmsHomePageLinks.aspx" />
+    <Content Include="Cms\CmsLogos.aspx" />
+    <Content Include="Cms\CmsEmailTempl.aspx" />
+    <Content Include="Cms\CmsAddSiteHeader.aspx" />
+    <Content Include="Cms\CmsSiteSearch.aspx" />
+    <Content Include="Cms\CmsAddSitemapItem.aspx" />
+    <Content Include="Cms\CmsDelSitemapItem.aspx" />
+    <Content Include="Cms\CmsEditSitemapItem.aspx" />
+    <Content Include="Cms\CmsSiteSearchReIndex.aspx" />
+    <Content Include="Cms\CmsSubsiteAll.aspx" />
+    <Content Include="Cms\CmsTracking.aspx" />
+    <Content Include="Cms\CmsHeaders.aspx" />
+    <Content Include="Cms\CmsHelpCenter.aspx" />
+    <Content Include="Cms\CmsHome.aspx" />
+    <Content Include="Cms\CmsReports.aspx" />
+    <Content Include="Cms\CmsSalaryCategories.aspx" />
+    <Content Include="Cms\CmsArticles.aspx" />
+    <Content Include="Cms\CmsSitemaps.aspx" />
+    <Content Include="Cms\CmsUserModeration.aspx" />
+    <Content Include="Cms\CmsVideos.aspx" />
+    <Content Include="Cms\CmsWiki.aspx" />
+    <Content Include="Cms\CmsDelHelpQuestion.aspx" />
+    <Content Include="Cms\CmsAddHelpQuestion.aspx" />
+    <Content Include="Cms\CmsEditHelpQuestion.aspx" />
+    <Content Include="Cms\CmsAddETemplate.aspx" />
+    <Content Include="Cms\CmsLogin.aspx" />
+    <Content Include="Cms\Confirmation.aspx" />
+    <Content Include="Cms\SubSites\AddSubsiteStep3.aspx" />
+    <Content Include="Cms\SubSites\AddSubsiteStep2.aspx" />
+    <Content Include="Cms\SubSites\AddSubsiteStep1.aspx" />
+    <Content Include="Cms\SubSites\AddSubsiteStep4.aspx" />
+    <Content Include="Cms\SubSites\AddSubsiteStep5.aspx" />
+    <Content Include="Cms\SubSites\AddSubsiteStep6.aspx" />
+    <Content Include="Facebook\Home.aspx" />
+    <Content Include="Facebook\SearchJobs.aspx" />
+    <Content Include="Facebook\images\bar.gif" />
+    <Content Include="Facebook\images\bk_menu.gif" />
+    <Content Include="Facebook\images\img_glow.gif" />
+    <Content Include="Facebook\images\img_menu.gif" />
+    <Content Include="Facebook\images\img_sociologo.png" />
+    <Content Include="Facebook\images\img_sorter.png" />
+    <Content Include="Facebook\images\socio_loader.png" />
+    <Content Include="Facebook\images\sprite.gif" />
+    <Content Include="Facebook\InviteContacts.aspx" />
+    <Content Include="Facebook\scripts\jqueryvx.js" />
+    <Content Include="Facebook\styles\seagull.css" />
+    <Content Include="Scripts\jquery-ui.js" />
+    <Content Include="Styles\CmsThemes\Azure.css" />
+    <Content Include="Styles\CmsThemes\Blue.css" />
+    <Content Include="Styles\CmsThemes\Green.css" />
+    <Content Include="Styles\CmsThemes\Orange.css" />
+    <Content Include="Styles\CmsThemes\Red.css" />
+    <Content Include="Confirm.aspx" />
+    <Content Include="Contact.aspx" />
+    <Content Include="Autosearchpcode.asmx" />
+    <Content Include="FraudFilters\FraudAction.aspx" />
+    <Content Include="Global.asax" />
+    <Content Include="JbAbout.aspx" />
+    <Content Include="Default.aspx" />
+    <Content Include="HelpCenter\Answer.aspx" />
+    <Content Include="HelpCenter\Main.aspx" />
+    <Content Include="JbArticles.aspx" />
+    <Content Include="JbEmailPage.aspx" />
+    <Content Include="JbPromo.aspx" />
+    <Content Include="JbRecPricing.aspx" />
+    <Content Include="JbSiteSearch.aspx" />
+    <Content Include="JbUnsubscribe.aspx" />
+    <Content Include="JbWebsiteWidget.aspx" />
+    <Content Include="JDesktopWidget.aspx" />
+    <Content Include="JobsByRecruiter.aspx" />
+    <Content Include="JobSeekers\CanApplication.aspx" />
+    <Content Include="JobSeekers\CandidateAudit.aspx" />
+    <Content Include="JobSeekers\CandidatePrivacy.aspx" />
+    <Content Include="JobSeekers\CanNotes.aspx" />
+    <Content Include="JobSeekers\CanSavedJobs.aspx" />
+    <Content Include="JobSeekers\ChangeUserPwd.aspx" />
+    <Content Include="JobSeekers\DirectApplication.aspx" />
+    <Content Include="JobSeekers\JobSearches.aspx" />
+    <Content Include="JobSeekers\JobSeekerHome.aspx" />
+    <Content Include="JobSeekers\Login.aspx" />
+    <Content Include="JobSeekers\MyApplications.aspx" />
+    <Content Include="JobSeekers\MyResumes.aspx" />
+    <Content Include="JobSeekers\CanConfirm.aspx" />
+    <Content Include="JobSeekers\ResumeBuilder\Default.aspx" />
+    <Content Include="JobSeekers\ResumeBuilder\ResFromURL.aspx" />
+    <Content Include="JobSeekers\ResumeBuilder\ResReferences.aspx" />
+    <Content Include="JobSeekers\ResumeBuilder\ResExperience.aspx" />
+    <Content Include="JobSeekers\ResumeBuilder\ResEducation.aspx" />
+    <Content Include="JobSeekers\ResumeBuilder\ResHome.aspx" />
+    <Content Include="JobSeekers\ResumeBuilder\ResProfile.aspx" />
+    <Content Include="JobSeekers\ResumeBuilder\ResReview.aspx" />
+    <Content Include="JobSeekers\ResumeBuilder\ResSkills.aspx" />
+    <Content Include="JobSeekers\SignUp.aspx" />
+    <Content Include="JobSeekers\SupportDoc\Cvprepration.htm" />
+    <Content Include="JobSeekers\SupportDoc\Interviewtips.htm" />
+    <Content Include="JobSeekers\UserApplication.aspx" />
+    <Content Include="Payments\Confirm.aspx" />
+    <Content Include="Payments\PaymentLanding1.aspx" />
+    <Content Include="Payments\PaymentProcess.aspx" />
+    <Content Include="Payments\PaymentStart.aspx" />
+    <Content Include="PwdChange.aspx" />
+    <Content Include="JbError.aspx" />
+    <Content Include="JbPrivacy.aspx" />
+    <Content Include="Recruiters\JobApplicationActions.aspx" />
+    <Content Include="Scripts\dragon0.js" />
+    <Content Include="Scripts\jcart.js" />
+    <Content Include="Scripts\jqueryvx.js" />
+    <Content Include="Scripts\scrollv12.js" />
+    <Content Include="Scripts\scrollv13.js" />
+    <Content Include="Scripts\tigerx3.js" />
+    <Content Include="Scripts\tigerx1.js" />
+    <Content Include="Scripts\tigerx2.js" />
+    <Content Include="JbSubscribe.aspx" />
+    <Content Include="JbTerms.aspx" />
+    <Content Include="JbTrends.aspx" />
+    <Content Include="JobCart.aspx" />
+    <Content Include="Recruiters\JobForm.aspx" />
+    <Content Include="Recruiters\JobVideos.aspx" />
+    <Content Include="Recruiters\RecBulkImport.aspx" />
+    <Content Include="Recruiters\RecConfirm.aspx" />
+    <Content Include="Recruiters\RecCredits.aspx" />
+    <Content Include="Recruiters\RecCvSearch.aspx" />
+    <Content Include="Recruiters\RecruiterAudit.aspx" />
+    <Content Include="Recruiters\SignUp.aspx" />
+    <Content Include="ReportaPage.aspx" />
+    <Content Include="ResumeCenter\Index.aspx" />
+    <Content Include="Scripts\demo.js" />
+    <Content Include="Scripts\eaglecn1.js" />
+    <Content Include="Scripts\eaglercjobfrm.js" />
+    <Content Include="Scripts\eaglercqs.js" />
+    <Content Include="Scripts\eaglerc1.js" />
+    <Content Include="Scripts\facebox\facebox.css" />
+    <Content Include="Scripts\facebox\facebox.js" />
+    <Content Include="Scripts\facebox\jquery.min.js" />
+    <Content Include="Scripts\jquery.jscrollpane.min.js" />
+    <Content Include="Scripts\jquery.mousewheel.js" />
+    <Content Include="Scripts\mwheelIntent.js" />
+    <Content Include="Sitemaps\JbSitemap.aspx" />
+    <Content Include="Scripts\dragon1.js" />
+    <Content Include="Styles\CmsThemes\Silver.css" />
+    <Content Include="Styles\dragon.css" />
+    <Content Include="Styles\dragonsubsite.css" />
+    <Content Include="Styles\pheonixgrid.css" />
+    <Content Include="Styles\pheonixbar.css" />
+    <Content Include="Styles\pheonixl1.css" />
+    <Content Include="Styles\pheonixv7.css" />
+    <Content Include="Styles\pheonixv6.css" />
+    <Content Include="Styles\eagletheme4.css" />
+    <Content Include="Styles\eagletheme3.css" />
+    <Content Include="Styles\eagletheme1.css" />
+    <Content Include="Styles\jquery.jscrollpane.css" />
+    <Content Include="Styles\pheonixr1.css" />
+    <Content Include="Styles\pheonixs1.css" />
+    <Content Include="Styles\pheonixv3.css" />
+    <Content Include="Styles\pheonixv1.css" />
+    <Content Include="ResetPassword.aspx" />
+    <Content Include="SalaryCalc\SalaryQuestions.aspx" />
+    <Content Include="SalaryCalc\SalaryResult.aspx" />
+    <Content Include="RecDetails.aspx" />
+    <Content Include="Recruiters\RecApplicationDetail.aspx" />
+    <Content Include="Recruiters\ChangeRecPwd.aspx" />
+    <Content Include="Recruiters\RecHome.aspx" />
+    <Content Include="Recruiters\RecApplication.aspx" />
+    <Content Include="Styles\pheonixv2.css" />
+    <Content Include="Styles\pheonixv4.css" />
+    <Content Include="Styles\pheonixv5.css" />
+    <Content Include="Styles\pheonixw1.css" />
+    <Content Include="Styles\eagletheme2.css" />
+    <Content Include="Scripts\scrollv11.js" />
+    <Content Include="SubsiteWrapper\Default.aspx" />
+    <Content Include="SubsiteWrapper\JobDetails.aspx" />
+    <Content Include="SubsiteWrapper\JobSearch.aspx" />
+    <Content Include="SubsiteWrapper\Login.aspx" />
+    <Content Include="SubsiteWrapper\PostJob.aspx" />
+    <Content Include="SubsiteWrapper\SignUp.aspx" />
+    <Content Include="UserControls\Captcha.ascx" />
+    <Content Include="V1\hawkx1.xslt">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="V1\hawkx2.xslt">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="V1\hawkx3.xslt">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="V1\hawkx4.xslt">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="V1\Jbrss.aspx" />
+    <Content Include="V1\Jobx.aspx" />
+    <Content Include="V1\Jobxout.aspx" />
+    <Content Include="Wap\Browse.aspx" />
+    <Content Include="Wap\Confirm.aspx" />
+    <Content Include="Wap\Default.aspx" />
+    <Content Include="Wap\JobApplication.aspx" />
+    <Content Include="Wap\RecCheck.aspx" />
+    <Content Include="Wap\Searched.aspx" />
+    <Content Include="Recruiters\JobQuestions.aspx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ActivateAccount.aspx.cs">
+      <DependentUpon>ActivateAccount.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ActivateAccount.aspx.designer.cs">
+      <DependentUpon>ActivateAccount.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Adverts.aspx.cs">
+      <DependentUpon>Adverts.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Adverts.aspx.designer.cs">
+      <DependentUpon>Adverts.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AllRecruiters.aspx.cs">
+      <DependentUpon>AllRecruiters.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AllRecruiters.aspx.designer.cs">
+      <DependentUpon>AllRecruiters.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Autosearchjob.asmx.cs">
+      <DependentUpon>Autosearchjob.asmx</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Autosearchrec.asmx.cs">
+      <DependentUpon>Autosearchrec.asmx</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Captcha.aspx.cs">
+      <DependentUpon>Captcha.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Captcha.aspx.designer.cs">
+      <DependentUpon>Captcha.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Cms\CmsAddAds.aspx.cs">
+      <DependentUpon>CmsAddAds.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Cms\CmsAddAds.aspx.designer.cs">
+      <DependentUpon>CmsAddAds.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Cms\CmsAddHelpAnswer.aspx.cs">
+      <DependentUpon>CmsAddHelpAnswer.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Cms\CmsAddHelpAnswer.aspx.designer.cs">
+      <DependentUpon>CmsAddHelpAnswer.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Cms\CmsAddHelpCategory.aspx.cs">
+      <DependentUpon>CmsAddHelpCategory.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Cms\CmsAddHelpCategory.aspx.designer.cs">
+      <DependentUpon>CmsAddHelpCategory.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Cms\CmsAddJobs.aspx.cs">
+      <DependentUpon>CmsAddJobs.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Cms\CmsAddJobs.aspx.designer.cs">
+      <DependentUpon>CmsAddJobs.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Cms\CmsAddSiteLink.aspx.cs">
+      <DependentUpon>CmsAddSiteLink.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Cms\CmsAddSiteLink.aspx.designer.cs">
+      <DependentUpon>CmsAddSiteLink.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Cms\CmsAddSiteSearchItem.aspx.cs">
+      <DependentUpon>CmsAddSiteSearchItem.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Cms\CmsAddSiteSearchItem.aspx.designer.cs">
+      <DependentUpon>CmsAddSiteSearchItem.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Cms\CmsAddUser.aspx.cs">
+      <DependentUpon>CmsAddUser.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Cms\CmsAddUser.aspx.designer.cs">
+      <DependentUpon>CmsAddUser.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Cms\CmsAddWiki.aspx.cs">
+      <DependentUpon>CmsAddWiki.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Cms\CmsAddWiki.aspx.designer.cs">
+      <DependentUpon>CmsAddWiki.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Cms\CmsAdverts.aspx.cs">
+      <DependentUpon>CmsAdverts.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Cms\CmsAdverts.aspx.designer.cs">
+      <DependentUpon>CmsAdverts.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Cms\CmsDelHeaderItem.aspx.cs">
+      <DependentUpon>CmsDelHeaderItem.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Cms\CmsDelHeaderItem.aspx.designer.cs">
+      <DependentUpon>CmsDelHeaderItem.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Cms\CmsRecruiters.aspx.cs">
+      <DependentUpon>CmsRecruiters.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Cms\CmsRecruiters.aspx.designer.cs">
+      <DependentUpon>CmsRecruiters.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Cms\Cms.Master.cs">
+      <DependentUpon>Cms.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Cms\Cms.Master.designer.cs">
+      <DependentUpon>Cms.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Cms\CmsAddSalary.aspx.cs">
+      <DependentUpon>CmsAddSalary.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Cms\CmsAddSalary.aspx.designer.cs">
+      <DependentUpon>CmsAddSalary.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Cms\CmsApps.aspx.cs">
+      <DependentUpon>CmsApps.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Cms\CmsApps.aspx.designer.cs">
+      <DependentUpon>CmsApps.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Cms\CmsSearchAdvanced.aspx.cs">
+      <DependentUpon>CmsSearchAdvanced.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Cms\CmsSearchAdvanced.aspx.designer.cs">
+      <DependentUpon>CmsSearchAdvanced.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Cms\CmsSearchSimple.aspx.cs">
+      <DependentUpon>CmsSearchSimple.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Cms\CmsSearchSimple.aspx.designer.cs">
+      <DependentUpon>CmsSearchSimple.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Cms\CmsUsers.aspx.cs">
+      <DependentUpon>CmsUsers.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Cms\CmsUsers.aspx.designer.cs">
+      <DependentUpon>CmsUsers.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Cms\CmsAddArticles.aspx.cs">
+      <DependentUpon>CmsAddArticles.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Cms\CmsAddArticles.aspx.designer.cs">
+      <DependentUpon>CmsAddArticles.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Cms\CmsBranding.aspx.cs">
+      <DependentUpon>CmsBranding.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Cms\CmsBranding.aspx.designer.cs">
+      <DependentUpon>CmsBranding.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Cms\CmsDelHelpAnswer.aspx.cs">
+      <DependentUpon>CmsDelHelpAnswer.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Cms\CmsDelHelpAnswer.aspx.designer.cs">
+      <DependentUpon>CmsDelHelpAnswer.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Cms\CmsDelHelpCategory.aspx.cs">
+      <DependentUpon>CmsDelHelpCategory.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Cms\CmsDelHelpCategory.aspx.designer.cs">
+      <DependentUpon>CmsDelHelpCategory.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Cms\CmsDelJobs.aspx.cs">
+      <DependentUpon>CmsDelJobs.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Cms\CmsDelJobs.aspx.designer.cs">
+      <DependentUpon>CmsDelJobs.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Cms\CmsDelModeration.aspx.cs">
+      <DependentUpon>CmsDelModeration.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Cms\CmsDelModeration.aspx.designer.cs">
+      <DependentUpon>CmsDelModeration.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Cms\CmsDelSalary.aspx.cs">
+      <DependentUpon>CmsDelSalary.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Cms\CmsDelSalary.aspx.designer.cs">
+      <DependentUpon>CmsDelSalary.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Cms\CmsDelSiteLink.aspx.cs">
+      <DependentUpon>CmsDelSiteLink.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Cms\CmsDelSiteLink.aspx.designer.cs">
+      <DependentUpon>CmsDelSiteLink.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Cms\CmsDelUser.aspx.cs">
+      <DependentUpon>CmsDelUser.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Cms\CmsDelUser.aspx.designer.cs">
+      <DependentUpon>CmsDelUser.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Cms\CmsDelVideo.aspx.cs">
+      <DependentUpon>CmsDelVideo.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Cms\CmsDelVideo.aspx.designer.cs">
+      <DependentUpon>CmsDelVideo.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Cms\CmsDelWiki.aspx.cs">
+      <DependentUpon>CmsDelWiki.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Cms\CmsDelWiki.aspx.designer.cs">
+      <DependentUpon>CmsDelWiki.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Cms\CmsEditHelpAnswer.aspx.cs">
+      <DependentUpon>CmsEditHelpAnswer.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Cms\CmsEditHelpAnswer.aspx.designer.cs">
+      <DependentUpon>CmsEditHelpAnswer.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Cms\CmsEditHelpCategory.aspx.cs">
+      <DependentUpon>CmsEditHelpCategory.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Cms\CmsEditHelpCategory.aspx.designer.cs">
+      <DependentUpon>CmsEditHelpCategory.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Cms\CmsEditJobs.aspx.cs">
+      <DependentUpon>CmsEditJobs.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Cms\CmsEditJobs.aspx.designer.cs">
+      <DependentUpon>CmsEditJobs.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Cms\CmsEditModeration.aspx.cs">
+      <DependentUpon>CmsEditModeration.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Cms\CmsEditModeration.aspx.designer.cs">
+      <DependentUpon>CmsEditModeration.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Cms\CmsEditRecuiter.aspx.cs">
+      <DependentUpon>CmsEditRecuiter.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Cms\CmsEditRecuiter.aspx.designer.cs">
+      <DependentUpon>CmsEditRecuiter.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Cms\CmsEditSalary.aspx.cs">
+      <DependentUpon>CmsEditSalary.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Cms\CmsEditSalary.aspx.designer.cs">
+      <DependentUpon>CmsEditSalary.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Cms\CmsEditSiteLink.aspx.cs">
+      <DependentUpon>CmsEditSiteLink.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Cms\CmsEditSiteLink.aspx.designer.cs">
+      <DependentUpon>CmsEditSiteLink.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Cms\CmsEditUser.aspx.cs">
+      <DependentUpon>CmsEditUser.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Cms\CmsEditUser.aspx.designer.cs">
+      <DependentUpon>CmsEditUser.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Cms\CmsEditVideo.aspx.cs">
+      <DependentUpon>CmsEditVideo.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Cms\CmsEditVideo.aspx.designer.cs">
+      <DependentUpon>CmsEditVideo.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Cms\CmsEditWiki.aspx.cs">
+      <DependentUpon>CmsEditWiki.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Cms\CmsEditWiki.aspx.designer.cs">
+      <DependentUpon>CmsEditWiki.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Cms\CmsJobs.aspx.cs">
+      <DependentUpon>CmsJobs.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Cms\CmsJobs.aspx.designer.cs">
+      <DependentUpon>CmsJobs.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Cms\CmsSiteTitles.aspx.cs">
+      <DependentUpon>CmsSiteTitles.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Cms\CmsSiteTitles.aspx.designer.cs">
+      <DependentUpon>CmsSiteTitles.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Cms\CmsBulkImport.aspx.cs">
+      <DependentUpon>CmsBulkImport.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Cms\CmsBulkImport.aspx.designer.cs">
+      <DependentUpon>CmsBulkImport.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Cms\CmsConfirm.aspx.cs">
+      <DependentUpon>CmsConfirm.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Cms\CmsConfirm.aspx.designer.cs">
+      <DependentUpon>CmsConfirm.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Cms\CmsDelAds.aspx.cs">
+      <DependentUpon>CmsDelAds.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Cms\CmsDelAds.aspx.designer.cs">
+      <DependentUpon>CmsDelAds.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Cms\CmsDelApplication.aspx.cs">
+      <DependentUpon>CmsDelApplication.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Cms\CmsDelApplication.aspx.designer.cs">
+      <DependentUpon>CmsDelApplication.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Cms\CmsDelArticle.aspx.cs">
+      <DependentUpon>CmsDelArticle.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Cms\CmsDelArticle.aspx.designer.cs">
+      <DependentUpon>CmsDelArticle.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Cms\CmsDelETemplate.aspx.cs">
+      <DependentUpon>CmsDelETemplate.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Cms\CmsDelETemplate.aspx.designer.cs">
+      <DependentUpon>CmsDelETemplate.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Cms\CmsDelSiteSearch.aspx.cs">
+      <DependentUpon>CmsDelSiteSearch.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Cms\CmsDelSiteSearch.aspx.designer.cs">
+      <DependentUpon>CmsDelSiteSearch.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Cms\CmsEditAds.aspx.cs">
+      <DependentUpon>CmsEditAds.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Cms\CmsEditAds.aspx.designer.cs">
+      <DependentUpon>CmsEditAds.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Cms\CmsEditApplication.aspx.cs">
+      <DependentUpon>CmsEditApplication.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Cms\CmsEditApplication.aspx.designer.cs">
+      <DependentUpon>CmsEditApplication.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Cms\CmsEditArticle.aspx.cs">
+      <DependentUpon>CmsEditArticle.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Cms\CmsEditArticle.aspx.designer.cs">
+      <DependentUpon>CmsEditArticle.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Cms\CmsEditETemplate.aspx.cs">
+      <DependentUpon>CmsEditETemplate.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Cms\CmsEditETemplate.aspx.designer.cs">
+      <DependentUpon>CmsEditETemplate.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Cms\CmsEditGlobalOption.aspx.cs">
+      <DependentUpon>CmsEditGlobalOption.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Cms\CmsEditGlobalOption.aspx.designer.cs">
+      <DependentUpon>CmsEditGlobalOption.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Cms\CmsEditHeaderItem.aspx.cs">
+      <DependentUpon>CmsEditHeaderItem.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Cms\CmsEditHeaderItem.aspx.designer.cs">
+      <DependentUpon>CmsEditHeaderItem.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Cms\CmsEditSiteSearch.aspx.cs">
+      <DependentUpon>CmsEditSiteSearch.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Cms\CmsEditSiteSearch.aspx.designer.cs">
+      <DependentUpon>CmsEditSiteSearch.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Cms\CmsEditSiteTitles.aspx.cs">
+      <DependentUpon>CmsEditSiteTitles.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Cms\CmsEditSiteTitles.aspx.designer.cs">
+      <DependentUpon>CmsEditSiteTitles.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Cms\CmsGlobalOptions.aspx.cs">
+      <DependentUpon>CmsGlobalOptions.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Cms\CmsGlobalOptions.aspx.designer.cs">
+      <DependentUpon>CmsGlobalOptions.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Cms\CmsHelpAnswer.aspx.cs">
+      <DependentUpon>CmsHelpAnswer.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Cms\CmsHelpAnswer.aspx.designer.cs">
+      <DependentUpon>CmsHelpAnswer.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Cms\CmsHelpCat.aspx.cs">
+      <DependentUpon>CmsHelpCat.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Cms\CmsHelpCat.aspx.designer.cs">
+      <DependentUpon>CmsHelpCat.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Cms\CmsHelpQuestions.aspx.cs">
+      <DependentUpon>CmsHelpQuestions.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Cms\CmsHelpQuestions.aspx.designer.cs">
+      <DependentUpon>CmsHelpQuestions.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Cms\CmsHomePageLinks.aspx.cs">
+      <DependentUpon>CmsHomePageLinks.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Cms\CmsHomePageLinks.aspx.designer.cs">
+      <DependentUpon>CmsHomePageLinks.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Cms\CmsLogos.aspx.cs">
+      <DependentUpon>CmsLogos.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Cms\CmsLogos.aspx.designer.cs">
+      <DependentUpon>CmsLogos.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Cms\CmsEmailTempl.aspx.cs">
+      <DependentUpon>CmsEmailTempl.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Cms\CmsEmailTempl.aspx.designer.cs">
+      <DependentUpon>CmsEmailTempl.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Cms\CmsAddSiteHeader.aspx.cs">
+      <DependentUpon>CmsAddSiteHeader.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Cms\CmsAddSiteHeader.aspx.designer.cs">
+      <DependentUpon>CmsAddSiteHeader.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Cms\CmsSiteSearch.aspx.cs">
+      <DependentUpon>CmsSiteSearch.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Cms\CmsSiteSearch.aspx.designer.cs">
+      <DependentUpon>CmsSiteSearch.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Cms\CmsAddSitemapItem.aspx.cs">
+      <DependentUpon>CmsAddSitemapItem.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Cms\CmsAddSitemapItem.aspx.designer.cs">
+      <DependentUpon>CmsAddSitemapItem.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Cms\CmsDelSitemapItem.aspx.cs">
+      <DependentUpon>CmsDelSitemapItem.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Cms\CmsDelSitemapItem.aspx.designer.cs">
+      <DependentUpon>CmsDelSitemapItem.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Cms\CmsEditSitemapItem.aspx.cs">
+      <DependentUpon>CmsEditSitemapItem.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Cms\CmsEditSitemapItem.aspx.designer.cs">
+      <DependentUpon>CmsEditSitemapItem.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Cms\CmsSiteSearchReIndex.aspx.cs">
+      <DependentUpon>CmsSiteSearchReIndex.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Cms\CmsSiteSearchReIndex.aspx.designer.cs">
+      <DependentUpon>CmsSiteSearchReIndex.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Cms\CmsSubsiteAll.aspx.cs">
+      <DependentUpon>CmsSubsiteAll.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Cms\CmsSubsiteAll.aspx.designer.cs">
+      <DependentUpon>CmsSubsiteAll.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Cms\CmsTracking.aspx.cs">
+      <DependentUpon>CmsTracking.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Cms\CmsTracking.aspx.designer.cs">
+      <DependentUpon>CmsTracking.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Cms\CmsHeaders.aspx.cs">
+      <DependentUpon>CmsHeaders.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Cms\CmsHeaders.aspx.designer.cs">
+      <DependentUpon>CmsHeaders.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Cms\CmsHelpCenter.aspx.cs">
+      <DependentUpon>CmsHelpCenter.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Cms\CmsHelpCenter.aspx.designer.cs">
+      <DependentUpon>CmsHelpCenter.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Cms\CmsHome.aspx.cs">
+      <DependentUpon>CmsHome.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Cms\CmsHome.aspx.designer.cs">
+      <DependentUpon>CmsHome.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Cms\CmsReports.aspx.cs">
+      <DependentUpon>CmsReports.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Cms\CmsReports.aspx.designer.cs">
+      <DependentUpon>CmsReports.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Cms\CmsSalaryCategories.aspx.cs">
+      <DependentUpon>CmsSalaryCategories.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Cms\CmsSalaryCategories.aspx.designer.cs">
+      <DependentUpon>CmsSalaryCategories.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Cms\CmsArticles.aspx.cs">
+      <DependentUpon>CmsArticles.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Cms\CmsArticles.aspx.designer.cs">
+      <DependentUpon>CmsArticles.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Cms\CmsSitemaps.aspx.cs">
+      <DependentUpon>CmsSitemaps.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Cms\CmsSitemaps.aspx.designer.cs">
+      <DependentUpon>CmsSitemaps.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Cms\CmsUserModeration.aspx.cs">
+      <DependentUpon>CmsUserModeration.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Cms\CmsUserModeration.aspx.designer.cs">
+      <DependentUpon>CmsUserModeration.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Cms\CmsVideos.aspx.cs">
+      <DependentUpon>CmsVideos.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Cms\CmsVideos.aspx.designer.cs">
+      <DependentUpon>CmsVideos.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Cms\CmsWiki.aspx.cs">
+      <DependentUpon>CmsWiki.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Cms\CmsWiki.aspx.designer.cs">
+      <DependentUpon>CmsWiki.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Cms\CmsDelHelpQuestion.aspx.cs">
+      <DependentUpon>CmsDelHelpQuestion.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Cms\CmsDelHelpQuestion.aspx.designer.cs">
+      <DependentUpon>CmsDelHelpQuestion.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Cms\CmsAddHelpQuestion.aspx.cs">
+      <DependentUpon>CmsAddHelpQuestion.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Cms\CmsAddHelpQuestion.aspx.designer.cs">
+      <DependentUpon>CmsAddHelpQuestion.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Cms\CmsEditHelpQuestion.aspx.cs">
+      <DependentUpon>CmsEditHelpQuestion.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Cms\CmsEditHelpQuestion.aspx.designer.cs">
+      <DependentUpon>CmsEditHelpQuestion.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Cms\CmsAddETemplate.aspx.cs">
+      <DependentUpon>CmsAddETemplate.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Cms\CmsAddETemplate.aspx.designer.cs">
+      <DependentUpon>CmsAddETemplate.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Cms\CmsLogin.aspx.cs">
+      <DependentUpon>CmsLogin.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Cms\CmsLogin.aspx.designer.cs">
+      <DependentUpon>CmsLogin.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Cms\Confirmation.aspx.cs">
+      <DependentUpon>Confirmation.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Cms\Confirmation.aspx.designer.cs">
+      <DependentUpon>Confirmation.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Cms\SubSites\AddSubsiteStep3.aspx.cs">
+      <DependentUpon>AddSubsiteStep3.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Cms\SubSites\AddSubsiteStep3.aspx.designer.cs">
+      <DependentUpon>AddSubsiteStep3.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Cms\SubSites\AddSubsiteStep2.aspx.cs">
+      <DependentUpon>AddSubsiteStep2.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Cms\SubSites\AddSubsiteStep2.aspx.designer.cs">
+      <DependentUpon>AddSubsiteStep2.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Cms\SubSites\AddSubsiteStep1.aspx.cs">
+      <DependentUpon>AddSubsiteStep1.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Cms\SubSites\AddSubsiteStep1.aspx.designer.cs">
+      <DependentUpon>AddSubsiteStep1.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Cms\SubSites\AddSubsiteStep4.aspx.cs">
+      <DependentUpon>AddSubsiteStep4.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Cms\SubSites\AddSubsiteStep4.aspx.designer.cs">
+      <DependentUpon>AddSubsiteStep4.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Cms\SubSites\AddSubsiteStep5.aspx.cs">
+      <DependentUpon>AddSubsiteStep5.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Cms\SubSites\AddSubsiteStep5.aspx.designer.cs">
+      <DependentUpon>AddSubsiteStep5.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Cms\SubSites\AddSubsiteStep6.aspx.cs">
+      <DependentUpon>AddSubsiteStep6.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Cms\SubSites\AddSubsiteStep6.aspx.designer.cs">
+      <DependentUpon>AddSubsiteStep6.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Confirm.aspx.cs">
+      <DependentUpon>Confirm.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Confirm.aspx.designer.cs">
+      <DependentUpon>Confirm.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Contact.aspx.cs">
+      <DependentUpon>Contact.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Contact.aspx.designer.cs">
+      <DependentUpon>Contact.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Autosearchpcode.asmx.cs">
+      <DependentUpon>Autosearchpcode.asmx</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ControlAdapters\MyDataListAdapter.cs" />
+    <Compile Include="ControlAdapters\MyGridViewAapter.cs" />
+    <Compile Include="ControlAdapters\MyPageAdapter.cs" />
+    <Compile Include="ControlAdapters\WebControlAdapterExtender.cs" />
+    <Compile Include="Facebook\Facebook.Master.cs">
+      <DependentUpon>Facebook.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Facebook\Facebook.Master.designer.cs">
+      <DependentUpon>Facebook.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Facebook\Home.aspx.cs">
+      <DependentUpon>Home.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Facebook\Home.aspx.designer.cs">
+      <DependentUpon>Home.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Facebook\SearchJobs.aspx.cs">
+      <DependentUpon>SearchJobs.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Facebook\SearchJobs.aspx.designer.cs">
+      <DependentUpon>SearchJobs.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Facebook\InviteContacts.aspx.cs">
+      <DependentUpon>InviteContacts.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Facebook\InviteContacts.aspx.designer.cs">
+      <DependentUpon>InviteContacts.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FraudFilters\FraudAction.aspx.cs">
+      <DependentUpon>FraudAction.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FraudFilters\FraudAction.aspx.designer.cs">
+      <DependentUpon>FraudAction.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Global.asax.cs">
+      <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="JbAbout.aspx.cs">
+      <DependentUpon>JbAbout.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="JbAbout.aspx.designer.cs">
+      <DependentUpon>JbAbout.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="HelpCenter\Answer.aspx.cs">
+      <DependentUpon>Answer.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="HelpCenter\Answer.aspx.designer.cs">
+      <DependentUpon>Answer.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="HelpCenter\Main.aspx.cs">
+      <DependentUpon>Main.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="HelpCenter\Main.aspx.designer.cs">
+      <DependentUpon>Main.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="JbArticles.aspx.cs">
+      <DependentUpon>JbArticles.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="JbArticles.aspx.designer.cs">
+      <DependentUpon>JbArticles.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="JbEmailPage.aspx.cs">
+      <DependentUpon>JbEmailPage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="JbEmailPage.aspx.designer.cs">
+      <DependentUpon>JbEmailPage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="JbPromo.aspx.cs">
+      <DependentUpon>JbPromo.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="JbPromo.aspx.designer.cs">
+      <DependentUpon>JbPromo.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="JbRecPricing.aspx.cs">
+      <DependentUpon>JbRecPricing.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="JbRecPricing.aspx.designer.cs">
+      <DependentUpon>JbRecPricing.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="JbSiteSearch.aspx.cs">
+      <DependentUpon>JbSiteSearch.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="JbSiteSearch.aspx.designer.cs">
+      <DependentUpon>JbSiteSearch.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="JbUnsubscribe.aspx.cs">
+      <DependentUpon>JbUnsubscribe.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="JbUnsubscribe.aspx.designer.cs">
+      <DependentUpon>JbUnsubscribe.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="JbWebsiteWidget.aspx.cs">
+      <DependentUpon>JbWebsiteWidget.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="JbWebsiteWidget.aspx.designer.cs">
+      <DependentUpon>JbWebsiteWidget.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="JDesktopWidget.aspx.cs">
+      <DependentUpon>JDesktopWidget.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="JDesktopWidget.aspx.designer.cs">
+      <DependentUpon>JDesktopWidget.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="JobsByRecruiter.aspx.cs">
+      <DependentUpon>JobsByRecruiter.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="JobsByRecruiter.aspx.designer.cs">
+      <DependentUpon>JobsByRecruiter.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="JobSeekers\CanApplication.aspx.cs">
+      <DependentUpon>CanApplication.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="JobSeekers\CanApplication.aspx.designer.cs">
+      <DependentUpon>CanApplication.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="JobSeekers\CandidateAudit.aspx.cs">
+      <DependentUpon>CandidateAudit.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="JobSeekers\CandidateAudit.aspx.designer.cs">
+      <DependentUpon>CandidateAudit.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="JobSeekers\CandidatePrivacy.aspx.cs">
+      <DependentUpon>CandidatePrivacy.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="JobSeekers\CandidatePrivacy.aspx.designer.cs">
+      <DependentUpon>CandidatePrivacy.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="JobSeekers\Candidates.Master.cs">
+      <DependentUpon>Candidates.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="JobSeekers\Candidates.Master.designer.cs">
+      <DependentUpon>Candidates.Master</DependentUpon>
+    </Compile>
+    <Compile Include="JobSeekers\CanNotes.aspx.cs">
+      <DependentUpon>CanNotes.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="JobSeekers\CanNotes.aspx.designer.cs">
+      <DependentUpon>CanNotes.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="JobSeekers\CanSavedJobs.aspx.cs">
+      <DependentUpon>CanSavedJobs.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="JobSeekers\CanSavedJobs.aspx.designer.cs">
+      <DependentUpon>CanSavedJobs.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="JobSeekers\ChangeUserPwd.aspx.cs">
+      <DependentUpon>ChangeUserPwd.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="JobSeekers\ChangeUserPwd.aspx.designer.cs">
+      <DependentUpon>ChangeUserPwd.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="JobSeekers\DirectApplication.aspx.cs">
+      <DependentUpon>DirectApplication.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="JobSeekers\DirectApplication.aspx.designer.cs">
+      <DependentUpon>DirectApplication.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="JobSeekers\JobSearches.aspx.cs">
+      <DependentUpon>JobSearches.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="JobSeekers\JobSearches.aspx.designer.cs">
+      <DependentUpon>JobSearches.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="JobSeekers\JobSeekerHome.aspx.cs">
+      <DependentUpon>JobSeekerHome.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="JobSeekers\JobSeekerHome.aspx.designer.cs">
+      <DependentUpon>JobSeekerHome.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="JobSeekers\Login.aspx.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="JobSeekers\Login.aspx.designer.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="JobSeekers\MyApplications.aspx.cs">
+      <DependentUpon>MyApplications.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="JobSeekers\MyApplications.aspx.designer.cs">
+      <DependentUpon>MyApplications.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="JobSeekers\MyResumes.aspx.cs">
+      <DependentUpon>MyResumes.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="JobSeekers\MyResumes.aspx.designer.cs">
+      <DependentUpon>MyResumes.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="JobSeekers\CanConfirm.aspx.cs">
+      <DependentUpon>CanConfirm.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="JobSeekers\CanConfirm.aspx.designer.cs">
+      <DependentUpon>CanConfirm.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="JobSeekers\ResumeBuilder\Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="JobSeekers\ResumeBuilder\Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="JobSeekers\ResumeBuilder\ResFromURL.aspx.cs">
+      <DependentUpon>ResFromURL.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="JobSeekers\ResumeBuilder\ResFromURL.aspx.designer.cs">
+      <DependentUpon>ResFromURL.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="JobSeekers\ResumeBuilder\ResReferences.aspx.cs">
+      <DependentUpon>ResReferences.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="JobSeekers\ResumeBuilder\ResReferences.aspx.designer.cs">
+      <DependentUpon>ResReferences.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="JobSeekers\ResumeBuilder\ResExperience.aspx.cs">
+      <DependentUpon>ResExperience.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="JobSeekers\ResumeBuilder\ResExperience.aspx.designer.cs">
+      <DependentUpon>ResExperience.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="JobSeekers\ResumeBuilder\ResEducation.aspx.cs">
+      <DependentUpon>ResEducation.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="JobSeekers\ResumeBuilder\ResEducation.aspx.designer.cs">
+      <DependentUpon>ResEducation.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="JobSeekers\ResumeBuilder\ResHome.aspx.cs">
+      <DependentUpon>ResHome.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="JobSeekers\ResumeBuilder\ResHome.aspx.designer.cs">
+      <DependentUpon>ResHome.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="JobSeekers\ResumeBuilder\ResProfile.aspx.cs">
+      <DependentUpon>ResProfile.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="JobSeekers\ResumeBuilder\ResProfile.aspx.designer.cs">
+      <DependentUpon>ResProfile.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="JobSeekers\ResumeBuilder\ResReview.aspx.cs">
+      <DependentUpon>ResReview.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="JobSeekers\ResumeBuilder\ResReview.aspx.designer.cs">
+      <DependentUpon>ResReview.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="JobSeekers\ResumeBuilder\ResSkills.aspx.cs">
+      <DependentUpon>ResSkills.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="JobSeekers\ResumeBuilder\ResSkills.aspx.designer.cs">
+      <DependentUpon>ResSkills.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="JobSeekers\SignUp.aspx.cs">
+      <DependentUpon>SignUp.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="JobSeekers\SignUp.aspx.designer.cs">
+      <DependentUpon>SignUp.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="JobSeekers\UserApplication.aspx.cs">
+      <DependentUpon>UserApplication.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="JobSeekers\UserApplication.aspx.designer.cs">
+      <DependentUpon>UserApplication.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Payments\Confirm.aspx.cs">
+      <DependentUpon>Confirm.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Payments\Confirm.aspx.designer.cs">
+      <DependentUpon>Confirm.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Payments\PaymentLanding1.aspx.cs">
+      <DependentUpon>PaymentLanding1.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Payments\PaymentLanding1.aspx.designer.cs">
+      <DependentUpon>PaymentLanding1.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Payments\PaymentProcess.aspx.cs">
+      <DependentUpon>PaymentProcess.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Payments\PaymentProcess.aspx.designer.cs">
+      <DependentUpon>PaymentProcess.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Payments\PaymentStart.aspx.cs">
+      <DependentUpon>PaymentStart.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Payments\PaymentStart.aspx.designer.cs">
+      <DependentUpon>PaymentStart.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="PwdChange.aspx.cs">
+      <DependentUpon>PwdChange.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="PwdChange.aspx.designer.cs">
+      <DependentUpon>PwdChange.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="JobCart.aspx.cs">
+      <DependentUpon>JobCart.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="JobCart.aspx.designer.cs">
+      <DependentUpon>JobCart.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Recruiters\JobApplicationActions.aspx.cs">
+      <DependentUpon>JobApplicationActions.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Recruiters\JobApplicationActions.aspx.designer.cs">
+      <DependentUpon>JobApplicationActions.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Recruiters\JobForm.aspx.cs">
+      <DependentUpon>JobForm.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Recruiters\JobForm.aspx.designer.cs">
+      <DependentUpon>JobForm.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Recruiters\JobVideos.aspx.cs">
+      <DependentUpon>JobVideos.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Recruiters\JobVideos.aspx.designer.cs">
+      <DependentUpon>JobVideos.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Recruiters\RecBulkImport.aspx.cs">
+      <DependentUpon>RecBulkImport.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Recruiters\RecBulkImport.aspx.designer.cs">
+      <DependentUpon>RecBulkImport.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Recruiters\RecConfirm.aspx.cs">
+      <DependentUpon>RecConfirm.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Recruiters\RecConfirm.aspx.designer.cs">
+      <DependentUpon>RecConfirm.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Recruiters\RecCredits.aspx.cs">
+      <DependentUpon>RecCredits.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Recruiters\RecCredits.aspx.designer.cs">
+      <DependentUpon>RecCredits.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Recruiters\RecCvSearch.aspx.cs">
+      <DependentUpon>RecCvSearch.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Recruiters\RecCvSearch.aspx.designer.cs">
+      <DependentUpon>RecCvSearch.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Recruiters\RecruiterAudit.aspx.cs">
+      <DependentUpon>RecruiterAudit.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Recruiters\RecruiterAudit.aspx.designer.cs">
+      <DependentUpon>RecruiterAudit.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Recruiters\Recruiters.Master.cs">
+      <DependentUpon>Recruiters.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Recruiters\Recruiters.Master.designer.cs">
+      <DependentUpon>Recruiters.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Recruiters\SignUp.aspx.cs">
+      <DependentUpon>SignUp.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Recruiters\SignUp.aspx.designer.cs">
+      <DependentUpon>SignUp.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ResumeCenter\Index.aspx.cs">
+      <DependentUpon>Index.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ResumeCenter\Index.aspx.designer.cs">
+      <DependentUpon>Index.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Searched.aspx.cs">
+      <DependentUpon>Searched.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Searched.aspx.designer.cs">
+      <DependentUpon>Searched.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="JbError.aspx.cs">
+      <DependentUpon>JbError.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="JbError.aspx.designer.cs">
+      <DependentUpon>JbError.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="JbPrivacy.aspx.cs">
+      <DependentUpon>JbPrivacy.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="JbPrivacy.aspx.designer.cs">
+      <DependentUpon>JbPrivacy.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="JbSubscribe.aspx.cs">
+      <DependentUpon>JbSubscribe.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="JbSubscribe.aspx.designer.cs">
+      <DependentUpon>JbSubscribe.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="JbTerms.aspx.cs">
+      <DependentUpon>JbTerms.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="JbTerms.aspx.designer.cs">
+      <DependentUpon>JbTerms.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="JbTrends.aspx.cs">
+      <DependentUpon>JbTrends.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="JbTrends.aspx.designer.cs">
+      <DependentUpon>JbTrends.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Job.Master.cs">
+      <DependentUpon>Job.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Job.Master.designer.cs">
+      <DependentUpon>Job.Master</DependentUpon>
+    </Compile>
+    <Compile Include="JobDetails.aspx.cs">
+      <DependentUpon>JobDetails.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="JobDetails.aspx.designer.cs">
+      <DependentUpon>JobDetails.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Applications.aspx.cs">
+      <DependentUpon>Applications.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Applications.aspx.designer.cs">
+      <DependentUpon>Applications.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="RecDetails.aspx.cs">
+      <DependentUpon>RecDetails.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="RecDetails.aspx.designer.cs">
+      <DependentUpon>RecDetails.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Recruiters\RecApplicationDetail.aspx.cs">
+      <DependentUpon>RecApplicationDetail.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Recruiters\RecApplicationDetail.aspx.designer.cs">
+      <DependentUpon>RecApplicationDetail.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Recruiters\ChangeRecPwd.aspx.cs">
+      <DependentUpon>ChangeRecPwd.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Recruiters\ChangeRecPwd.aspx.designer.cs">
+      <DependentUpon>ChangeRecPwd.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Recruiters\RecHome.aspx.cs">
+      <DependentUpon>RecHome.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Recruiters\RecHome.aspx.designer.cs">
+      <DependentUpon>RecHome.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Logins.Master.cs">
+      <DependentUpon>Logins.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Logins.Master.designer.cs">
+      <DependentUpon>Logins.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Logoff.aspx.cs">
+      <DependentUpon>Logoff.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Logoff.aspx.designer.cs">
+      <DependentUpon>Logoff.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Recruiters\EditJobs.aspx.cs">
+      <DependentUpon>EditJobs.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Recruiters\EditJobs.aspx.designer.cs">
+      <DependentUpon>EditJobs.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Recruiters\Login.aspx.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Recruiters\Login.aspx.designer.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Recruiters\RecApplication.aspx.cs">
+      <DependentUpon>RecApplication.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Recruiters\RecApplication.aspx.designer.cs">
+      <DependentUpon>RecApplication.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Recruiters\RecruiterForm.aspx.cs">
+      <DependentUpon>RecruiterForm.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Recruiters\RecruiterForm.aspx.designer.cs">
+      <DependentUpon>RecruiterForm.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Recruiters\RecUsers.aspx.cs">
+      <DependentUpon>RecUsers.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Recruiters\RecUsers.aspx.designer.cs">
+      <DependentUpon>RecUsers.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ReportaPage.aspx.cs">
+      <DependentUpon>ReportaPage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ReportaPage.aspx.designer.cs">
+      <DependentUpon>ReportaPage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ResetPassword.aspx.cs">
+      <DependentUpon>ResetPassword.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ResetPassword.aspx.designer.cs">
+      <DependentUpon>ResetPassword.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="SalaryCalc\SalaryQuestions.aspx.cs">
+      <DependentUpon>SalaryQuestions.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SalaryCalc\SalaryQuestions.aspx.designer.cs">
+      <DependentUpon>SalaryQuestions.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="SalaryCalc\SalaryResult.aspx.cs">
+      <DependentUpon>SalaryResult.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SalaryCalc\SalaryResult.aspx.designer.cs">
+      <DependentUpon>SalaryResult.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Sitemaps\JbSitemap.aspx.cs">
+      <DependentUpon>JbSitemap.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Sitemaps\JbSitemap.aspx.designer.cs">
+      <DependentUpon>JbSitemap.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="SubsiteWrapper\Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SubsiteWrapper\Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="SubsiteWrapper\JobDetails.aspx.cs">
+      <DependentUpon>JobDetails.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SubsiteWrapper\JobDetails.aspx.designer.cs">
+      <DependentUpon>JobDetails.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="SubsiteWrapper\JobSearch.aspx.cs">
+      <DependentUpon>JobSearch.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SubsiteWrapper\JobSearch.aspx.designer.cs">
+      <DependentUpon>JobSearch.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="SubsiteWrapper\Login.aspx.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SubsiteWrapper\Login.aspx.designer.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="SubsiteWrapper\PostJob.aspx.cs">
+      <DependentUpon>PostJob.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SubsiteWrapper\PostJob.aspx.designer.cs">
+      <DependentUpon>PostJob.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="SubsiteWrapper\SignUp.aspx.cs">
+      <DependentUpon>SignUp.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SubsiteWrapper\SignUp.aspx.designer.cs">
+      <DependentUpon>SignUp.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="SubsiteWrapper\Subsite.Master.cs">
+      <DependentUpon>Subsite.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SubsiteWrapper\Subsite.Master.designer.cs">
+      <DependentUpon>Subsite.Master</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\Captcha.ascx.cs">
+      <DependentUpon>Captcha.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\Captcha.ascx.designer.cs">
+      <DependentUpon>Captcha.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="V1\Jbrss.aspx.cs">
+      <DependentUpon>Jbrss.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="V1\Jbrss.aspx.designer.cs">
+      <DependentUpon>Jbrss.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="V1\Jobx.aspx.cs">
+      <DependentUpon>Jobx.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="V1\Jobx.aspx.designer.cs">
+      <DependentUpon>Jobx.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="V1\Jobxout.aspx.cs">
+      <DependentUpon>Jobxout.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="V1\Jobxout.aspx.designer.cs">
+      <DependentUpon>Jobxout.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Wap\Browse.aspx.cs">
+      <DependentUpon>Browse.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Wap\Browse.aspx.designer.cs">
+      <DependentUpon>Browse.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Wap\Confirm.aspx.cs">
+      <DependentUpon>Confirm.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Wap\Confirm.aspx.designer.cs">
+      <DependentUpon>Confirm.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Wap\Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Wap\Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Wap\JobApplication.aspx.cs">
+      <DependentUpon>JobApplication.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Wap\JobApplication.aspx.designer.cs">
+      <DependentUpon>JobApplication.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Wap\RecCheck.aspx.cs">
+      <DependentUpon>RecCheck.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Wap\RecCheck.aspx.designer.cs">
+      <DependentUpon>RecCheck.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Wap\Searched.aspx.cs">
+      <DependentUpon>Searched.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Wap\Searched.aspx.designer.cs">
+      <DependentUpon>Searched.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Wap\Wap.Master.cs">
+      <DependentUpon>Wap.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Wap\Wap.Master.designer.cs">
+      <DependentUpon>Wap.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Recruiters\JobQuestions.aspx.cs">
+      <DependentUpon>JobQuestions.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Recruiters\JobQuestions.aspx.designer.cs">
+      <DependentUpon>JobQuestions.aspx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Searched.aspx" />
+    <Content Include="Job.Master" />
+    <Content Include="Styles\jobmaster.css" />
+    <Content Include="Recruiters\Login.aspx" />
+    <Content Include="Recruiters\RecruiterForm.aspx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Styles\pheonixc1.css" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Logins.Master" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Recruiters\EditJobs.aspx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Styles\autocomplete.css" />
+    <Content Include="JobDetails.aspx" />
+    <Content Include="Applications.aspx" />
+    <Content Include="Recruiters\RecUsers.aspx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Styles\pheonixcm1.css" />
+    <Content Include="Logoff.aspx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="BulkImport\" />
+    <Folder Include="Cms\Articles\" />
+    <Folder Include="Cms\SubSites\Branding\" />
+    <Folder Include="SocialPlugins\Facebook\" />
+    <Folder Include="SocialPlugins\Twitter\" />
+    <Folder Include="TempImageFiles\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Recruiters\Recruiters.Master" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Wap\Wap.Master" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="App_Browsers\Custom.browser">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="JobSeekers\Candidates.Master" />
+    <Content Include="Cms\Cms.Master" />
+    <Content Include="SubsiteWrapper\Subsite.Master" />
+    <Content Include="Facebook\dataloader.php" />
+    <Content Include="Facebook\index.php" />
+    <Content Include="Facebook\Facebook.Master" />
+    <None Include="Properties\PublishProfiles\Profile1.pubxml" />
+    <Content Include="web.config">
+      <SubType>Designer</SubType>
+    </Content>
+    <None Include="web.Debug.config">
+      <DependentUpon>web.config</DependentUpon>
+    </None>
+    <None Include="web.Release.config">
+      <DependentUpon>web.config</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Cms\Reports\rpt_jbtrends.rdlc" />
+    <EmbeddedResource Include="Cms\Reports\rpt_resumepreview.rdlc" />
+    <EmbeddedResource Include="Cms\Reports\rpt_applications.rdlc" />
+    <EmbeddedResource Include="Cms\Reports\rpt_cmsdashboard.rdlc" />
+    <EmbeddedResource Include="Cms\Reports\rpt_cmssitelogs.rdlc" />
+    <EmbeddedResource Include="Cms\Reports\rpt_glbsalresult.rdlc" />
+    <EmbeddedResource Include="Cms\Reports\rpt_securitylog.rdlc" />
+    <EmbeddedResource Include="Cms\Reports\rpt_spamreport.rdlc" />
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\msftlayer\msftlayer\Msftlayer.csproj">
+      <Project>{E7A36463-E260-4581-ACD4-5891AE364EC0}</Project>
+      <Name>Msftlayer</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>False</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>2551</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>
+          </IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>

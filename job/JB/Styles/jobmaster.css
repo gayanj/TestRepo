@@ -1,0 +1,161 @@
+.textboxallsite {
+    color: #ccc;
+    width: 150px;
+    border: 1px solid #666;
+    height: 13px;
+    font-family: Arial;
+    font-size: .688em;
+    background-color: #333;
+}
+
+#Paneltopslide {
+    float: left;
+    padding-left: 4px;
+}
+
+.jm_dftop:hover {
+    color: #fff;
+}
+
+.jm_dftop, .jm_datefont {
+    color: #ccc;
+    font-family: "Lucida Grande",Helvetica,Arial,Verdana,sans-serif;
+    font-size: .688em;
+    text-decoration: none;
+}
+
+.ft_graybd {
+    color: gray;
+    font-family: "Lucida Grande",Helvetica,Arial,Verdana,sans-serif;
+    font-size: .688em;
+    font-weight: bold;
+}
+
+.ft_graybdov {
+    color: #000;
+    font-family: "Lucida Grande",Helvetica,Arial,Verdana,sans-serif;
+    font-size: .688em;
+    font-weight: bold;
+}
+
+.br_bottomdot {
+    display: inline-block;
+    width: 190px;
+    height: 100%;
+    color: #000;
+    font-family: "Lucida Grande",Helvetica,Arial,Verdana,sans-serif;
+    font-size: .688em;
+    text-decoration: none;
+}
+
+.dftbgmenucolor {
+    background-color: #bcc7d8;
+    color: #000;
+    font-family: "Lucida Grande",Helvetica,Arial,Verdana,sans-serif;
+    font-size: .688em;
+    border-bottom-width: 1px;
+    border-bottom-color: gray;
+    border-bottom-style: dotted;
+    text-decoration: none;
+}
+
+.ln_444 {
+    border-top-style: solid;
+    border-top-width: 1px;
+    color: gray;
+    border-collapse: collapse;
+}
+
+.TextboxSt {
+    padding: 2px;
+    border: 1px solid gray;
+    width: 314px;
+    border-collapse: collapse;
+    font-family: "Lucida Grande",Helvetica,Arial,Verdana,sans-serif;
+    font-size: .688em;
+    height: 14px;
+}
+
+.TextboxSttwe {
+    padding: 2px;
+    border: 1px solid gray;
+    width: 314px;
+    border-collapse: collapse;
+    font-family: "Lucida Grande",Helvetica,Arial,Verdana,sans-serif;
+    font-size: .688em;
+    height: 14px;
+    color: #ccc;
+}
+
+.dfttbsearchbx {
+    height: 14px;
+    padding: 2px;
+    border: 1px solid gray;
+    width: 98%;
+    border-collapse: collapse;
+    font-family: "Lucida Grande",Helvetica,Arial,Verdana,sans-serif;
+    font-size: .688em;
+}
+
+.dfttbsearchbxwme {
+    height: 14px;
+    padding: 2px;
+    border: 1px solid gray;
+    width: 98%;
+    border-collapse: collapse;
+    font-family: "Lucida Grande",Helvetica,Arial,Verdana,sans-serif;
+    font-size: .688em;
+    color: #ccc;
+}
+
+.ft_graysimple {
+    color: gray;
+    font-family: "Lucida Grande",Helvetica,Arial,Verdana,sans-serif;
+    font-size: .688em;
+}
+
+.smap_left10 {
+    font-family: "Lucida Grande",Helvetica,Arial,Verdana,sans-serif;
+    font-size: 1em;
+    text-decoration: none;
+    color: #000;
+    padding-left: 2%;
+    line-height: 2.5em;
+    padding-right: 90%;
+    border-top: 1px solid #444;
+    border-bottom: 1px dotted #444;
+}
+
+.smap_left20 {
+    font-family: "Lucida Grande",Helvetica,Arial,Verdana,sans-serif;
+    font-size: .688em;
+    color: #765299;
+    padding-left: 4%;
+    text-decoration: none;
+    line-height: 1.5em;
+}
+
+.smap_leftnu20 {
+    font-family: "Lucida Grande",Helvetica,Arial,Verdana,sans-serif;
+    font-size: .688em;
+    color: #765299;
+    padding-left: 4%;
+    line-height: 1.5em;
+}
+
+.smap_left30 {
+    font-family: "Lucida Grande",Helvetica,Arial,Verdana,sans-serif;
+    font-size: .688em;
+    color: #765299;
+    padding-left: 6%;
+    text-decoration: none;
+    line-height: 1.5em;
+}
+
+.smap_leftnu30 {
+    font-family: "Lucida Grande",Helvetica,Arial,Verdana,sans-serif;
+    font-size: .688em;
+    color: #765299;
+    padding-left: 6%;
+    line-height: 1.5em;
+}

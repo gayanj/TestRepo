@@ -1,0 +1,188 @@
+<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Job.Master.cs" Inherits="JB.Job" %>
+
+<%@ Register Assembly="AjaxControlToolkit" Namespace="AjaxControlToolkit" TagPrefix="asp" %>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder ID="sitepref" runat="server">
+    </asp:ContentPlaceHolder>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <link href="/styles/jobmaster.css" rel="stylesheet" type="text/css" />
+    <link href="/styles/pheonixv1.css" rel="stylesheet" type="text/css" />
+    <link href="/styles/pheonixv4.css" rel="stylesheet" type="text/css" />
+    <script type="text/javascript">
+        $(document).ready(function () {
+            //hidedivs("locdiv");
+            //hidedivs("saldiv");
+
+            //alert(readCookie("fq_policy"));
+            if (readCookie("fq_policy") == null) {
+                showdivs("dompolicy");
+            }
+
+            //alert(guid());
+
+        });
+
+        function G() {
+            return (((1 + Math.random()) * 0x10000) | 0).toString(16).substring(1)
+        }
+
+        function guid() {
+            return (G() + G() + G() + G() + G() + G() + G() + G()).toLowerCase();
+        }
+
+        function closepolicydom() {
+            createCookie("fq_policy", guid(), 10);
+            $("#dompolicy").slideUp();
+            //hidedivs("dompolicy");
+        }
+
+        function showdivs(a) {
+            $('#' + a).show();
+        }
+
+        function hidedivs(a) {
+            $('#' + a).hide();
+        }
+
+        function createCookie(e, d, b) { if (b) { var a = new Date; a.setTime(a.getTime() + b * 864e5); var c = "; expires=" + a.toGMTString() } else var c = ""; document.cookie = e + "=" + d + c + "; path=/" }
+
+        function readCookie(e) { for (var c = e + "=", d = document.cookie.split(";"), b = 0; b < d.length; b++) { var a = d[b]; while (a.charAt(0) == " ") a = a.substring(1, a.length); if (a.indexOf(c) == 0) return a.substring(c.length, a.length) } return null }
+
+        function eraseCookie(a) { createCookie(a, "", -1) }
+
+
+    </script>
+</head>
+<body class="fx_body">
+    <asp:Label ID="start0" runat="server" Text=""></asp:Label>
+    <asp:Panel ID="DebugPanel" CssClass="debugger" runat="server" Visible="false">
+        <asp:Label ID="debugme" runat="server" Text=""></asp:Label>
+    </asp:Panel>
+    <div class="dv_fix">
+    </div>
+    <form id="form1" class="topwrap" runat="server">
+        <!-- cookie information -->
+        <div id="dompolicy" class="ux_dompolicy">
+            <div class="ux_dompolicyleft">
+                <asp:Label ID="LabelPolicy" runat="server" CssClass="ft_black" Text=""></asp:Label>
+                <a href="/terms" class="ft_bluelink">terms</a>
+            </div>
+            <div class="ux_dompolicyright">
+                <img alt="close" src="/images/closelabel.png" class="domcloser" onclick="closepolicydom();" />
+            </div>
+        </div>
+        <div class="dv_fix"></div>
+        <!-- top bar -->
+        <div id="topwrapper">
+            <div class="dv_fix">
+            </div>
+            <!--hleftitems-->
+            <div class="toptimer">
+                <asp:Label ID="Timesetlabel" runat="server" CssClass="jm_datefont" Text=""></asp:Label>
+            </div>
+            <asp:Panel ID="Paneltopslide" runat="server">
+                <div class="imgsrchleft">
+                    <asp:TextBox ID="TextBoxSearchSite" runat="server" CssClass="textboxallsite"></asp:TextBox>
+                    <asp:TextBoxWatermarkExtender ID="TextBoxSearchSite_TextBoxWatermarkExtender" runat="server"
+                        Enabled="True" TargetControlID="TextBoxSearchSite" WatermarkText="Search in this site"
+                        WatermarkCssClass="textboxallsite">
+                    </asp:TextBoxWatermarkExtender>
+                </div>
+                <div class="imgsrchleft">
+                    <asp:ImageButton ID="SiteSearchButton" runat="server" ImageUrl="/images/sprite.gif"
+                        OnClick="SiteSearchButtonClick" CausesValidation="false" AlternateText="search site" CssClass="img_main_sglass" />
+                </div>
+            </asp:Panel>
+            <!-- job panel -->
+            <asp:Panel ID="JobCartPanel" CssClass="jobpaneldsg" runat="server">
+                <asp:HyperLink ID="HyperLink6" class="jm_dftop"
+                    NavigateUrl="~/Jobcart.aspx" runat="server"
+                    Visible="false">| MY JOBS: </asp:HyperLink>
+                <asp:Label ID="Labelcount" ClientIDMode="Static" runat="server" CssClass="jm_dftop"
+                    Visible="false"></asp:Label>
+            </asp:Panel>
+            <!--hrightitems-->
+            <div class="topotheriternary">
+                <asp:LinkButton ID="LinkButton3" runat="server" CausesValidation="False" CssClass="jm_dftop"
+                    OnClick="LinkButton3Click"> HOME |</asp:LinkButton>
+                <asp:LinkButton ID="LinkButton1" runat="server" CausesValidation="False" CssClass="jm_dftop"
+                    OnClick="LinkButton1Click"> RECRUITERS |</asp:LinkButton>
+                <asp:LinkButton ID="LinkButton2" runat="server" CausesValidation="False" CssClass="jm_dftop"
+                    OnClick="LinkButton2Click"> JOBSEEKERS</asp:LinkButton>
+                <br />
+                <div class="dv_shadowblue">
+                    <asp:PlaceHolder ID="PlaceHolderheadbanner" runat="server"></asp:PlaceHolder>
+                </div>
+            </div>
+        </div>
+        <div class="ux_center">
+            <!--div start-->
+            <div class="setmwide">
+            </div>
+            <div class="dv_fix">
+            </div>
+            <div class="tpbar">
+                <asp:Panel ID="Panelstockbar" runat="server">
+                </asp:Panel>
+            </div>
+            <!--contents-->
+            <div class="pgwidthset">
+                <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                </asp:ContentPlaceHolder>
+            </div>
+        </div>
+        <div class="dv_fix">
+        </div>
+        <div class="jb_middlelinks">
+            <asp:DataList ID="DataListmidlinks" runat="server" RepeatColumns="5" RepeatDirection="Horizontal"
+                RepeatLayout="Flow">
+                <ItemTemplate>
+                    <div class="ftlabel">
+                        <asp:Image ID="imgprivate" runat="server" ImageUrl='<% # Eval("hlinkimgurl")%>' />
+                        <asp:HyperLink ID="HyperLinka3" CssClass="ft_silvernu" runat="server" NavigateUrl='<% # Eval("hlinktexturl")%>'
+                            Text='<% # Eval("hlinkname")%>'></asp:HyperLink>
+                    </div>
+                </ItemTemplate>
+            </asp:DataList>
+            <br />
+            <br />
+            <!-- dmca -->
+            <a href="http://www.dmca.com/Protection/Status.aspx?ID=87d21fb5-8fb6-4055-ac5f-1d2b00e0509b"
+                title="DMCA">
+                <img border="0" src="http://images.dmca.com/Badges/dmca_protected_sml_120m.png?ID=87d21fb5-8fb6-4055-ac5f-1d2b00e0509b"
+                    alt="DMCA.com" /></a>
+            <!--end dmca -->
+        </div>
+        <!-- copy right-->
+        <div class="jb_footerlinks">
+            <div class="ln_ccc">
+            </div>
+            <div class="dv_fix">
+            </div>
+            <div class="ln_fixx2">
+            </div>
+            <div class="jb_footerlinkleft">
+                <asp:DataList ID="DataListnfooter" runat="server" RepeatColumns="10" RepeatLayout="Flow" Width="400px">
+                    <ItemTemplate>
+                        <div>
+                            <asp:Image ID="imgprivate" runat="server" ImageUrl='<% # Eval("hlinkimgurl")%>' />
+                            <asp:HyperLink ID="HyperLinka3" CssClass="ft_graymain" runat="server" NavigateUrl='<% # Eval("hlinktexturl")%>' Text='<% # Eval("hlinkname")%>'></asp:HyperLink>
+                        </div>
+                    </ItemTemplate>
+                </asp:DataList>
+            </div>
+            <div class="jb_footerlinkright">
+                <!--language Panel-->
+                <%--  <asp:Label ID="Label1" runat="server" CssClass="ft_gray444nu" Text="Language: "></asp:Label>
+            <asp:PlaceHolder ID="PlaceHolderLang" runat="server"></asp:PlaceHolder>
+                --%>
+            </div>
+        </div>
+        <asp:HiddenField ID="HiddenField1" runat="server" Value="6e97555a3158609611292" />
+    </form>
+</body>
+</html>

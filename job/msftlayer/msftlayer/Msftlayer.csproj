@@ -1,0 +1,198 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{E7A36463-E260-4581-ACD4-5891AE364EC0}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Msftlayer</RootNamespace>
+    <AssemblyName>Msftlayer</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignAssembly>true</SignAssembly>
+  </PropertyGroup>
+  <PropertyGroup>
+    <AssemblyOriginatorKeyFile>
+    </AssemblyOriginatorKeyFile>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="AjaxControlToolkit">
+      <HintPath>..\..\packages\AjaxControlToolkit.7.1213\lib\40\AjaxControlToolkit.dll</HintPath>
+    </Reference>
+    <Reference Include="AjaxMin">
+      <HintPath>..\..\packages\AjaxMin.4.97.4951.28483\lib\net40\AjaxMin.dll</HintPath>
+    </Reference>
+    <Reference Include="HtmlAgilityPack">
+      <HintPath>..\..\packages\HtmlAgilityPack.1.4.6\lib\Net40\HtmlAgilityPack.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="Microsoft.Data.Edm, Version=5.2.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\packages\Microsoft.Data.Edm.5.2.0\lib\net40\Microsoft.Data.Edm.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Data.OData, Version=5.2.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\packages\Microsoft.Data.OData.5.2.0\lib\net40\Microsoft.Data.OData.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.WindowsAzure.Configuration">
+      <HintPath>..\..\packages\Microsoft.WindowsAzure.ConfigurationManager.1.8.0.0\lib\net35-full\Microsoft.WindowsAzure.Configuration.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.WindowsAzure.Storage">
+      <HintPath>..\..\packages\WindowsAzure.Storage.2.1.0.4\lib\net40\Microsoft.WindowsAzure.Storage.dll</HintPath>
+    </Reference>
+    <Reference Include="paypal_base">
+      <HintPath>..\..\Paypal\bin\paypal_base.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.Services.Client" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Spatial, Version=5.2.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\packages\System.Spatial.5.2.0\lib\net40\System.Spatial.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ClArticles.cs" />
+    <Compile Include="ClCache.cs" />
+    <Compile Include="ClCaptchacls.cs" />
+    <Compile Include="ClCcPay.cs" />
+    <Compile Include="ClCmsAnalytics.cs" />
+    <Compile Include="ClCmsApplications.cs" />
+    <Compile Include="ClCmsBranding.cs" />
+    <Compile Include="ClCmsCredits.cs" />
+    <Compile Include="ClCmsEmail.cs" />
+    <Compile Include="ClCmsGlobalSetting.cs" />
+    <Compile Include="ClCmsHelpCenter.cs" />
+    <Compile Include="ClCmsJobs.cs" />
+    <Compile Include="ClCmsSalaryCalc.cs" />
+    <Compile Include="ClCmsScripts.cs" />
+    <Compile Include="ClCmsSiteLinks.cs" />
+    <Compile Include="ClCmsSubsites.cs" />
+    <Compile Include="ClCmsUsers.cs" />
+    <Compile Include="ClCmsVideos.cs" />
+    <Compile Include="ClCmsWiki.cs" />
+    <Compile Include="ClCookie.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ClCustomizeOption1.cs" />
+    <Compile Include="ClDebug.cs" />
+    <Compile Include="ClEncryptData.cs" />
+    <Compile Include="ClExceptionHandler.cs" />
+    <Compile Include="ClGeoCoder.cs" />
+    <Compile Include="ClHelpCenter.cs" />
+    <Compile Include="ClHtmlWrap.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ClLanguage.cs" />
+    <Compile Include="ClPager.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ClPlugins.cs" />
+    <Compile Include="ClArchive.cs" />
+    <Compile Include="ClCommonFuncs.cs" />
+    <Compile Include="ClHistory.cs" />
+    <Compile Include="ClImageProcessor.cs" />
+    <Compile Include="ClJobCart.cs" />
+    <Compile Include="ClAvScanner.cs" />
+    <Compile Include="ClHome.cs" />
+    <Compile Include="ClMiner.cs" />
+    <Compile Include="ClNotes.cs" />
+    <Compile Include="ClPwdHash.cs" />
+    <Compile Include="ClQuestions.cs" />
+    <Compile Include="ClResumeBuilder.cs" />
+    <Compile Include="ClRptApplications.cs" />
+    <Compile Include="ClJobFeed.cs" />
+    <Compile Include="ClSearchMain.cs" />
+    <Compile Include="ClSiteMap.cs" />
+    <Compile Include="ClSiteprefs.cs" />
+    <Compile Include="ClSubsite.cs" />
+    <Compile Include="ClVersionControl.cs" />
+    <Compile Include="ClVideo.cs" />
+    <Compile Include="ClWebFetch.cs" />
+    <Compile Include="ClWebServiceImport.cs" />
+    <Compile Include="ClWidgetLog.cs" />
+    <Compile Include="ClWordParser.cs" />
+    <Compile Include="ClAdverts.cs" />
+    <Compile Include="ClApps.cs" />
+    <Compile Include="ClArtifacts.cs" />
+    <Compile Include="ClBranding.cs" />
+    <Compile Include="ClCandidates.cs" />
+    <Compile Include="ClCmsClass.cs" />
+    <Compile Include="ClCredits.cs" />
+    <Compile Include="ClEmailProcessor.cs" />
+    <Compile Include="ClFeaturedRecruiters.cs" />
+    <Compile Include="ClJobs.cs" />
+    <Compile Include="ClJobViewData.cs" />
+    <Compile Include="ClLoadBalancer.cs" />
+    <Compile Include="ClLogins.cs" />
+    <Compile Include="ClMainPagePopulator.cs" />
+    <Compile Include="CLMemCached.cs" />
+    <Compile Include="ClPrivacy.cs" />
+    <Compile Include="ClRecruiters.cs" />
+    <Compile Include="ClSalaryCalc.cs" />
+    <Compile Include="CLSearchFilters.cs" />
+    <Compile Include="ClSpamFilter.cs" />
+    <Compile Include="ClSubscriptions.cs" />
+    <Compile Include="ClWordApp.cs" />
+    <Compile Include="ClMemLoad.cs" />
+    <Compile Include="ClDoDirectPayment.cs" />
+    <Compile Include="IpLookup\Country.cs" />
+    <Compile Include="IpLookup\DatabaseInfo.cs" />
+    <Compile Include="IpLookup\Location.cs" />
+    <Compile Include="IpLookup\LookupService.cs" />
+    <Compile Include="IpLookup\Region.cs" />
+    <Compile Include="IpLookup\RegionName.cs" />
+    <Compile Include="ClFacebook.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="CLAutoComplete.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\memorylayer\memorylayer\Memorylayer.csproj">
+      <Project>{0C5809F3-AC56-4376-877D-B59E118AD647}</Project>
+      <Name>Memorylayer</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

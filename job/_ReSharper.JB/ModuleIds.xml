@@ -1,0 +1,6 @@
+<Modules>
+  <Module PersistentId="0F0FB3FD-D88F-40CC-9500-E2BE2AA99624" ModuleId="Mysqllayer" />
+  <Module PersistentId="E7A36463-E260-4581-ACD4-5891AE364EC0" ModuleId="Msftlayer" />
+  <Module PersistentId="698C7712-FB16-4695-B8C2-4BD940EF509A" ModuleId="JB" />
+  <Module PersistentId="0C5809F3-AC56-4376-877D-B59E118AD647" ModuleId="Memorylayer" />
+</Modules>

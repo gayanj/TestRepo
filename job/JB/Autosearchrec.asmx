@@ -1,0 +1,1 @@
+﻿<%@ WebService Language="C#" CodeBehind="Autosearchrec.asmx.cs" Class="JB.Autosearchrec" %>

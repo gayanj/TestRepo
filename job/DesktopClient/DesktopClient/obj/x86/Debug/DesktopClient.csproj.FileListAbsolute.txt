@@ -1,0 +1,34 @@
+C:\Documents and Settings\moeen\Desktop\stable0.5\DesktopClient\DesktopClient\bin\Debug\DesktopClient.exe
+C:\Documents and Settings\moeen\Desktop\stable0.5\DesktopClient\DesktopClient\bin\Debug\DesktopClient.pdb
+C:\Documents and Settings\moeen\Desktop\stable0.5\DesktopClient\DesktopClient\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\moeen\Desktop\stable0.5\DesktopClient\DesktopClient\obj\x86\Debug\DesktopClient.Form1.resources
+C:\Documents and Settings\moeen\Desktop\stable0.5\DesktopClient\DesktopClient\obj\x86\Debug\DesktopClient.Properties.Resources.resources
+C:\Documents and Settings\moeen\Desktop\stable0.5\DesktopClient\DesktopClient\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Documents and Settings\moeen\Desktop\stable0.5\DesktopClient\DesktopClient\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Documents and Settings\moeen\Desktop\stable0.5\DesktopClient\DesktopClient\obj\x86\Debug\DesktopClient.exe
+C:\Documents and Settings\moeen\Desktop\stable0.5\DesktopClient\DesktopClient\obj\x86\Debug\DesktopClient.pdb
+C:\stable0.5\DesktopClient\DesktopClient\bin\Debug\DesktopClient.exe
+C:\stable0.5\DesktopClient\DesktopClient\bin\Debug\DesktopClient.pdb
+C:\stable0.5\DesktopClient\DesktopClient\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\stable0.5\DesktopClient\DesktopClient\obj\x86\Debug\DesktopClient.Form1.resources
+C:\stable0.5\DesktopClient\DesktopClient\obj\x86\Debug\DesktopClient.Properties.Resources.resources
+C:\stable0.5\DesktopClient\DesktopClient\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\stable0.5\DesktopClient\DesktopClient\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\stable0.5\DesktopClient\DesktopClient\obj\x86\Debug\DesktopClient.exe
+C:\stable0.5\DesktopClient\DesktopClient\obj\x86\Debug\DesktopClient.pdb
+C:\inetpub\fashionquadrant\DesktopClient\DesktopClient\bin\Debug\DesktopClient.exe
+C:\inetpub\fashionquadrant\DesktopClient\DesktopClient\bin\Debug\DesktopClient.pdb
+C:\inetpub\fashionquadrant\DesktopClient\DesktopClient\obj\x86\Debug\DesktopClient.csprojResolveAssemblyReference.cache
+C:\inetpub\fashionquadrant\DesktopClient\DesktopClient\obj\x86\Debug\DesktopClient.Form1.resources
+C:\inetpub\fashionquadrant\DesktopClient\DesktopClient\obj\x86\Debug\DesktopClient.Properties.Resources.resources
+C:\inetpub\fashionquadrant\DesktopClient\DesktopClient\obj\x86\Debug\DesktopClient.csproj.GenerateResource.Cache
+C:\inetpub\fashionquadrant\DesktopClient\DesktopClient\obj\x86\Debug\DesktopClient.exe
+C:\inetpub\fashionquadrant\DesktopClient\DesktopClient\obj\x86\Debug\DesktopClient.pdb
+C:\FashionQuadrant\DesktopClient\DesktopClient\bin\Debug\DesktopClient.exe
+C:\FashionQuadrant\DesktopClient\DesktopClient\bin\Debug\DesktopClient.pdb
+C:\FashionQuadrant\DesktopClient\DesktopClient\obj\x86\Debug\DesktopClient.csprojResolveAssemblyReference.cache
+C:\FashionQuadrant\DesktopClient\DesktopClient\obj\x86\Debug\DesktopClient.Form1.resources
+C:\FashionQuadrant\DesktopClient\DesktopClient\obj\x86\Debug\DesktopClient.Properties.Resources.resources
+C:\FashionQuadrant\DesktopClient\DesktopClient\obj\x86\Debug\DesktopClient.csproj.GenerateResource.Cache
+C:\FashionQuadrant\DesktopClient\DesktopClient\obj\x86\Debug\DesktopClient.exe
+C:\FashionQuadrant\DesktopClient\DesktopClient\obj\x86\Debug\DesktopClient.pdb

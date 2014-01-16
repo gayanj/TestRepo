@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<config>
+    <theme>
+        <bottombg>20,30,30</bottombg>
+        <closebutton></closebutton>
+        <minimizebutton></minimizebutton>
+        <coprighttext>255,255,255</coprighttext>
+        <advertbg>255, 191, 0</advertbg>
+        <advtitle>0,0,0</advtitle>
+        <advdesc>0,0,0</advdesc>
+        <advlink>0,0,0</advlink>
+        <jobtitle></jobtitle>
+        <jobdesc></jobdesc>
+        <joblink></joblink>
+        <panelbg></panelbg>
+        <mainbg></mainbg>
+    </theme>
+    <system>
+        <weburl></weburl>
+    </system>
+</config>

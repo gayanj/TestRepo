@@ -1,0 +1,106 @@
+.po_litop {
+    margin-left: 210px;
+    margin-top: -20px;
+    border: buttonshadow;
+    border-width: 4px;
+    border-style: solid;
+    overflow: auto;
+    height: 150px;
+    text-align: left;
+    background-color: #fff;
+    list-style-type: none;
+}
+
+.po_liselect {
+    margin-left: -30px;
+    margin-right: 10px;
+    padding: 4px 4px 4px 6px;
+    border-bottom: 1px solid #ccc;
+    background-color: silver;
+    color: #765299;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.po_lilist {
+    margin-left: -30px;
+    margin-right: 10px;
+    padding: 4px 4px 4px 6px;
+    border-bottom: 1px solid #ccc;
+    background-color: #fff;
+    color: #765299;
+    text-decoration: none;
+}
+
+.ac_litop {
+    margin-left: 300px;
+    margin-top: -50px;
+    border: buttonshadow;
+    border-width: 4px;
+    border-style: solid;
+    overflow: auto;
+    height: 150px;
+    text-align: left;
+    background-color: #fff;
+    list-style-type: none;
+}
+
+.ac_liselect {
+    margin-left: -30px;
+    margin-right: 10px;
+    padding: 4px 4px 4px 6px;
+    border-bottom: 1px solid #ccc;
+    background-color: silver;
+    color: #765299;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.ac_lilist {
+    margin-left: -30px;
+    margin-right: 10px;
+    padding: 4px 4px 4px 6px;
+    border-bottom: 1px solid #ccc;
+    background-color: #fff;
+    color: #765299;
+    text-decoration: none;
+}
+
+.ac_rclitop {
+    margin-left: 310px;
+    margin-top: -20px;
+    border: buttonshadow;
+    border-width: 4px;
+    border-style: solid;
+    overflow: auto;
+    height: 150px;
+    text-align: left;
+    background-color: #fff;
+    list-style-type: none;
+}
+
+.ac_rcliselect {
+    margin-left: -30px;
+    margin-right: 10px;
+    padding: 4px 4px 4px 6px;
+    border-bottom: 1px solid #ccc;
+    background-color: silver;
+    color: #765299;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.ac_rclilist {
+    margin-left: -30px;
+    margin-right: 10px;
+    padding: 4px 4px 4px 6px;
+    border-bottom: 1px solid #ccc;
+    background-color: #fff;
+    color: #765299;
+    text-decoration: none;
+}
+
+.ac_rclilist, .ac_rcliselect, .ac_lilist, .ac_liselect, .po_lilist, .po_liselect {
+    font-family: "Lucida Grande",Helvetica,Arial,Verdana,sans-serif;
+    font-size: .688em;
+}

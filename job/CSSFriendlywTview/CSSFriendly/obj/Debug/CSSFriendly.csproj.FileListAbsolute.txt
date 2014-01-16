@@ -1,0 +1,5 @@
+C:\stable0.5\CSSFriendlywTview\CSSFriendly\bin\Debug\CSSFriendly.dll
+C:\stable0.5\CSSFriendlywTview\CSSFriendly\bin\Debug\CSSFriendly.pdb
+C:\stable0.5\CSSFriendlywTview\CSSFriendly\obj\Debug\ResolveAssemblyReference.cache
+C:\stable0.5\CSSFriendlywTview\CSSFriendly\obj\Debug\CSSFriendly.dll
+C:\stable0.5\CSSFriendlywTview\CSSFriendly\obj\Debug\CSSFriendly.pdb

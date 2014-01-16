@@ -1,0 +1,69 @@
+.xmainbg {
+    background-color: #343434;
+    margin: 0;
+}
+
+.aheaderad {
+    float: right;
+    width: 30px;
+    margin-top: -14px;
+}
+
+.xbodybg {
+    padding: 0 4px 0 4px;
+}
+
+.xadvertbg {
+    background-color: #ffbf00;
+    padding: 4px 4px 4px 4px;
+}
+
+.abreak {
+    border-bottom: 1px dotted #ccc;
+    margin-top: 4px;
+    margin-bottom: 4px;
+}
+
+.atitle {
+    font-weight: bold;
+    color: #444;
+}
+
+.adescription {
+    color: #444;
+}
+
+.alink {
+    color: #444;
+    text-decoration: none;
+}
+
+.ftitle {
+    font-weight: bold;
+    color: #ffbf00;
+}
+
+.fdescription {
+    color: #fff;
+}
+
+.flink {
+    color: #9ac8fd;
+    text-decoration: none;
+}
+
+.fdate {
+    color: #bdbfc1;
+}
+
+.aheaderad, .atitle, .adescription, .alink, .ftitle, .fdescription, .flink, .fdate {
+    font-family: "Lucida Grande",Helvetica,Arial,Verdana,sans-serif;
+}
+
+.adescription, .alink, .fdescription, .flink, .fdate {
+    font-size: .688em;
+}
+
+.aheaderad, .ftitle, .atitle {
+    font-size: .75em;
+}

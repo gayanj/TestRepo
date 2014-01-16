@@ -1,0 +1,30 @@
+﻿.barIndicatorBorder {
+    border: hidden;
+    width: 200px;
+    vertical-align: middle;
+}
+
+.barIndicator_poor {
+    background-image: url('/images/img_poor.gif');
+    background-repeat: no-repeat;
+}
+
+.barIndicator_weak {
+    background-image: url('/images/img_weak.gif');
+    background-repeat: no-repeat;
+}
+
+.barIndicator_good {
+    background-image: url('/images/img_good.gif');
+    background-repeat: no-repeat;
+}
+
+.barIndicator_strong {
+    background-image: url('/images/img_strong.gif');
+    background-repeat: no-repeat;
+}
+
+.barIndicator_excellent {
+    background-image: url('/images/img_excellent.gif');
+    background-repeat: no-repeat;
+}

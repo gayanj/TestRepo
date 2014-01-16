@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<publishData>
+  <publishProfile publishUrl="E:\test_loader" deleteExistingFiles="True" ftpAnonymousLogin="False" ftpPassiveMode="True" msdeploySite="" msdeploySiteID="" msdeployRemoteSitePhysicalPath="" msdeployAllowUntrustedCertificate="False" msdeploySkipExtraFilesOnServer="True" msdeployMarkAsApp="False" profileName="Profile1" publishMethod="FileSystem" replaceMatchingFiles="False" userName="" savePWD="False" userPWD="" SelectedForPublish="True">
+    <file relUrl="Web.config" publishTime="12/22/2011 18:22:26" />
+    <file relUrl="WebForm1.aspx" publishTime="12/20/2011 12:13:07" />
+    <file relUrl="bin/GenerateCodeSOAP.pdb" publishTime="12/15/2011 18:31:03" />
+    <file relUrl="bin/WebApplication2.pdb" publishTime="12/22/2011 18:32:12" />
+    <file relUrl="bin/GenerateCodeSOAP.dll" publishTime="12/15/2011 18:31:03" />
+    <file relUrl="bin/log4net.xml" publishTime="03/30/2006 06:23:58" />
+    <file relUrl="bin/log4net.pdb" publishTime="03/30/2006 06:23:58" />
+    <file relUrl="Styles/Site.css" publishTime="12/20/2011 12:12:32" />
+    <file relUrl="Scripts/jquery-1.4.1.js" publishTime="12/20/2011 12:12:32" />
+    <file relUrl="bin/log4net.dll" publishTime="03/30/2006 06:23:58" />
+    <file relUrl="Global.asax" publishTime="12/20/2011 12:12:32" />
+    <file relUrl="Scripts/jquery-1.4.1-vsdoc.js" publishTime="12/20/2011 12:12:32" />
+    <file relUrl="bin/paypal_base.dll" publishTime="12/15/2011 17:13:52" />
+    <file relUrl="bin/WebApplication2.dll" publishTime="12/22/2011 18:32:12" />
+    <file relUrl="Scripts/jquery-1.4.1.min.js" publishTime="12/20/2011 12:12:32" />
+  </publishProfile>
+</publishData>

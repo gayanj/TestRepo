@@ -1,0 +1,423 @@
+﻿.dvleftinsider {
+    margin-left: 10px;
+}
+
+#wrapjobsbyrectop {
+    margin: 0 auto;
+    width: 800px;
+}
+
+#wrapjobsbyrecright {
+    width: 200px;
+    border-left: 2px solid #765299;
+    padding-left: 8px;
+    background-image: url('/images/img_jobbyrecrtbg.gif');
+    background-repeat: repeat-y;
+}
+
+.dftstxleft {
+    float: left;
+    width: 75px;
+    padding-left: 6px;
+    vertical-align: top;
+}
+
+.introundupdiv {
+    padding-left: 10px;
+    padding-bottom: 5px;
+}
+
+#mn_covsrch {
+    background-image: url('/images/img_coversearch.gif');
+    background-repeat: repeat-x;
+    border: 1px solid #ccc;
+    padding: 30px 10px 30px 10px;
+    width: 280px;
+    background-color: silver;
+}
+
+#mainpgstopwrap {
+    min-height: 300px;
+}
+
+#mainpgsleft {
+    width: 312px;
+    margin-top: 10px;
+    float: left;
+}
+
+#mainpgsright {
+    width: 656px;
+    vertical-align: top;
+    float: left;
+}
+
+.srchedoptpans {
+    font-family: "Lucida Grande",Helvetica,Arial,Verdana,sans-serif;
+    font-size: .688em;
+    color: #fff;
+    padding-left: 2px;
+}
+
+.srchedoptpansimg {
+    float: left;
+    padding-left: 2px;
+    padding-right: 2px;
+    margin-top: 2px;
+    height: 14px;
+}
+
+#brhidetop {
+    height: 14px;
+    width: 55px;
+    margin-left: 2px;
+}
+
+#optoptoggle {
+    height: 14px;
+    width: 55px;
+}
+
+.srcheffectshim {
+    background-color: #444;
+    cursor: pointer;
+}
+
+#brshowtop {
+    height: 14px;
+    width: 55px;
+    margin-left: 2px;
+}
+
+#maintbwidth1 {
+    width: 300px;
+}
+
+.dftrecdtsleft {
+    padding-left: 10px;
+}
+
+.dftrecdtsright {
+    width: 190px;
+}
+
+.ftlabel {
+    padding-right: 20px;
+    width: 150px;
+}
+
+.pgwidthset {
+    width: 100%;
+}
+
+.leftsbanner {
+    width: 200px;
+    height: 50px;
+}
+
+.marker {
+    width: 5px;
+    height: 50px;
+}
+
+.header {
+    width: 500px;
+    height: 50px;
+}
+
+.hleft1 {
+    width: 16%;
+    text-align: right;
+}
+
+.hright1 {
+    text-align: left;
+    padding-left: 5%;
+}
+
+.hright2 {
+    padding-top: 10px;
+    text-align: right;
+    padding-bottom: 2px;
+    vertical-align: bottom;
+    width: 380px;
+}
+
+.jb_footerlinks {
+    margin: 0 auto;
+    padding-bottom: 1px;
+    vertical-align: middle;
+}
+
+.jb_middlelinks {
+    margin: 0 auto;
+    padding: 20px 0 20px 10px;
+    vertical-align: middle;
+    width: 992px;
+    background-color: #000;
+    background-image: url('/images/img_bottomblack.gif');
+    background-repeat: repeat-x;
+    border-top: 2px solid #444;
+    min-height: 80px;
+}
+
+.dvbrker12 {
+    height: 1px;
+}
+
+.topwrap {
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+#topwrapper {
+    height: 18px;
+    padding-bottom: 4px;
+    padding-right: 10px;
+    text-align: right;
+    background-color: #000;
+    width: 992px;
+    margin: 0 auto;
+}
+
+.tpbar {
+    text-align: center;
+    border: 1px solid #ccc;
+    border-right: 1px solid #ccc;
+    border-bottom: 1px solid #999;
+    border-top: 1px solid #999;
+    background-color: silver;
+    height: 20px;
+    width: 1000px;
+    margin: 0 auto;
+    line-height: 1.3em;
+}
+
+.toptimer {
+    padding-left: 10px;
+    padding-top: 4px;
+    vertical-align: top;
+    float: left;
+}
+
+.jb_footerlinkright {
+    float: left;
+    text-align: right;
+}
+
+.jb_footerlinkleft {
+    float: left;
+    padding-left: 2px;
+    width: 62%;
+}
+
+.jobpaneldsg {
+    padding-left: 6px;
+    margin-top: 4px;
+}
+
+.featrecgitem {
+    min-width: 152px;
+    min-height: 150px;
+    border: 1px solid gray;
+    text-align: center;
+    background-color: #fff;
+    margin-bottom: 1px;
+    vertical-align: bottom;
+}
+
+.optionpdleft {
+    padding: 2px 2px 2px 10px;
+}
+
+.srgridrightitem {
+    width: 5%;
+    margin-right: 1%;
+}
+
+.srgridleftitem {
+    padding-left: 5px;
+    width: 90%;
+}
+
+.hinternal {
+    cursor: pointer;
+}
+
+#dftimprovert {
+    padding: 2px 4px 0 0;
+}
+
+.dvright {
+    padding: 2px 4px 0 0;
+}
+
+.tpboundbrdrmover {
+    background: silver;
+    border-bottom: 1px dotted #000;
+    width: 210px;
+}
+
+.tpboundbrdr {
+    border-bottom: 1px dotted #000;
+    width: 210px;
+}
+
+.centgrid {
+    width: 100%;
+}
+
+#internalclm {
+    padding: 0 10px 0 10px;
+}
+
+.lftp2 {
+    padding-left: 1px;
+    padding-bottom: 1px;
+    vertical-align: middle;
+}
+
+.gridloadcent {
+    text-align: center;
+    vertical-align: middle;
+    width: 50px;
+}
+
+.divheightsrch {
+    height: 10px;
+}
+
+.suggalignleft {
+    padding: 0;
+    vertical-align: middle;
+    width: 152px;
+}
+
+.setpxline {
+    height: 4px;
+}
+
+.imgborder {
+    border-width: 1px;
+    border-color: gray;
+    border-style: solid;
+}
+
+.ncprog {
+    padding-top: 2px;
+    width: 20px;
+}
+
+.ncprog1 {
+    padding-right: 4px;
+}
+
+.boxmid {
+    width: 580px;
+    padding: 0 2px 0 2px;
+}
+
+.box3 {
+    width: 150px;
+    background: #eee;
+    color: #444;
+    border: 1px solid #dedede;
+    -moz-box-shadow: 5px 5px 2px #999;
+    padding: 2px 2px 2px 2px;
+    -webkit-box-shadow: 5px 5px 2px #999;
+}
+
+.mainsrchdivs {
+    border-right-width: 1px;
+    border-right-color: gray;
+    border-right-style: solid;
+    border-left-width: 1px;
+    border-left-color: gray;
+    border-left-style: solid;
+    border-bottom-width: 1px;
+    border-bottom-color: gray;
+    border-bottom-style: solid;
+}
+
+.divchkbxpop {
+    height: 100px;
+    overflow: auto;
+    border-collapse: collapse;
+}
+
+.searchedstmod {
+}
+
+.browser {
+    padding-right: 4px;
+    width: 120px;
+}
+
+#overlay {
+    width: 610px;
+    height: 950px;
+    background: #000;
+    opacity: .79;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=79)";
+    filter: alpha(opacity=79);
+    -moz-opacity: .79;
+    z-index: 2;
+    position: absolute;
+}
+
+#overlayblack {
+    width: 550px;
+    height: 500px;
+    background: #000;
+    opacity: .79;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=79)";
+    filter: alpha(opacity=79);
+    -moz-opacity: .79;
+    z-index: 2;
+    position: absolute;
+}
+
+#searchedl1 {
+    vertical-align: top;
+    width: 210px;
+}
+
+.searchedl2 {
+    vertical-align: top;
+    width: 2%;
+}
+
+#searchedl0 {
+    padding: 30px 30px 30px 30px;
+    border: 1px solid #ccc;
+    background-color: silver;
+}
+
+.searchedprog {
+    margin-left: 4px;
+    padding-left: 2px;
+    height: 12px;
+    padding-top: 2px;
+}
+
+#wrapjobsbyrecleft {
+    width: 500px;
+}
+
+.jobpaneldsg, .header, #optoptoggle, .hright2, .toptimer, .dftrecdtsleft, .srgridleftitem, .srcheffectshim, .ftlabel, #brshowtop, .hright1, .hleft1, .pgwidthset, .marker, .rights, .searchedprog, #brhidetop, #mainpgsright, .srchedoptpans, #mainpgsleft, .dvleft, #searchedl1, .dftstxleft, #wrapjobsbyrecleft, .searchedl2, #dftimprovelft, .srchedoptpans, .searchedl3 {
+    float: left;
+}
+
+#wrapjobsbyrecright, .dftrecdtsright, .topotheriternary, .srgridrightitem, .dvright, #dftimprovert, .ncprog1, .browser {
+    float: right;
+}
+
+.setmwide {
+    width: 1002px;
+    background-image: url('/BrandImages/img_topbanner.png');
+    height: 120px;
+}
+
+.jb_footerlinks {
+    width: 1000px;
+}

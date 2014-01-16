@@ -1,0 +1,29 @@
+﻿html {
+    overflow: auto;
+}
+
+#full-page-container {
+    overflow: auto;
+}
+
+.scroll-pane {
+    border: 1px solid #ccc;
+    background-image: url('/images/img_tabbox.gif');
+    background-repeat: repeat-x;
+    height: 120px;
+    overflow: auto;
+    width: 300px;
+    color: #3e0318;
+    padding-top: 4px;
+    background-color: silver;
+}
+
+.horizontal-only {
+    height: auto;
+    max-height: 200px;
+}
+
+.sr_progind1 {
+    vertical-align: middle;
+    float: left;
+}

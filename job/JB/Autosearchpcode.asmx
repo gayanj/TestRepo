@@ -1,0 +1,1 @@
+﻿<%@ WebService Language="C#" CodeBehind="Autosearchpcode.asmx.cs" Class="JB.Autosearchpcode" %>

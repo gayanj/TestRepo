@@ -1,0 +1,100 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Logins.master.cs" Inherits="JB.Logins1" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>Self Service Login</title>
+    <asp:ContentPlaceHolder ID="sitepref" runat="server">
+    </asp:ContentPlaceHolder>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <link href="/styles/pheonixv1.css" rel="stylesheet" type="text/css" />
+    <link href="/styles/pheonixr1.css" rel="stylesheet" type="text/css" />
+    <script src="/Scripts/jqueryvx.js" type="text/javascript"></script>
+
+    <script type="text/javascript">
+        function securejs() {
+            var xfrval = document.getElementsByTagName('iframe').length;
+            if (xfrval > 0) {
+                window.location = "/FraudFilters/FraudAction.aspx";
+            }
+        }
+        function showdivs(dvhids) {
+            //$("#" + dvhids).effect("slide", "swing", 500, $("#" + dvhids).show() );
+            $("#" + dvhids).show();
+        }
+
+        function hidedivs(dvsids) {
+            $("#" + dvsids).hide();
+        }
+    </script>
+</head>
+<body class="fx_body">
+    <asp:Panel ID="DebugPanel" CssClass="debugger" runat="server" Visible="false">
+        <asp:Label ID="debugme" runat="server" Text="Debugger"></asp:Label>
+    </asp:Panel>
+    <div class="dv_fix">
+    </div>
+    <div id="jbloginback" runat="server">
+        <form id="form1" runat="server">
+            <div id="lg_flspace">
+                <div class="dv_shadowfff">
+                    <div id="lg_insider">
+                        <div class="dv_fix">
+                        </div>
+                        <div class="bg_black">
+                            <img alt="brandlogin" src="/Brandimages/brand_login.png" />
+                        </div>
+                        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                        </asp:ContentPlaceHolder>
+                    </div>
+                </div>
+            </div>
+            <div class="dv_fix">
+            </div>
+            <div id="div1">
+                <div id="locator1" class="locator1" onmouseover="showdivs('locatortip1');hidedivs('locator2');hidedivs('locator3');hidedivs('locator4');"
+                    onmouseout="hidedivs('locatortip1');showdivs('locator2');showdivs('locator3');showdivs('locator4');">
+                </div>
+                <div id="locator2" class="locator2" onmouseover="showdivs('locatortip2');hidedivs('locator1');hidedivs('locator3');hidedivs('locator4');"
+                    onmouseout="hidedivs('locatortip2');showdivs('locator1');showdivs('locator3');showdivs('locator4');">
+                </div>
+                <div id="locator3" class="locator3" onmouseover="showdivs('locatortip3');hidedivs('locator1');hidedivs('locator2');hidedivs('locator4');"
+                    onmouseout="hidedivs('locatortip3');showdivs('locator1');showdivs('locator2');showdivs('locator4');">
+                </div>
+                <div id="locator4" class="locator4" onmouseover="showdivs('locatortip4');hidedivs('locator1');hidedivs('locator2');hidedivs('locator3');"
+                    onmouseout="hidedivs('locatortip4');showdivs('locator1');showdivs('locator2');showdivs('locator3');">
+                </div>
+                <div id="locatortip1" class="locatortip1" onmouseover="showdivs('locatortip1');hidedivs('locator2');hidedivs('locator3');hidedivs('locator4');"
+                    onmouseout="hidedivs('locatortip1');showdivs('locator2');showdivs('locator3');showdivs('locator4');">
+                    <asp:Label ID="Label1" runat="server" Text="Label" CssClass="ft_whitebd"></asp:Label><br />
+                    <asp:Label ID="Label2" runat="server" Text="Label" CssClass="ft_white"></asp:Label><br />
+                    <asp:HyperLink ID="HyperLink1" runat="server" CssClass="ft_bluelink">HyperLink</asp:HyperLink>
+                </div>
+                <div id="locatortip2" class="locatortip2" onmouseover="showdivs('locatortip2');hidedivs('locator1');hidedivs('locator3');hidedivs('locator4');"
+                    onmouseout="hidedivs('locatortip2');showdivs('locator1');showdivs('locator3');showdivs('locator4');">
+                    <asp:Label ID="Label4" runat="server" Text="Label" CssClass="ft_whitebd"></asp:Label><br />
+                    <asp:Label ID="Label5" runat="server" Text="Label" CssClass="ft_white"></asp:Label><br />
+                    <asp:HyperLink ID="HyperLink2" runat="server" CssClass="ft_bluelink">HyperLink</asp:HyperLink>
+                </div>
+                <div id="locatortip3" class="locatortip3" onmouseover="showdivs('locatortip3');hidedivs('locator1');hidedivs('locator2');hidedivs('locator4');"
+                    onmouseout="hidedivs('locatortip3');showdivs('locator1');showdivs('locator2');showdivs('locator4');">
+                    <asp:Label ID="Label7" runat="server" Text="Label" CssClass="ft_whitebd"></asp:Label><br />
+                    <asp:Label ID="Label8" runat="server" Text="Label" CssClass="ft_white"></asp:Label><br />
+                    <asp:HyperLink ID="HyperLink3" runat="server" CssClass="ft_bluelink">HyperLink</asp:HyperLink>
+                </div>
+                <div id="locatortip4" class="locatortip4" onmouseover="showdivs('locatortip4');hidedivs('locator1');hidedivs('locator2');hidedivs('locator3');"
+                    onmouseout="hidedivs('locatortip4');showdivs('locator1');showdivs('locator2');showdivs('locator3');">
+                    <asp:Label ID="Label10" runat="server" Text="Label" CssClass="ft_whitebd"></asp:Label><br />
+                    <asp:Label ID="Label11" runat="server" Text="Label" CssClass="ft_white"></asp:Label><br />
+                    <asp:HyperLink ID="HyperLink4" runat="server" CssClass="ft_bluelink">HyperLink</asp:HyperLink>
+                </div>
+            </div>
+            <asp:HiddenField ID="HiddenField1" runat="server" Value="6e97555a3158609611292"/>
+        </form>
+    </div>
+    <script type="text/javascript">
+        securejs();
+    </script>
+</body>
+</html>

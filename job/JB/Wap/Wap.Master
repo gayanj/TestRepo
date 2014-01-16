@@ -1,0 +1,40 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Wap.Master.cs" Inherits="JB.wap.Wap" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" />
+    <asp:ContentPlaceHolder ID="sitepref" runat="server">
+    </asp:ContentPlaceHolder>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <link href="/styles/Pheonixw1.css" rel="stylesheet" type="text/css" />
+</head>
+<body class="m_fx_body">
+    <div class="m_topshadows">
+        <div class="m_topinnerdiv">
+            <img src="/Brandimages/brand_wap.png" alt="Fashion Quadrant Logo" />
+        </div>
+    </div>
+    <div class="m_dv_fix">
+    </div>
+    <form id="form1" runat="server">
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        </asp:ContentPlaceHolder>
+        <div class="m_dv_fix">
+        </div>
+        <div class="ux_wpbottomfix"></div>
+        <div class="m_bottomcent">
+            <asp:Button ID="ButtonBack" runat="server" Text="ButtonBack" CausesValidation="false" Visible="false" OnClick="ButtonBack_Click" />
+
+            <asp:Label ID="Label1" runat="server" CssClass="m_ft_gray" Text="Copyrights 2013 Fashion Quadrant "></asp:Label>
+            &nbsp;
+            <img alt="desktop site" src="/images/lt_comp.png" />
+            <asp:HyperLink ID="HyperLink1" runat="server" NavigateUrl="http://www.fashionquadrant.com" CssClass="m_ft_gray">Go to Desktop Version >></asp:HyperLink>
+        </div>
+
+        <asp:HiddenField ID="HiddenField1" runat="server" Value="6e97555a3158609611292"/>
+    </form>
+</body>
+</html>

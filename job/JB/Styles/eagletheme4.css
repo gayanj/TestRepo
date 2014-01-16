@@ -1,0 +1,73 @@
+.xmainbg {
+    background-color: #fff;
+    margin: 0;
+}
+
+.aheaderad {
+    font-family: "Lucida Grande",Helvetica,Arial,Verdana,sans-serif;
+    font-size: .75em;
+    float: right;
+    width: 30px;
+    margin-top: -14px;
+}
+
+.xbodybg {
+    padding: 4px 4px 4px 4px;
+}
+
+.xadvertbg {
+    background-color: #a8cf45;
+    padding: 0 4px 0 4px;
+}
+
+.abreak {
+    border-bottom: 1px dotted #ccc;
+    margin-top: 4px;
+    margin-bottom: 4px;
+}
+
+.atitle {
+    font-family: "Lucida Grande",Helvetica,Arial,Verdana,sans-serif;
+    font-size: .75em;
+    font-weight: bold;
+    color: #444;
+}
+
+.adescription {
+    font-family: "Lucida Grande",Helvetica,Arial,Verdana,sans-serif;
+    font-size: .688em;
+    color: #444;
+}
+
+.alink {
+    font-family: "Lucida Grande",Helvetica,Arial,Verdana,sans-serif;
+    font-size: .688em;
+    color: #444;
+    text-decoration: none;
+}
+
+.ftitle {
+    font-family: "Lucida Grande",Helvetica,Arial,Verdana,sans-serif;
+    font-size: .75em;
+    font-weight: bold;
+    color: #a8cf45;
+}
+
+.fdescription {
+    font-family: "Lucida Grande",Helvetica,Arial,Verdana,sans-serif;
+    font-size: .688em;
+    color: #333;
+}
+
+.flink {
+    font-family: "Lucida Grande",Helvetica,Arial,Verdana,sans-serif;
+    font-size: .688em;
+    color: #000;
+    text-decoration: none;
+}
+
+.fdate {
+    font-family: "Lucida Grande",Helvetica,Arial,Verdana,sans-serif;
+    font-size: .688em;
+    color: #bdbfc1;
+}

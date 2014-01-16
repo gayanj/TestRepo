@@ -1,0 +1,255 @@
+C:\JBlightversion\msftlayer\msftlayer\obj\Debug\ResolveAssemblyReference.cache
+C:\JBlightversion\msftlayer\msftlayer\obj\Debug\Interop.Microsoft.Office.Core.dll
+C:\JBlightversion\msftlayer\msftlayer\obj\Debug\msftlayer.csproj.ResolveComReference.cache
+C:\JBlightversion\msftlayer\msftlayer\bin\Debug\msftlayer.dll
+C:\JBlightversion\msftlayer\msftlayer\bin\Debug\msftlayer.pdb
+C:\JBlightversion\msftlayer\msftlayer\obj\Debug\Interop.Microsoft.Office.Interop.Word.dll
+C:\JBlightversion\msftlayer\msftlayer\obj\Debug\Interop.VBIDE.dll
+C:\JBlightversion\msftlayer\msftlayer\obj\Debug\msftlayer.dll
+C:\JBlightversion\msftlayer\msftlayer\obj\Debug\msftlayer.pdb
+C:\JBlightversion\msftlayer\msftlayer\bin\Debug\memorylayer.dll
+C:\JBlightversion\msftlayer\msftlayer\bin\Debug\mysqllayer.dll
+C:\JBlightversion\msftlayer\msftlayer\bin\Debug\memorylayer.pdb
+C:\JBlightversion\msftlayer\msftlayer\bin\Debug\mysqllayer.pdb
+C:\Documents and Settings\IE User\Desktop\JBlightversion\msftlayer\msftlayer\bin\Debug\msftlayer.dll
+C:\Documents and Settings\IE User\Desktop\JBlightversion\msftlayer\msftlayer\bin\Debug\msftlayer.pdb
+C:\Documents and Settings\IE User\Desktop\JBlightversion\msftlayer\msftlayer\bin\Debug\memorylayer.dll
+C:\Documents and Settings\IE User\Desktop\JBlightversion\msftlayer\msftlayer\bin\Debug\mysqllayer.dll
+C:\Documents and Settings\IE User\Desktop\JBlightversion\msftlayer\msftlayer\bin\Debug\memorylayer.pdb
+C:\Documents and Settings\IE User\Desktop\JBlightversion\msftlayer\msftlayer\bin\Debug\mysqllayer.pdb
+C:\Documents and Settings\IE User\Desktop\JBlightversion\msftlayer\msftlayer\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\IE User\Desktop\JBlightversion\msftlayer\msftlayer\obj\Debug\Interop.Microsoft.Office.Core.dll
+C:\Documents and Settings\IE User\Desktop\JBlightversion\msftlayer\msftlayer\obj\Debug\Interop.Microsoft.Office.Interop.Word.dll
+C:\Documents and Settings\IE User\Desktop\JBlightversion\msftlayer\msftlayer\obj\Debug\Interop.VBIDE.dll
+C:\Documents and Settings\IE User\Desktop\JBlightversion\msftlayer\msftlayer\obj\Debug\msftlayer.csproj.ResolveComReference.cache
+C:\Documents and Settings\IE User\Desktop\JBlightversion\msftlayer\msftlayer\obj\Debug\msftlayer.dll
+C:\Documents and Settings\IE User\Desktop\JBlightversion\msftlayer\msftlayer\obj\Debug\msftlayer.pdb
+C:\Documents and Settings\IE User\Desktop\stable0.1\msftlayer\msftlayer\bin\Debug\msftlayer.dll
+C:\Documents and Settings\IE User\Desktop\stable0.1\msftlayer\msftlayer\bin\Debug\msftlayer.pdb
+C:\Documents and Settings\IE User\Desktop\stable0.1\msftlayer\msftlayer\bin\Debug\memorylayer.dll
+C:\Documents and Settings\IE User\Desktop\stable0.1\msftlayer\msftlayer\bin\Debug\mysqllayer.dll
+C:\Documents and Settings\IE User\Desktop\stable0.1\msftlayer\msftlayer\bin\Debug\memorylayer.pdb
+C:\Documents and Settings\IE User\Desktop\stable0.1\msftlayer\msftlayer\bin\Debug\mysqllayer.pdb
+C:\Documents and Settings\IE User\Desktop\stable0.1\msftlayer\msftlayer\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\IE User\Desktop\stable0.1\msftlayer\msftlayer\obj\Debug\Interop.Microsoft.Office.Core.dll
+C:\Documents and Settings\IE User\Desktop\stable0.1\msftlayer\msftlayer\obj\Debug\Interop.Microsoft.Office.Interop.Word.dll
+C:\Documents and Settings\IE User\Desktop\stable0.1\msftlayer\msftlayer\obj\Debug\Interop.VBIDE.dll
+C:\Documents and Settings\IE User\Desktop\stable0.1\msftlayer\msftlayer\obj\Debug\msftlayer.csproj.ResolveComReference.cache
+C:\Documents and Settings\IE User\Desktop\stable0.1\msftlayer\msftlayer\obj\Debug\msftlayer.dll
+C:\Documents and Settings\IE User\Desktop\stable0.1\msftlayer\msftlayer\obj\Debug\msftlayer.pdb
+C:\Documents and Settings\IE User\Desktop\stable0.2\msftlayer\msftlayer\bin\Debug\msftlayer.dll
+C:\Documents and Settings\IE User\Desktop\stable0.2\msftlayer\msftlayer\bin\Debug\msftlayer.pdb
+C:\Documents and Settings\IE User\Desktop\stable0.2\msftlayer\msftlayer\bin\Debug\memorylayer.dll
+C:\Documents and Settings\IE User\Desktop\stable0.2\msftlayer\msftlayer\bin\Debug\mysqllayer.dll
+C:\Documents and Settings\IE User\Desktop\stable0.2\msftlayer\msftlayer\bin\Debug\memorylayer.pdb
+C:\Documents and Settings\IE User\Desktop\stable0.2\msftlayer\msftlayer\bin\Debug\mysqllayer.pdb
+C:\Documents and Settings\IE User\Desktop\stable0.2\msftlayer\msftlayer\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\IE User\Desktop\stable0.2\msftlayer\msftlayer\obj\Debug\Interop.Microsoft.Office.Core.dll
+C:\Documents and Settings\IE User\Desktop\stable0.2\msftlayer\msftlayer\obj\Debug\Interop.Microsoft.Office.Interop.Word.dll
+C:\Documents and Settings\IE User\Desktop\stable0.2\msftlayer\msftlayer\obj\Debug\Interop.VBIDE.dll
+C:\Documents and Settings\IE User\Desktop\stable0.2\msftlayer\msftlayer\obj\Debug\msftlayer.csproj.ResolveComReference.cache
+C:\Documents and Settings\IE User\Desktop\stable0.2\msftlayer\msftlayer\obj\Debug\msftlayer.dll
+C:\Documents and Settings\IE User\Desktop\stable0.2\msftlayer\msftlayer\obj\Debug\msftlayer.pdb
+C:\Documents and Settings\IE User\Desktop\Copy of stable0.2\msftlayer\msftlayer\bin\Debug\msftlayer.dll
+C:\Documents and Settings\IE User\Desktop\Copy of stable0.2\msftlayer\msftlayer\bin\Debug\msftlayer.pdb
+C:\Documents and Settings\IE User\Desktop\Copy of stable0.2\msftlayer\msftlayer\bin\Debug\memorylayer.dll
+C:\Documents and Settings\IE User\Desktop\Copy of stable0.2\msftlayer\msftlayer\bin\Debug\mysqllayer.dll
+C:\Documents and Settings\IE User\Desktop\Copy of stable0.2\msftlayer\msftlayer\bin\Debug\memorylayer.pdb
+C:\Documents and Settings\IE User\Desktop\Copy of stable0.2\msftlayer\msftlayer\bin\Debug\mysqllayer.pdb
+C:\Documents and Settings\IE User\Desktop\Copy of stable0.2\msftlayer\msftlayer\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\IE User\Desktop\Copy of stable0.2\msftlayer\msftlayer\obj\Debug\Interop.Microsoft.Office.Core.dll
+C:\Documents and Settings\IE User\Desktop\Copy of stable0.2\msftlayer\msftlayer\obj\Debug\Interop.Microsoft.Office.Interop.Word.dll
+C:\Documents and Settings\IE User\Desktop\Copy of stable0.2\msftlayer\msftlayer\obj\Debug\Interop.VBIDE.dll
+C:\Documents and Settings\IE User\Desktop\Copy of stable0.2\msftlayer\msftlayer\obj\Debug\msftlayer.csproj.ResolveComReference.cache
+C:\Documents and Settings\IE User\Desktop\Copy of stable0.2\msftlayer\msftlayer\obj\Debug\msftlayer.dll
+C:\Documents and Settings\IE User\Desktop\Copy of stable0.2\msftlayer\msftlayer\obj\Debug\msftlayer.pdb
+C:\Documents and Settings\IE User\Desktop\stable0.3\msftlayer\msftlayer\bin\Debug\msftlayer.dll
+C:\Documents and Settings\IE User\Desktop\stable0.3\msftlayer\msftlayer\bin\Debug\msftlayer.pdb
+C:\Documents and Settings\IE User\Desktop\stable0.3\msftlayer\msftlayer\bin\Debug\memorylayer.dll
+C:\Documents and Settings\IE User\Desktop\stable0.3\msftlayer\msftlayer\bin\Debug\mysqllayer.dll
+C:\Documents and Settings\IE User\Desktop\stable0.3\msftlayer\msftlayer\bin\Debug\memorylayer.pdb
+C:\Documents and Settings\IE User\Desktop\stable0.3\msftlayer\msftlayer\bin\Debug\mysqllayer.pdb
+C:\Documents and Settings\IE User\Desktop\stable0.3\msftlayer\msftlayer\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\IE User\Desktop\stable0.3\msftlayer\msftlayer\obj\Debug\Interop.Microsoft.Office.Core.dll
+C:\Documents and Settings\IE User\Desktop\stable0.3\msftlayer\msftlayer\obj\Debug\Interop.Microsoft.Office.Interop.Word.dll
+C:\Documents and Settings\IE User\Desktop\stable0.3\msftlayer\msftlayer\obj\Debug\Interop.VBIDE.dll
+C:\Documents and Settings\IE User\Desktop\stable0.3\msftlayer\msftlayer\obj\Debug\msftlayer.csproj.ResolveComReference.cache
+C:\Documents and Settings\IE User\Desktop\stable0.3\msftlayer\msftlayer\obj\Debug\msftlayer.dll
+C:\Documents and Settings\IE User\Desktop\stable0.3\msftlayer\msftlayer\obj\Debug\msftlayer.pdb
+C:\Documents and Settings\moeen\Desktop\stable0.3\msftlayer\msftlayer\bin\Debug\msftlayer.dll
+C:\Documents and Settings\moeen\Desktop\stable0.3\msftlayer\msftlayer\bin\Debug\msftlayer.pdb
+C:\Documents and Settings\moeen\Desktop\stable0.3\msftlayer\msftlayer\bin\Debug\memorylayer.dll
+C:\Documents and Settings\moeen\Desktop\stable0.3\msftlayer\msftlayer\bin\Debug\mysqllayer.dll
+C:\Documents and Settings\moeen\Desktop\stable0.3\msftlayer\msftlayer\bin\Debug\memorylayer.pdb
+C:\Documents and Settings\moeen\Desktop\stable0.3\msftlayer\msftlayer\bin\Debug\mysqllayer.pdb
+C:\Documents and Settings\moeen\Desktop\stable0.3\msftlayer\msftlayer\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\moeen\Desktop\stable0.3\msftlayer\msftlayer\obj\Debug\msftlayer.csproj.ResolveComReference.cache
+C:\Documents and Settings\moeen\Desktop\stable0.3\msftlayer\msftlayer\obj\Debug\msftlayer.dll
+C:\Documents and Settings\moeen\Desktop\stable0.3\msftlayer\msftlayer\obj\Debug\msftlayer.pdb
+C:\Documents and Settings\moeen\Desktop\stable0.4\msftlayer\msftlayer\bin\Debug\msftlayer.dll
+C:\Documents and Settings\moeen\Desktop\stable0.4\msftlayer\msftlayer\bin\Debug\msftlayer.pdb
+C:\Documents and Settings\moeen\Desktop\stable0.4\msftlayer\msftlayer\bin\Debug\memorylayer.dll
+C:\Documents and Settings\moeen\Desktop\stable0.4\msftlayer\msftlayer\bin\Debug\mysqllayer.dll
+C:\Documents and Settings\moeen\Desktop\stable0.4\msftlayer\msftlayer\bin\Debug\memorylayer.pdb
+C:\Documents and Settings\moeen\Desktop\stable0.4\msftlayer\msftlayer\bin\Debug\mysqllayer.pdb
+C:\Documents and Settings\moeen\Desktop\stable0.4\msftlayer\msftlayer\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\moeen\Desktop\stable0.4\msftlayer\msftlayer\obj\Debug\msftlayer.csproj.ResolveComReference.cache
+C:\Documents and Settings\moeen\Desktop\stable0.4\msftlayer\msftlayer\obj\Debug\msftlayer.dll
+C:\Documents and Settings\moeen\Desktop\stable0.4\msftlayer\msftlayer\obj\Debug\msftlayer.pdb
+C:\Documents and Settings\moeen\Desktop\stable0.5\msftlayer\msftlayer\bin\Debug\msftlayer.dll
+C:\Documents and Settings\moeen\Desktop\stable0.5\msftlayer\msftlayer\bin\Debug\msftlayer.pdb
+C:\Documents and Settings\moeen\Desktop\stable0.5\msftlayer\msftlayer\bin\Debug\memorylayer.dll
+C:\Documents and Settings\moeen\Desktop\stable0.5\msftlayer\msftlayer\bin\Debug\mysqllayer.dll
+C:\Documents and Settings\moeen\Desktop\stable0.5\msftlayer\msftlayer\bin\Debug\memorylayer.pdb
+C:\Documents and Settings\moeen\Desktop\stable0.5\msftlayer\msftlayer\bin\Debug\mysqllayer.pdb
+C:\Documents and Settings\moeen\Desktop\stable0.5\msftlayer\msftlayer\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\moeen\Desktop\stable0.5\msftlayer\msftlayer\obj\Debug\Interop.Microsoft.Office.Core.dll
+C:\Documents and Settings\moeen\Desktop\stable0.5\msftlayer\msftlayer\obj\Debug\Interop.Microsoft.Office.Interop.Word.dll
+C:\Documents and Settings\moeen\Desktop\stable0.5\msftlayer\msftlayer\obj\Debug\Interop.VBIDE.dll
+C:\Documents and Settings\moeen\Desktop\stable0.5\msftlayer\msftlayer\obj\Debug\msftlayer.csproj.ResolveComReference.cache
+C:\Documents and Settings\moeen\Desktop\stable0.5\msftlayer\msftlayer\obj\Debug\msftlayer.dll
+C:\Documents and Settings\moeen\Desktop\stable0.5\msftlayer\msftlayer\obj\Debug\msftlayer.pdb
+G:\stable0.5\msftlayer\msftlayer\obj\Debug\ResolveAssemblyReference.cache
+G:\stable0.5\msftlayer\msftlayer\obj\Debug\Msftlayer.dll
+G:\stable0.5\msftlayer\msftlayer\bin\Debug\Msftlayer.dll
+G:\stable0.5\msftlayer\msftlayer\bin\Debug\Msftlayer.pdb
+G:\stable0.5\msftlayer\msftlayer\bin\Debug\Memorylayer.dll
+G:\stable0.5\msftlayer\msftlayer\bin\Debug\paypal_base.dll
+G:\stable0.5\msftlayer\msftlayer\bin\Debug\Mysqllayer.dll
+G:\stable0.5\msftlayer\msftlayer\bin\Debug\log4net.dll
+G:\stable0.5\msftlayer\msftlayer\bin\Debug\Memorylayer.pdb
+G:\stable0.5\msftlayer\msftlayer\bin\Debug\Mysqllayer.pdb
+G:\stable0.5\msftlayer\msftlayer\obj\Debug\Msftlayer.pdb
+C:\stable0.5\msftlayer\msftlayer\bin\Debug\Msftlayer.dll
+C:\stable0.5\msftlayer\msftlayer\bin\Debug\Msftlayer.pdb
+C:\stable0.5\msftlayer\msftlayer\bin\Debug\Memorylayer.dll
+C:\stable0.5\msftlayer\msftlayer\bin\Debug\paypal_base.dll
+C:\stable0.5\msftlayer\msftlayer\bin\Debug\Mysqllayer.dll
+C:\stable0.5\msftlayer\msftlayer\bin\Debug\log4net.dll
+C:\stable0.5\msftlayer\msftlayer\bin\Debug\Memorylayer.pdb
+C:\stable0.5\msftlayer\msftlayer\bin\Debug\Mysqllayer.pdb
+C:\stable0.5\msftlayer\msftlayer\obj\Debug\ResolveAssemblyReference.cache
+C:\stable0.5\msftlayer\msftlayer\obj\Debug\Msftlayer.dll
+C:\stable0.5\msftlayer\msftlayer\obj\Debug\Msftlayer.pdb
+C:\Users\Administrator\Desktop\stable0.5\msftlayer\msftlayer\bin\Debug\Msftlayer.dll
+C:\Users\Administrator\Desktop\stable0.5\msftlayer\msftlayer\bin\Debug\Msftlayer.pdb
+C:\Users\Administrator\Desktop\stable0.5\msftlayer\msftlayer\bin\Debug\Memorylayer.dll
+C:\Users\Administrator\Desktop\stable0.5\msftlayer\msftlayer\bin\Debug\paypal_base.dll
+C:\Users\Administrator\Desktop\stable0.5\msftlayer\msftlayer\bin\Debug\Mysqllayer.dll
+C:\Users\Administrator\Desktop\stable0.5\msftlayer\msftlayer\bin\Debug\log4net.dll
+C:\Users\Administrator\Desktop\stable0.5\msftlayer\msftlayer\bin\Debug\Memorylayer.pdb
+C:\Users\Administrator\Desktop\stable0.5\msftlayer\msftlayer\bin\Debug\Mysqllayer.pdb
+C:\Users\Administrator\Desktop\stable0.5\msftlayer\msftlayer\obj\Debug\Msftlayer.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\stable0.5\msftlayer\msftlayer\obj\Debug\Msftlayer.dll
+C:\Users\Administrator\Desktop\stable0.5\msftlayer\msftlayer\obj\Debug\Msftlayer.pdb
+C:\Users\moeen\Desktop\stable0.5\msftlayer\msftlayer\bin\Debug\Msftlayer.dll
+C:\Users\moeen\Desktop\stable0.5\msftlayer\msftlayer\bin\Debug\Msftlayer.pdb
+C:\Users\moeen\Desktop\stable0.5\msftlayer\msftlayer\bin\Debug\Memorylayer.dll
+C:\Users\moeen\Desktop\stable0.5\msftlayer\msftlayer\bin\Debug\paypal_base.dll
+C:\Users\moeen\Desktop\stable0.5\msftlayer\msftlayer\bin\Debug\Mysqllayer.dll
+C:\Users\moeen\Desktop\stable0.5\msftlayer\msftlayer\bin\Debug\log4net.dll
+C:\Users\moeen\Desktop\stable0.5\msftlayer\msftlayer\bin\Debug\EntityFramework.dll
+C:\Users\moeen\Desktop\stable0.5\msftlayer\msftlayer\bin\Debug\Memorylayer.pdb
+C:\Users\moeen\Desktop\stable0.5\msftlayer\msftlayer\bin\Debug\Mysqllayer.pdb
+C:\Users\moeen\Desktop\stable0.5\msftlayer\msftlayer\bin\Debug\EntityFramework.xml
+C:\Users\moeen\Desktop\stable0.5\msftlayer\msftlayer\obj\Debug\Msftlayer.csprojResolveAssemblyReference.cache
+C:\Users\moeen\Desktop\stable0.5\msftlayer\msftlayer\obj\Debug\Msftlayer.dll
+C:\Users\moeen\Desktop\stable0.5\msftlayer\msftlayer\obj\Debug\Msftlayer.pdb
+C:\inetpub\fashionquadrant\msftlayer\msftlayer\obj\Debug\Msftlayer.csprojResolveAssemblyReference.cache
+C:\inetpub\fashionquadrant\msftlayer\msftlayer\bin\Debug\Msftlayer.dll
+C:\inetpub\fashionquadrant\msftlayer\msftlayer\bin\Debug\Msftlayer.pdb
+C:\inetpub\fashionquadrant\msftlayer\msftlayer\bin\Debug\Memorylayer.dll
+C:\inetpub\fashionquadrant\msftlayer\msftlayer\bin\Debug\paypal_base.dll
+C:\inetpub\fashionquadrant\msftlayer\msftlayer\bin\Debug\Mysqllayer.dll
+C:\inetpub\fashionquadrant\msftlayer\msftlayer\bin\Debug\log4net.dll
+C:\inetpub\fashionquadrant\msftlayer\msftlayer\bin\Debug\EntityFramework.dll
+C:\inetpub\fashionquadrant\msftlayer\msftlayer\bin\Debug\minGuid.dll
+C:\inetpub\fashionquadrant\msftlayer\msftlayer\bin\Debug\Memorylayer.pdb
+C:\inetpub\fashionquadrant\msftlayer\msftlayer\bin\Debug\Mysqllayer.pdb
+C:\inetpub\fashionquadrant\msftlayer\msftlayer\bin\Debug\EntityFramework.xml
+C:\inetpub\fashionquadrant\msftlayer\msftlayer\bin\Debug\minGuid.pdb
+C:\inetpub\fashionquadrant\msftlayer\msftlayer\obj\Debug\Msftlayer.dll
+C:\inetpub\fashionquadrant\msftlayer\msftlayer\obj\Debug\Msftlayer.pdb
+C:\FashionQuadrant\msftlayer\msftlayer\bin\Debug\Msftlayer.dll
+C:\FashionQuadrant\msftlayer\msftlayer\bin\Debug\Msftlayer.pdb
+C:\FashionQuadrant\msftlayer\msftlayer\bin\Debug\Memorylayer.dll
+C:\FashionQuadrant\msftlayer\msftlayer\bin\Debug\paypal_base.dll
+C:\FashionQuadrant\msftlayer\msftlayer\bin\Debug\Mysqllayer.dll
+C:\FashionQuadrant\msftlayer\msftlayer\bin\Debug\log4net.dll
+C:\FashionQuadrant\msftlayer\msftlayer\bin\Debug\minGuid.dll
+C:\FashionQuadrant\msftlayer\msftlayer\bin\Debug\Memorylayer.pdb
+C:\FashionQuadrant\msftlayer\msftlayer\bin\Debug\Mysqllayer.pdb
+C:\FashionQuadrant\msftlayer\msftlayer\bin\Debug\minGuid.pdb
+C:\FashionQuadrant\msftlayer\msftlayer\obj\Debug\Msftlayer.csprojResolveAssemblyReference.cache
+C:\FashionQuadrant\msftlayer\msftlayer\obj\Debug\Msftlayer.dll
+C:\FashionQuadrant\msftlayer\msftlayer\obj\Debug\Msftlayer.pdb
+C:\Users\gayanj\Desktop\job\msftlayer\msftlayer\bin\Debug\Msftlayer.dll
+C:\Users\gayanj\Desktop\job\msftlayer\msftlayer\bin\Debug\Msftlayer.pdb
+C:\Users\gayanj\Desktop\job\msftlayer\msftlayer\bin\Debug\AjaxControlToolkit.dll
+C:\Users\gayanj\Desktop\job\msftlayer\msftlayer\bin\Debug\AjaxMin.dll
+C:\Users\gayanj\Desktop\job\msftlayer\msftlayer\bin\Debug\HtmlAgilityPack.dll
+C:\Users\gayanj\Desktop\job\msftlayer\msftlayer\bin\Debug\Memorylayer.dll
+C:\Users\gayanj\Desktop\job\msftlayer\msftlayer\bin\Debug\Microsoft.Data.Edm.dll
+C:\Users\gayanj\Desktop\job\msftlayer\msftlayer\bin\Debug\Microsoft.Data.OData.dll
+C:\Users\gayanj\Desktop\job\msftlayer\msftlayer\bin\Debug\Microsoft.WindowsAzure.Configuration.dll
+C:\Users\gayanj\Desktop\job\msftlayer\msftlayer\bin\Debug\Microsoft.WindowsAzure.Storage.dll
+C:\Users\gayanj\Desktop\job\msftlayer\msftlayer\bin\Debug\paypal_base.dll
+C:\Users\gayanj\Desktop\job\msftlayer\msftlayer\bin\Debug\System.Spatial.dll
+C:\Users\gayanj\Desktop\job\msftlayer\msftlayer\bin\Debug\Mysqllayer.dll
+C:\Users\gayanj\Desktop\job\msftlayer\msftlayer\bin\Debug\log4net.dll
+C:\Users\gayanj\Desktop\job\msftlayer\msftlayer\bin\Debug\minGuid.dll
+C:\Users\gayanj\Desktop\job\msftlayer\msftlayer\bin\Debug\Memorylayer.pdb
+C:\Users\gayanj\Desktop\job\msftlayer\msftlayer\bin\Debug\HtmlAgilityPack.pdb
+C:\Users\gayanj\Desktop\job\msftlayer\msftlayer\bin\Debug\HtmlAgilityPack.xml
+C:\Users\gayanj\Desktop\job\msftlayer\msftlayer\bin\Debug\Microsoft.Data.Edm.xml
+C:\Users\gayanj\Desktop\job\msftlayer\msftlayer\bin\Debug\Microsoft.Data.OData.xml
+C:\Users\gayanj\Desktop\job\msftlayer\msftlayer\bin\Debug\Microsoft.WindowsAzure.Storage.xml
+C:\Users\gayanj\Desktop\job\msftlayer\msftlayer\bin\Debug\System.Spatial.xml
+C:\Users\gayanj\Desktop\job\msftlayer\msftlayer\bin\Debug\Mysqllayer.pdb
+C:\Users\gayanj\Desktop\job\msftlayer\msftlayer\bin\Debug\ar\AjaxControlToolkit.resources.dll
+C:\Users\gayanj\Desktop\job\msftlayer\msftlayer\bin\Debug\cs\AjaxControlToolkit.resources.dll
+C:\Users\gayanj\Desktop\job\msftlayer\msftlayer\bin\Debug\de\AjaxControlToolkit.resources.dll
+C:\Users\gayanj\Desktop\job\msftlayer\msftlayer\bin\Debug\es\AjaxControlToolkit.resources.dll
+C:\Users\gayanj\Desktop\job\msftlayer\msftlayer\bin\Debug\fr\AjaxControlToolkit.resources.dll
+C:\Users\gayanj\Desktop\job\msftlayer\msftlayer\bin\Debug\he\AjaxControlToolkit.resources.dll
+C:\Users\gayanj\Desktop\job\msftlayer\msftlayer\bin\Debug\hi\AjaxControlToolkit.resources.dll
+C:\Users\gayanj\Desktop\job\msftlayer\msftlayer\bin\Debug\it\AjaxControlToolkit.resources.dll
+C:\Users\gayanj\Desktop\job\msftlayer\msftlayer\bin\Debug\ja\AjaxControlToolkit.resources.dll
+C:\Users\gayanj\Desktop\job\msftlayer\msftlayer\bin\Debug\ko\AjaxControlToolkit.resources.dll
+C:\Users\gayanj\Desktop\job\msftlayer\msftlayer\bin\Debug\nl\AjaxControlToolkit.resources.dll
+C:\Users\gayanj\Desktop\job\msftlayer\msftlayer\bin\Debug\pl\AjaxControlToolkit.resources.dll
+C:\Users\gayanj\Desktop\job\msftlayer\msftlayer\bin\Debug\pt\AjaxControlToolkit.resources.dll
+C:\Users\gayanj\Desktop\job\msftlayer\msftlayer\bin\Debug\ru\AjaxControlToolkit.resources.dll
+C:\Users\gayanj\Desktop\job\msftlayer\msftlayer\bin\Debug\tr-TR\AjaxControlToolkit.resources.dll
+C:\Users\gayanj\Desktop\job\msftlayer\msftlayer\bin\Debug\zh-CHS\AjaxControlToolkit.resources.dll
+C:\Users\gayanj\Desktop\job\msftlayer\msftlayer\bin\Debug\zh-CHT\AjaxControlToolkit.resources.dll
+C:\Users\gayanj\Desktop\job\msftlayer\msftlayer\bin\Debug\de\Microsoft.Data.Edm.resources.dll
+C:\Users\gayanj\Desktop\job\msftlayer\msftlayer\bin\Debug\es\Microsoft.Data.Edm.resources.dll
+C:\Users\gayanj\Desktop\job\msftlayer\msftlayer\bin\Debug\fr\Microsoft.Data.Edm.resources.dll
+C:\Users\gayanj\Desktop\job\msftlayer\msftlayer\bin\Debug\it\Microsoft.Data.Edm.resources.dll
+C:\Users\gayanj\Desktop\job\msftlayer\msftlayer\bin\Debug\ja\Microsoft.Data.Edm.resources.dll
+C:\Users\gayanj\Desktop\job\msftlayer\msftlayer\bin\Debug\ko\Microsoft.Data.Edm.resources.dll
+C:\Users\gayanj\Desktop\job\msftlayer\msftlayer\bin\Debug\ru\Microsoft.Data.Edm.resources.dll
+C:\Users\gayanj\Desktop\job\msftlayer\msftlayer\bin\Debug\zh-Hans\Microsoft.Data.Edm.resources.dll
+C:\Users\gayanj\Desktop\job\msftlayer\msftlayer\bin\Debug\zh-Hant\Microsoft.Data.Edm.resources.dll
+C:\Users\gayanj\Desktop\job\msftlayer\msftlayer\bin\Debug\de\Microsoft.Data.OData.resources.dll
+C:\Users\gayanj\Desktop\job\msftlayer\msftlayer\bin\Debug\es\Microsoft.Data.OData.resources.dll
+C:\Users\gayanj\Desktop\job\msftlayer\msftlayer\bin\Debug\fr\Microsoft.Data.OData.resources.dll
+C:\Users\gayanj\Desktop\job\msftlayer\msftlayer\bin\Debug\it\Microsoft.Data.OData.resources.dll
+C:\Users\gayanj\Desktop\job\msftlayer\msftlayer\bin\Debug\ja\Microsoft.Data.OData.resources.dll
+C:\Users\gayanj\Desktop\job\msftlayer\msftlayer\bin\Debug\ko\Microsoft.Data.OData.resources.dll
+C:\Users\gayanj\Desktop\job\msftlayer\msftlayer\bin\Debug\ru\Microsoft.Data.OData.resources.dll
+C:\Users\gayanj\Desktop\job\msftlayer\msftlayer\bin\Debug\zh-Hans\Microsoft.Data.OData.resources.dll
+C:\Users\gayanj\Desktop\job\msftlayer\msftlayer\bin\Debug\zh-Hant\Microsoft.Data.OData.resources.dll
+C:\Users\gayanj\Desktop\job\msftlayer\msftlayer\bin\Debug\de\System.Spatial.resources.dll
+C:\Users\gayanj\Desktop\job\msftlayer\msftlayer\bin\Debug\es\System.Spatial.resources.dll
+C:\Users\gayanj\Desktop\job\msftlayer\msftlayer\bin\Debug\fr\System.Spatial.resources.dll
+C:\Users\gayanj\Desktop\job\msftlayer\msftlayer\bin\Debug\it\System.Spatial.resources.dll
+C:\Users\gayanj\Desktop\job\msftlayer\msftlayer\bin\Debug\ja\System.Spatial.resources.dll
+C:\Users\gayanj\Desktop\job\msftlayer\msftlayer\bin\Debug\ko\System.Spatial.resources.dll
+C:\Users\gayanj\Desktop\job\msftlayer\msftlayer\bin\Debug\ru\System.Spatial.resources.dll
+C:\Users\gayanj\Desktop\job\msftlayer\msftlayer\bin\Debug\zh-Hans\System.Spatial.resources.dll
+C:\Users\gayanj\Desktop\job\msftlayer\msftlayer\bin\Debug\zh-Hant\System.Spatial.resources.dll
+C:\Users\gayanj\Desktop\job\msftlayer\msftlayer\obj\Debug\Msftlayer.csprojResolveAssemblyReference.cache
+C:\Users\gayanj\Desktop\job\msftlayer\msftlayer\obj\Debug\Msftlayer.dll
+C:\Users\gayanj\Desktop\job\msftlayer\msftlayer\obj\Debug\Msftlayer.pdb

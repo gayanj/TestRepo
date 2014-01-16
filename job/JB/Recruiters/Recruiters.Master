@@ -1,0 +1,175 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Recruiters.master.cs"
+    Inherits="JB.Recruiters.Recruiters" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head id="Head1" runat="server">
+    <title>Recruiters</title>
+    <asp:ContentPlaceHolder ID="sitepref" runat="server">
+    </asp:ContentPlaceHolder>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <link href="/styles/pheonixr1.css" rel="stylesheet" type="text/css" />
+    <link href="/styles/pheonixv1.css" rel="stylesheet" type="text/css" />
+    <script src="/Scripts/eaglerc1.js" type="text/javascript"></script>
+</head>
+<body class="bodyfix">
+    <asp:Panel ID="DebugPanel" CssClass="debugger" runat="server" Visible="false">
+        <asp:Label ID="debugme" runat="server" Text="Debugger"></asp:Label>
+    </asp:Panel>
+    <div class="dv_fix">
+    </div>
+    <div class="rcpan_top">
+        <div class="upperwrop">
+            <img alt="yourbrand" src="/Brandimages/brand_cpaneltop.png" />
+        </div>
+    </div>
+    <div class="dv_fix">
+    </div>
+    <form id="form1" class="upperwrop" runat="server">
+        <div id="isbar">
+        </div>
+        <div>
+            <!-- left panel -->
+            <div id="cleftpanel">
+                <div class="imgsrchleft">
+                    <asp:TextBox ID="TextBox1" placeholder="search in this site" runat="server" CssClass="texthelper"></asp:TextBox>
+                </div>
+                <div class="imgsrchleft">
+                    <asp:ImageButton ID="ImageHelperBtn" runat="server" ImageUrl="~/images/img_srchglass.png"
+                        OnClick="ImageHelperBtnClick" />
+                </div>
+                <div class="dv_fix">
+                </div>
+                <div id="recmenuitem1" class="mn_recout" onmouseover="this.className='mn_recover'"
+                    onmouseout="this.className='mn_recout'">
+                    <asp:Image ID="Image11" runat="server" ImageUrl="~/images/menu_arrow.gif" />
+                    <asp:LinkButton ID="LinkButton4" runat="server" CausesValidation="False" CssClass="ft_mnnavigateset"
+                        OnClick="LinkButton44Click">Main website
+                    </asp:LinkButton>
+                </div>
+                <div class="dv_fix">
+                </div>
+                <div class="ln_fixx2">
+                </div>
+                <div id="recmenuitem2" class="mn_recout" onmouseover="this.className='mn_recover'"
+                    onmouseout="this.className='mn_recout'">
+                    <asp:Image ID="Image13" runat="server" ImageUrl="~/images/menu_arrow.gif" />
+                    <asp:LinkButton ID="LinkButton9" runat="server" CausesValidation="False" CssClass="ft_mnnavigateset"
+                        OnClick="LinkButton4Click">Dashboard</asp:LinkButton>
+                </div>
+                <div class="dv_fix">
+                </div>
+                <div class="ln_fixx2">
+                </div>
+                <div id="recmenuitem3" class="mn_recout" onmouseover="this.className='mn_recover'"
+                    onmouseout="this.className='mn_recout'">
+                    <asp:Image ID="Image1" runat="server" ImageUrl="~/images/menu_arrow.gif" />
+                    <asp:LinkButton ID="LinkButton5" runat="server" CssClass="ft_mnnavigateset" OnClick="LinkButton5Click"
+                        CausesValidation="False">Basic Information</asp:LinkButton>
+                </div>
+                <div class="dv_fix">
+                </div>
+                <div class="ln_fixx2">
+                </div>
+                <div id="recmenuitem4" class="mn_recout" onmouseover="this.className='mn_recover'" onmouseout="this.className='mn_recout'">
+                    <asp:Image ID="Image12" runat="server" ImageUrl="~/images/menu_arrow.gif" />
+                    <asp:LinkButton ID="LinkButton8" runat="server" CssClass="ft_mnnavigateset" OnClick="LinkButton8Click"
+                        CausesValidation="False">My Applications</asp:LinkButton>
+                </div>
+                <div class="dv_fix">
+                </div>
+                <div class="ln_fixx2">
+                </div>
+                <div id="recmenuitem5" class="mn_recout" onmouseover="this.className='mn_recover'" onmouseout="this.className='mn_recout'">
+                    <asp:Image ID="Image5" runat="server" ImageUrl="~/images/menu_arrow.gif" />
+                    <asp:LinkButton ID="LinkButton6" runat="server" CausesValidation="False" CssClass="ft_mnnavigateset"
+                        OnClick="LinkButton6Click">Edit Jobs</asp:LinkButton>
+                </div>
+                <div class="dv_fix">
+                </div>
+                <div class="ln_fixx2">
+                </div>
+                <div id="recmenuitem6" class="mn_recout" onmouseover="this.className='mn_recover'" onmouseout="this.className='mn_recout'">
+                    <asp:Image ID="Image10" runat="server" ImageUrl="~/images/menu_arrow.gif" />
+                    <asp:LinkButton ID="LinkButton3" runat="server" CssClass="ft_mnnavigateset" OnClick="LinkButton3Click"
+                        CausesValidation="False">Change password</asp:LinkButton>
+                </div>
+                <div class="dv_fix">
+                </div>
+                <div class="ln_fixx2">
+                </div>
+                <div id="recmenuitem7" class="mn_recout" onmouseover="this.className='mn_recover'" onmouseout="this.className='mn_recout'">
+                    <asp:Image ID="Image6" runat="server" ImageUrl="~/images/menu_arrow.gif" />
+                    <asp:LinkButton ID="LinkButton7" runat="server" CausesValidation="False" CssClass="ft_mnnavigateset"
+                        OnClick="LinkButton7Click">Post a job</asp:LinkButton>
+                </div>
+                <div class="dv_fix">
+                </div>
+                <div class="ln_fixx2">
+                </div>
+                <div id="recmenuitem8" class="mn_recout" onmouseover="this.className='mn_recover'" onmouseout="this.className='mn_recout'">
+                    <asp:Image ID="Image2" runat="server" ImageUrl="~/images/menu_arrow.gif" />
+                    <asp:LinkButton ID="LinkButton1" runat="server" CausesValidation="False" CssClass="ft_mnnavigateset"
+                        OnClick="LinkButton1Click">Account Security</asp:LinkButton>
+                </div>
+                <div class="dv_fix">
+                </div>
+                <div class="ln_fixx2">
+                </div>
+                <div id="recmenuitem9" class="mn_recout" onmouseover="this.className='mn_recover'" onmouseout="this.className='mn_recout'">
+                    <asp:Image ID="Image3" runat="server" ImageUrl="~/images/menu_arrow.gif" />
+                    <asp:LinkButton ID="LinkButton2" runat="server" CausesValidation="False" CssClass="ft_mnnavigateset"
+                        OnClick="LinkButton2Click1">Credits</asp:LinkButton>
+                </div>
+                <div class="dv_fix">
+                </div>
+                <div class="ln_fixx2">
+                </div>
+                <div id="recmenuitem10" class="mn_recout" onmouseover="this.className='mn_recover'" onmouseout="this.className='mn_recout'">
+                    <asp:Image ID="Image7" runat="server" ImageUrl="~/images/menu_arrow.gif" />
+                    <asp:LinkButton ID="LinkButton11" runat="server" CausesValidation="False" CssClass="ft_mnnavigateset"
+                        OnClick="LinkButton11Click">CV Search</asp:LinkButton>
+                </div>
+                <div class="dv_fix">
+                </div>
+                <div class="ln_fixx2">
+                </div>
+                <div id="recmenuitem11" class="mn_recout" onmouseover="this.className='mn_recover'" onmouseout="this.className='mn_recout'">
+                    <asp:Image ID="Image4" runat="server" ImageUrl="~/images/menu_arrow.gif" />
+                    <asp:LinkButton ID="LinkButton10" runat="server" CausesValidation="False" CssClass="ft_mnnavigateset"
+                        OnClick="LinkButton10Click">Bulk Import</asp:LinkButton>
+                </div>
+                <div class="dv_fix">
+                </div>
+                <div class="ln_fixx2">
+                </div>
+                <div id="recmenuitem12" class="mn_recout" onmouseover="this.className='mn_recover'" onmouseout="this.className='mn_recout'">
+                    <asp:Image ID="Image8" runat="server" ImageUrl="~/images/menu_arrow.gif" />
+                    <asp:LinkButton ID="LinkButton12" runat="server" CausesValidation="False" CssClass="ft_mnnavigateset"
+                        OnClick="LinkButton12Click">Logout</asp:LinkButton>
+                </div>
+            </div>
+            <!-- this is the middle one -->
+            <div id="crightpanel">
+                <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                </asp:ContentPlaceHolder>
+            </div>
+        </div>
+        <div class="dv_fix"></div>
+        
+        <!-- bottom -->
+        <div id="cbottompanel">
+            <asp:Label ID="Label1" runat="server" CssClass="ft_black" Style="text-align: right"></asp:Label>
+        </div>
+
+        <asp:HiddenField ID="HiddenField1" runat="server" Value="6e97555a3158609611292"/>
+
+    </form>
+    <div class="dv_fix">
+    </div>
+    <script type="text/javascript">
+        highlightitem();
+    </script>
+</body>
+</html>

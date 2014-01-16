@@ -1,0 +1,1911 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2008/09/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="fashionquadrantModelStoreContainer" CdmEntityContainer="fashionquadrantEntities1">
+    <EntitySetMapping Name="applications">
+      <EntityTypeMapping TypeName="fashionquadrantModel.application">
+        <MappingFragment StoreEntitySet="applications">
+          <ScalarProperty Name="idApplications" ColumnName="idApplications" />
+          <ScalarProperty Name="liCandidateID" ColumnName="liCandidateID" />
+          <ScalarProperty Name="aFirstName" ColumnName="aFirstName" />
+          <ScalarProperty Name="aLastName" ColumnName="aLastName" />
+          <ScalarProperty Name="aProfileSummary" ColumnName="aProfileSummary" />
+          <ScalarProperty Name="documentID" ColumnName="documentID" />
+          <ScalarProperty Name="aApplicationEmail" ColumnName="aApplicationEmail" />
+          <ScalarProperty Name="aApplicationStatus" ColumnName="aApplicationStatus" />
+          <ScalarProperty Name="dtstatuschanged" ColumnName="dtstatuschanged" />
+          <ScalarProperty Name="adeleted" ColumnName="adeleted" />
+          <ScalarProperty Name="dtEntered" ColumnName="dtEntered" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="candidates">
+      <EntityTypeMapping TypeName="fashionquadrantModel.candidate">
+        <MappingFragment StoreEntitySet="candidates">
+          <ScalarProperty Name="idCandidates" ColumnName="idCandidates" />
+          <ScalarProperty Name="cCandidateName" ColumnName="cCandidateName" />
+          <ScalarProperty Name="cFirstName" ColumnName="cFirstName" />
+          <ScalarProperty Name="cLastName" ColumnName="cLastName" />
+          <ScalarProperty Name="cAddress1" ColumnName="cAddress1" />
+          <ScalarProperty Name="cAddress2" ColumnName="cAddress2" />
+          <ScalarProperty Name="cAddress3" ColumnName="cAddress3" />
+          <ScalarProperty Name="cTown" ColumnName="cTown" />
+          <ScalarProperty Name="cCounty" ColumnName="cCounty" />
+          <ScalarProperty Name="cPostcode" ColumnName="cPostcode" />
+          <ScalarProperty Name="cHomephone" ColumnName="cHomephone" />
+          <ScalarProperty Name="cWorkphone" ColumnName="cWorkphone" />
+          <ScalarProperty Name="cdtEntered" ColumnName="cdtEntered" />
+          <ScalarProperty Name="cCountry" ColumnName="cCountry" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="categories">
+      <EntityTypeMapping TypeName="fashionquadrantModel.category">
+        <MappingFragment StoreEntitySet="categories">
+          <ScalarProperty Name="Catid" ColumnName="Catid" />
+          <ScalarProperty Name="cdefinition" ColumnName="cdefinition" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="categorytosubcats">
+      <EntityTypeMapping TypeName="fashionquadrantModel.categorytosubcat">
+        <MappingFragment StoreEntitySet="categorytosubcat">
+          <ScalarProperty Name="idCategorytosubcat" ColumnName="idCategorytosubcat" />
+          <ScalarProperty Name="Catid" ColumnName="Catid" />
+          <ScalarProperty Name="subcatid" ColumnName="subcatid" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="documents">
+      <EntityTypeMapping TypeName="fashionquadrantModel.document">
+        <MappingFragment StoreEntitySet="documents">
+          <ScalarProperty Name="DocumentID" ColumnName="DocumentID" />
+          <ScalarProperty Name="documentname" ColumnName="documentname" />
+          <ScalarProperty Name="Doc_data" ColumnName="Doc_data" />
+          <ScalarProperty Name="doc_url" ColumnName="doc_url" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="jobs">
+      <EntityTypeMapping TypeName="fashionquadrantModel.job">
+        <MappingFragment StoreEntitySet="jobs">
+          <ScalarProperty Name="idJobs" ColumnName="idJobs" />
+          <ScalarProperty Name="sTitle" ColumnName="sTitle" />
+          <ScalarProperty Name="sShortDescription" ColumnName="sShortDescription" />
+          <ScalarProperty Name="sDescription" ColumnName="sDescription" />
+          <ScalarProperty Name="dtEnteredDate" ColumnName="dtEnteredDate" />
+          <ScalarProperty Name="sSalaryText" ColumnName="sSalaryText" />
+          <ScalarProperty Name="sMinSal" ColumnName="sMinSal" />
+          <ScalarProperty Name="sMaxSal" ColumnName="sMaxSal" />
+          <ScalarProperty Name="sRef" ColumnName="sRef" />
+          <ScalarProperty Name="sFreeText" ColumnName="sFreeText" />
+          <ScalarProperty Name="sJobstartdate" ColumnName="sJobstartdate" />
+          <ScalarProperty Name="sJobenddate" ColumnName="sJobenddate" />
+          <ScalarProperty Name="sLocation" ColumnName="sLocation" />
+          <ScalarProperty Name="sjobisfeatured" ColumnName="sjobisfeatured" />
+          <ScalarProperty Name="sisvideoenabled" ColumnName="sisvideoenabled" />
+          <ScalarProperty Name="spostcode" ColumnName="spostcode" />
+          <ScalarProperty Name="sRecruiterName" ColumnName="sRecruiterName" />
+          <ScalarProperty Name="sLongitude" ColumnName="sLongitude" />
+          <ScalarProperty Name="sLatitude" ColumnName="sLatitude" />
+          <ScalarProperty Name="sMiles" ColumnName="sMiles" />
+          <ScalarProperty Name="sKilometers" ColumnName="sKilometers" />
+          <ScalarProperty Name="sIswebcrawled" ColumnName="sIswebcrawled" />
+          <ScalarProperty Name="sWeights" ColumnName="sWeights" />
+          <ScalarProperty Name="sNegate" ColumnName="sNegate" />
+          <ScalarProperty Name="dtentered" ColumnName="dtentered" />
+          <ScalarProperty Name="dtdatetext" ColumnName="dtdatetext" />
+          <ScalarProperty Name="sdeleted" ColumnName="sdeleted" />
+          <ScalarProperty Name="scurrency" ColumnName="scurrency" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="jobtables">
+      <EntityTypeMapping TypeName="fashionquadrantModel.jobtable">
+        <MappingFragment StoreEntitySet="jobtable">
+          <ScalarProperty Name="idJobs" ColumnName="idJobs" />
+          <ScalarProperty Name="Catid" ColumnName="Catid" />
+          <ScalarProperty Name="subcatid" ColumnName="subcatid" />
+          <ScalarProperty Name="EmpID" ColumnName="EmpID" />
+          <ScalarProperty Name="JtabID" ColumnName="JtabID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="jobviews">
+      <EntityTypeMapping TypeName="fashionquadrantModel.jobview">
+        <MappingFragment StoreEntitySet="jobviews">
+          <ScalarProperty Name="idjobviews" ColumnName="idjobviews" />
+          <ScalarProperty Name="empid" ColumnName="empid" />
+          <ScalarProperty Name="dtentered" ColumnName="dtentered" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="privacies">
+      <EntityTypeMapping TypeName="fashionquadrantModel.privacy">
+        <MappingFragment StoreEntitySet="privacy">
+          <ScalarProperty Name="idprivacy" ColumnName="idprivacy" />
+          <ScalarProperty Name="idCandidates" ColumnName="idCandidates" />
+          <ScalarProperty Name="idpolicy" ColumnName="idpolicy" />
+          <ScalarProperty Name="status" ColumnName="status" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="privacycandidates">
+      <EntityTypeMapping TypeName="fashionquadrantModel.privacycandidate">
+        <MappingFragment StoreEntitySet="privacycandidates">
+          <ScalarProperty Name="idprivacycandidates" ColumnName="idprivacycandidates" />
+          <ScalarProperty Name="policyname" ColumnName="policyname" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="recruiters">
+      <EntityTypeMapping TypeName="fashionquadrantModel.recruiter">
+        <MappingFragment StoreEntitySet="recruiters">
+          <ScalarProperty Name="EmpID" ColumnName="EmpID" />
+          <ScalarProperty Name="sRecruiterName" ColumnName="sRecruiterName" />
+          <ScalarProperty Name="sAddress1" ColumnName="sAddress1" />
+          <ScalarProperty Name="sAddress2" ColumnName="sAddress2" />
+          <ScalarProperty Name="sAddress3" ColumnName="sAddress3" />
+          <ScalarProperty Name="sTown" ColumnName="sTown" />
+          <ScalarProperty Name="sCounty" ColumnName="sCounty" />
+          <ScalarProperty Name="sCountry" ColumnName="sCountry" />
+          <ScalarProperty Name="sPostcode" ColumnName="sPostcode" />
+          <ScalarProperty Name="sEmailAddress" ColumnName="sEmailAddress" />
+          <ScalarProperty Name="sWebsite" ColumnName="sWebsite" />
+          <ScalarProperty Name="sDescription" ColumnName="sDescription" />
+          <ScalarProperty Name="sCompleteDesc" ColumnName="sCompleteDesc" />
+          <ScalarProperty Name="sdtEntered" ColumnName="sdtEntered" />
+          <ScalarProperty Name="sEnteredbyID" ColumnName="sEnteredbyID" />
+          <ScalarProperty Name="sIsFeatured" ColumnName="sIsFeatured" />
+          <ScalarProperty Name="sArtifactId" ColumnName="sArtifactId" />
+          <ScalarProperty Name="sIsActive" ColumnName="sIsActive" />
+          <ScalarProperty Name="sRecruiterofweek" ColumnName="sRecruiterofweek" />
+          <ScalarProperty Name="sIsAgent" ColumnName="sIsAgent" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="salarycalcs">
+      <EntityTypeMapping TypeName="fashionquadrantModel.salarycalc">
+        <MappingFragment StoreEntitySet="salarycalc">
+          <ScalarProperty Name="idSalaryCalc" ColumnName="idSalaryCalc" />
+          <ScalarProperty Name="Question1" ColumnName="Question1" />
+          <ScalarProperty Name="Question2" ColumnName="Question2" />
+          <ScalarProperty Name="Question3" ColumnName="Question3" />
+          <ScalarProperty Name="Question4" ColumnName="Question4" />
+          <ScalarProperty Name="Question5" ColumnName="Question5" />
+          <ScalarProperty Name="Question6" ColumnName="Question6" />
+          <ScalarProperty Name="Question7" ColumnName="Question7" />
+          <ScalarProperty Name="Question8" ColumnName="Question8" />
+          <ScalarProperty Name="dtEntered" ColumnName="dtEntered" />
+          <ScalarProperty Name="dtEnteredByip" ColumnName="dtEnteredByip" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="salaryoccupations">
+      <EntityTypeMapping TypeName="fashionquadrantModel.salaryoccupation">
+        <MappingFragment StoreEntitySet="salaryoccupations">
+          <ScalarProperty Name="idsalaryoccupations" ColumnName="idsalaryoccupations" />
+          <ScalarProperty Name="occupationname" ColumnName="occupationname" />
+          <ScalarProperty Name="isdeleted" ColumnName="isdeleted" />
+          <ScalarProperty Name="dtentered" ColumnName="dtentered" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="subcats">
+      <EntityTypeMapping TypeName="fashionquadrantModel.subcat">
+        <MappingFragment StoreEntitySet="subcats">
+          <ScalarProperty Name="subcatid" ColumnName="subcatid" />
+          <ScalarProperty Name="sdefinition" ColumnName="sdefinition" />
+          <ScalarProperty Name="minrange" ColumnName="minrange" />
+          <ScalarProperty Name="maxrange" ColumnName="maxrange" />
+          <ScalarProperty Name="liparent" ColumnName="liparent" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="subcatslists">
+      <EntityTypeMapping TypeName="fashionquadrantModel.subcatslist">
+        <MappingFragment StoreEntitySet="subcatslist">
+          <ScalarProperty Name="idsubcatslist" ColumnName="idsubcatslist" />
+          <ScalarProperty Name="subcatid" ColumnName="subcatid" />
+          <ScalarProperty Name="subcatlevel" ColumnName="subcatlevel" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tb_advertdetail">
+      <EntityTypeMapping TypeName="fashionquadrantModel.tb_advertdetail">
+        <MappingFragment StoreEntitySet="tb_advertdetail">
+          <ScalarProperty Name="idtb_advertdetail" ColumnName="idtb_advertdetail" />
+          <ScalarProperty Name="adkey" ColumnName="adkey" />
+          <ScalarProperty Name="adpath" ColumnName="adpath" />
+          <ScalarProperty Name="astatus" ColumnName="astatus" />
+          <ScalarProperty Name="adtitle" ColumnName="adtitle" />
+          <ScalarProperty Name="adtext" ColumnName="adtext" />
+          <ScalarProperty Name="adurl" ColumnName="adurl" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tb_adverts">
+      <EntityTypeMapping TypeName="fashionquadrantModel.tb_adverts">
+        <MappingFragment StoreEntitySet="tb_adverts">
+          <ScalarProperty Name="idtb_adverts" ColumnName="idtb_adverts" />
+          <ScalarProperty Name="adsection" ColumnName="adsection" />
+          <ScalarProperty Name="adkey" ColumnName="adkey" />
+          <ScalarProperty Name="adtype" ColumnName="adtype" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tb_advertstatus">
+      <EntityTypeMapping TypeName="fashionquadrantModel.tb_advertstatus">
+        <MappingFragment StoreEntitySet="tb_advertstatus">
+          <ScalarProperty Name="astatus" ColumnName="astatus" />
+          <ScalarProperty Name="definition" ColumnName="definition" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tb_analytictracker">
+      <EntityTypeMapping TypeName="fashionquadrantModel.tb_analytictracker">
+        <MappingFragment StoreEntitySet="tb_analytictracker">
+          <ScalarProperty Name="TID" ColumnName="TID" />
+          <ScalarProperty Name="VisitorID" ColumnName="VisitorID" />
+          <ScalarProperty Name="NormalizedUrl" ColumnName="NormalizedUrl" />
+          <ScalarProperty Name="EntryUrl" ColumnName="EntryUrl" />
+          <ScalarProperty Name="ExitUrl" ColumnName="ExitUrl" />
+          <ScalarProperty Name="RefererUrl" ColumnName="RefererUrl" />
+          <ScalarProperty Name="VisistorName" ColumnName="VisistorName" />
+          <ScalarProperty Name="VisitorString" ColumnName="VisitorString" />
+          <ScalarProperty Name="SessionStart" ColumnName="SessionStart" />
+          <ScalarProperty Name="SessionEnd" ColumnName="SessionEnd" />
+          <ScalarProperty Name="VisitorCity" ColumnName="VisitorCity" />
+          <ScalarProperty Name="VisitorCountry" ColumnName="VisitorCountry" />
+          <ScalarProperty Name="IsNewvisitor" ColumnName="IsNewvisitor" />
+          <ScalarProperty Name="VisitorIP" ColumnName="VisitorIP" />
+          <ScalarProperty Name="VisitorArea" ColumnName="VisitorArea" />
+          <ScalarProperty Name="VisitorBrowser" ColumnName="VisitorBrowser" />
+          <ScalarProperty Name="VisitorDesktopresolution" ColumnName="VisitorDesktopresolution" />
+          <ScalarProperty Name="VisitorOperatingsystem" ColumnName="VisitorOperatingsystem" />
+          <ScalarProperty Name="Keywords" ColumnName="Keywords" />
+          <ScalarProperty Name="IsFrombot" ColumnName="IsFrombot" />
+          <ScalarProperty Name="BotName" ColumnName="BotName" />
+          <ScalarProperty Name="dtentered" ColumnName="dtentered" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tb_answers">
+      <EntityTypeMapping TypeName="fashionquadrantModel.tb_answers">
+        <MappingFragment StoreEntitySet="tb_answers">
+          <ScalarProperty Name="idans" ColumnName="idans" />
+          <ScalarProperty Name="answer" ColumnName="answer" />
+          <ScalarProperty Name="sdeleted" ColumnName="sdeleted" />
+          <ScalarProperty Name="dtEntered" ColumnName="dtEntered" />
+          <ScalarProperty Name="dtUpdated" ColumnName="dtUpdated" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tb_answers_user">
+      <EntityTypeMapping TypeName="fashionquadrantModel.tb_answers_user">
+        <MappingFragment StoreEntitySet="tb_answers_user">
+          <ScalarProperty Name="id_answeruser" ColumnName="id_answeruser" />
+          <ScalarProperty Name="idans" ColumnName="idans" />
+          <ScalarProperty Name="idquestion" ColumnName="idquestion" />
+          <ScalarProperty Name="idjobs" ColumnName="idjobs" />
+          <ScalarProperty Name="idapplication" ColumnName="idapplication" />
+          <ScalarProperty Name="dtEntered" ColumnName="dtEntered" />
+          <ScalarProperty Name="dtUpdated" ColumnName="dtUpdated" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tb_appjobmapper">
+      <EntityTypeMapping TypeName="fashionquadrantModel.tb_appjobmapper">
+        <MappingFragment StoreEntitySet="tb_appjobmapper">
+          <ScalarProperty Name="idtb_appjobmapper" ColumnName="idtb_appjobmapper" />
+          <ScalarProperty Name="idApplications" ColumnName="idApplications" />
+          <ScalarProperty Name="idjobs" ColumnName="idjobs" />
+          <ScalarProperty Name="dtentered" ColumnName="dtentered" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tb_applicationstatus">
+      <EntityTypeMapping TypeName="fashionquadrantModel.tb_applicationstatus">
+        <MappingFragment StoreEntitySet="tb_applicationstatus">
+          <ScalarProperty Name="idtb_applicationstatus" ColumnName="idtb_applicationstatus" />
+          <ScalarProperty Name="aApplicationstatus" ColumnName="aApplicationstatus" />
+          <ScalarProperty Name="sdefinition" ColumnName="sdefinition" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tb_articles">
+      <EntityTypeMapping TypeName="fashionquadrantModel.tb_articles">
+        <MappingFragment StoreEntitySet="tb_articles">
+          <ScalarProperty Name="id_articles" ColumnName="id_articles" />
+          <ScalarProperty Name="Articlename" ColumnName="Articlename" />
+          <ScalarProperty Name="Articleurl" ColumnName="Articleurl" />
+          <ScalarProperty Name="Articledata" ColumnName="Articledata" />
+          <ScalarProperty Name="dtEntered" ColumnName="dtEntered" />
+          <ScalarProperty Name="idthemes" ColumnName="idthemes" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tb_artifacts">
+      <EntityTypeMapping TypeName="fashionquadrantModel.tb_artifacts">
+        <MappingFragment StoreEntitySet="tb_artifacts">
+          <ScalarProperty Name="sArtifactID" ColumnName="sArtifactID" />
+          <ScalarProperty Name="artifactName" ColumnName="artifactName" />
+          <ScalarProperty Name="artifact_data" ColumnName="artifact_data" />
+          <ScalarProperty Name="dtentered" ColumnName="dtentered" />
+          <ScalarProperty Name="dtupdated" ColumnName="dtupdated" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tb_blockedrecruiters">
+      <EntityTypeMapping TypeName="fashionquadrantModel.tb_blockedrecruiters">
+        <MappingFragment StoreEntitySet="tb_blockedrecruiters">
+          <ScalarProperty Name="idblockedrecruiters" ColumnName="idblockedrecruiters" />
+          <ScalarProperty Name="EmpID" ColumnName="EmpID" />
+          <ScalarProperty Name="idCandidates" ColumnName="idCandidates" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tb_branding">
+      <EntityTypeMapping TypeName="fashionquadrantModel.tb_branding">
+        <MappingFragment StoreEntitySet="tb_branding">
+          <ScalarProperty Name="idtb_branding" ColumnName="idtb_branding" />
+          <ScalarProperty Name="kpiname" ColumnName="kpiname" />
+          <ScalarProperty Name="kpivalue" ColumnName="kpivalue" />
+          <ScalarProperty Name="bdeleted" ColumnName="bdeleted" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tb_cpanel">
+      <EntityTypeMapping TypeName="fashionquadrantModel.tb_cpanel">
+        <MappingFragment StoreEntitySet="tb_cpanel">
+          <ScalarProperty Name="idtb_cpanel" ColumnName="idtb_cpanel" />
+          <ScalarProperty Name="kpiname" ColumnName="kpiname" />
+          <ScalarProperty Name="kpivalue" ColumnName="kpivalue" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tb_creditjobposting">
+      <EntityTypeMapping TypeName="fashionquadrantModel.tb_creditjobposting">
+        <MappingFragment StoreEntitySet="tb_creditjobposting">
+          <ScalarProperty Name="idtb_creditjobposting" ColumnName="idtb_creditjobposting" />
+          <ScalarProperty Name="empid" ColumnName="empid" />
+          <ScalarProperty Name="creditamount" ColumnName="creditamount" />
+          <ScalarProperty Name="cstartdate" ColumnName="cstartdate" />
+          <ScalarProperty Name="cenddate" ColumnName="cenddate" />
+          <ScalarProperty Name="cactive" ColumnName="cactive" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tb_creditpostingstatus">
+      <EntityTypeMapping TypeName="fashionquadrantModel.tb_creditpostingstatus">
+        <MappingFragment StoreEntitySet="tb_creditpostingstatus">
+          <ScalarProperty Name="cstatus" ColumnName="cstatus" />
+          <ScalarProperty Name="definition" ColumnName="definition" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tb_creditpromotions">
+      <EntityTypeMapping TypeName="fashionquadrantModel.tb_creditpromotions">
+        <MappingFragment StoreEntitySet="tb_creditpromotions">
+          <ScalarProperty Name="id_creditpromotion" ColumnName="id_creditpromotion" />
+          <ScalarProperty Name="CreditCode" ColumnName="CreditCode" />
+          <ScalarProperty Name="dtstart" ColumnName="dtstart" />
+          <ScalarProperty Name="dtend" ColumnName="dtend" />
+          <ScalarProperty Name="dtentered" ColumnName="dtentered" />
+          <ScalarProperty Name="isValid" ColumnName="isValid" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tb_creditservicecodes">
+      <EntityTypeMapping TypeName="fashionquadrantModel.tb_creditservicecodes">
+        <MappingFragment StoreEntitySet="tb_creditservicecodes">
+          <ScalarProperty Name="idservicecode" ColumnName="idservicecode" />
+          <ScalarProperty Name="sdescription" ColumnName="sdescription" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tb_creditsession">
+      <EntityTypeMapping TypeName="fashionquadrantModel.tb_creditsession">
+        <MappingFragment StoreEntitySet="tb_creditsession">
+          <ScalarProperty Name="idtb_creditsession" ColumnName="idtb_creditsession" />
+          <ScalarProperty Name="empid" ColumnName="empid" />
+          <ScalarProperty Name="appkey" ColumnName="appkey" />
+          <ScalarProperty Name="sdtentered" ColumnName="sdtentered" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tb_currency">
+      <EntityTypeMapping TypeName="fashionquadrantModel.tb_currency">
+        <MappingFragment StoreEntitySet="tb_currency">
+          <ScalarProperty Name="id_currency" ColumnName="id_currency" />
+          <ScalarProperty Name="cdefinition" ColumnName="cdefinition" />
+          <ScalarProperty Name="csymbol" ColumnName="csymbol" />
+          <ScalarProperty Name="cconversionrate" ColumnName="cconversionrate" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tb_cvsearchdata">
+      <EntityTypeMapping TypeName="fashionquadrantModel.tb_cvsearchdata">
+        <MappingFragment StoreEntitySet="tb_cvsearchdata">
+          <ScalarProperty Name="idtb_cvsearchdata" ColumnName="idtb_cvsearchdata" />
+          <ScalarProperty Name="idapplications" ColumnName="idapplications" />
+          <ScalarProperty Name="rawdata" ColumnName="rawdata" />
+          <ScalarProperty Name="dtentered" ColumnName="dtentered" />
+          <ScalarProperty Name="dtstamp" ColumnName="dtstamp" />
+          <ScalarProperty Name="dtdocpath" ColumnName="dtdocpath" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tb_debugger">
+      <EntityTypeMapping TypeName="fashionquadrantModel.tb_debugger">
+        <MappingFragment StoreEntitySet="tb_debugger">
+          <ScalarProperty Name="idtb_debugger" ColumnName="idtb_debugger" />
+          <ScalarProperty Name="rawvalues" ColumnName="rawvalues" />
+          <ScalarProperty Name="pagename" ColumnName="pagename" />
+          <ScalarProperty Name="dtlogged" ColumnName="dtlogged" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tb_email_user">
+      <EntityTypeMapping TypeName="fashionquadrantModel.tb_email_user">
+        <MappingFragment StoreEntitySet="tb_email_user">
+          <ScalarProperty Name="idemailuser" ColumnName="idemailuser" />
+          <ScalarProperty Name="rStatus" ColumnName="rStatus" />
+          <ScalarProperty Name="rdtsent" ColumnName="rdtsent" />
+          <ScalarProperty Name="rEmailtype" ColumnName="rEmailtype" />
+          <ScalarProperty Name="rEmailaddress" ColumnName="rEmailaddress" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tb_emaillog">
+      <EntityTypeMapping TypeName="fashionquadrantModel.tb_emaillog">
+        <MappingFragment StoreEntitySet="tb_emaillog">
+          <ScalarProperty Name="idtb_emaillog" ColumnName="idtb_emaillog" />
+          <ScalarProperty Name="rStatus" ColumnName="rStatus" />
+          <ScalarProperty Name="rdtsent" ColumnName="rdtsent" />
+          <ScalarProperty Name="rEmailtype" ColumnName="rEmailtype" />
+          <ScalarProperty Name="rEmailaddress" ColumnName="rEmailaddress" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tb_emailtemplates">
+      <EntityTypeMapping TypeName="fashionquadrantModel.tb_emailtemplates">
+        <MappingFragment StoreEntitySet="tb_emailtemplates">
+          <ScalarProperty Name="idemailtemplates" ColumnName="idemailtemplates" />
+          <ScalarProperty Name="eheader" ColumnName="eheader" />
+          <ScalarProperty Name="edescription" ColumnName="edescription" />
+          <ScalarProperty Name="efooter" ColumnName="efooter" />
+          <ScalarProperty Name="etemplatechkid" ColumnName="etemplatechkid" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tb_emailtypes">
+      <EntityTypeMapping TypeName="fashionquadrantModel.tb_emailtypes">
+        <MappingFragment StoreEntitySet="tb_emailtypes">
+          <ScalarProperty Name="rEmailtype" ColumnName="rEmailtype" />
+          <ScalarProperty Name="eText" ColumnName="eText" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tb_emailunsubscribe">
+      <EntityTypeMapping TypeName="fashionquadrantModel.tb_emailunsubscribe">
+        <MappingFragment StoreEntitySet="tb_emailunsubscribe">
+          <ScalarProperty Name="id_email" ColumnName="id_email" />
+          <ScalarProperty Name="eEmailAddress" ColumnName="eEmailAddress" />
+          <ScalarProperty Name="dtEntered" ColumnName="dtEntered" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tb_featured_rec_status">
+      <EntityTypeMapping TypeName="fashionquadrantModel.tb_featured_rec_status">
+        <MappingFragment StoreEntitySet="tb_featured_rec_status">
+          <ScalarProperty Name="sisfeatured" ColumnName="sisfeatured" />
+          <ScalarProperty Name="definition" ColumnName="definition" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tb_footerlinks">
+      <EntityTypeMapping TypeName="fashionquadrantModel.tb_footerlinks">
+        <MappingFragment StoreEntitySet="tb_footerlinks">
+          <ScalarProperty Name="id_footerlinks" ColumnName="id_footerlinks" />
+          <ScalarProperty Name="hlinkname" ColumnName="hlinkname" />
+          <ScalarProperty Name="hlinktexturl" ColumnName="hlinktexturl" />
+          <ScalarProperty Name="hlinkimgurl" ColumnName="hlinkimgurl" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tb_geomiles">
+      <EntityTypeMapping TypeName="fashionquadrantModel.tb_geomiles">
+        <MappingFragment StoreEntitySet="tb_geomiles">
+          <ScalarProperty Name="id_geomiles" ColumnName="id_geomiles" />
+          <ScalarProperty Name="Miles" ColumnName="Miles" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tb_geoukpostcodes">
+      <EntityTypeMapping TypeName="fashionquadrantModel.tb_geoukpostcodes">
+        <MappingFragment StoreEntitySet="tb_geoukpostcodes">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="Postcode" ColumnName="Postcode" />
+          <ScalarProperty Name="Town" ColumnName="Town" />
+          <ScalarProperty Name="County" ColumnName="County" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tb_headerlinks">
+      <EntityTypeMapping TypeName="fashionquadrantModel.tb_headerlinks">
+        <MappingFragment StoreEntitySet="tb_headerlinks">
+          <ScalarProperty Name="id_headerlinks" ColumnName="id_headerlinks" />
+          <ScalarProperty Name="hlinkname" ColumnName="hlinkname" />
+          <ScalarProperty Name="hlinktexturl" ColumnName="hlinktexturl" />
+          <ScalarProperty Name="hlinkimgurl" ColumnName="hlinkimgurl" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tb_helpcentercat">
+      <EntityTypeMapping TypeName="fashionquadrantModel.tb_helpcentercat">
+        <MappingFragment StoreEntitySet="tb_helpcentercat">
+          <ScalarProperty Name="hcatid" ColumnName="hcatid" />
+          <ScalarProperty Name="cdefinition" ColumnName="cdefinition" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tb_helpcenterqs">
+      <EntityTypeMapping TypeName="fashionquadrantModel.tb_helpcenterqs">
+        <MappingFragment StoreEntitySet="tb_helpcenterqs">
+          <ScalarProperty Name="idtb_helpcenterqs" ColumnName="idtb_helpcenterqs" />
+          <ScalarProperty Name="Question" ColumnName="Question" />
+          <ScalarProperty Name="Answer" ColumnName="Answer" />
+          <ScalarProperty Name="dtEntered" ColumnName="dtEntered" />
+          <ScalarProperty Name="hcatid" ColumnName="hcatid" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tb_jobfeaturedstatus">
+      <EntityTypeMapping TypeName="fashionquadrantModel.tb_jobfeaturedstatus">
+        <MappingFragment StoreEntitySet="tb_jobfeaturedstatus">
+          <ScalarProperty Name="sjobisfeatured" ColumnName="sjobisfeatured" />
+          <ScalarProperty Name="definition" ColumnName="definition" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tb_languages">
+      <EntityTypeMapping TypeName="fashionquadrantModel.tb_languages">
+        <MappingFragment StoreEntitySet="tb_languages">
+          <ScalarProperty Name="id_language" ColumnName="id_language" />
+          <ScalarProperty Name="Language" ColumnName="Language" />
+          <ScalarProperty Name="Country" ColumnName="Country" />
+          <ScalarProperty Name="sActive" ColumnName="sActive" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tb_languagetrans">
+      <EntityTypeMapping TypeName="fashionquadrantModel.tb_languagetrans">
+        <MappingFragment StoreEntitySet="tb_languagetrans">
+          <ScalarProperty Name="id_languagetrans" ColumnName="id_languagetrans" />
+          <ScalarProperty Name="id_language" ColumnName="id_language" />
+          <ScalarProperty Name="sResourceName" ColumnName="sResourceName" />
+          <ScalarProperty Name="sResourceTranlation" ColumnName="sResourceTranlation" />
+          <ScalarProperty Name="dtentered" ColumnName="dtentered" />
+          <ScalarProperty Name="dtmodified" ColumnName="dtmodified" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tb_loadbalancer">
+      <EntityTypeMapping TypeName="fashionquadrantModel.tb_loadbalancer">
+        <MappingFragment StoreEntitySet="tb_loadbalancer">
+          <ScalarProperty Name="idtb_loadbalancer" ColumnName="idtb_loadbalancer" />
+          <ScalarProperty Name="ipaddress" ColumnName="ipaddress" />
+          <ScalarProperty Name="ramusage" ColumnName="ramusage" />
+          <ScalarProperty Name="cpuusage" ColumnName="cpuusage" />
+          <ScalarProperty Name="networksent" ColumnName="networksent" />
+          <ScalarProperty Name="networkrec" ColumnName="networkrec" />
+          <ScalarProperty Name="dtentered" ColumnName="dtentered" />
+          <ScalarProperty Name="useragent" ColumnName="useragent" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tb_locationipcountry">
+      <EntityTypeMapping TypeName="fashionquadrantModel.tb_locationipcountry">
+        <MappingFragment StoreEntitySet="tb_locationipcountry">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="Startip" ColumnName="Startip" />
+          <ScalarProperty Name="Endip" ColumnName="Endip" />
+          <ScalarProperty Name="StartIpNum" ColumnName="StartIpNum" />
+          <ScalarProperty Name="EndIpNum" ColumnName="EndIpNum" />
+          <ScalarProperty Name="PostalCode" ColumnName="PostalCode" />
+          <ScalarProperty Name="Country" ColumnName="Country" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tb_microcat">
+      <EntityTypeMapping TypeName="fashionquadrantModel.tb_microcat">
+        <MappingFragment StoreEntitySet="tb_microcat">
+          <ScalarProperty Name="microcatid" ColumnName="microcatid" />
+          <ScalarProperty Name="subcatid" ColumnName="subcatid" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tb_middlelinks">
+      <EntityTypeMapping TypeName="fashionquadrantModel.tb_middlelinks">
+        <MappingFragment StoreEntitySet="tb_middlelinks">
+          <ScalarProperty Name="id_middlelinks" ColumnName="id_middlelinks" />
+          <ScalarProperty Name="hlinkname" ColumnName="hlinkname" />
+          <ScalarProperty Name="hlinktexturl" ColumnName="hlinktexturl" />
+          <ScalarProperty Name="hlinkimgurl" ColumnName="hlinkimgurl" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tb_myresumes">
+      <EntityTypeMapping TypeName="fashionquadrantModel.tb_myresumes">
+        <MappingFragment StoreEntitySet="tb_myresumes">
+          <ScalarProperty Name="DocumentID" ColumnName="DocumentID" />
+          <ScalarProperty Name="documentname" ColumnName="documentname" />
+          <ScalarProperty Name="Doc_data" ColumnName="Doc_data" />
+          <ScalarProperty Name="doc_url" ColumnName="doc_url" />
+          <ScalarProperty Name="idCandidates" ColumnName="idCandidates" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tb_notes">
+      <EntityTypeMapping TypeName="fashionquadrantModel.tb_notes">
+        <MappingFragment StoreEntitySet="tb_notes">
+          <ScalarProperty Name="idtb_notes" ColumnName="idtb_notes" />
+          <ScalarProperty Name="idCandidates" ColumnName="idCandidates" />
+          <ScalarProperty Name="commentdescription" ColumnName="commentdescription" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tb_passwordlog">
+      <EntityTypeMapping TypeName="fashionquadrantModel.tb_passwordlog">
+        <MappingFragment StoreEntitySet="tb_passwordlog">
+          <ScalarProperty Name="iduser" ColumnName="iduser" />
+          <ScalarProperty Name="lastpassword" ColumnName="lastpassword" />
+          <ScalarProperty Name="hash" ColumnName="hash" />
+          <ScalarProperty Name="dtentered" ColumnName="dtentered" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tb_paypal">
+      <EntityTypeMapping TypeName="fashionquadrantModel.tb_paypal">
+        <MappingFragment StoreEntitySet="tb_paypal">
+          <ScalarProperty Name="id_paypal" ColumnName="id_paypal" />
+          <ScalarProperty Name="empid" ColumnName="empid" />
+          <ScalarProperty Name="ptransactionid" ColumnName="ptransactionid" />
+          <ScalarProperty Name="pFirstname" ColumnName="pFirstname" />
+          <ScalarProperty Name="pLastname" ColumnName="pLastname" />
+          <ScalarProperty Name="pAddress1" ColumnName="pAddress1" />
+          <ScalarProperty Name="pAddress2" ColumnName="pAddress2" />
+          <ScalarProperty Name="pAddress3" ColumnName="pAddress3" />
+          <ScalarProperty Name="pTown" ColumnName="pTown" />
+          <ScalarProperty Name="pCounty" ColumnName="pCounty" />
+          <ScalarProperty Name="pPostcode" ColumnName="pPostcode" />
+          <ScalarProperty Name="pCountry" ColumnName="pCountry" />
+          <ScalarProperty Name="pCardtype" ColumnName="pCardtype" />
+          <ScalarProperty Name="pservicecode" ColumnName="pservicecode" />
+          <ScalarProperty Name="dtentered" ColumnName="dtentered" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tb_pluginanalytics">
+      <EntityTypeMapping TypeName="fashionquadrantModel.tb_pluginanalytics">
+        <MappingFragment StoreEntitySet="tb_pluginanalytics">
+          <ScalarProperty Name="idanalyticsplugin" ColumnName="idanalyticsplugin" />
+          <ScalarProperty Name="sdescription" ColumnName="sdescription" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tb_pluginsharethis">
+      <EntityTypeMapping TypeName="fashionquadrantModel.tb_pluginsharethis">
+        <MappingFragment StoreEntitySet="tb_pluginsharethis">
+          <ScalarProperty Name="idsharethis" ColumnName="idsharethis" />
+          <ScalarProperty Name="sdefinition" ColumnName="sdefinition" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tb_privacystatus">
+      <EntityTypeMapping TypeName="fashionquadrantModel.tb_privacystatus">
+        <MappingFragment StoreEntitySet="tb_privacystatus">
+          <ScalarProperty Name="status" ColumnName="status" />
+          <ScalarProperty Name="definition" ColumnName="definition" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tb_question_holder">
+      <EntityTypeMapping TypeName="fashionquadrantModel.tb_question_holder">
+        <MappingFragment StoreEntitySet="tb_question_holder">
+          <ScalarProperty Name="id_question_holder" ColumnName="id_question_holder" />
+          <ScalarProperty Name="idjobs" ColumnName="idjobs" />
+          <ScalarProperty Name="idquestion" ColumnName="idquestion" />
+          <ScalarProperty Name="dtEntered" ColumnName="dtEntered" />
+          <ScalarProperty Name="qDeleted" ColumnName="qDeleted" />
+          <ScalarProperty Name="dtUpdated" ColumnName="dtUpdated" />
+          <ScalarProperty Name="qSessionId" ColumnName="qSessionId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tb_question_link">
+      <EntityTypeMapping TypeName="fashionquadrantModel.tb_question_link">
+        <MappingFragment StoreEntitySet="tb_question_link">
+          <ScalarProperty Name="id_questionlink" ColumnName="id_questionlink" />
+          <ScalarProperty Name="idquestion" ColumnName="idquestion" />
+          <ScalarProperty Name="idans" ColumnName="idans" />
+          <ScalarProperty Name="dtEntered" ColumnName="dtEntered" />
+          <ScalarProperty Name="dtUpdated" ColumnName="dtUpdated" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tb_questions">
+      <EntityTypeMapping TypeName="fashionquadrantModel.tb_questions">
+        <MappingFragment StoreEntitySet="tb_questions">
+          <ScalarProperty Name="idquestion" ColumnName="idquestion" />
+          <ScalarProperty Name="idjobs" ColumnName="idjobs" />
+          <ScalarProperty Name="qQuestion" ColumnName="qQuestion" />
+          <ScalarProperty Name="qDeleted" ColumnName="qDeleted" />
+          <ScalarProperty Name="idDefaultAns" ColumnName="idDefaultAns" />
+          <ScalarProperty Name="dtEntered" ColumnName="dtEntered" />
+          <ScalarProperty Name="dtUpdated" ColumnName="dtUpdated" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tb_rec_of_week_status">
+      <EntityTypeMapping TypeName="fashionquadrantModel.tb_rec_of_week_status">
+        <MappingFragment StoreEntitySet="tb_rec_of_week_status">
+          <ScalarProperty Name="srecruiterofweek" ColumnName="srecruiterofweek" />
+          <ScalarProperty Name="definition" ColumnName="definition" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tb_rec_user_link">
+      <EntityTypeMapping TypeName="fashionquadrantModel.tb_rec_user_link">
+        <MappingFragment StoreEntitySet="tb_rec_user_link">
+          <ScalarProperty Name="idRuLink" ColumnName="idRuLink" />
+          <ScalarProperty Name="EmpID" ColumnName="EmpID" />
+          <ScalarProperty Name="idUsers" ColumnName="idUsers" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tb_recappviews">
+      <EntityTypeMapping TypeName="fashionquadrantModel.tb_recappviews">
+        <MappingFragment StoreEntitySet="tb_recappviews">
+          <ScalarProperty Name="id_recviews" ColumnName="id_recviews" />
+          <ScalarProperty Name="empid" ColumnName="empid" />
+          <ScalarProperty Name="candidateid" ColumnName="candidateid" />
+          <ScalarProperty Name="applicationid" ColumnName="applicationid" />
+          <ScalarProperty Name="dtentered" ColumnName="dtentered" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tb_recruiterstatus">
+      <EntityTypeMapping TypeName="fashionquadrantModel.tb_recruiterstatus">
+        <MappingFragment StoreEntitySet="tb_recruiterstatus">
+          <ScalarProperty Name="sIsActive" ColumnName="sIsActive" />
+          <ScalarProperty Name="definition" ColumnName="definition" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tb_res_education">
+      <EntityTypeMapping TypeName="fashionquadrantModel.tb_res_education">
+        <MappingFragment StoreEntitySet="tb_res_education">
+          <ScalarProperty Name="id_res_education" ColumnName="id_res_education" />
+          <ScalarProperty Name="rschoolname" ColumnName="rschoolname" />
+          <ScalarProperty Name="rdescription" ColumnName="rdescription" />
+          <ScalarProperty Name="rqualification" ColumnName="rqualification" />
+          <ScalarProperty Name="rstartdate" ColumnName="rstartdate" />
+          <ScalarProperty Name="renddate" ColumnName="renddate" />
+          <ScalarProperty Name="liCandidateid" ColumnName="liCandidateid" />
+          <ScalarProperty Name="dtentered" ColumnName="dtentered" />
+          <ScalarProperty Name="dtupdated" ColumnName="dtupdated" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tb_res_experience">
+      <EntityTypeMapping TypeName="fashionquadrantModel.tb_res_experience">
+        <MappingFragment StoreEntitySet="tb_res_experience">
+          <ScalarProperty Name="id_res_experience" ColumnName="id_res_experience" />
+          <ScalarProperty Name="rCompany" ColumnName="rCompany" />
+          <ScalarProperty Name="rJobTitle" ColumnName="rJobTitle" />
+          <ScalarProperty Name="rDescription" ColumnName="rDescription" />
+          <ScalarProperty Name="rstartdate" ColumnName="rstartdate" />
+          <ScalarProperty Name="renddate" ColumnName="renddate" />
+          <ScalarProperty Name="liCandidateid" ColumnName="liCandidateid" />
+          <ScalarProperty Name="dtentered" ColumnName="dtentered" />
+          <ScalarProperty Name="dtupdated" ColumnName="dtupdated" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tb_res_main">
+      <EntityTypeMapping TypeName="fashionquadrantModel.tb_res_main">
+        <MappingFragment StoreEntitySet="tb_res_main">
+          <ScalarProperty Name="idresume" ColumnName="idresume" />
+          <ScalarProperty Name="rResumeName" ColumnName="rResumeName" />
+          <ScalarProperty Name="dtentered" ColumnName="dtentered" />
+          <ScalarProperty Name="liCandidateid" ColumnName="liCandidateid" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tb_res_profile">
+      <EntityTypeMapping TypeName="fashionquadrantModel.tb_res_profile">
+        <MappingFragment StoreEntitySet="tb_res_profile">
+          <ScalarProperty Name="id_res_profile" ColumnName="id_res_profile" />
+          <ScalarProperty Name="rObjective" ColumnName="rObjective" />
+          <ScalarProperty Name="rAddress" ColumnName="rAddress" />
+          <ScalarProperty Name="rEmail" ColumnName="rEmail" />
+          <ScalarProperty Name="rLocalPhone" ColumnName="rLocalPhone" />
+          <ScalarProperty Name="rMobilePhone" ColumnName="rMobilePhone" />
+          <ScalarProperty Name="liCandidateid" ColumnName="liCandidateid" />
+          <ScalarProperty Name="dtEntered" ColumnName="dtEntered" />
+          <ScalarProperty Name="dtUpdated" ColumnName="dtUpdated" />
+          <ScalarProperty Name="isFromProfile" ColumnName="isFromProfile" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tb_res_references">
+      <EntityTypeMapping TypeName="fashionquadrantModel.tb_res_references">
+        <MappingFragment StoreEntitySet="tb_res_references">
+          <ScalarProperty Name="id_res_reference" ColumnName="id_res_reference" />
+          <ScalarProperty Name="rFirstName" ColumnName="rFirstName" />
+          <ScalarProperty Name="rLastName" ColumnName="rLastName" />
+          <ScalarProperty Name="rReferenceType" ColumnName="rReferenceType" />
+          <ScalarProperty Name="liCandidateid" ColumnName="liCandidateid" />
+          <ScalarProperty Name="dtentered" ColumnName="dtentered" />
+          <ScalarProperty Name="dtupdated" ColumnName="dtupdated" />
+          <ScalarProperty Name="rEmail" ColumnName="rEmail" />
+          <ScalarProperty Name="rLocalPhone" ColumnName="rLocalPhone" />
+          <ScalarProperty Name="rMobilePhone" ColumnName="rMobilePhone" />
+          <ScalarProperty Name="rAddress" ColumnName="rAddress" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tb_res_skills">
+      <EntityTypeMapping TypeName="fashionquadrantModel.tb_res_skills">
+        <MappingFragment StoreEntitySet="tb_res_skills">
+          <ScalarProperty Name="id_res_skill" ColumnName="id_res_skill" />
+          <ScalarProperty Name="rSkillName" ColumnName="rSkillName" />
+          <ScalarProperty Name="rLevel" ColumnName="rLevel" />
+          <ScalarProperty Name="liCandidateid" ColumnName="liCandidateid" />
+          <ScalarProperty Name="dtentered" ColumnName="dtentered" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tb_savedjobs">
+      <EntityTypeMapping TypeName="fashionquadrantModel.tb_savedjobs">
+        <MappingFragment StoreEntitySet="tb_savedjobs">
+          <ScalarProperty Name="id_savedjobs" ColumnName="id_savedjobs" />
+          <ScalarProperty Name="idjobs" ColumnName="idjobs" />
+          <ScalarProperty Name="idusers" ColumnName="idusers" />
+          <ScalarProperty Name="dtentered" ColumnName="dtentered" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tb_savedsearches">
+      <EntityTypeMapping TypeName="fashionquadrantModel.tb_savedsearches">
+        <MappingFragment StoreEntitySet="tb_savedsearches">
+          <ScalarProperty Name="id_savedsearches" ColumnName="id_savedsearches" />
+          <ScalarProperty Name="userid" ColumnName="userid" />
+          <ScalarProperty Name="sdefinition" ColumnName="sdefinition" />
+          <ScalarProperty Name="searchtext" ColumnName="searchtext" />
+          <ScalarProperty Name="userip" ColumnName="userip" />
+          <ScalarProperty Name="dtentered" ColumnName="dtentered" />
+          <ScalarProperty Name="searchtype" ColumnName="searchtype" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tb_searchhistory">
+      <EntityTypeMapping TypeName="fashionquadrantModel.tb_searchhistory">
+        <MappingFragment StoreEntitySet="tb_searchhistory">
+          <ScalarProperty Name="idtb_searchhistory" ColumnName="idtb_searchhistory" />
+          <ScalarProperty Name="userip" ColumnName="userip" />
+          <ScalarProperty Name="searchtext" ColumnName="searchtext" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tb_sessions">
+      <EntityTypeMapping TypeName="fashionquadrantModel.tb_sessions">
+        <MappingFragment StoreEntitySet="tb_sessions">
+          <ScalarProperty Name="idtb_sessions" ColumnName="idtb_sessions" />
+          <ScalarProperty Name="sessionid" ColumnName="sessionid" />
+          <ScalarProperty Name="stimestamp" ColumnName="stimestamp" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tb_siteheader">
+      <EntityTypeMapping TypeName="fashionquadrantModel.tb_siteheader">
+        <MappingFragment StoreEntitySet="tb_siteheader">
+          <ScalarProperty Name="idtb_seo" ColumnName="idtb_seo" />
+          <ScalarProperty Name="seo_name" ColumnName="seo_name" />
+          <ScalarProperty Name="seo_description" ColumnName="seo_description" />
+          <ScalarProperty Name="hdeleted" ColumnName="hdeleted" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tb_sitemaps">
+      <EntityTypeMapping TypeName="fashionquadrantModel.tb_sitemaps">
+        <MappingFragment StoreEntitySet="tb_sitemaps">
+          <ScalarProperty Name="id_sitemaps" ColumnName="id_sitemaps" />
+          <ScalarProperty Name="url" ColumnName="url" />
+          <ScalarProperty Name="title" ColumnName="title" />
+          <ScalarProperty Name="description" ColumnName="description" />
+          <ScalarProperty Name="level" ColumnName="level" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tb_sitesearch">
+      <EntityTypeMapping TypeName="fashionquadrantModel.tb_sitesearch">
+        <MappingFragment StoreEntitySet="tb_sitesearch">
+          <ScalarProperty Name="id_sitesearch" ColumnName="id_sitesearch" />
+          <ScalarProperty Name="titles" ColumnName="titles" />
+          <ScalarProperty Name="url" ColumnName="url" />
+          <ScalarProperty Name="description" ColumnName="description" />
+          <ScalarProperty Name="dtentered" ColumnName="dtentered" />
+          <ScalarProperty Name="dtmodified" ColumnName="dtmodified" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tb_sitesuggestions">
+      <EntityTypeMapping TypeName="fashionquadrantModel.tb_sitesuggestions">
+        <MappingFragment StoreEntitySet="tb_sitesuggestions">
+          <ScalarProperty Name="idsitesuggestions" ColumnName="idsitesuggestions" />
+          <ScalarProperty Name="sEmailaddress" ColumnName="sEmailaddress" />
+          <ScalarProperty Name="sComment" ColumnName="sComment" />
+          <ScalarProperty Name="sIp" ColumnName="sIp" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tb_spamreport">
+      <EntityTypeMapping TypeName="fashionquadrantModel.tb_spamreport">
+        <MappingFragment StoreEntitySet="tb_spamreport">
+          <ScalarProperty Name="idtb_spamreport" ColumnName="idtb_spamreport" />
+          <ScalarProperty Name="spamindex" ColumnName="spamindex" />
+          <ScalarProperty Name="spamreason" ColumnName="spamreason" />
+          <ScalarProperty Name="dtentered" ColumnName="dtentered" />
+          <ScalarProperty Name="ipuser" ColumnName="ipuser" />
+          <ScalarProperty Name="useragents" ColumnName="useragents" />
+          <ScalarProperty Name="jobid" ColumnName="jobid" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tb_subscriptionpref">
+      <EntityTypeMapping TypeName="fashionquadrantModel.tb_subscriptionpref">
+        <MappingFragment StoreEntitySet="tb_subscriptionpref">
+          <ScalarProperty Name="idtb_emailpreference" ColumnName="idtb_emailpreference" />
+          <ScalarProperty Name="eemailaddress" ColumnName="eemailaddress" />
+          <ScalarProperty Name="eemailtype" ColumnName="eemailtype" />
+          <ScalarProperty Name="einterval" ColumnName="einterval" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tb_subscriptions">
+      <EntityTypeMapping TypeName="fashionquadrantModel.tb_subscriptions">
+        <MappingFragment StoreEntitySet="tb_subscriptions">
+          <ScalarProperty Name="idtb_subscriptions" ColumnName="idtb_subscriptions" />
+          <ScalarProperty Name="emailaddress" ColumnName="emailaddress" />
+          <ScalarProperty Name="catid" ColumnName="catid" />
+          <ScalarProperty Name="subcatid" ColumnName="subcatid" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tb_subsite">
+      <EntityTypeMapping TypeName="fashionquadrantModel.tb_subsite">
+        <MappingFragment StoreEntitySet="tb_subsite">
+          <ScalarProperty Name="idsubsite" ColumnName="idsubsite" />
+          <ScalarProperty Name="SubsiteName" ColumnName="SubsiteName" />
+          <ScalarProperty Name="sMainPageTemplate" ColumnName="sMainPageTemplate" />
+          <ScalarProperty Name="sSearchPageTemplate" ColumnName="sSearchPageTemplate" />
+          <ScalarProperty Name="sIsCname" ColumnName="sIsCname" />
+          <ScalarProperty Name="sURL" ColumnName="sURL" />
+          <ScalarProperty Name="dtEntered" ColumnName="dtEntered" />
+          <ScalarProperty Name="dtUpdated" ColumnName="dtUpdated" />
+          <ScalarProperty Name="sStatus" ColumnName="sStatus" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tb_subsite_adverts">
+      <EntityTypeMapping TypeName="fashionquadrantModel.tb_subsite_adverts">
+        <MappingFragment StoreEntitySet="tb_subsite_adverts">
+          <ScalarProperty Name="id_Subsite_Adverts" ColumnName="id_Subsite_Adverts" />
+          <ScalarProperty Name="sMainPageScript" ColumnName="sMainPageScript" />
+          <ScalarProperty Name="sSearchPageScript" ColumnName="sSearchPageScript" />
+          <ScalarProperty Name="sApplicationPageScript" ColumnName="sApplicationPageScript" />
+          <ScalarProperty Name="sIsOnHeader" ColumnName="sIsOnHeader" />
+          <ScalarProperty Name="sIsOnRightPanel" ColumnName="sIsOnRightPanel" />
+          <ScalarProperty Name="sIsOnSearchCat" ColumnName="sIsOnSearchCat" />
+          <ScalarProperty Name="sIsOnSearchTop" ColumnName="sIsOnSearchTop" />
+          <ScalarProperty Name="sIsOnSearchBottom" ColumnName="sIsOnSearchBottom" />
+          <ScalarProperty Name="dtEntered" ColumnName="dtEntered" />
+          <ScalarProperty Name="dtUpdated" ColumnName="dtUpdated" />
+          <ScalarProperty Name="idsubsite" ColumnName="idsubsite" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tb_subsite_category">
+      <EntityTypeMapping TypeName="fashionquadrantModel.tb_subsite_category">
+        <MappingFragment StoreEntitySet="tb_subsite_category">
+          <ScalarProperty Name="sCatId" ColumnName="sCatId" />
+          <ScalarProperty Name="sCategoryName" ColumnName="sCategoryName" />
+          <ScalarProperty Name="dtEntered" ColumnName="dtEntered" />
+          <ScalarProperty Name="dtUpdated" ColumnName="dtUpdated" />
+          <ScalarProperty Name="idsubsite" ColumnName="idsubsite" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tb_subsite_font">
+      <EntityTypeMapping TypeName="fashionquadrantModel.tb_subsite_font">
+        <MappingFragment StoreEntitySet="tb_subsite_font">
+          <ScalarProperty Name="id_font" ColumnName="id_font" />
+          <ScalarProperty Name="fFontName" ColumnName="fFontName" />
+          <ScalarProperty Name="dtEntered" ColumnName="dtEntered" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tb_subsite_images">
+      <EntityTypeMapping TypeName="fashionquadrantModel.tb_subsite_images">
+        <MappingFragment StoreEntitySet="tb_subsite_images">
+          <ScalarProperty Name="id_subsite_images" ColumnName="id_subsite_images" />
+          <ScalarProperty Name="iURL" ColumnName="iURL" />
+          <ScalarProperty Name="iImageName" ColumnName="iImageName" />
+          <ScalarProperty Name="idsubsite" ColumnName="idsubsite" />
+          <ScalarProperty Name="dtEntered" ColumnName="dtEntered" />
+          <ScalarProperty Name="dtUpdated" ColumnName="dtUpdated" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tb_subsite_job_acl">
+      <EntityTypeMapping TypeName="fashionquadrantModel.tb_subsite_job_acl">
+        <MappingFragment StoreEntitySet="tb_subsite_job_acl">
+          <ScalarProperty Name="idJobs" ColumnName="idJobs" />
+          <ScalarProperty Name="idsubsite" ColumnName="idsubsite" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tb_subsite_link_cat">
+      <EntityTypeMapping TypeName="fashionquadrantModel.tb_subsite_link_cat">
+        <MappingFragment StoreEntitySet="tb_subsite_link_cat">
+          <ScalarProperty Name="id_subsite_link_cat" ColumnName="id_subsite_link_cat" />
+          <ScalarProperty Name="sCatId" ColumnName="sCatId" />
+          <ScalarProperty Name="sSubcatId" ColumnName="sSubcatId" />
+          <ScalarProperty Name="dtEntered" ColumnName="dtEntered" />
+          <ScalarProperty Name="dtUpdated" ColumnName="dtUpdated" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tb_subsite_recruiter_acl">
+      <EntityTypeMapping TypeName="fashionquadrantModel.tb_subsite_recruiter_acl">
+        <MappingFragment StoreEntitySet="tb_subsite_recruiter_acl">
+          <ScalarProperty Name="EmpID" ColumnName="EmpID" />
+          <ScalarProperty Name="idsubsite" ColumnName="idsubsite" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tb_subsite_subcats">
+      <EntityTypeMapping TypeName="fashionquadrantModel.tb_subsite_subcats">
+        <MappingFragment StoreEntitySet="tb_subsite_subcats">
+          <ScalarProperty Name="sSubcatId" ColumnName="sSubcatId" />
+          <ScalarProperty Name="sCategoryName" ColumnName="sCategoryName" />
+          <ScalarProperty Name="dtEntered" ColumnName="dtEntered" />
+          <ScalarProperty Name="dtUpdated" ColumnName="dtUpdated" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tb_subsite_templates">
+      <EntityTypeMapping TypeName="fashionquadrantModel.tb_subsite_templates">
+        <MappingFragment StoreEntitySet="tb_subsite_templates">
+          <ScalarProperty Name="id_template" ColumnName="id_template" />
+          <ScalarProperty Name="sTemplateName" ColumnName="sTemplateName" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tb_subsite_themes">
+      <EntityTypeMapping TypeName="fashionquadrantModel.tb_subsite_themes">
+        <MappingFragment StoreEntitySet="tb_subsite_themes">
+          <ScalarProperty Name="idTheme" ColumnName="idTheme" />
+          <ScalarProperty Name="tColor1" ColumnName="tColor1" />
+          <ScalarProperty Name="tColor2" ColumnName="tColor2" />
+          <ScalarProperty Name="tColor3" ColumnName="tColor3" />
+          <ScalarProperty Name="tColor4" ColumnName="tColor4" />
+          <ScalarProperty Name="tColor5" ColumnName="tColor5" />
+          <ScalarProperty Name="tColor6" ColumnName="tColor6" />
+          <ScalarProperty Name="tColor7" ColumnName="tColor7" />
+          <ScalarProperty Name="tColor8" ColumnName="tColor8" />
+          <ScalarProperty Name="idsubsite" ColumnName="idsubsite" />
+          <ScalarProperty Name="dtEntered" ColumnName="dtEntered" />
+          <ScalarProperty Name="dtUpdated" ColumnName="dtUpdated" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tb_themes">
+      <EntityTypeMapping TypeName="fashionquadrantModel.tb_themes">
+        <MappingFragment StoreEntitySet="tb_themes">
+          <ScalarProperty Name="idthemes" ColumnName="idthemes" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="color1" ColumnName="color1" />
+          <ScalarProperty Name="color2" ColumnName="color2" />
+          <ScalarProperty Name="color3" ColumnName="color3" />
+          <ScalarProperty Name="color4" ColumnName="color4" />
+          <ScalarProperty Name="color5" ColumnName="color5" />
+          <ScalarProperty Name="color6" ColumnName="color6" />
+          <ScalarProperty Name="color7" ColumnName="color7" />
+          <ScalarProperty Name="dtEntered" ColumnName="dtEntered" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tb_translation">
+      <EntityTypeMapping TypeName="fashionquadrantModel.tb_translation">
+        <MappingFragment StoreEntitySet="tb_translation">
+          <ScalarProperty Name="id_translation" ColumnName="id_translation" />
+          <ScalarProperty Name="tEnglish" ColumnName="tEnglish" />
+          <ScalarProperty Name="tTranslated" ColumnName="tTranslated" />
+          <ScalarProperty Name="tShortcode" ColumnName="tShortcode" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tb_userarchives">
+      <EntityTypeMapping TypeName="fashionquadrantModel.tb_userarchives">
+        <MappingFragment StoreEntitySet="tb_userarchives">
+          <ScalarProperty Name="idtb_userarchives" ColumnName="idtb_userarchives" />
+          <ScalarProperty Name="logintime" ColumnName="logintime" />
+          <ScalarProperty Name="logindate" ColumnName="logindate" />
+          <ScalarProperty Name="uusername" ColumnName="uusername" />
+          <ScalarProperty Name="uusertype" ColumnName="uusertype" />
+          <ScalarProperty Name="userip" ColumnName="userip" />
+          <ScalarProperty Name="userdevice" ColumnName="userdevice" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tb_usermoderation">
+      <EntityTypeMapping TypeName="fashionquadrantModel.tb_usermoderation">
+        <MappingFragment StoreEntitySet="tb_usermoderation">
+          <ScalarProperty Name="idtb_usermoderation" ColumnName="idtb_usermoderation" />
+          <ScalarProperty Name="idusers" ColumnName="idusers" />
+          <ScalarProperty Name="dtrequested" ColumnName="dtrequested" />
+          <ScalarProperty Name="requesttype" ColumnName="requesttype" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tb_usermoderationtypes">
+      <EntityTypeMapping TypeName="fashionquadrantModel.tb_usermoderationtypes">
+        <MappingFragment StoreEntitySet="tb_usermoderationtypes">
+          <ScalarProperty Name="idrequesttype" ColumnName="idrequesttype" />
+          <ScalarProperty Name="sdefinition" ColumnName="sdefinition" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tb_usertype">
+      <EntityTypeMapping TypeName="fashionquadrantModel.tb_usertype">
+        <MappingFragment StoreEntitySet="tb_usertype">
+          <ScalarProperty Name="uUserType" ColumnName="uUserType" />
+          <ScalarProperty Name="sText" ColumnName="sText" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tb_version">
+      <EntityTypeMapping TypeName="fashionquadrantModel.tb_version">
+        <MappingFragment StoreEntitySet="tb_version">
+          <ScalarProperty Name="idversion" ColumnName="idversion" />
+          <ScalarProperty Name="versionnumber" ColumnName="versionnumber" />
+          <ScalarProperty Name="checkout" ColumnName="checkout" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tb_videos">
+      <EntityTypeMapping TypeName="fashionquadrantModel.tb_videos">
+        <MappingFragment StoreEntitySet="tb_videos">
+          <ScalarProperty Name="idtb_videos" ColumnName="idtb_videos" />
+          <ScalarProperty Name="idjobs" ColumnName="idjobs" />
+          <ScalarProperty Name="video_title" ColumnName="video_title" />
+          <ScalarProperty Name="video_url" ColumnName="video_url" />
+          <ScalarProperty Name="dtentered" ColumnName="dtentered" />
+          <ScalarProperty Name="sdeleted" ColumnName="sdeleted" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tb_videostatus">
+      <EntityTypeMapping TypeName="fashionquadrantModel.tb_videostatus">
+        <MappingFragment StoreEntitySet="tb_videostatus">
+          <ScalarProperty Name="sisvideoenabled" ColumnName="sisvideoenabled" />
+          <ScalarProperty Name="definition" ColumnName="definition" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tb_webservicejobs">
+      <EntityTypeMapping TypeName="fashionquadrantModel.tb_webservicejobs">
+        <MappingFragment StoreEntitySet="tb_webservicejobs">
+          <ScalarProperty Name="idJobs" ColumnName="idJobs" />
+          <ScalarProperty Name="Title" ColumnName="Title" />
+          <ScalarProperty Name="ShortDescription" ColumnName="ShortDescription" />
+          <ScalarProperty Name="Description" ColumnName="Description" />
+          <ScalarProperty Name="SalaryText" ColumnName="SalaryText" />
+          <ScalarProperty Name="MinSal" ColumnName="MinSal" />
+          <ScalarProperty Name="MaxSal" ColumnName="MaxSal" />
+          <ScalarProperty Name="Ref" ColumnName="Ref" />
+          <ScalarProperty Name="FreeText" ColumnName="FreeText" />
+          <ScalarProperty Name="Jobstartdate" ColumnName="Jobstartdate" />
+          <ScalarProperty Name="Jobenddate" ColumnName="Jobenddate" />
+          <ScalarProperty Name="Location" ColumnName="Location" />
+          <ScalarProperty Name="RecruiterName" ColumnName="RecruiterName" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tb_webservicerec">
+      <EntityTypeMapping TypeName="fashionquadrantModel.tb_webservicerec">
+        <MappingFragment StoreEntitySet="tb_webservicerec">
+          <ScalarProperty Name="EmpID" ColumnName="EmpID" />
+          <ScalarProperty Name="RecruiterName" ColumnName="RecruiterName" />
+          <ScalarProperty Name="Address1" ColumnName="Address1" />
+          <ScalarProperty Name="Address2" ColumnName="Address2" />
+          <ScalarProperty Name="Address3" ColumnName="Address3" />
+          <ScalarProperty Name="Town" ColumnName="Town" />
+          <ScalarProperty Name="County" ColumnName="County" />
+          <ScalarProperty Name="Country" ColumnName="Country" />
+          <ScalarProperty Name="Postcode" ColumnName="Postcode" />
+          <ScalarProperty Name="EmailAddress" ColumnName="EmailAddress" />
+          <ScalarProperty Name="Website" ColumnName="Website" />
+          <ScalarProperty Name="Description" ColumnName="Description" />
+          <ScalarProperty Name="CompleteDesc" ColumnName="CompleteDesc" />
+          <ScalarProperty Name="pwds" ColumnName="pwds" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tb_webserviceusr">
+      <EntityTypeMapping TypeName="fashionquadrantModel.tb_webserviceusr">
+        <MappingFragment StoreEntitySet="tb_webserviceusr">
+          <ScalarProperty Name="id_webserviceusr" ColumnName="id_webserviceusr" />
+          <ScalarProperty Name="username" ColumnName="username" />
+          <ScalarProperty Name="pwd" ColumnName="pwd" />
+          <ScalarProperty Name="firstname" ColumnName="firstname" />
+          <ScalarProperty Name="lastname" ColumnName="lastname" />
+          <ScalarProperty Name="telephone" ColumnName="telephone" />
+          <ScalarProperty Name="website" ColumnName="website" />
+          <ScalarProperty Name="gender" ColumnName="gender" />
+          <ScalarProperty Name="address1" ColumnName="address1" />
+          <ScalarProperty Name="address2" ColumnName="address2" />
+          <ScalarProperty Name="address3" ColumnName="address3" />
+          <ScalarProperty Name="town" ColumnName="town" />
+          <ScalarProperty Name="county" ColumnName="county" />
+          <ScalarProperty Name="postcode" ColumnName="postcode" />
+          <ScalarProperty Name="country" ColumnName="country" />
+          <ScalarProperty Name="city" ColumnName="city" />
+          <ScalarProperty Name="employername" ColumnName="employername" />
+          <ScalarProperty Name="employerlocation" ColumnName="employerlocation" />
+          <ScalarProperty Name="employerposition" ColumnName="employerposition" />
+          <ScalarProperty Name="employerjobdescription" ColumnName="employerjobdescription" />
+          <ScalarProperty Name="educationschoolname" ColumnName="educationschoolname" />
+          <ScalarProperty Name="educationtype" ColumnName="educationtype" />
+          <ScalarProperty Name="educationdegree" ColumnName="educationdegree" />
+          <ScalarProperty Name="educationyear" ColumnName="educationyear" />
+          <ScalarProperty Name="educationconcentration" ColumnName="educationconcentration" />
+          <ScalarProperty Name="spokenlang1" ColumnName="spokenlang1" />
+          <ScalarProperty Name="spokenlang2" ColumnName="spokenlang2" />
+          <ScalarProperty Name="spokenlang3" ColumnName="spokenlang3" />
+          <ScalarProperty Name="dtentered" ColumnName="dtentered" />
+          <ScalarProperty Name="hobbies" ColumnName="hobbies" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tb_widgetlog">
+      <EntityTypeMapping TypeName="fashionquadrantModel.tb_widgetlog">
+        <MappingFragment StoreEntitySet="tb_widgetlog">
+          <ScalarProperty Name="idtb_widgetlog" ColumnName="idtb_widgetlog" />
+          <ScalarProperty Name="Companyname" ColumnName="Companyname" />
+          <ScalarProperty Name="Companydescription" ColumnName="Companydescription" />
+          <ScalarProperty Name="FirstName" ColumnName="FirstName" />
+          <ScalarProperty Name="LastName" ColumnName="LastName" />
+          <ScalarProperty Name="Telephone" ColumnName="Telephone" />
+          <ScalarProperty Name="Website" ColumnName="Website" />
+          <ScalarProperty Name="Widgettype" ColumnName="Widgettype" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tb_widgettype">
+      <EntityTypeMapping TypeName="fashionquadrantModel.tb_widgettype">
+        <MappingFragment StoreEntitySet="tb_widgettype">
+          <ScalarProperty Name="Widgettype" ColumnName="Widgettype" />
+          <ScalarProperty Name="sDefinition" ColumnName="sDefinition" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="users">
+      <EntityTypeMapping TypeName="fashionquadrantModel.user">
+        <MappingFragment StoreEntitySet="users">
+          <ScalarProperty Name="idUsers" ColumnName="idUsers" />
+          <ScalarProperty Name="uUserType" ColumnName="uUserType" />
+          <ScalarProperty Name="uUsername" ColumnName="uUsername" />
+          <ScalarProperty Name="uPassword" ColumnName="uPassword" />
+          <ScalarProperty Name="uPasswordHint" ColumnName="uPasswordHint" />
+          <ScalarProperty Name="uFirstName" ColumnName="uFirstName" />
+          <ScalarProperty Name="uLastName" ColumnName="uLastName" />
+          <ScalarProperty Name="uIsPrimary" ColumnName="uIsPrimary" />
+          <ScalarProperty Name="uCandidateID" ColumnName="uCandidateID" />
+          <ScalarProperty Name="uActivation" ColumnName="uActivation" />
+          <ScalarProperty Name="uPasswordresetcode" ColumnName="uPasswordresetcode" />
+          <ScalarProperty Name="serverid" ColumnName="serverid" />
+          <ScalarProperty Name="udeleted" ColumnName="udeleted" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="vw_aggregatedmpage">
+      <EntityTypeMapping TypeName="fashionquadrantModel.vw_aggregatedmpage">
+        <MappingFragment StoreEntitySet="vw_aggregatedmpage">
+          <ScalarProperty Name="applicationvolume" ColumnName="applicationvolume" />
+          <ScalarProperty Name="video" ColumnName="video" />
+          <ScalarProperty Name="idJobs" ColumnName="idJobs" />
+          <ScalarProperty Name="sTitle" ColumnName="sTitle" />
+          <ScalarProperty Name="Company" ColumnName="Company" />
+          <ScalarProperty Name="sShortDescription" ColumnName="sShortDescription" />
+          <ScalarProperty Name="sFreeText" ColumnName="sFreeText" />
+          <ScalarProperty Name="dtEnteredDate" ColumnName="dtEnteredDate" />
+          <ScalarProperty Name="liparent" ColumnName="liparent" />
+          <ScalarProperty Name="slocation" ColumnName="slocation" />
+          <ScalarProperty Name="sSalaryText" ColumnName="sSalaryText" />
+          <ScalarProperty Name="sMinSal" ColumnName="sMinSal" />
+          <ScalarProperty Name="EmployeeID" ColumnName="EmployeeID" />
+          <ScalarProperty Name="sMaxSal" ColumnName="sMaxSal" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="vw_aggregatedmulti">
+      <EntityTypeMapping TypeName="fashionquadrantModel.vw_aggregatedmulti">
+        <MappingFragment StoreEntitySet="vw_aggregatedmulti">
+          <ScalarProperty Name="applicationvolume" ColumnName="applicationvolume" />
+          <ScalarProperty Name="sdefinition" ColumnName="sdefinition" />
+          <ScalarProperty Name="spostcode" ColumnName="spostcode" />
+          <ScalarProperty Name="idJobs" ColumnName="idJobs" />
+          <ScalarProperty Name="sisvideoenabled" ColumnName="sisvideoenabled" />
+          <ScalarProperty Name="sTitle" ColumnName="sTitle" />
+          <ScalarProperty Name="video" ColumnName="video" />
+          <ScalarProperty Name="company" ColumnName="company" />
+          <ScalarProperty Name="slocation" ColumnName="slocation" />
+          <ScalarProperty Name="cdefinition" ColumnName="cdefinition" />
+          <ScalarProperty Name="catid" ColumnName="catid" />
+          <ScalarProperty Name="liparent" ColumnName="liparent" />
+          <ScalarProperty Name="currency" ColumnName="currency" />
+          <ScalarProperty Name="srecruitername" ColumnName="srecruitername" />
+          <ScalarProperty Name="sShortDescription" ColumnName="sShortDescription" />
+          <ScalarProperty Name="sFreeText" ColumnName="sFreeText" />
+          <ScalarProperty Name="dtEnteredDate" ColumnName="dtEnteredDate" />
+          <ScalarProperty Name="sSalaryText" ColumnName="sSalaryText" />
+          <ScalarProperty Name="sMinSal" ColumnName="sMinSal" />
+          <ScalarProperty Name="EmployeeID" ColumnName="EmployeeID" />
+          <ScalarProperty Name="subcatid" ColumnName="subcatid" />
+          <ScalarProperty Name="sMaxSal" ColumnName="sMaxSal" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="vw_applicationaggregate">
+      <EntityTypeMapping TypeName="fashionquadrantModel.vw_applicationaggregate">
+        <MappingFragment StoreEntitySet="vw_applicationaggregate">
+          <ScalarProperty Name="idjobs" ColumnName="idjobs" />
+          <ScalarProperty Name="applicationvolume" ColumnName="applicationvolume" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="vw_applytitlefilter">
+      <EntityTypeMapping TypeName="fashionquadrantModel.vw_applytitlefilter">
+        <MappingFragment StoreEntitySet="vw_applytitlefilter">
+          <ScalarProperty Name="idjobs" ColumnName="idjobs" />
+          <ScalarProperty Name="stitle" ColumnName="stitle" />
+          <ScalarProperty Name="srecruitername" ColumnName="srecruitername" />
+          <ScalarProperty Name="company" ColumnName="company" />
+          <ScalarProperty Name="sshortdescription" ColumnName="sshortdescription" />
+          <ScalarProperty Name="sjobenddate" ColumnName="sjobenddate" />
+          <ScalarProperty Name="dtentereddate" ColumnName="dtentereddate" />
+          <ScalarProperty Name="currency" ColumnName="currency" />
+          <ScalarProperty Name="video" ColumnName="video" />
+          <ScalarProperty Name="ssalarytext" ColumnName="ssalarytext" />
+          <ScalarProperty Name="slocation" ColumnName="slocation" />
+          <ScalarProperty Name="spostcode" ColumnName="spostcode" />
+          <ScalarProperty Name="sfreetext" ColumnName="sfreetext" />
+          <ScalarProperty Name="sisvideoenabled" ColumnName="sisvideoenabled" />
+          <ScalarProperty Name="applicationvolume" ColumnName="applicationvolume" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="vw_brfilter">
+      <EntityTypeMapping TypeName="fashionquadrantModel.vw_brfilter">
+        <MappingFragment StoreEntitySet="vw_brfilter">
+          <ScalarProperty Name="subcatid" ColumnName="subcatid" />
+          <ScalarProperty Name="sdefinition" ColumnName="sdefinition" />
+          <ScalarProperty Name="liparent" ColumnName="liparent" />
+          <ScalarProperty Name="ctotals" ColumnName="ctotals" />
+          <ScalarProperty Name="catid" ColumnName="catid" />
+          <ScalarProperty Name="cdefinition" ColumnName="cdefinition" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="vw_brmainstart">
+      <EntityTypeMapping TypeName="fashionquadrantModel.vw_brmainstart">
+        <MappingFragment StoreEntitySet="vw_brmainstart">
+          <ScalarProperty Name="subcatid" ColumnName="subcatid" />
+          <ScalarProperty Name="sdefinition" ColumnName="sdefinition" />
+          <ScalarProperty Name="ctotals" ColumnName="ctotals" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="vw_brsubview">
+      <EntityTypeMapping TypeName="fashionquadrantModel.vw_brsubview">
+        <MappingFragment StoreEntitySet="vw_brsubview">
+          <ScalarProperty Name="subcatid" ColumnName="subcatid" />
+          <ScalarProperty Name="sdefinition" ColumnName="sdefinition" />
+          <ScalarProperty Name="ctotals" ColumnName="ctotals" />
+          <ScalarProperty Name="liparent" ColumnName="liparent" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="vw_cmslinks">
+      <EntityTypeMapping TypeName="fashionquadrantModel.vw_cmslinks">
+        <MappingFragment StoreEntitySet="vw_cmslinks">
+          <ScalarProperty Name="id_headerlinks" ColumnName="id_headerlinks" />
+          <ScalarProperty Name="hlinkname" ColumnName="hlinkname" />
+          <ScalarProperty Name="hlinktexturl" ColumnName="hlinktexturl" />
+          <ScalarProperty Name="hlinkimgurl" ColumnName="hlinkimgurl" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="vw_cmsusermoderation">
+      <EntityTypeMapping TypeName="fashionquadrantModel.vw_cmsusermoderation">
+        <MappingFragment StoreEntitySet="vw_cmsusermoderation">
+          <ScalarProperty Name="idtb_usermoderation" ColumnName="idtb_usermoderation" />
+          <ScalarProperty Name="idusers" ColumnName="idusers" />
+          <ScalarProperty Name="dtrequested" ColumnName="dtrequested" />
+          <ScalarProperty Name="requesttype" ColumnName="requesttype" />
+          <ScalarProperty Name="sdefinition" ColumnName="sdefinition" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="vw_defaulttextsub">
+      <EntityTypeMapping TypeName="fashionquadrantModel.vw_defaulttextsub">
+        <MappingFragment StoreEntitySet="vw_defaulttextsub">
+          <ScalarProperty Name="idjobs" ColumnName="idjobs" />
+          <ScalarProperty Name="counts" ColumnName="counts" />
+          <ScalarProperty Name="sdefinition" ColumnName="sdefinition" />
+          <ScalarProperty Name="subcatid" ColumnName="subcatid" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="vw_emailtemplatesshow">
+      <EntityTypeMapping TypeName="fashionquadrantModel.vw_emailtemplatesshow">
+        <MappingFragment StoreEntitySet="vw_emailtemplatesshow">
+          <ScalarProperty Name="idemailtemplates" ColumnName="idemailtemplates" />
+          <ScalarProperty Name="eheader" ColumnName="eheader" />
+          <ScalarProperty Name="edescription" ColumnName="edescription" />
+          <ScalarProperty Name="efooter" ColumnName="efooter" />
+          <ScalarProperty Name="etemplatechkid" ColumnName="etemplatechkid" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="vw_emailtosend">
+      <EntityTypeMapping TypeName="fashionquadrantModel.vw_emailtosend">
+        <MappingFragment StoreEntitySet="vw_emailtosend">
+          <ScalarProperty Name="idjobs" ColumnName="idjobs" />
+          <ScalarProperty Name="sTitle" ColumnName="sTitle" />
+          <ScalarProperty Name="sShortDescription" ColumnName="sShortDescription" />
+          <ScalarProperty Name="dtentered" ColumnName="dtentered" />
+          <ScalarProperty Name="sJobstartdate" ColumnName="sJobstartdate" />
+          <ScalarProperty Name="sjobenddate" ColumnName="sjobenddate" />
+          <ScalarProperty Name="slocation" ColumnName="slocation" />
+          <ScalarProperty Name="sSalaryText" ColumnName="sSalaryText" />
+          <ScalarProperty Name="sPostcode" ColumnName="sPostcode" />
+          <ScalarProperty Name="emailaddress" ColumnName="emailaddress" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="vw_get_userans">
+      <EntityTypeMapping TypeName="fashionquadrantModel.vw_get_userans">
+        <MappingFragment StoreEntitySet="vw_get_userans">
+          <ScalarProperty Name="idans" ColumnName="idans" />
+          <ScalarProperty Name="answer" ColumnName="answer" />
+          <ScalarProperty Name="idquestion" ColumnName="idquestion" />
+          <ScalarProperty Name="qquestion" ColumnName="qquestion" />
+          <ScalarProperty Name="idapplication" ColumnName="idapplication" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="vw_getactivejobs">
+      <EntityTypeMapping TypeName="fashionquadrantModel.vw_getactivejobs">
+        <MappingFragment StoreEntitySet="vw_getactivejobs">
+          <ScalarProperty Name="total" ColumnName="total" />
+          <ScalarProperty Name="username" ColumnName="username" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="vw_getallrec">
+      <EntityTypeMapping TypeName="fashionquadrantModel.vw_getallrec">
+        <MappingFragment StoreEntitySet="vw_getallrec">
+          <ScalarProperty Name="empid" ColumnName="empid" />
+          <ScalarProperty Name="sCompleteDesc" ColumnName="sCompleteDesc" />
+          <ScalarProperty Name="sDescription" ColumnName="sDescription" />
+          <ScalarProperty Name="Artifact_data" ColumnName="Artifact_data" />
+          <ScalarProperty Name="sRecruiterName" ColumnName="sRecruiterName" />
+          <ScalarProperty Name="swebsite" ColumnName="swebsite" />
+          <ScalarProperty Name="sisagent" ColumnName="sisagent" />
+          <ScalarProperty Name="semailaddress" ColumnName="semailaddress" />
+          <ScalarProperty Name="totaljobs" ColumnName="totaljobs" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="vw_getapp">
+      <EntityTypeMapping TypeName="fashionquadrantModel.vw_getapp">
+        <MappingFragment StoreEntitySet="vw_getapp">
+          <ScalarProperty Name="idJobs" ColumnName="idJobs" />
+          <ScalarProperty Name="appstatus" ColumnName="appstatus" />
+          <ScalarProperty Name="idstatus" ColumnName="idstatus" />
+          <ScalarProperty Name="sTitle" ColumnName="sTitle" />
+          <ScalarProperty Name="sShortDescription" ColumnName="sShortDescription" />
+          <ScalarProperty Name="sDescription" ColumnName="sDescription" />
+          <ScalarProperty Name="completeurl" ColumnName="completeurl" />
+          <ScalarProperty Name="dtEnteredDate" ColumnName="dtEnteredDate" />
+          <ScalarProperty Name="sSalaryText" ColumnName="sSalaryText" />
+          <ScalarProperty Name="sMinSal" ColumnName="sMinSal" />
+          <ScalarProperty Name="sMaxSal" ColumnName="sMaxSal" />
+          <ScalarProperty Name="sRef" ColumnName="sRef" />
+          <ScalarProperty Name="sFreeText" ColumnName="sFreeText" />
+          <ScalarProperty Name="sJobstartdate" ColumnName="sJobstartdate" />
+          <ScalarProperty Name="sJobenddate" ColumnName="sJobenddate" />
+          <ScalarProperty Name="idApplications" ColumnName="idApplications" />
+          <ScalarProperty Name="liCandidateID" ColumnName="liCandidateID" />
+          <ScalarProperty Name="dtEntered" ColumnName="dtEntered" />
+          <ScalarProperty Name="aFirstName" ColumnName="aFirstName" />
+          <ScalarProperty Name="aLastName" ColumnName="aLastName" />
+          <ScalarProperty Name="aProfileSummary" ColumnName="aProfileSummary" />
+          <ScalarProperty Name="documentID" ColumnName="documentID" />
+          <ScalarProperty Name="aApplicationEmail" ColumnName="aApplicationEmail" />
+          <ScalarProperty Name="empid" ColumnName="empid" />
+          <ScalarProperty Name="srecruitername" ColumnName="srecruitername" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="vw_getarchivedjobs">
+      <EntityTypeMapping TypeName="fashionquadrantModel.vw_getarchivedjobs">
+        <MappingFragment StoreEntitySet="vw_getarchivedjobs">
+          <ScalarProperty Name="total" ColumnName="total" />
+          <ScalarProperty Name="username" ColumnName="username" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="vw_getblockedrec">
+      <EntityTypeMapping TypeName="fashionquadrantModel.vw_getblockedrec">
+        <MappingFragment StoreEntitySet="vw_getblockedrec">
+          <ScalarProperty Name="empid" ColumnName="empid" />
+          <ScalarProperty Name="srecruitername" ColumnName="srecruitername" />
+          <ScalarProperty Name="idcandidates" ColumnName="idcandidates" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="vw_getdetailspages">
+      <EntityTypeMapping TypeName="fashionquadrantModel.vw_getdetailspages">
+        <MappingFragment StoreEntitySet="vw_getdetailspages">
+          <ScalarProperty Name="idJobs" ColumnName="idJobs" />
+          <ScalarProperty Name="minrange" ColumnName="minrange" />
+          <ScalarProperty Name="maxrange" ColumnName="maxrange" />
+          <ScalarProperty Name="subcatid" ColumnName="subcatid" />
+          <ScalarProperty Name="catid" ColumnName="catid" />
+          <ScalarProperty Name="sdefinition" ColumnName="sdefinition" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="vw_getfrecs">
+      <EntityTypeMapping TypeName="fashionquadrantModel.vw_getfrecs">
+        <MappingFragment StoreEntitySet="vw_getfrecs">
+          <ScalarProperty Name="Sponsored" ColumnName="Sponsored" />
+          <ScalarProperty Name="artifact_data" ColumnName="artifact_data" />
+          <ScalarProperty Name="sTitle" ColumnName="sTitle" />
+          <ScalarProperty Name="idjobs" ColumnName="idjobs" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="vw_getjobs">
+      <EntityTypeMapping TypeName="fashionquadrantModel.vw_getjobs">
+        <MappingFragment StoreEntitySet="vw_getjobs">
+          <ScalarProperty Name="idJobs" ColumnName="idJobs" />
+          <ScalarProperty Name="spostcode" ColumnName="spostcode" />
+          <ScalarProperty Name="video" ColumnName="video" />
+          <ScalarProperty Name="cdefinition" ColumnName="cdefinition" />
+          <ScalarProperty Name="catid" ColumnName="catid" />
+          <ScalarProperty Name="sTitle" ColumnName="sTitle" />
+          <ScalarProperty Name="liparent" ColumnName="liparent" />
+          <ScalarProperty Name="sShortDescription" ColumnName="sShortDescription" />
+          <ScalarProperty Name="sFreeText" ColumnName="sFreeText" />
+          <ScalarProperty Name="slocation" ColumnName="slocation" />
+          <ScalarProperty Name="company" ColumnName="company" />
+          <ScalarProperty Name="sisvideoenabled" ColumnName="sisvideoenabled" />
+          <ScalarProperty Name="sDescription" ColumnName="sDescription" />
+          <ScalarProperty Name="sdefinition" ColumnName="sdefinition" />
+          <ScalarProperty Name="currency" ColumnName="currency" />
+          <ScalarProperty Name="dtEnteredDate" ColumnName="dtEnteredDate" />
+          <ScalarProperty Name="srecruitername" ColumnName="srecruitername" />
+          <ScalarProperty Name="sSalaryText" ColumnName="sSalaryText" />
+          <ScalarProperty Name="sMinSal" ColumnName="sMinSal" />
+          <ScalarProperty Name="EmployeeID" ColumnName="EmployeeID" />
+          <ScalarProperty Name="subcatid" ColumnName="subcatid" />
+          <ScalarProperty Name="sMaxSal" ColumnName="sMaxSal" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="vw_getjobsarch">
+      <EntityTypeMapping TypeName="fashionquadrantModel.vw_getjobsarch">
+        <MappingFragment StoreEntitySet="vw_getjobsarch">
+          <ScalarProperty Name="idJobs" ColumnName="idJobs" />
+          <ScalarProperty Name="sTitle" ColumnName="sTitle" />
+          <ScalarProperty Name="sShortDescription" ColumnName="sShortDescription" />
+          <ScalarProperty Name="sFreeText" ColumnName="sFreeText" />
+          <ScalarProperty Name="sDescription" ColumnName="sDescription" />
+          <ScalarProperty Name="sjobenddate" ColumnName="sjobenddate" />
+          <ScalarProperty Name="dtEnteredDate" ColumnName="dtEnteredDate" />
+          <ScalarProperty Name="sSalaryText" ColumnName="sSalaryText" />
+          <ScalarProperty Name="sMinSal" ColumnName="sMinSal" />
+          <ScalarProperty Name="EmployeeID" ColumnName="EmployeeID" />
+          <ScalarProperty Name="sMaxSal" ColumnName="sMaxSal" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="vw_getjobssingle">
+      <EntityTypeMapping TypeName="fashionquadrantModel.vw_getjobssingle">
+        <MappingFragment StoreEntitySet="vw_getjobssingle">
+          <ScalarProperty Name="idJobs" ColumnName="idJobs" />
+          <ScalarProperty Name="Company" ColumnName="Company" />
+          <ScalarProperty Name="sTitle" ColumnName="sTitle" />
+          <ScalarProperty Name="sShortDescription" ColumnName="sShortDescription" />
+          <ScalarProperty Name="sFreeText" ColumnName="sFreeText" />
+          <ScalarProperty Name="sjobenddate" ColumnName="sjobenddate" />
+          <ScalarProperty Name="dtEnteredDate" ColumnName="dtEnteredDate" />
+          <ScalarProperty Name="video" ColumnName="video" />
+          <ScalarProperty Name="sSalaryText" ColumnName="sSalaryText" />
+          <ScalarProperty Name="liparent" ColumnName="liparent" />
+          <ScalarProperty Name="sMinSal" ColumnName="sMinSal" />
+          <ScalarProperty Name="EmployeeID" ColumnName="EmployeeID" />
+          <ScalarProperty Name="slocation" ColumnName="slocation" />
+          <ScalarProperty Name="sMaxSal" ColumnName="sMaxSal" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="vw_getjobssinglearch">
+      <EntityTypeMapping TypeName="fashionquadrantModel.vw_getjobssinglearch">
+        <MappingFragment StoreEntitySet="vw_getjobssinglearch">
+          <ScalarProperty Name="idJobs" ColumnName="idJobs" />
+          <ScalarProperty Name="sTitle" ColumnName="sTitle" />
+          <ScalarProperty Name="sShortDescription" ColumnName="sShortDescription" />
+          <ScalarProperty Name="sFreeText" ColumnName="sFreeText" />
+          <ScalarProperty Name="sDescription" ColumnName="sDescription" />
+          <ScalarProperty Name="dtEnteredDate" ColumnName="dtEnteredDate" />
+          <ScalarProperty Name="sSalaryText" ColumnName="sSalaryText" />
+          <ScalarProperty Name="sMinSal" ColumnName="sMinSal" />
+          <ScalarProperty Name="EmployeeID" ColumnName="EmployeeID" />
+          <ScalarProperty Name="subcatid" ColumnName="subcatid" />
+          <ScalarProperty Name="sMaxSal" ColumnName="sMaxSal" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="vw_getmyapps">
+      <EntityTypeMapping TypeName="fashionquadrantModel.vw_getmyapps">
+        <MappingFragment StoreEntitySet="vw_getmyapps">
+          <ScalarProperty Name="idApplications" ColumnName="idApplications" />
+          <ScalarProperty Name="sRecruiterName" ColumnName="sRecruiterName" />
+          <ScalarProperty Name="Applicationstatus" ColumnName="Applicationstatus" />
+          <ScalarProperty Name="stitle" ColumnName="stitle" />
+          <ScalarProperty Name="liCandidateID" ColumnName="liCandidateID" />
+          <ScalarProperty Name="dtEntered" ColumnName="dtEntered" />
+          <ScalarProperty Name="aFirstName" ColumnName="aFirstName" />
+          <ScalarProperty Name="aLastName" ColumnName="aLastName" />
+          <ScalarProperty Name="aProfileSummary" ColumnName="aProfileSummary" />
+          <ScalarProperty Name="uusername" ColumnName="uusername" />
+          <ScalarProperty Name="idCandidates" ColumnName="idCandidates" />
+          <ScalarProperty Name="cCandidateName" ColumnName="cCandidateName" />
+          <ScalarProperty Name="cFirstName" ColumnName="cFirstName" />
+          <ScalarProperty Name="cLastName" ColumnName="cLastName" />
+          <ScalarProperty Name="idusers" ColumnName="idusers" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="vw_getrecofweek">
+      <EntityTypeMapping TypeName="fashionquadrantModel.vw_getrecofweek">
+        <MappingFragment StoreEntitySet="vw_getrecofweek">
+          <ScalarProperty Name="Sponsored" ColumnName="Sponsored" />
+          <ScalarProperty Name="empid" ColumnName="empid" />
+          <ScalarProperty Name="Artifact_data" ColumnName="Artifact_data" />
+          <ScalarProperty Name="sDescription" ColumnName="sDescription" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="vw_getsalforcalc">
+      <EntityTypeMapping TypeName="fashionquadrantModel.vw_getsalforcalc">
+        <MappingFragment StoreEntitySet="vw_getsalforcalc">
+          <ScalarProperty Name="divisor" ColumnName="divisor" />
+          <ScalarProperty Name="Question1" ColumnName="Question1" />
+          <ScalarProperty Name="Question2" ColumnName="Question2" />
+          <ScalarProperty Name="median_sal" ColumnName="median_sal" />
+          <ScalarProperty Name="Question4" ColumnName="Question4" />
+          <ScalarProperty Name="Question5" ColumnName="Question5" />
+          <ScalarProperty Name="Question6" ColumnName="Question6" />
+          <ScalarProperty Name="Question7" ColumnName="Question7" />
+          <ScalarProperty Name="Question8" ColumnName="Question8" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="vw_getsavedjobs">
+      <EntityTypeMapping TypeName="fashionquadrantModel.vw_getsavedjobs">
+        <MappingFragment StoreEntitySet="vw_getsavedjobs">
+          <ScalarProperty Name="idjobs" ColumnName="idjobs" />
+          <ScalarProperty Name="jobtitle" ColumnName="jobtitle" />
+          <ScalarProperty Name="company" ColumnName="company" />
+          <ScalarProperty Name="username" ColumnName="username" />
+          <ScalarProperty Name="posteddate" ColumnName="posteddate" />
+          <ScalarProperty Name="uid" ColumnName="uid" />
+          <ScalarProperty Name="createddate" ColumnName="createddate" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="vw_getsubjectemailapps">
+      <EntityTypeMapping TypeName="fashionquadrantModel.vw_getsubjectemailapps">
+        <MappingFragment StoreEntitySet="vw_getsubjectemailapps">
+          <ScalarProperty Name="sRef" ColumnName="sRef" />
+          <ScalarProperty Name="stitle" ColumnName="stitle" />
+          <ScalarProperty Name="idjobs" ColumnName="idjobs" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="vw_getusercans">
+      <EntityTypeMapping TypeName="fashionquadrantModel.vw_getusercans">
+        <MappingFragment StoreEntitySet="vw_getusercans">
+          <ScalarProperty Name="idUsers" ColumnName="idUsers" />
+          <ScalarProperty Name="uUserType" ColumnName="uUserType" />
+          <ScalarProperty Name="uUsername" ColumnName="uUsername" />
+          <ScalarProperty Name="uPassword" ColumnName="uPassword" />
+          <ScalarProperty Name="uPasswordHint" ColumnName="uPasswordHint" />
+          <ScalarProperty Name="uFirstName" ColumnName="uFirstName" />
+          <ScalarProperty Name="uLastName" ColumnName="uLastName" />
+          <ScalarProperty Name="uIsPrimary" ColumnName="uIsPrimary" />
+          <ScalarProperty Name="uCandidateID" ColumnName="uCandidateID" />
+          <ScalarProperty Name="idCandidates" ColumnName="idCandidates" />
+          <ScalarProperty Name="cCandidateName" ColumnName="cCandidateName" />
+          <ScalarProperty Name="cFirstName" ColumnName="cFirstName" />
+          <ScalarProperty Name="cLastName" ColumnName="cLastName" />
+          <ScalarProperty Name="cAddress1" ColumnName="cAddress1" />
+          <ScalarProperty Name="cAddress2" ColumnName="cAddress2" />
+          <ScalarProperty Name="cAddress3" ColumnName="cAddress3" />
+          <ScalarProperty Name="cTown" ColumnName="cTown" />
+          <ScalarProperty Name="cCounty" ColumnName="cCounty" />
+          <ScalarProperty Name="cPostcode" ColumnName="cPostcode" />
+          <ScalarProperty Name="cHomephone" ColumnName="cHomephone" />
+          <ScalarProperty Name="cWorkphone" ColumnName="cWorkphone" />
+          <ScalarProperty Name="cdtEntered" ColumnName="cdtEntered" />
+          <ScalarProperty Name="cCountry" ColumnName="cCountry" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="vw_helpansbycategory">
+      <EntityTypeMapping TypeName="fashionquadrantModel.vw_helpansbycategory">
+        <MappingFragment StoreEntitySet="vw_helpansbycategory">
+          <ScalarProperty Name="idtb_helpcenterqs" ColumnName="idtb_helpcenterqs" />
+          <ScalarProperty Name="Question" ColumnName="Question" />
+          <ScalarProperty Name="Answer" ColumnName="Answer" />
+          <ScalarProperty Name="dtEntered" ColumnName="dtEntered" />
+          <ScalarProperty Name="hcatid" ColumnName="hcatid" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="vw_helpansgrouping">
+      <EntityTypeMapping TypeName="fashionquadrantModel.vw_helpansgrouping">
+        <MappingFragment StoreEntitySet="vw_helpansgrouping">
+          <ScalarProperty Name="hcatid" ColumnName="hcatid" />
+          <ScalarProperty Name="category" ColumnName="category" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="vw_jobapplicationview">
+      <EntityTypeMapping TypeName="fashionquadrantModel.vw_jobapplicationview">
+        <MappingFragment StoreEntitySet="vw_jobapplicationview">
+          <ScalarProperty Name="dtEntered" ColumnName="dtEntered" />
+          <ScalarProperty Name="idjobs" ColumnName="idjobs" />
+          <ScalarProperty Name="empid" ColumnName="empid" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="vw_jobbyrec">
+      <EntityTypeMapping TypeName="fashionquadrantModel.vw_jobbyrec">
+        <MappingFragment StoreEntitySet="vw_jobbyrec">
+          <ScalarProperty Name="idjobs" ColumnName="idjobs" />
+          <ScalarProperty Name="empid" ColumnName="empid" />
+          <ScalarProperty Name="ssalarytext" ColumnName="ssalarytext" />
+          <ScalarProperty Name="stitle" ColumnName="stitle" />
+          <ScalarProperty Name="sshortdescription" ColumnName="sshortdescription" />
+          <ScalarProperty Name="dtentereddate" ColumnName="dtentereddate" />
+          <ScalarProperty Name="slocation" ColumnName="slocation" />
+          <ScalarProperty Name="srecruitername" ColumnName="srecruitername" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="vw_jobpostedview">
+      <EntityTypeMapping TypeName="fashionquadrantModel.vw_jobpostedview">
+        <MappingFragment StoreEntitySet="vw_jobpostedview">
+          <ScalarProperty Name="idjobs" ColumnName="idjobs" />
+          <ScalarProperty Name="empid" ColumnName="empid" />
+          <ScalarProperty Name="dtentered" ColumnName="dtentered" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="vw_jobsoutmail">
+      <EntityTypeMapping TypeName="fashionquadrantModel.vw_jobsoutmail">
+        <MappingFragment StoreEntitySet="vw_jobsoutmail">
+          <ScalarProperty Name="emailaddress" ColumnName="emailaddress" />
+          <ScalarProperty Name="idjobs" ColumnName="idjobs" />
+          <ScalarProperty Name="stitle" ColumnName="stitle" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="vw_jobtrendsectors">
+      <EntityTypeMapping TypeName="fashionquadrantModel.vw_jobtrendsectors">
+        <MappingFragment StoreEntitySet="vw_jobtrendsectors">
+          <ScalarProperty Name="jbtotal" ColumnName="jbtotal" />
+          <ScalarProperty Name="sdefinition" ColumnName="sdefinition" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="vw_logcandidate">
+      <EntityTypeMapping TypeName="fashionquadrantModel.vw_logcandidate">
+        <MappingFragment StoreEntitySet="vw_logcandidate">
+          <ScalarProperty Name="idtb_userarchives" ColumnName="idtb_userarchives" />
+          <ScalarProperty Name="logintime" ColumnName="logintime" />
+          <ScalarProperty Name="logindate" ColumnName="logindate" />
+          <ScalarProperty Name="uusername" ColumnName="uusername" />
+          <ScalarProperty Name="uusertype" ColumnName="uusertype" />
+          <ScalarProperty Name="userip" ColumnName="userip" />
+          <ScalarProperty Name="userdevice" ColumnName="userdevice" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="vw_logrecruiter">
+      <EntityTypeMapping TypeName="fashionquadrantModel.vw_logrecruiter">
+        <MappingFragment StoreEntitySet="vw_logrecruiter">
+          <ScalarProperty Name="idtb_userarchives" ColumnName="idtb_userarchives" />
+          <ScalarProperty Name="logintime" ColumnName="logintime" />
+          <ScalarProperty Name="logindate" ColumnName="logindate" />
+          <ScalarProperty Name="uusername" ColumnName="uusername" />
+          <ScalarProperty Name="uusertype" ColumnName="uusertype" />
+          <ScalarProperty Name="userip" ColumnName="userip" />
+          <ScalarProperty Name="userdevice" ColumnName="userdevice" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="vw_recjobassignments">
+      <EntityTypeMapping TypeName="fashionquadrantModel.vw_recjobassignments">
+        <MappingFragment StoreEntitySet="vw_recjobassignments">
+          <ScalarProperty Name="idjobs" ColumnName="idjobs" />
+          <ScalarProperty Name="empid" ColumnName="empid" />
+          <ScalarProperty Name="uusername" ColumnName="uusername" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="vw_recusers">
+      <EntityTypeMapping TypeName="fashionquadrantModel.vw_recusers">
+        <MappingFragment StoreEntitySet="vw_recusers">
+          <ScalarProperty Name="idjobs" ColumnName="idjobs" />
+          <ScalarProperty Name="empid" ColumnName="empid" />
+          <ScalarProperty Name="uFirstName" ColumnName="uFirstName" />
+          <ScalarProperty Name="ulastname" ColumnName="ulastname" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="vw_rptspamjobs">
+      <EntityTypeMapping TypeName="fashionquadrantModel.vw_rptspamjobs">
+        <MappingFragment StoreEntitySet="vw_rptspamjobs">
+          <ScalarProperty Name="stitle" ColumnName="stitle" />
+          <ScalarProperty Name="idtb_spamreport" ColumnName="idtb_spamreport" />
+          <ScalarProperty Name="spamindex" ColumnName="spamindex" />
+          <ScalarProperty Name="spamreason" ColumnName="spamreason" />
+          <ScalarProperty Name="dtentered" ColumnName="dtentered" />
+          <ScalarProperty Name="ipuser" ColumnName="ipuser" />
+          <ScalarProperty Name="useragents" ColumnName="useragents" />
+          <ScalarProperty Name="jobid" ColumnName="jobid" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="vw_textads">
+      <EntityTypeMapping TypeName="fashionquadrantModel.vw_textads">
+        <MappingFragment StoreEntitySet="vw_textads">
+          <ScalarProperty Name="idjobs" ColumnName="idjobs" />
+          <ScalarProperty Name="stitle" ColumnName="stitle" />
+          <ScalarProperty Name="sshortdescription" ColumnName="sshortdescription" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

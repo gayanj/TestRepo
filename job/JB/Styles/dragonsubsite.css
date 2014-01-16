@@ -1,0 +1,57 @@
+﻿/*button generic*/
+.button {
+}
+
+    .button:hover {
+    }
+
+.jobbanner {
+}
+
+.jobdetail {
+}
+
+.mainpgbanner {
+}
+
+.mainpgleft {
+}
+
+.mainpgright {
+}
+
+.jobapplication {
+}
+/*jobsearch*/
+.leftbar {
+    float: left;
+}
+
+.leftbar, .rightbar {
+    width: 200px;
+}
+
+.rightbar {
+    float: right;
+}
+
+.centerwleft {
+    float: left;
+}
+
+.centerwright {
+    float: right;
+}
+
+.centerwleft, .centerwright {
+    width: 400px;
+}
+/*login*/
+.logincenter {
+}
+/*post job*/
+.jobpostform {
+}
+/*signup*/
+.signupcenter {
+}

@@ -1,0 +1,123 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Facebook.master.cs" Inherits="JB.Facebook.Facebook" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>Socioplug the professional job networking App</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width" />
+    <meta name="keywords" content="Socioplug, professional networking app, job board software, job site, jobsite, fahionquadrant, jobboard branding, jobboard source code, job board source code" />
+    <meta name="description" content="Professional facebook networking app to help find people jobs" />
+    <link rel="icon" href="/facebook/images/favicon.ico" type="image/x-icon" />
+    <script type="text/javascript">
+        function querySt(a) {
+            hu = window.location.search.substring(1);
+            gy = hu.split("&");
+
+            for (i = 0; i < gy.length; i++) {
+                ft = gy[i].split("=");
+                if (ft[0] == a) return ft[1]
+            }
+        }
+
+        function highlightitem() {
+            var g = window.location.toString(), a = [];
+            a = g.split("/");
+
+            for (i = 0; i < a.length; i++) {
+                if (a[i].toString().toLowerCase().indexOf("home") > -1) {
+                    var f = document.getElementById("HL1");
+                    f.setAttribute("onmouseout", "this.className='ux_menulit'");
+                    f.className = "ux_menulit";
+                }
+
+                else if (a[i].toString().toLowerCase().indexOf("invitecontacts") > -1) {
+                    var b = document.getElementById("HL2");
+                    b.setAttribute("onmouseout", "this.className='ux_menulit'");
+                    b.className = "ux_menulit";
+                }
+
+                else if (a[i].toString().toLowerCase().indexOf("searchjobs") > -1) {
+                    var b = document.getElementById("HL3");
+                    b.setAttribute("onmouseout", "this.className='ux_menulit'");
+                    b.className = "ux_menulit";
+                }
+
+                else { }
+            }
+        }
+    </script>
+    <script src="/facebook/scripts/jqueryvx.js"></script>
+    <link href="/facebook/styles/seagull.css" rel="stylesheet" />
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <div class="ux_header">
+        <div class="ux_wrapper">
+            <img src="/facebook/images/img_sociologo.png" alt="socio plug logo" />
+        </div>
+    </div>
+    <div class="ux_wrapper">
+        <div class="shadow">
+            <div class="ux_clear"></div>
+            <div class="ux_bodyshim">
+                <div class="leftpan">
+
+                    <!-- menu goes here -->
+                    <div class="ux_clear"></div>
+                    <div id="HL1" class="ux_menushim">
+                        <a href="home.aspx" class="ux_menulink">Home</a><br />
+                    </div>
+                    <div id="HL2" class="ux_menushim">
+                        <a href="invitecontacts.aspx" class="ux_menulink">Invite People</a>
+                    </div>
+                    <div id="HL3" class="ux_menushim">
+                        <a href="searchjobs.aspx" class="ux_menulink">Search Job</a>
+                    </div>                   
+                </div>
+                <form id="form1" runat="server">
+                    <div>
+                        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                        </asp:ContentPlaceHolder>
+                    </div>
+                </form>
+                <div class="ux_clear"></div>
+            </div>
+        </div>
+
+        <div class="ux_clear"></div>
+        <div class="ux_breaker"></div>
+
+        <div class="footer">
+            <div class="ux_footleft">
+                <div class="floatleft">
+                    <a href="http://v1.fashionquadrant.com/terms" class="ux_footerlinks">Terms & Conditions</a>
+                </div>
+
+                <div class="footerfont">. </div>
+                <div class="floatleft">
+                    <a href="http://v1.fashionquadrant.com/privacy" class="ux_footerlinks">Privacy</a>
+                </div>
+
+                <div class="footerfont">. </div>
+                <div class="floatleft">
+                    <a href="http://v1.fashionquadrant.com/contact" class="ux_footerlinks">Contact</a>
+                </div>
+            </div>
+            <div class="ux_footright">
+                <label class="afontgray">
+                    Copyright 2013 FashionQuadrant    
+                </label>
+            </div>
+            <div class="ux_clear"></div>
+            <br />
+
+        </div>
+    </div>
+    <script>
+        highlightitem();
+    </script>
+</body>
+</html>
